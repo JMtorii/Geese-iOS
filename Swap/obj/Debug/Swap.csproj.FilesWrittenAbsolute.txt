@@ -1,0 +1,7 @@
+/Users/juntorii/Documents/Project/Swap/Swap/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
+/Users/juntorii/Documents/Project/Swap/Swap/bin/Debug/Swap.dll.mdb
+/Users/juntorii/Documents/Project/Swap/Swap/bin/Debug/Swap.dll
+/Users/juntorii/Documents/Project/Swap/Swap/obj/Debug/Swap.dll
+/Users/juntorii/Documents/Project/Swap/Swap/obj/Debug/Swap.dll.mdb
+/Users/juntorii/Documents/Project/Swap/Swap/bin/Debug/Xamarin.Forms.Core.dll
+/Users/juntorii/Documents/Project/Swap/Swap/bin/Debug/Xamarin.Forms.Xaml.dll
