@@ -1,10 +1,10 @@
-﻿<Properties>
+﻿<Properties StartupItem="TaskyiOS\TaskyiOS.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="TaskyAndroid\Screens\TaskDetailsScreen.cs">
     <Files>
-      <File FileName="TaskyAndroid\Adapters\TaskListAdapter.cs" Line="3" Column="3" />
+      <File FileName="TaskyAndroid\Adapters\TaskListAdapter.cs" Line="1" Column="1" />
       <File FileName="TaskyAndroid\Screens\HomeScreen.cs" Line="1" Column="1" />
-      <File FileName="TaskyAndroid\Screens\TaskDetailsScreen.cs" Line="32" Column="32" />
+      <File FileName="TaskyAndroid\Screens\TaskDetailsScreen.cs" Line="2" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
