@@ -1,13 +1,24 @@
 ﻿<Properties StartupItem="TISensorBrowser.iOS/TISensorBrowser.iOS.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhone" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.iPhone" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TISensorBrowser.Core/Pages/DeviceList.xaml">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhone" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.Jun's iPhone" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TISensorBrowser.iOS/Main.cs">
     <Files>
-      <File FileName="TISensorBrowser.Core/App.cs" Line="24" Column="24" />
+      <File FileName="TISensorBrowser.Core/App.cs" Line="3" Column="3" />
       <File FileName="TISensorBrowser.iOS/Main.cs" Line="1" Column="1" />
-      <File FileName="TISensorBrowser.Droid/MainActivity.cs" Line="23" Column="23" />
-      <File FileName="TISensorBrowser.Core/Pages/CharacteristicDetail.xaml" Line="33" Column="33" />
-      <File FileName="TISensorBrowser.Core/Pages/DeviceList.xaml" Line="24" Column="24" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="TISensorBrowser" expanded="True">
+            <Node name="Pages" expanded="True" />
+          </Node>
+          <Node name="TISensorBrowser.iOS" expanded="True">
+            <Node name="References" expanded="True">
+              <Node name="monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
