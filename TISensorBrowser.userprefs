@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="TISensorBrowser.iOS/TISensorBrowser.iOS.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhone" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.iPhone" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TISensorBrowser.Core/Pages/DeviceList.xaml">
+    <Files>
+      <File FileName="TISensorBrowser.Core/App.cs" Line="24" Column="24" />
+      <File FileName="TISensorBrowser.iOS/Main.cs" Line="1" Column="1" />
+      <File FileName="TISensorBrowser.Droid/MainActivity.cs" Line="23" Column="23" />
+      <File FileName="TISensorBrowser.Core/Pages/CharacteristicDetail.xaml" Line="33" Column="33" />
+      <File FileName="TISensorBrowser.Core/Pages/DeviceList.xaml" Line="24" Column="24" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
