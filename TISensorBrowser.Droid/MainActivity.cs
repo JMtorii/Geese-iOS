@@ -16,7 +16,7 @@ namespace TISensorBrowser
 	[Activity (Label = "TISensorBrowser", 
 		MainLauncher = true, 
 		ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
-	public class MainActivity : AndroidActivity
+	public class MainActivity : FormsApplicationActivity
 	{
 		protected override void OnCreate (Bundle bundle)
 		{
@@ -27,6 +27,7 @@ namespace TISensorBrowser
 			var a = new Robotics.Mobile.Core.Bluetooth.LE.Adapter ();
 			App.SetAdapter (a);
 
+//			LoadApplication(App);
 			SetPage (App.GetMainPage ());
 		}
 	}
