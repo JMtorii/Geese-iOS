@@ -17,7 +17,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 4,1
-	.asciz "Mono AOT Compiler 3.12.0 (monotouch-8.6.0-branch/6544cc7 Thu Jan  8 13:33:55 EST 2015)"
+	.asciz "Mono AOT Compiler 3.12.0 (monotouch-8.6.0-branch/1f46d47 Wed Feb 11 04:28:02 EST 2015)"
 	.asciz "Robotics.Mobile.Core.iOS.dll"
 	.asciz ""
 
@@ -293,7 +293,7 @@ bl _p_10
 	.byte 36,208,141,226,64,5,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 144,2,0,2
+	.byte 151,2,0,2
 
 Lme_1:
 .text
@@ -315,10 +315,10 @@ bl _p_12
 	.byte 112,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 235,2,0,2,14,16,160,225,0,0,159,229
+	.byte 242,2,0,2,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 5,3,0,2
+	.byte 12,3,0,2
 
 Lme_2:
 .text
@@ -340,10 +340,10 @@ bl _p_13
 	.byte 112,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 235,2,0,2,14,16,160,225,0,0,159,229
+	.byte 242,2,0,2,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 5,3,0,2
+	.byte 12,3,0,2
 
 Lme_3:
 .text
@@ -365,10 +365,10 @@ bl _p_12
 	.byte 112,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 235,2,0,2,14,16,160,225,0,0,159,229
+	.byte 242,2,0,2,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 5,3,0,2
+	.byte 12,3,0,2
 
 Lme_4:
 .text
@@ -390,10 +390,10 @@ bl _p_13
 	.byte 112,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 235,2,0,2,14,16,160,225,0,0,159,229
+	.byte 242,2,0,2,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 5,3,0,2
+	.byte 12,3,0,2
 
 Lme_5:
 .text
@@ -415,10 +415,10 @@ bl _p_12
 	.byte 112,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 235,2,0,2,14,16,160,225,0,0,159,229
+	.byte 242,2,0,2,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 5,3,0,2
+	.byte 12,3,0,2
 
 Lme_6:
 .text
@@ -440,10 +440,10 @@ bl _p_13
 	.byte 112,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 235,2,0,2,14,16,160,225,0,0,159,229
+	.byte 242,2,0,2,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 5,3,0,2
+	.byte 12,3,0,2
 
 Lme_7:
 .text
@@ -465,10 +465,10 @@ bl _p_12
 	.byte 112,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 235,2,0,2,14,16,160,225,0,0,159,229
+	.byte 242,2,0,2,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 5,3,0,2
+	.byte 12,3,0,2
 
 Lme_8:
 .text
@@ -490,10 +490,10 @@ bl _p_13
 	.byte 112,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 235,2,0,2,14,16,160,225,0,0,159,229
+	.byte 242,2,0,2,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 5,3,0,2
+	.byte 12,3,0,2
 
 Lme_9:
 .text
@@ -806,10 +806,10 @@ bl _p_12
 	.byte 112,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 235,2,0,2,14,16,160,225,0,0,159,229
+	.byte 242,2,0,2,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 5,3,0,2
+	.byte 12,3,0,2
 
 Lme_1f:
 .text
@@ -831,10 +831,10 @@ bl _p_13
 	.byte 112,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 235,2,0,2,14,16,160,225,0,0,159,229
+	.byte 242,2,0,2,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 5,3,0,2
+	.byte 12,3,0,2
 
 Lme_20:
 .text
@@ -947,7 +947,7 @@ bl _p_1
 	.byte 20,0,154,229,12,208,141,226,112,5,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 230,2,0,2
+	.byte 237,2,0,2
 
 Lme_27:
 .text
@@ -1043,14 +1043,14 @@ bl _p_17
 	.byte 0,0,159,231,211,17,0,227
 bl _p_34
 
-	.byte 0,16,160,225,236,2,0,227,0,2,64,227
+	.byte 0,16,160,225,243,2,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
 	.byte 14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 144,2,0,2
+	.byte 151,2,0,2
 
 Lme_2c:
 .text
@@ -1074,7 +1074,7 @@ bl _Robotics_Mobile_Core_Bluetooth_LE_Characteristic_get_Properties
 	.byte 0,0,159,231,59,18,0,227
 bl _p_34
 
-	.byte 0,16,160,225,236,2,0,227,0,2,64,227
+	.byte 0,16,160,225,243,2,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -1143,7 +1143,7 @@ bl _p_17
 	.byte 16,208,141,226,0,5,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 144,2,0,2
+	.byte 151,2,0,2
 
 Lme_2e:
 .text
@@ -1202,7 +1202,7 @@ bl _p_39
 	.byte 44,208,141,226,64,5,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 144,2,0,2
+	.byte 151,2,0,2
 
 Lme_30:
 .text
@@ -1306,10 +1306,10 @@ bl _p_12
 	.byte 112,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 235,2,0,2,14,16,160,225,0,0,159,229
+	.byte 242,2,0,2,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 5,3,0,2
+	.byte 12,3,0,2
 
 Lme_35:
 .text
@@ -1331,10 +1331,10 @@ bl _p_13
 	.byte 112,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 235,2,0,2,14,16,160,225,0,0,159,229
+	.byte 242,2,0,2,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 5,3,0,2
+	.byte 12,3,0,2
 
 Lme_36:
 .text
@@ -1420,7 +1420,7 @@ bl _p_38
 	.byte 24,0,154,229,20,208,141,226,112,5,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 230,2,0,2
+	.byte 237,2,0,2
 
 Lme_3b:
 .text
@@ -1466,7 +1466,7 @@ bl _p_38
 	.byte 112,9,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 230,2,0,2
+	.byte 237,2,0,2
 
 Lme_3d:
 .text
@@ -1566,7 +1566,7 @@ bl _p_51
 	.byte 24,208,141,226,64,1,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 144,2,0,2
+	.byte 151,2,0,2
 
 Lme_40:
 .text
@@ -1588,10 +1588,10 @@ bl _p_12
 	.byte 112,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 235,2,0,2,14,16,160,225,0,0,159,229
+	.byte 242,2,0,2,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 5,3,0,2
+	.byte 12,3,0,2
 
 Lme_41:
 .text
@@ -1613,10 +1613,10 @@ bl _p_13
 	.byte 112,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 235,2,0,2,14,16,160,225,0,0,159,229
+	.byte 242,2,0,2,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 5,3,0,2
+	.byte 12,3,0,2
 
 Lme_42:
 .text
@@ -1803,7 +1803,7 @@ bl _p_45
 	.byte 28,208,141,226,112,5,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 230,2,0,2
+	.byte 237,2,0,2
 
 Lme_4e:
 .text
@@ -1883,10 +1883,10 @@ bl _p_60
 	.byte 112,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 230,2,0,2,14,16,160,225,0,0,159,229
+	.byte 237,2,0,2,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 235,2,0,2
+	.byte 242,2,0,2
 
 Lme_4f:
 .text
@@ -2126,7 +2126,7 @@ bl _p_64
 	.byte 44,208,141,226,64,5,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 144,2,0,2
+	.byte 151,2,0,2
 
 Lme_51:
 .text
@@ -2148,10 +2148,10 @@ bl _p_12
 	.byte 112,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 235,2,0,2,14,16,160,225,0,0,159,229
+	.byte 242,2,0,2,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 5,3,0,2
+	.byte 12,3,0,2
 
 Lme_52:
 .text
@@ -2173,10 +2173,10 @@ bl _p_13
 	.byte 112,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 235,2,0,2,14,16,160,225,0,0,159,229
+	.byte 242,2,0,2,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 5,3,0,2
+	.byte 12,3,0,2
 
 Lme_53:
 .text
@@ -2198,10 +2198,10 @@ bl _p_12
 	.byte 112,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 235,2,0,2,14,16,160,225,0,0,159,229
+	.byte 242,2,0,2,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 5,3,0,2
+	.byte 12,3,0,2
 
 Lme_54:
 .text
@@ -2223,10 +2223,10 @@ bl _p_13
 	.byte 112,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 235,2,0,2,14,16,160,225,0,0,159,229
+	.byte 242,2,0,2,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 5,3,0,2
+	.byte 12,3,0,2
 
 Lme_55:
 .text
@@ -2248,10 +2248,10 @@ bl _p_12
 	.byte 112,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 235,2,0,2,14,16,160,225,0,0,159,229
+	.byte 242,2,0,2,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 5,3,0,2
+	.byte 12,3,0,2
 
 Lme_56:
 .text
@@ -2273,10 +2273,10 @@ bl _p_13
 	.byte 112,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 235,2,0,2,14,16,160,225,0,0,159,229
+	.byte 242,2,0,2,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 5,3,0,2
+	.byte 12,3,0,2
 
 Lme_57:
 .text
@@ -2298,10 +2298,10 @@ bl _p_12
 	.byte 112,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 235,2,0,2,14,16,160,225,0,0,159,229
+	.byte 242,2,0,2,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 5,3,0,2
+	.byte 12,3,0,2
 
 Lme_58:
 .text
@@ -2323,10 +2323,10 @@ bl _p_13
 	.byte 112,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 235,2,0,2,14,16,160,225,0,0,159,229
+	.byte 242,2,0,2,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 5,3,0,2
+	.byte 12,3,0,2
 
 Lme_59:
 .text
@@ -2348,10 +2348,10 @@ bl _p_12
 	.byte 112,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 235,2,0,2,14,16,160,225,0,0,159,229
+	.byte 242,2,0,2,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 5,3,0,2
+	.byte 12,3,0,2
 
 Lme_5a:
 .text
@@ -2373,10 +2373,10 @@ bl _p_13
 	.byte 112,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 235,2,0,2,14,16,160,225,0,0,159,229
+	.byte 242,2,0,2,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 5,3,0,2
+	.byte 12,3,0,2
 
 Lme_5b:
 .text
@@ -2398,10 +2398,10 @@ bl _p_12
 	.byte 112,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 235,2,0,2,14,16,160,225,0,0,159,229
+	.byte 242,2,0,2,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 5,3,0,2
+	.byte 12,3,0,2
 
 Lme_5c:
 .text
@@ -2423,10 +2423,10 @@ bl _p_13
 	.byte 112,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 235,2,0,2,14,16,160,225,0,0,159,229
+	.byte 242,2,0,2,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 5,3,0,2
+	.byte 12,3,0,2
 
 Lme_5d:
 .text
@@ -3076,7 +3076,7 @@ bl _p_83
 	.byte 52,208,139,226,0,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 144,2,0,2
+	.byte 151,2,0,2
 
 Lme_7b:
 .text
@@ -3371,10 +3371,10 @@ Lme_88:
 	.no_dead_strip _System_Array_InternalArray__ICollection_Clear
 _System_Array_InternalArray__ICollection_Clear:
 
-	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,9,13,227
+	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,165,11,13,227
 bl _p_103
 
-	.byte 0,16,160,225,4,3,0,227,0,2,64,227
+	.byte 0,16,160,225,11,3,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -3390,10 +3390,10 @@ _System_Array_InternalArray__ICollection_Add_T_T:
 	.byte 4,0,155,229
 bl _p_104
 
-	.byte 0,0,139,229,0,0,144,229,0,0,160,227,8,0,139,229,52,9,13,227
+	.byte 0,0,139,229,0,0,144,229,0,0,160,227,8,0,139,229,213,11,13,227
 bl _p_103
 
-	.byte 0,16,160,225,4,3,0,227,0,2,64,227
+	.byte 0,16,160,225,11,3,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -3409,10 +3409,10 @@ _System_Array_InternalArray__ICollection_Remove_T_T:
 	.byte 4,0,155,229
 bl _p_105
 
-	.byte 0,0,139,229,0,0,144,229,0,0,160,227,8,0,139,229,52,9,13,227
+	.byte 0,0,139,229,0,0,144,229,0,0,160,227,8,0,139,229,213,11,13,227
 bl _p_103
 
-	.byte 0,16,160,225,4,3,0,227,0,2,64,227
+	.byte 0,16,160,225,11,3,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -3438,11 +3438,11 @@ bl _p_108
 	.byte 0,48,160,225,16,0,155,229,0,128,160,225,6,0,160,225,4,16,160,225,11,32,160,225,51,255,47,225,0,0,90,227
 	.byte 4,0,0,26,0,0,155,229,0,0,80,227,11,0,0,26,1,0,160,227,13,0,0,234,0,16,155,229,10,0,160,225
 	.byte 0,32,154,229,15,224,160,225,44,240,146,229,255,0,0,226,0,0,80,227,1,0,0,10,1,0,160,227,3,0,0,234
-	.byte 1,64,132,226,5,0,84,225,223,255,255,186,0,0,160,227,24,208,139,226,112,13,189,232,128,128,189,232,112,9,13,227
+	.byte 1,64,132,226,5,0,84,225,223,255,255,186,0,0,160,227,24,208,139,226,112,13,189,232,128,128,189,232,17,12,13,227
 bl _p_103
 bl _p_109
 
-	.byte 0,16,160,225,21,3,0,227,0,2,64,227
+	.byte 0,16,160,225,29,3,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -3470,44 +3470,44 @@ bl _p_110
 	.byte 80,48,155,229,64,192,155,229,0,192,141,229
 bl _p_111
 
-	.byte 96,208,139,226,112,13,189,232,128,128,189,232,112,9,13,227
+	.byte 96,208,139,226,112,13,189,232,128,128,189,232,17,12,13,227
 bl _p_103
 bl _p_109
 
-	.byte 0,16,160,225,21,3,0,227,0,2,64,227
+	.byte 0,16,160,225,29,3,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
-	.byte 200,9,13,227
+	.byte 105,12,13,227
 bl _p_103
 
-	.byte 0,16,160,225,144,2,0,227,0,2,64,227
+	.byte 0,16,160,225,151,2,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
-	.byte 112,9,13,227
+	.byte 17,12,13,227
 bl _p_103
 bl _p_109
 
-	.byte 0,16,160,225,21,3,0,227,0,2,64,227
+	.byte 0,16,160,225,29,3,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
 	.byte 27,4,3,227
 bl _p_103
 
-	.byte 88,0,139,229,139,10,13,227
+	.byte 88,0,139,229,44,13,13,227
 bl _p_103
 bl _p_109
 
-	.byte 0,32,160,225,88,16,155,229,146,2,0,227,0,2,64,227
+	.byte 0,32,160,225,88,16,155,229,153,2,0,227,0,2,64,227
 bl _mono_create_corlib_exception_2
 bl _p_35
 
 	.byte 148,12,3,227
 bl _p_103
 
-	.byte 0,16,160,225,145,2,0,227,0,2,64,227
+	.byte 0,16,160,225,152,2,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -3630,6 +3630,39 @@ bl _p_99
 Lme_94:
 .text
 	.align 2
+	.no_dead_strip _wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic_invoke_void_T_System_Threading_Tasks_Task_1_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic
+_wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic_invoke_void_T_System_Threading_Tasks_Task_1_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic:
+
+	.byte 128,64,45,233,13,112,160,225,112,5,45,233,4,208,77,226,0,96,160,225,1,160,160,225,0,0,159,229,0,0,0,234
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 816
+	.byte 0,0,159,231,0,0,144,229,0,0,80,227,27,0,0,26,44,0,134,226,0,64,144,229,4,0,160,225,0,0,80,227
+	.byte 17,0,0,26,16,0,134,226,0,80,144,229,5,0,160,225,0,0,80,227,5,0,0,10,8,0,134,226,0,32,144,229
+	.byte 5,0,160,225,10,16,160,225,50,255,47,225,3,0,0,234,8,0,134,226,0,16,144,229,10,0,160,225,49,255,47,225
+	.byte 4,208,141,226,112,5,189,232,128,128,189,232,4,0,160,225,10,16,160,225,15,224,160,225,12,240,148,229,232,255,255,234
+bl _p_99
+
+	.byte 225,255,255,234
+
+Lme_95:
+.text
+	.align 2
+	.no_dead_strip _wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
+_wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object:
+
+	.byte 128,64,45,233,13,112,160,225,112,13,45,233,0,80,160,225,1,96,160,225,2,160,160,225,0,0,159,229,0,0,0,234
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 816
+	.byte 0,0,159,231,0,0,144,229,0,0,80,227,30,0,0,26,44,0,133,226,0,176,144,229,11,0,160,225,0,0,80,227
+	.byte 19,0,0,26,16,0,133,226,0,64,144,229,4,0,160,225,0,0,80,227,6,0,0,10,8,0,133,226,0,48,144,229
+	.byte 4,0,160,225,6,16,160,225,10,32,160,225,51,255,47,225,4,0,0,234,8,0,133,226,0,32,144,229,6,0,160,225
+	.byte 10,16,160,225,50,255,47,225,0,208,141,226,112,13,189,232,128,128,189,232,11,0,160,225,6,16,160,225,10,32,160,225
+	.byte 15,224,160,225,12,240,155,229,229,255,255,234
+bl _p_99
+
+	.byte 222,255,255,234
+
+Lme_96:
+.text
+	.align 2
 	.no_dead_strip _wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic_invoke_TResult_T_System_IAsyncResult
 _wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic_invoke_TResult_T_System_IAsyncResult:
 
@@ -3643,7 +3676,7 @@ bl _p_99
 
 	.byte 225,255,255,234
 
-Lme_95:
+Lme_97:
 .text
 	.align 2
 	.no_dead_strip _wrapper_delegate_invoke_System_EventHandler_1_MonoTouch_CoreBluetooth_CBCharacteristicEventArgs_invoke_void_object_TEventArgs_object_MonoTouch_CoreBluetooth_CBCharacteristicEventArgs
@@ -3660,7 +3693,7 @@ bl _p_99
 
 	.byte 222,255,255,234
 
-Lme_96:
+Lme_98:
 .text
 	.align 2
 	.no_dead_strip _wrapper_delegate_invoke_System_Predicate_1_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic_invoke_bool_T_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic
@@ -3677,7 +3710,7 @@ bl _p_99
 
 	.byte 223,255,255,234
 
-Lme_97:
+Lme_99:
 .text
 	.align 2
 	.no_dead_strip _wrapper_delegate_invoke_System_Action_1_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic_invoke_void_T_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic
@@ -3693,7 +3726,7 @@ bl _p_99
 
 	.byte 225,255,255,234
 
-Lme_98:
+Lme_9a:
 .text
 	.align 2
 	.no_dead_strip _wrapper_delegate_invoke_System_Comparison_1_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic_invoke_int_T_T_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic
@@ -3710,7 +3743,7 @@ bl _p_99
 
 	.byte 222,255,255,234
 
-Lme_99:
+Lme_9b:
 .text
 	.align 2
 	.no_dead_strip _wrapper_delegate_invoke_System_Predicate_1_Robotics_Mobile_Core_Bluetooth_LE_IService_invoke_bool_T_Robotics_Mobile_Core_Bluetooth_LE_IService
@@ -3727,7 +3760,7 @@ bl _p_99
 
 	.byte 223,255,255,234
 
-Lme_9a:
+Lme_9c:
 .text
 	.align 2
 	.no_dead_strip _wrapper_delegate_invoke_System_Action_1_Robotics_Mobile_Core_Bluetooth_LE_IService_invoke_void_T_Robotics_Mobile_Core_Bluetooth_LE_IService
@@ -3743,7 +3776,7 @@ bl _p_99
 
 	.byte 225,255,255,234
 
-Lme_9b:
+Lme_9d:
 .text
 	.align 2
 	.no_dead_strip _wrapper_delegate_invoke_System_Comparison_1_Robotics_Mobile_Core_Bluetooth_LE_IService_invoke_int_T_T_Robotics_Mobile_Core_Bluetooth_LE_IService_Robotics_Mobile_Core_Bluetooth_LE_IService
@@ -3760,7 +3793,7 @@ bl _p_99
 
 	.byte 222,255,255,234
 
-Lme_9c:
+Lme_9e:
 .text
 	.align 2
 	.no_dead_strip _wrapper_delegate_invoke_System_EventHandler_1_MonoTouch_Foundation_NSErrorEventArgs_invoke_void_object_TEventArgs_object_MonoTouch_Foundation_NSErrorEventArgs
@@ -3777,7 +3810,7 @@ bl _p_99
 
 	.byte 222,255,255,234
 
-Lme_9d:
+Lme_9f:
 .text
 	.align 2
 	.no_dead_strip _wrapper_delegate_invoke_System_EventHandler_1_MonoTouch_CoreBluetooth_CBServiceEventArgs_invoke_void_object_TEventArgs_object_MonoTouch_CoreBluetooth_CBServiceEventArgs
@@ -3794,7 +3827,7 @@ bl _p_99
 
 	.byte 222,255,255,234
 
-Lme_9e:
+Lme_a0:
 .text
 	.align 2
 	.no_dead_strip _wrapper_delegate_invoke_System_Predicate_1_Robotics_Mobile_Core_Bluetooth_LE_IDevice_invoke_bool_T_Robotics_Mobile_Core_Bluetooth_LE_IDevice
@@ -3811,7 +3844,7 @@ bl _p_99
 
 	.byte 223,255,255,234
 
-Lme_9f:
+Lme_a1:
 .text
 	.align 2
 	.no_dead_strip _wrapper_delegate_invoke_System_Action_1_Robotics_Mobile_Core_Bluetooth_LE_IDevice_invoke_void_T_Robotics_Mobile_Core_Bluetooth_LE_IDevice
@@ -3827,7 +3860,7 @@ bl _p_99
 
 	.byte 225,255,255,234
 
-Lme_a0:
+Lme_a2:
 .text
 	.align 2
 	.no_dead_strip _wrapper_delegate_invoke_System_Comparison_1_Robotics_Mobile_Core_Bluetooth_LE_IDevice_invoke_int_T_T_Robotics_Mobile_Core_Bluetooth_LE_IDevice_Robotics_Mobile_Core_Bluetooth_LE_IDevice
@@ -3844,7 +3877,7 @@ bl _p_99
 
 	.byte 222,255,255,234
 
-Lme_a1:
+Lme_a3:
 .text
 	.align 2
 	.no_dead_strip _wrapper_delegate_invoke_System_Func_1_bool_invoke_TResult
@@ -3860,7 +3893,7 @@ bl _p_99
 
 	.byte 226,255,255,234
 
-Lme_a6:
+Lme_a8:
 .text
 	.align 2
 	.no_dead_strip _System_Threading_Tasks_Task_1_bool__ctor_System_Func_1_bool_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions
@@ -3878,14 +3911,14 @@ bl _p_1
 	.byte 0,192,160,227,4,192,141,229,0,192,160,227,8,192,141,229,0,192,160,227,12,192,141,229
 bl _p_112
 
-	.byte 20,0,155,229,0,0,80,227,2,0,0,10,32,208,139,226,0,9,189,232,128,128,189,232,3,13,12,227
+	.byte 20,0,155,229,0,0,80,227,2,0,0,10,32,208,139,226,0,9,189,232,128,128,189,232,84,15,12,227
 bl _p_103
 
-	.byte 0,16,160,225,145,2,0,227,0,2,64,227
+	.byte 0,16,160,225,152,2,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
-Lme_a7:
+Lme_a9:
 .text
 	.align 2
 	.no_dead_strip _System_Threading_Tasks_Task_1_bool__ctor_System_Threading_Tasks_TaskActionInvoker_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_Task_System_Threading_Tasks_Task_bool
@@ -3899,7 +3932,7 @@ bl _p_112
 
 	.byte 48,208,139,226,0,9,189,232,128,128,189,232
 
-Lme_a8:
+Lme_aa:
 .text
 	.align 2
 	.no_dead_strip _System_Threading_Tasks_Task_1_bool_get_Result
@@ -3917,13 +3950,13 @@ bl _p_114
 	.byte 0,0,159,231,1,16,160,227
 bl _p_94
 
-	.byte 12,0,141,229,4,0,141,229,62,2,0,227
+	.byte 12,0,141,229,4,0,141,229,66,2,0,227
 bl _p_115
 
 	.byte 8,0,141,229,10,16,160,225
 bl _p_116
 
-	.byte 8,32,157,229,12,48,157,229,3,0,160,225,0,16,160,227,0,48,147,229,15,224,160,225,128,240,147,229,138,2,0,227
+	.byte 8,32,157,229,12,48,157,229,3,0,160,225,0,16,160,227,0,48,147,229,15,224,160,225,128,240,147,229,145,2,0,227
 bl _p_115
 
 	.byte 4,16,157,229,0,0,141,229
@@ -3936,7 +3969,7 @@ bl _p_35
 bl _p_114
 bl _p_35
 
-Lme_a9:
+Lme_ab:
 .text
 	.align 2
 	.no_dead_strip _System_Threading_Tasks_Task_1_bool_set_Result_bool
@@ -3945,7 +3978,7 @@ _System_Threading_Tasks_Task_1_bool_set_Result_bool:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,16,205,229,4,16,221,229,0,0,157,229
 	.byte 84,16,192,229,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_aa:
+Lme_ac:
 .text
 	.align 2
 	.no_dead_strip _System_Threading_Tasks_Task_1_bool_get_Factory
@@ -3955,7 +3988,90 @@ _System_Threading_Tasks_Task_1_bool_get_Factory:
 	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 832
 	.byte 0,0,159,231,0,0,144,229,4,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_ab:
+Lme_ad:
+.text
+	.align 2
+	.no_dead_strip _System_Threading_Tasks_Task_1_bool_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_bool
+_System_Threading_Tasks_Task_1_bool_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_bool:
+
+	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,16,141,229,0,0,157,229,4,16,157,229
+	.byte 0,32,160,227
+bl _p_118
+
+	.byte 12,208,141,226,0,1,189,232,128,128,189,232
+
+Lme_ae:
+.text
+	.align 2
+	.no_dead_strip _System_Threading_Tasks_Task_1_bool_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_bool_System_Threading_Tasks_TaskContinuationOptions
+_System_Threading_Tasks_Task_1_bool_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_bool_System_Threading_Tasks_TaskContinuationOptions:
+
+	.byte 128,64,45,233,13,112,160,225,0,9,45,233,24,208,77,226,13,176,160,225,12,0,139,229,16,16,139,229,20,32,139,229
+	.byte 0,0,160,227,8,0,139,229
+bl _p_119
+
+	.byte 0,192,160,225,12,0,155,229,16,16,155,229,8,32,155,229,20,48,155,229,0,192,141,229
+bl _p_120
+
+	.byte 24,208,139,226,0,9,189,232,128,128,189,232
+
+Lme_af:
+.text
+	.align 2
+	.no_dead_strip _System_Threading_Tasks_Task_1_bool_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_bool_System_Threading_Tasks_TaskScheduler
+_System_Threading_Tasks_Task_1_bool_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_bool_System_Threading_Tasks_TaskScheduler:
+
+	.byte 128,64,45,233,13,112,160,225,0,9,45,233,24,208,77,226,13,176,160,225,12,0,139,229,16,16,139,229,20,32,139,229
+	.byte 0,0,160,227,8,0,139,229,12,0,155,229,16,16,155,229,8,32,155,229,0,48,160,227,20,192,155,229,0,192,141,229
+bl _p_120
+
+	.byte 24,208,139,226,0,9,189,232,128,128,189,232
+
+Lme_b0:
+.text
+	.align 2
+	.no_dead_strip _System_Threading_Tasks_Task_1_bool_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_bool_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
+_System_Threading_Tasks_Task_1_bool_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_bool_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler:
+
+	.byte 128,64,45,233,13,112,160,225,0,13,45,233,60,208,77,226,13,176,160,225,16,0,139,229,20,16,139,229,24,32,139,229
+	.byte 28,48,139,229,80,224,157,229,32,224,139,229,20,0,155,229,0,0,80,227,53,0,0,10,32,0,155,229,0,0,80,227
+	.byte 43,0,0,10,0,0,159,229,0,0,0,234
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 836
+	.byte 0,0,159,231,0,0,159,229,0,0,0,234
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 840
+	.byte 0,0,159,231
+bl _p_1
+
+	.byte 20,16,155,229,8,16,128,229,44,0,139,229,28,0,155,229
+bl _p_121
+
+	.byte 48,0,139,229,0,0,159,229,0,0,0,234
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 844
+	.byte 0,0,159,231
+bl _p_1
+
+	.byte 44,16,155,229,48,192,155,229,40,0,139,229,0,32,160,227,24,48,155,229,0,192,141,229,0,192,160,227,4,192,141,229
+	.byte 16,192,155,229,8,192,141,229,0,192,160,227,12,192,141,229
+bl _p_112
+
+	.byte 40,0,155,229,0,160,160,225,16,0,155,229,10,16,160,225,28,32,155,229,32,48,155,229
+bl _p_122
+
+	.byte 10,0,160,225,60,208,139,226,0,13,189,232,128,128,189,232,119,9,12,227
+bl _p_103
+
+	.byte 0,16,160,225,152,2,0,227,0,2,64,227
+bl _mono_create_corlib_exception_1
+bl _p_35
+
+	.byte 102,15,12,227
+bl _p_103
+
+	.byte 0,16,160,225,152,2,0,227,0,2,64,227
+bl _mono_create_corlib_exception_1
+bl _p_35
+
+Lme_b1:
 .text
 	.align 2
 	.no_dead_strip _System_Threading_Tasks_Task_1_bool_TrySetResult_bool
@@ -3964,22 +4080,22 @@ _System_Threading_Tasks_Task_1_bool_TrySetResult_bool:
 	.byte 128,64,45,233,13,112,160,225,0,5,45,233,8,208,77,226,0,160,160,225,4,16,205,229,0,0,160,227,0,0,141,229
 	.byte 76,0,154,229,5,0,80,227,0,0,160,227,1,0,160,179,0,0,80,227,0,0,160,19,1,0,160,3,0,0,80,227
 	.byte 1,0,0,10,0,0,160,227,33,0,0,234,0,0,90,227,34,0,0,11,80,0,138,226
-bl _p_118
+bl _p_123
 
 	.byte 255,0,0,226,0,0,80,227,15,0,0,26,0,0,160,227,0,0,141,229,1,0,0,234,13,0,160,225
-bl _p_119
+bl _p_124
 
 	.byte 76,0,154,229,5,0,80,227,0,0,160,227,1,0,160,179,0,0,80,227,0,0,160,19,1,0,160,3,0,0,80,227
 	.byte 244,255,255,10,0,0,160,227,10,0,0,234,3,0,160,227,76,0,138,229,0,0,160,227,186,15,7,238,4,0,221,229
 	.byte 84,0,202,229,0,0,160,227,186,15,7,238,10,0,160,225
-bl _p_120
+bl _p_125
 
 	.byte 1,0,160,227,8,208,141,226,0,5,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_11
 
-	.byte 5,3,0,2
+	.byte 12,3,0,2
 
-Lme_ac:
+Lme_b2:
 .text
 	.align 2
 	.no_dead_strip _System_Threading_Tasks_Task_1_bool_ConfigureAwait_bool
@@ -3987,14 +4103,14 @@ _System_Threading_Tasks_Task_1_bool_ConfigureAwait_bool:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,36,208,77,226,0,16,141,229,20,0,141,229,24,32,205,229,0,0,160,227
 	.byte 4,0,141,229,0,0,160,227,8,0,141,229,4,0,141,226,0,128,159,229,0,0,0,234
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 836
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 848
 	.byte 8,128,159,231,20,16,157,229,24,32,221,229
-bl _p_121
+bl _p_126
 
 	.byte 4,0,157,229,12,0,141,229,8,0,157,229,16,0,141,229,0,0,157,229,12,16,157,229,0,16,128,229,16,16,157,229
 	.byte 4,16,128,229,36,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_ad:
+Lme_b3:
 .text
 	.align 2
 	.no_dead_strip _System_Threading_Tasks_Task_1_bool_GetAwaiter
@@ -4004,48 +4120,48 @@ _System_Threading_Tasks_Task_1_bool_GetAwaiter:
 	.byte 4,0,141,226,0,128,159,229,0,0,0,234
 	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 796
 	.byte 8,128,159,231,12,16,157,229
-bl _p_122
+bl _p_127
 
 	.byte 4,0,157,229,8,0,141,229,0,0,157,229,8,16,157,229,0,16,128,229,20,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_ae:
+Lme_b4:
 .text
 	.align 2
 	.no_dead_strip _System_Threading_Tasks_Task_1_bool_FromException_System_Exception
 _System_Threading_Tasks_Task_1_bool_FromException_System_Exception:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,20,208,77,226,0,0,141,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 840
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 852
 	.byte 0,0,159,231
 bl _p_1
 
 	.byte 12,0,141,229
-bl _p_123
+bl _p_128
 
 	.byte 12,0,157,229,8,0,141,229,0,32,160,225,0,16,157,229,0,224,210,229
-bl _p_124
+bl _p_129
 
 	.byte 0,16,160,225,8,0,157,229,0,224,208,229,8,0,144,229,20,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_af:
+Lme_b5:
 .text
 	.align 2
 	.no_dead_strip _System_Threading_Tasks_Task_1_bool__cctor
 _System_Threading_Tasks_Task_1_bool__cctor:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,159,229,0,0,0,234
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 844
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 856
 	.byte 0,0,159,231
 bl _p_1
 
 	.byte 0,0,141,229
-bl _p_125
+bl _p_130
 
 	.byte 0,16,157,229,0,0,159,229,0,0,0,234
 	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 832
 	.byte 0,0,159,231,0,16,128,229,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_b0:
+Lme_b6:
 .text
 	.align 2
 	.no_dead_strip _System_Threading_Tasks_TaskFactory_1_bool__ctor
@@ -4053,11 +4169,11 @@ _System_Threading_Tasks_TaskFactory_1_bool__ctor:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,4,0,141,229,0,0,160,227,0,0,141,229,4,0,157,229
 	.byte 0,16,157,229
-bl _p_126
+bl _p_131
 
 	.byte 12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_b1:
+Lme_b7:
 .text
 	.align 2
 	.no_dead_strip _System_Threading_Tasks_TaskFactory_1_bool__ctor_System_Threading_CancellationToken
@@ -4065,11 +4181,11 @@ _System_Threading_Tasks_TaskFactory_1_bool__ctor_System_Threading_CancellationTo
 
 	.byte 128,64,45,233,13,112,160,225,0,9,45,233,16,208,77,226,13,176,160,225,8,0,139,229,12,16,139,229,8,0,155,229
 	.byte 12,16,155,229,0,32,160,227,0,48,160,227,0,192,160,227,0,192,141,229
-bl _p_127
+bl _p_132
 
 	.byte 16,208,139,226,0,9,189,232,128,128,189,232
 
-Lme_b2:
+Lme_b8:
 .text
 	.align 2
 	.no_dead_strip _System_Threading_Tasks_TaskFactory_1_bool__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
@@ -4078,19 +4194,121 @@ _System_Threading_Tasks_TaskFactory_1_bool__ctor_System_Threading_CancellationTo
 	.byte 128,64,45,233,13,112,160,225,80,9,45,233,32,208,77,226,13,176,160,225,0,64,160,225,8,16,139,229,12,32,139,229
 	.byte 3,96,160,225,56,224,157,229,16,224,139,229,12,0,132,226,8,16,155,229,0,16,128,229,16,0,155,229,8,0,132,229
 	.byte 12,0,155,229,20,0,132,229,24,96,132,229,6,0,160,225
-bl _p_128
+bl _p_133
 
 	.byte 0,0,159,229,0,0,0,234
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 848
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 860
 	.byte 0,0,159,231
 bl _p_1
 
 	.byte 24,0,139,229,8,16,155,229,12,32,155,229,6,48,160,225,16,192,155,229,0,192,141,229
-bl _p_129
+bl _p_134
 
 	.byte 24,0,155,229,16,0,132,229,32,208,139,226,80,9,189,232,128,128,189,232
 
-Lme_b3:
+Lme_b9:
+.text
+	.align 2
+	.no_dead_strip _System_Threading_Tasks_TaskFactory_1_bool_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_bool_object
+_System_Threading_Tasks_TaskFactory_1_bool_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_bool_object:
+
+	.byte 128,64,45,233,13,112,160,225,0,9,45,233,24,208,77,226,13,176,160,225,8,0,139,229,12,16,139,229,16,32,139,229
+	.byte 20,48,139,229,8,0,155,229,20,192,144,229,12,16,155,229,16,32,155,229,20,48,155,229,0,192,141,229
+bl _p_135
+
+	.byte 24,208,139,226,0,9,189,232,128,128,189,232
+
+Lme_ba:
+.text
+	.align 2
+	.no_dead_strip _System_Threading_Tasks_TaskFactory_1_bool_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_bool_object_System_Threading_Tasks_TaskCreationOptions
+_System_Threading_Tasks_TaskFactory_1_bool_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_bool_object_System_Threading_Tasks_TaskCreationOptions:
+
+	.byte 128,64,45,233,13,112,160,225,0,9,45,233,24,208,77,226,13,176,160,225,0,0,139,229,4,16,139,229,8,32,139,229
+	.byte 12,48,139,229,40,224,157,229,16,224,139,229,0,128,159,229,0,0,0,234
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 856
+	.byte 8,128,159,231,4,0,155,229,8,16,155,229,12,32,155,229,16,48,155,229
+bl _p_136
+
+	.byte 24,208,139,226,0,9,189,232,128,128,189,232
+
+Lme_bb:
+.text
+	.align 2
+	.no_dead_strip _System_Threading_Tasks_TaskFactory_1_bool_FromAsyncBeginEnd_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_bool_object_System_Threading_Tasks_TaskCreationOptions
+_System_Threading_Tasks_TaskFactory_1_bool_FromAsyncBeginEnd_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_bool_object_System_Threading_Tasks_TaskCreationOptions:
+
+	.byte 128,64,45,233,13,112,160,225,16,9,45,233,28,208,77,226,0,64,160,225,4,16,141,229,8,32,141,229,12,48,141,229
+	.byte 0,0,159,229,0,0,0,234
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 864
+	.byte 0,0,159,231
+bl _p_1
+
+	.byte 0,176,160,225,4,16,157,229,16,16,128,229,0,0,84,227,106,0,0,10,16,0,155,229,0,0,80,227,89,0,0,10
+	.byte 12,0,157,229,3,0,0,226,0,0,80,227,92,0,0,26,0,0,159,229,0,0,0,234
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 852
+	.byte 0,0,159,231
+bl _p_1
+
+	.byte 16,0,141,229,8,16,157,229,12,32,157,229
+bl _p_137
+
+	.byte 16,0,157,229,12,0,139,229,0,0,159,229,0,0,0,234
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 868
+	.byte 0,0,159,231
+bl _p_45
+
+	.byte 8,0,139,229,0,0,91,227,87,0,0,11,0,0,159,229,0,0,0,234
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 872
+	.byte 0,0,159,231
+bl _p_1
+
+	.byte 0,16,160,225,16,176,129,229,0,0,159,229,0,0,0,234
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 876
+	.byte 0,0,159,231,20,0,129,229,0,0,159,229,0,0,0,234
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 880
+	.byte 0,0,159,231,28,0,129,229,0,0,159,229,0,0,0,234
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 884
+	.byte 0,0,159,231,20,32,144,229,12,32,129,229,16,0,144,229,8,0,129,229,4,0,160,225,8,32,157,229,15,224,160,225
+	.byte 12,240,148,229,0,0,141,229,0,0,80,227,27,0,0,10,0,0,157,229,0,16,160,225,0,16,145,229,0,128,159,229
+	.byte 0,0,0,234
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 888
+	.byte 8,128,159,231,4,224,143,226,16,240,17,229,0,0,0,0,255,0,0,226,0,0,80,227,14,0,0,10,8,16,155,229
+	.byte 1,0,160,225,0,224,209,229
+bl _p_138
+
+	.byte 255,0,0,226,0,0,80,227,7,0,0,10,12,0,155,229,16,16,155,229,0,128,159,229,0,0,0,234
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 856
+	.byte 8,128,159,231,0,32,157,229
+bl _p_139
+
+	.byte 12,0,155,229,0,16,160,225,0,224,209,229,8,0,144,229,28,208,141,226,16,9,189,232,128,128,189,232,96,13,12,227
+bl _p_103
+
+	.byte 0,16,160,225,152,2,0,227,0,2,64,227
+bl _mono_create_corlib_exception_1
+bl _p_35
+
+	.byte 87,9,12,227
+bl _p_103
+
+	.byte 0,16,160,225,153,2,0,227,0,2,64,227
+bl _mono_create_corlib_exception_1
+bl _p_35
+
+	.byte 116,13,12,227
+bl _p_103
+
+	.byte 0,16,160,225,152,2,0,227,0,2,64,227
+bl _mono_create_corlib_exception_1
+bl _p_35
+
+	.byte 14,16,160,225,0,0,159,229
+bl _p_11
+
+	.byte 151,2,0,2
+
+Lme_bc:
 .text
 	.align 2
 	.no_dead_strip _System_Threading_Tasks_TaskFactory_1_bool_InnerInvoke_System_Threading_Tasks_TaskCompletionSource_1_bool_System_Func_2_System_IAsyncResult_bool_System_IAsyncResult
@@ -4099,17 +4317,17 @@ _System_Threading_Tasks_TaskFactory_1_bool_InnerInvoke_System_Threading_Tasks_Ta
 	.byte 128,64,45,233,13,112,160,225,64,9,45,233,60,208,77,226,13,176,160,225,36,0,139,229,1,96,160,225,40,32,139,229
 	.byte 0,0,160,227,0,0,139,229,36,0,155,229,48,0,139,229,6,0,160,225,40,16,155,229,15,224,160,225,12,240,150,229
 	.byte 48,32,155,229,255,16,0,226,2,0,160,225,0,224,210,229
-bl _p_130
+bl _p_140
 
 	.byte 26,0,0,234,4,0,155,229,36,16,155,229,1,0,160,225,0,224,209,229
-bl _p_131
+bl _p_141
 bl _p_82
 
 	.byte 28,0,139,229,0,0,80,227,1,0,0,10,28,0,155,229
 bl _p_35
 
 	.byte 14,0,0,234,8,0,155,229,8,0,155,229,0,0,139,229,36,32,155,229,0,16,155,229,2,0,160,225,0,224,210,229
-bl _p_132
+bl _p_142
 bl _p_82
 
 	.byte 32,0,139,229,0,0,80,227,1,0,0,10,32,0,155,229
@@ -4117,9 +4335,9 @@ bl _p_35
 
 	.byte 255,255,255,234,60,208,139,226,64,9,189,232,128,128,189,232
 
-Lme_b4:
+Lme_bd:
 .text
-ut_181:
+ut_190:
 
 	.byte 8,0,128,226
 	b _System_Runtime_CompilerServices_TaskAwaiter_1_bool__ctor_System_Threading_Tasks_Task_1_bool
@@ -4132,9 +4350,9 @@ _System_Runtime_CompilerServices_TaskAwaiter_1_bool__ctor_System_Threading_Tasks
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,16,141,229,4,16,157,229,0,0,157,229
 	.byte 0,16,128,229,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_b5:
+Lme_be:
 .text
-ut_182:
+ut_191:
 
 	.byte 8,0,128,226
 	b _System_Runtime_CompilerServices_TaskAwaiter_1_bool_get_IsCompleted
@@ -4148,9 +4366,9 @@ _System_Runtime_CompilerServices_TaskAwaiter_1_bool_get_IsCompleted:
 	.byte 0,224,209,229,76,0,144,229,5,0,80,227,0,0,160,227,1,0,160,179,0,0,80,227,0,0,160,19,1,0,160,3
 	.byte 12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_b6:
+Lme_bf:
 .text
-ut_183:
+ut_192:
 
 	.byte 8,0,128,226
 	b _System_Runtime_CompilerServices_TaskAwaiter_1_bool_GetResult
@@ -4164,23 +4382,23 @@ _System_Runtime_CompilerServices_TaskAwaiter_1_bool_GetResult:
 	.byte 76,0,144,229,5,0,80,227,0,0,160,227,1,0,160,179,0,0,80,227,0,0,160,19,1,0,160,3,0,0,80,227
 	.byte 8,0,0,26,0,192,154,229,0,0,160,227,0,0,141,229,12,0,160,225,0,16,224,227,0,32,157,229,1,48,160,227
 	.byte 0,224,220,229
-bl _p_133
+bl _p_143
 
 	.byte 0,0,154,229,0,16,160,225,0,224,209,229,76,0,144,229,5,0,80,227,5,0,0,10,0,0,154,229
-bl _p_134
-bl _p_135
+bl _p_144
+bl _p_145
 
 	.byte 0,16,160,225,0,224,209,229
-bl _p_136
+bl _p_146
 
 	.byte 0,16,154,229,1,0,160,225,0,224,209,229
-bl _p_137
+bl _p_147
 
 	.byte 255,0,0,226,8,208,141,226,0,5,189,232,128,128,189,232
 
-Lme_b7:
+Lme_c0:
 .text
-ut_184:
+ut_193:
 
 	.byte 8,0,128,226
 	b _System_Runtime_CompilerServices_TaskAwaiter_1_bool_UnsafeOnCompleted_System_Action
@@ -4192,27 +4410,43 @@ _System_Runtime_CompilerServices_TaskAwaiter_1_bool_UnsafeOnCompleted_System_Act
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,16,141,229,4,0,157,229,0,0,80,227
 	.byte 8,0,0,10,0,0,157,229,0,0,144,229,4,16,157,229,1,32,160,227,0,48,160,227
-bl _p_138
+bl _p_148
 
-	.byte 12,208,141,226,0,1,189,232,128,128,189,232,54,0,10,227
+	.byte 12,208,141,226,0,1,189,232,128,128,189,232,143,2,10,227
 bl _p_103
 
-	.byte 0,16,160,225,145,2,0,227,0,2,64,227
+	.byte 0,16,160,225,152,2,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
-Lme_b8:
+Lme_c1:
+.text
+	.align 2
+	.no_dead_strip _wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_bool_invoke_void_T_System_Threading_Tasks_Task_1_bool
+_wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_bool_invoke_void_T_System_Threading_Tasks_Task_1_bool:
+
+	.byte 128,64,45,233,13,112,160,225,112,5,45,233,4,208,77,226,0,96,160,225,1,160,160,225,0,0,159,229,0,0,0,234
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 816
+	.byte 0,0,159,231,0,0,144,229,0,0,80,227,27,0,0,26,44,0,134,226,0,64,144,229,4,0,160,225,0,0,80,227
+	.byte 17,0,0,26,16,0,134,226,0,80,144,229,5,0,160,225,0,0,80,227,5,0,0,10,8,0,134,226,0,32,144,229
+	.byte 5,0,160,225,10,16,160,225,50,255,47,225,3,0,0,234,8,0,134,226,0,16,144,229,10,0,160,225,49,255,47,225
+	.byte 4,208,141,226,112,5,189,232,128,128,189,232,4,0,160,225,10,16,160,225,15,224,160,225,12,240,148,229,232,255,255,234
+bl _p_99
+
+	.byte 225,255,255,234
+
+Lme_c2:
 .text
 	.align 2
 	.no_dead_strip _System_Threading_Tasks_TaskCompletionSource_1_bool__ctor
 _System_Threading_Tasks_TaskCompletionSource_1_bool__ctor:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,0,16,160,227,0,32,160,227
-bl _p_139
+bl _p_137
 
 	.byte 12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_b9:
+Lme_c3:
 .text
 	.align 2
 	.no_dead_strip _System_Threading_Tasks_TaskCompletionSource_1_bool__ctor_object_System_Threading_Tasks_TaskCreationOptions
@@ -4220,48 +4454,48 @@ _System_Threading_Tasks_TaskCompletionSource_1_bool__ctor_object_System_Threadin
 
 	.byte 128,64,45,233,13,112,160,225,0,9,45,233,48,208,77,226,13,176,160,225,20,0,139,229,24,16,139,229,28,32,139,229
 	.byte 28,0,155,229,3,0,0,226,0,0,80,227,43,0,0,26,0,0,159,229,0,0,0,234
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 852
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 892
 	.byte 0,0,159,231,0,0,144,229,40,0,139,229,0,0,160,227,16,0,139,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 856
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 896
 	.byte 0,0,159,231
 bl _p_1
 
 	.byte 40,16,155,229,36,0,139,229,24,32,155,229,16,48,155,229,28,192,155,229,0,192,141,229,0,192,160,227,4,192,141,229
 	.byte 0,192,160,227,8,192,141,229,0,192,160,227,12,192,141,229
-bl _p_140
+bl _p_149
 
 	.byte 36,16,155,229,20,0,155,229,8,16,128,229,1,0,160,225,32,0,139,229
-bl _p_141
+bl _p_119
 
 	.byte 0,16,160,225,32,0,155,229,0,32,160,225,0,224,210,229,20,16,128,229,1,16,160,227,76,16,128,229,0,0,160,227
-	.byte 186,15,7,238,48,208,139,226,0,9,189,232,128,128,189,232,78,7,12,227
+	.byte 186,15,7,238,48,208,139,226,0,9,189,232,128,128,189,232,87,9,12,227
 bl _p_103
 
-	.byte 0,16,160,225,146,2,0,227,0,2,64,227
+	.byte 0,16,160,225,153,2,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
-Lme_ba:
+Lme_c4:
 .text
 	.align 2
 	.no_dead_strip _System_Threading_Tasks_TaskCompletionSource_1_bool_SetCanceled
 _System_Threading_Tasks_TaskCompletionSource_1_bool_SetCanceled:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229
-bl _p_142
+bl _p_150
 
 	.byte 255,0,0,226,0,0,80,227,10,0,0,26,0,0,159,229,0,0,0,234
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 840
-	.byte 0,0,159,231,158,9,12,227
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 852
+	.byte 0,0,159,231,23,12,12,227
 bl _p_103
 
-	.byte 0,16,160,225,236,2,0,227,0,2,64,227
+	.byte 0,16,160,225,243,2,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
 	.byte 12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_bb:
+Lme_c5:
 .text
 	.align 2
 	.no_dead_strip _System_Threading_Tasks_TaskCompletionSource_1_bool_SetException_System_Exception
@@ -4275,71 +4509,71 @@ bl _p_94
 
 	.byte 0,48,160,225,8,0,141,229,3,0,160,225,0,16,160,227,4,32,157,229,0,48,147,229,15,224,160,225,128,240,147,229
 	.byte 8,16,157,229,0,0,157,229
-bl _p_143
+bl _p_151
 
-	.byte 20,208,141,226,0,1,189,232,128,128,189,232,142,15,9,227
+	.byte 20,208,141,226,0,1,189,232,128,128,189,232,231,1,10,227
 bl _p_103
 
-	.byte 0,16,160,225,145,2,0,227,0,2,64,227
+	.byte 0,16,160,225,152,2,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
-Lme_bc:
+Lme_c6:
 .text
 	.align 2
 	.no_dead_strip _System_Threading_Tasks_TaskCompletionSource_1_bool_SetException_System_Collections_Generic_IEnumerable_1_System_Exception
 _System_Threading_Tasks_TaskCompletionSource_1_bool_SetException_System_Collections_Generic_IEnumerable_1_System_Exception:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,16,141,229,0,0,157,229,4,16,157,229
-bl _p_144
+bl _p_152
 
 	.byte 255,0,0,226,0,0,80,227,10,0,0,26,0,0,159,229,0,0,0,234
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 840
-	.byte 0,0,159,231,158,9,12,227
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 852
+	.byte 0,0,159,231,23,12,12,227
 bl _p_103
 
-	.byte 0,16,160,225,236,2,0,227,0,2,64,227
+	.byte 0,16,160,225,243,2,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
 	.byte 12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_bd:
+Lme_c7:
 .text
 	.align 2
 	.no_dead_strip _System_Threading_Tasks_TaskCompletionSource_1_bool_SetResult_bool
 _System_Threading_Tasks_TaskCompletionSource_1_bool_SetResult_bool:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,16,205,229,0,0,157,229,4,16,221,229
-bl _p_145
+bl _p_153
 
 	.byte 255,0,0,226,0,0,80,227,10,0,0,26,0,0,159,229,0,0,0,234
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 840
-	.byte 0,0,159,231,158,9,12,227
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 852
+	.byte 0,0,159,231,23,12,12,227
 bl _p_103
 
-	.byte 0,16,160,225,236,2,0,227,0,2,64,227
+	.byte 0,16,160,225,243,2,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
 	.byte 12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_be:
+Lme_c8:
 .text
 	.align 2
 	.no_dead_strip _System_Threading_Tasks_TaskCompletionSource_1_bool_ThrowInvalidException
 _System_Threading_Tasks_TaskCompletionSource_1_bool_ThrowInvalidException:
 
-	.byte 128,64,45,233,13,112,160,225,0,1,45,233,4,208,77,226,158,9,12,227
+	.byte 128,64,45,233,13,112,160,225,0,1,45,233,4,208,77,226,23,12,12,227
 bl _p_103
 
-	.byte 0,16,160,225,236,2,0,227,0,2,64,227
+	.byte 0,16,160,225,243,2,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
 	.byte 4,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_bf:
+Lme_c9:
 .text
 	.align 2
 	.no_dead_strip _System_Threading_Tasks_TaskCompletionSource_1_bool_TrySetCanceled
@@ -4347,11 +4581,11 @@ _System_Threading_Tasks_TaskCompletionSource_1_bool_TrySetCanceled:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,8,16,144,229,1,0,160,225
 	.byte 0,224,209,229
-bl _p_146
+bl _p_154
 
 	.byte 255,0,0,226,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_c0:
+Lme_ca:
 .text
 	.align 2
 	.no_dead_strip _System_Threading_Tasks_TaskCompletionSource_1_bool_TrySetException_System_Exception
@@ -4365,16 +4599,16 @@ bl _p_94
 
 	.byte 0,48,160,225,8,0,141,229,3,0,160,225,0,16,160,227,4,32,157,229,0,48,147,229,15,224,160,225,128,240,147,229
 	.byte 8,16,157,229,0,0,157,229
-bl _p_144
+bl _p_152
 
-	.byte 255,0,0,226,20,208,141,226,0,1,189,232,128,128,189,232,142,15,9,227
+	.byte 255,0,0,226,20,208,141,226,0,1,189,232,128,128,189,232,231,1,10,227
 bl _p_103
 
-	.byte 0,16,160,225,145,2,0,227,0,2,64,227
+	.byte 0,16,160,225,152,2,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
-Lme_c1:
+Lme_cb:
 .text
 	.align 2
 	.no_dead_strip _System_Threading_Tasks_TaskCompletionSource_1_bool_TrySetException_System_Collections_Generic_IEnumerable_1_System_Exception
@@ -4382,38 +4616,38 @@ _System_Threading_Tasks_TaskCompletionSource_1_bool_TrySetException_System_Colle
 
 	.byte 128,64,45,233,13,112,160,225,32,1,45,233,16,208,77,226,0,0,141,229,4,16,141,229,4,0,157,229,0,0,80,227
 	.byte 37,0,0,10,0,0,159,229,0,0,0,234
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 860
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 900
 	.byte 0,0,159,231
 bl _p_1
 
 	.byte 8,0,141,229,4,16,157,229
-bl _p_147
+bl _p_155
 
 	.byte 8,0,157,229,0,80,160,225,5,16,160,225,1,0,160,225,0,224,209,229
-bl _p_148
+bl _p_156
 
 	.byte 0,16,160,225,0,224,209,229
-bl _p_149
+bl _p_157
 
 	.byte 0,0,80,227,11,0,0,10,0,0,157,229,8,192,144,229,12,0,160,225,5,16,160,225,0,32,160,227,0,48,160,227
 	.byte 0,224,220,229
-bl _p_150
+bl _p_158
 
-	.byte 255,0,0,226,16,208,141,226,32,1,189,232,128,128,189,232,111,10,12,227
+	.byte 255,0,0,226,16,208,141,226,32,1,189,232,128,128,189,232,232,12,12,227
 bl _p_103
 
-	.byte 0,16,160,225,145,2,0,227,0,2,64,227
+	.byte 0,16,160,225,152,2,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
-	.byte 111,10,12,227
+	.byte 232,12,12,227
 bl _p_103
 
-	.byte 0,16,160,225,145,2,0,227,0,2,64,227
+	.byte 0,16,160,225,152,2,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
-Lme_c2:
+Lme_cc:
 .text
 	.align 2
 	.no_dead_strip _System_Threading_Tasks_TaskCompletionSource_1_bool_TrySetResult_bool
@@ -4421,11 +4655,11 @@ _System_Threading_Tasks_TaskCompletionSource_1_bool_TrySetResult_bool:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,16,205,229,0,0,157,229,8,32,144,229
 	.byte 2,0,160,225,4,16,221,229,0,224,210,229
-bl _p_151
+bl _p_159
 
 	.byte 255,0,0,226,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_c3:
+Lme_cd:
 .text
 	.align 2
 	.no_dead_strip _System_Threading_Tasks_TaskCompletionSource_1_bool_get_Task
@@ -4434,7 +4668,7 @@ _System_Threading_Tasks_TaskCompletionSource_1_bool_get_Task:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,8,0,144,229,12,208,141,226
 	.byte 0,1,189,232,128,128,189,232
 
-Lme_c4:
+Lme_ce:
 .text
 	.align 2
 	.no_dead_strip _wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_bool_invoke_TResult_T_System_IAsyncResult
@@ -4451,9 +4685,34 @@ bl _p_99
 
 	.byte 223,255,255,234
 
-Lme_c9:
+Lme_d3:
 .text
-ut_202:
+	.align 2
+	.no_dead_strip _System_Threading_Tasks_TaskFactory_1__FromAsyncBeginEndc__AnonStorey2_bool__ctor
+_System_Threading_Tasks_TaskFactory_1__FromAsyncBeginEndc__AnonStorey2_bool__ctor:
+
+	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,12,208,141,226,0,1,189,232,128,128,189,232
+
+Lme_d4:
+.text
+	.align 2
+	.no_dead_strip _System_Threading_Tasks_TaskFactory_1__FromAsyncBeginEndc__AnonStorey2_bool__m__0_System_IAsyncResult
+_System_Threading_Tasks_TaskFactory_1__FromAsyncBeginEndc__AnonStorey2_bool__m__0_System_IAsyncResult:
+
+	.byte 128,64,45,233,13,112,160,225,64,1,45,233,8,208,77,226,0,96,160,225,0,16,141,229,8,16,150,229,1,0,160,225
+	.byte 0,224,209,229
+bl _p_138
+
+	.byte 255,0,0,226,0,0,80,227,7,0,0,10,12,0,150,229,16,16,150,229,0,128,159,229,0,0,0,234
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 856
+	.byte 8,128,159,231,0,32,157,229
+bl _p_139
+
+	.byte 8,208,141,226,64,1,189,232,128,128,189,232
+
+Lme_d5:
+.text
+ut_214:
 
 	.byte 8,0,128,226
 	b _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_Robotics_Mobile_Core_iOS_BluetoothLEManager__BeginScanningForDevicesc__async0_Robotics_Mobile_Core_iOS_BluetoothLEManager__BeginScanningForDevicesc__async0_
@@ -4465,21 +4724,21 @@ _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_Robotics_Mobile_Co
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,36,208,77,226,20,0,141,229,24,16,141,229,24,0,157,229,0,16,144,229
 	.byte 0,16,141,229,4,16,144,229,4,16,141,229,8,16,144,229,8,16,141,229,12,16,144,229,12,16,141,229,16,0,144,229
-	.byte 16,0,141,229,6,0,0,234,42,15,9,227
+	.byte 16,0,141,229,6,0,0,234,131,1,10,227
 bl _p_103
 
-	.byte 0,16,160,225,145,2,0,227,0,2,64,227
+	.byte 0,16,160,225,152,2,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
 	.byte 24,0,157,229
-bl _p_152
+bl _p_160
 
 	.byte 36,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_ca:
+Lme_d6:
 .text
-ut_203:
+ut_215:
 
 	.byte 8,0,128,226
 	b _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_Robotics_Mobile_Core_Bluetooth_LE_Adapter__WaitForStatec__async0_Robotics_Mobile_Core_Bluetooth_LE_Adapter__WaitForStatec__async0_
@@ -4491,23 +4750,23 @@ _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_Robotics_Mobile_Co
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,36,208,77,226,24,0,141,229,28,16,141,229,28,16,157,229,13,0,160,225
 	.byte 24,32,160,227
-bl _p_153
+bl _p_161
 
-	.byte 6,0,0,234,42,15,9,227
+	.byte 6,0,0,234,131,1,10,227
 bl _p_103
 
-	.byte 0,16,160,225,145,2,0,227,0,2,64,227
+	.byte 0,16,160,225,152,2,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
 	.byte 28,0,157,229
-bl _p_154
+bl _p_162
 
 	.byte 36,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_cb:
+Lme_d7:
 .text
-ut_204:
+ut_216:
 
 	.byte 8,0,128,226
 	b _System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_Robotics_Mobile_Core_Bluetooth_LE_Adapter__StartScanningForDevicesc__async1_Robotics_Mobile_Core_Bluetooth_LE_Adapter__StartScanningForDevicesc__async1_
@@ -4519,23 +4778,23 @@ _System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_Robotics_Mobile_Co
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,52,208,77,226,40,0,141,229,44,16,141,229,44,16,157,229,13,0,160,225
 	.byte 40,32,160,227
-bl _p_153
+bl _p_161
 
-	.byte 6,0,0,234,42,15,9,227
+	.byte 6,0,0,234,131,1,10,227
 bl _p_103
 
-	.byte 0,16,160,225,145,2,0,227,0,2,64,227
+	.byte 0,16,160,225,152,2,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
 	.byte 44,0,157,229
-bl _p_155
+bl _p_163
 
 	.byte 52,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_cc:
+Lme_d8:
 .text
-ut_205:
+ut_217:
 
 	.byte 8,0,128,226
 	b _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_Robotics_Mobile_Core_iOS_BluetoothLEManager__BeginScanningForDevicesc__async0_System_Runtime_CompilerServices_TaskAwaiter__Robotics_Mobile_Core_iOS_BluetoothLEManager__BeginScanningForDevicesc__async0_
@@ -4548,32 +4807,32 @@ _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_S
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,52,208,77,226,20,0,141,229,24,16,141,229,28,32,141,229,28,0,157,229
 	.byte 0,16,144,229,0,16,141,229,4,16,144,229,4,16,141,229,8,16,144,229,8,16,141,229,12,16,144,229,12,16,141,229
 	.byte 16,0,144,229,16,0,141,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 864
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 904
 	.byte 0,0,159,231
 bl _p_1
 
 	.byte 8,16,128,226,0,32,157,229,0,32,129,229,4,32,157,229,4,32,129,229,8,32,157,229,8,32,129,229,12,32,157,229
 	.byte 12,32,129,229,16,32,157,229,16,32,129,229,0,16,160,225,36,16,141,229,0,16,159,229,0,0,0,234
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 868
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 908
 	.byte 1,16,159,231
-bl _p_156
+bl _p_164
 
 	.byte 40,0,141,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 872
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 912
 	.byte 0,0,159,231
 bl _p_1
 
 	.byte 36,16,157,229,40,32,157,229,32,0,141,229
-bl _p_157
+bl _p_165
 
 	.byte 32,16,157,229,24,0,157,229
-bl _p_158
+bl _p_166
 
 	.byte 52,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_cd:
+Lme_d9:
 .text
-ut_206:
+ut_218:
 
 	.byte 8,0,128,226
 	b _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_Robotics_Mobile_Core_Bluetooth_LE_Adapter__WaitForStatec__async0_System_Runtime_CompilerServices_TaskAwaiter_1_bool__Robotics_Mobile_Core_Bluetooth_LE_Adapter__WaitForStatec__async0_
@@ -4585,37 +4844,37 @@ _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_S
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,60,208,77,226,24,0,141,229,28,16,141,229,32,32,141,229,32,16,157,229
 	.byte 13,0,160,225,24,32,160,227
-bl _p_153
+bl _p_161
 
 	.byte 0,0,159,229,0,0,0,234
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 876
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 916
 	.byte 0,0,159,231
 bl _p_1
 
 	.byte 52,0,141,229,8,0,128,226,13,16,160,225,24,32,160,227
-bl _p_153
+bl _p_161
 
 	.byte 52,0,157,229,0,16,160,225,44,16,141,229,0,16,159,229,0,0,0,234
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 868
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 908
 	.byte 1,16,159,231
-bl _p_156
+bl _p_164
 
 	.byte 48,0,141,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 872
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 912
 	.byte 0,0,159,231
 bl _p_1
 
 	.byte 44,16,157,229,48,32,157,229,40,0,141,229
-bl _p_157
+bl _p_165
 
 	.byte 40,16,157,229,0,128,159,229,0,0,0,234
 	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 796
 	.byte 8,128,159,231,28,0,157,229
-bl _p_159
+bl _p_167
 
 	.byte 60,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_ce:
+Lme_da:
 .text
 	.align 2
 	.no_dead_strip _System_Threading_Tasks_Task_Run_bool_System_Func_1_bool
@@ -4623,15 +4882,15 @@ _System_Threading_Tasks_Task_Run_bool_System_Func_1_bool:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,4,0,141,229,0,0,160,227,0,0,141,229,0,128,159,229
 	.byte 0,0,0,234
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 880
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 920
 	.byte 8,128,159,231,4,0,157,229,0,16,157,229
-bl _p_160
+bl _p_168
 
 	.byte 12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_cf:
+Lme_db:
 .text
-ut_208:
+ut_220:
 
 	.byte 8,0,128,226
 	b _System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_Robotics_Mobile_Core_Bluetooth_LE_Adapter__StartScanningForDevicesc__async1_System_Runtime_CompilerServices_TaskAwaiter__Robotics_Mobile_Core_Bluetooth_LE_Adapter__StartScanningForDevicesc__async1_
@@ -4643,35 +4902,35 @@ _System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_S
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,76,208,77,226,40,0,141,229,44,16,141,229,48,32,141,229,48,16,157,229
 	.byte 13,0,160,225,40,32,160,227
-bl _p_153
+bl _p_161
 
 	.byte 0,0,159,229,0,0,0,234
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 884
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 924
 	.byte 0,0,159,231
 bl _p_1
 
 	.byte 68,0,141,229,8,0,128,226,13,16,160,225,40,32,160,227
-bl _p_153
+bl _p_161
 
 	.byte 68,0,157,229,0,16,160,225,60,16,141,229,0,16,159,229,0,0,0,234
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 868
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 908
 	.byte 1,16,159,231
-bl _p_156
+bl _p_164
 
 	.byte 64,0,141,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 872
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 912
 	.byte 0,0,159,231
 bl _p_1
 
 	.byte 60,16,157,229,64,32,157,229,56,0,141,229
-bl _p_157
+bl _p_165
 
 	.byte 56,16,157,229,44,0,157,229
-bl _p_158
+bl _p_166
 
 	.byte 76,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_d0:
+Lme_dc:
 .text
 	.align 2
 	.no_dead_strip _System_Threading_Tasks_TaskActionInvoker_FuncInvoke_1_bool__ctor_System_Func_1_bool
@@ -4680,7 +4939,7 @@ _System_Threading_Tasks_TaskActionInvoker_FuncInvoke_1_bool__ctor_System_Func_1_
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,16,141,229,4,16,157,229,0,0,157,229
 	.byte 8,16,128,229,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_d1:
+Lme_dd:
 .text
 	.align 2
 	.no_dead_strip _System_Threading_Tasks_TaskActionInvoker_FuncInvoke_1_bool_Invoke_System_Threading_Tasks_Task_object_System_Threading_Tasks_Task
@@ -4689,17 +4948,42 @@ _System_Threading_Tasks_TaskActionInvoker_FuncInvoke_1_bool_Invoke_System_Thread
 	.byte 128,64,45,233,13,112,160,225,32,1,45,233,24,208,77,226,0,0,141,229,4,16,141,229,8,32,141,229,12,48,141,229
 	.byte 12,80,157,229,5,0,160,225,0,0,80,227,9,0,0,10,0,0,149,229,0,0,144,229,8,0,144,229,8,0,144,229
 	.byte 0,16,159,229,0,0,0,234
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 888
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 928
 	.byte 1,16,159,231,1,0,80,225,11,0,0,27,0,0,157,229,8,16,144,229,1,0,160,225,16,16,141,229,15,224,160,225
 	.byte 12,240,145,229,16,16,157,229,0,224,213,229,84,0,197,229,24,208,141,226,32,1,189,232,128,128,189,232,14,16,160,225
 	.byte 0,0,159,229
 bl _p_11
 
-	.byte 235,2,0,2
+	.byte 242,2,0,2
 
-Lme_d2:
+Lme_de:
 .text
-ut_211:
+	.align 2
+	.no_dead_strip _System_Threading_Tasks_TaskActionInvoker_ActionTaskInvoke_1_bool__ctor_System_Action_1_System_Threading_Tasks_Task_1_bool
+_System_Threading_Tasks_TaskActionInvoker_ActionTaskInvoke_1_bool__ctor_System_Action_1_System_Threading_Tasks_Task_1_bool:
+
+	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,16,141,229,4,16,157,229,0,0,157,229
+	.byte 8,16,128,229,12,208,141,226,0,1,189,232,128,128,189,232
+
+Lme_df:
+.text
+	.align 2
+	.no_dead_strip _System_Threading_Tasks_TaskActionInvoker_ActionTaskInvoke_1_bool_Invoke_System_Threading_Tasks_Task_object_System_Threading_Tasks_Task
+_System_Threading_Tasks_TaskActionInvoker_ActionTaskInvoke_1_bool_Invoke_System_Threading_Tasks_Task_object_System_Threading_Tasks_Task:
+
+	.byte 128,64,45,233,13,112,160,225,96,1,45,233,20,208,77,226,0,96,160,225,0,16,141,229,4,32,141,229,8,48,141,229
+	.byte 8,96,150,229,0,80,157,229,5,0,160,225,0,0,80,227,9,0,0,10,0,0,149,229,0,0,144,229,8,0,144,229
+	.byte 8,0,144,229,0,16,159,229,0,0,0,234
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 928
+	.byte 1,16,159,231,1,0,80,225,6,0,0,27,6,0,160,225,5,16,160,225,15,224,160,225,12,240,150,229,20,208,141,226
+	.byte 96,1,189,232,128,128,189,232,14,16,160,225,0,0,159,229
+bl _p_11
+
+	.byte 242,2,0,2
+
+Lme_e0:
+.text
+ut_225:
 
 	.byte 8,0,128,226
 	b _System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_bool__ctor_System_Threading_Tasks_Task_1_bool_bool
@@ -4711,16 +4995,16 @@ _System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_bool__ctor_System_Thr
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,36,208,77,226,16,0,141,229,20,16,141,229,24,32,205,229,0,0,160,227
 	.byte 0,0,141,229,0,0,160,227,4,0,141,229,0,128,159,229,0,0,0,234
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 892
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 932
 	.byte 8,128,159,231,13,0,160,225,20,16,157,229,24,32,221,229
-bl _p_161
+bl _p_169
 
 	.byte 0,0,157,229,8,0,141,229,4,0,157,229,12,0,141,229,16,0,157,229,8,16,157,229,0,16,128,229,12,16,157,229
 	.byte 4,16,128,229,36,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_d3:
+Lme_e1:
 .text
-ut_212:
+ut_226:
 
 	.byte 8,0,128,226
 	b _System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_bool_GetAwaiter
@@ -4734,9 +5018,9 @@ _System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_bool_GetAwaiter:
 	.byte 4,16,141,229,4,0,144,229,8,0,141,229,0,0,157,229,4,16,157,229,0,16,128,229,8,16,157,229,4,16,128,229
 	.byte 20,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_d4:
+Lme_e2:
 .text
-ut_213:
+ut_227:
 
 	.byte 8,0,128,226
 	b _System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_bool__ctor_System_Threading_Tasks_Task_1_bool_bool
@@ -4749,9 +5033,9 @@ _System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,20,208,77,226,0,0,141,229,4,16,141,229,8,32,205,229,4,16,157,229
 	.byte 0,0,157,229,0,16,128,229,8,16,221,229,4,16,192,229,20,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_d5:
+Lme_e3:
 .text
-ut_214:
+ut_228:
 
 	.byte 8,0,128,226
 	b _System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_bool_get_IsCompleted
@@ -4765,9 +5049,9 @@ _System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter
 	.byte 0,224,209,229,76,0,144,229,5,0,80,227,0,0,160,227,1,0,160,179,0,0,80,227,0,0,160,19,1,0,160,3
 	.byte 12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_d6:
+Lme_e4:
 .text
-ut_215:
+ut_229:
 
 	.byte 8,0,128,226
 	b _System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_bool_GetResult
@@ -4781,23 +5065,23 @@ _System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter
 	.byte 76,0,144,229,5,0,80,227,0,0,160,227,1,0,160,179,0,0,80,227,0,0,160,19,1,0,160,3,0,0,80,227
 	.byte 8,0,0,26,0,192,154,229,0,0,160,227,0,0,141,229,12,0,160,225,0,16,224,227,0,32,157,229,1,48,160,227
 	.byte 0,224,220,229
-bl _p_133
+bl _p_143
 
 	.byte 0,0,154,229,0,16,160,225,0,224,209,229,76,0,144,229,5,0,80,227,5,0,0,10,0,0,154,229
-bl _p_134
-bl _p_135
+bl _p_144
+bl _p_145
 
 	.byte 0,16,160,225,0,224,209,229
-bl _p_136
+bl _p_146
 
 	.byte 0,16,154,229,1,0,160,225,0,224,209,229
-bl _p_137
+bl _p_147
 
 	.byte 255,0,0,226,8,208,141,226,0,5,189,232,128,128,189,232
 
-Lme_d7:
+Lme_e5:
 .text
-ut_216:
+ut_230:
 
 	.byte 8,0,128,226
 	b _System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_bool_UnsafeOnCompleted_System_Action
@@ -4809,16 +5093,16 @@ _System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,16,141,229,4,0,157,229,0,0,80,227
 	.byte 8,0,0,10,0,16,157,229,0,0,145,229,4,32,209,229,4,16,157,229,0,48,160,227
-bl _p_138
+bl _p_148
 
-	.byte 12,208,141,226,0,1,189,232,128,128,189,232,54,0,10,227
+	.byte 12,208,141,226,0,1,189,232,128,128,189,232,143,2,10,227
 bl _p_103
 
-	.byte 0,16,160,225,145,2,0,227,0,2,64,227
+	.byte 0,16,160,225,152,2,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
-Lme_d8:
+Lme_e6:
 .text
 	.align 2
 	.no_dead_strip _System_Array_InternalArray__Insert_T_int_T
@@ -4826,33 +5110,33 @@ _System_Array_InternalArray__Insert_T_int_T:
 
 	.byte 128,64,45,233,13,112,160,225,0,9,45,233,24,208,77,226,13,176,160,225,4,128,139,229,12,0,139,229,16,16,139,229
 	.byte 20,32,139,229,4,0,155,229
-bl _p_162
+bl _p_170
 
-	.byte 0,0,139,229,0,0,144,229,0,0,160,227,8,0,139,229,52,9,13,227
+	.byte 0,0,139,229,0,0,144,229,0,0,160,227,8,0,139,229,213,11,13,227
 bl _p_103
 
-	.byte 0,16,160,225,4,3,0,227,0,2,64,227
+	.byte 0,16,160,225,11,3,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
 	.byte 24,208,139,226,0,9,189,232,128,128,189,232
 
-Lme_d9:
+Lme_e7:
 .text
 	.align 2
 	.no_dead_strip _System_Array_InternalArray__RemoveAt_int
 _System_Array_InternalArray__RemoveAt_int:
 
-	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,16,141,229,52,9,13,227
+	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,16,141,229,213,11,13,227
 bl _p_103
 
-	.byte 0,16,160,225,4,3,0,227,0,2,64,227
+	.byte 0,16,160,225,11,3,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
 	.byte 12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_da:
+Lme_e8:
 .text
 	.align 2
 	.no_dead_strip _System_Array_InternalArray__IndexOf_T_T
@@ -4860,14 +5144,14 @@ _System_Array_InternalArray__IndexOf_T_T:
 
 	.byte 128,64,45,233,13,112,160,225,112,13,45,233,32,208,77,226,13,176,160,225,4,128,139,229,0,96,160,225,1,160,160,225
 	.byte 4,0,155,229
-bl _p_163
+bl _p_171
 
 	.byte 0,80,160,225,0,0,149,229,0,0,160,227,8,0,139,229,0,0,160,227,0,0,139,229,0,0,150,229,22,0,208,229
 	.byte 1,0,80,227,64,0,0,202,12,80,150,229,0,64,160,227,49,0,0,234,4,0,155,229
-bl _p_164
+bl _p_172
 
 	.byte 24,0,139,229,4,0,155,229
-bl _p_165
+bl _p_173
 
 	.byte 0,48,160,225,24,0,155,229,0,128,160,225,6,0,160,225,4,16,160,225,11,32,160,225,51,255,47,225,0,0,90,227
 	.byte 10,0,0,26,0,0,155,229,0,0,80,227,31,0,0,26,8,160,150,229,0,0,90,227,1,0,0,10,4,80,154,229
@@ -4876,15 +5160,15 @@ bl _p_165
 	.byte 0,0,80,227,3,0,0,10,12,0,155,229,4,0,144,229,16,0,139,229,1,0,0,234,0,0,160,227,16,0,139,229
 	.byte 20,0,155,229,16,16,155,229,1,0,128,224,9,0,0,234,1,64,132,226,5,0,84,225,203,255,255,186,8,96,150,229
 	.byte 0,0,86,227,1,0,0,10,4,64,150,229,0,0,0,234,0,64,160,227,1,0,68,226,32,208,139,226,112,13,189,232
-	.byte 128,128,189,232,112,9,13,227
+	.byte 128,128,189,232,17,12,13,227
 bl _p_103
 bl _p_109
 
-	.byte 0,16,160,225,21,3,0,227,0,2,64,227
+	.byte 0,16,160,225,29,3,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
-Lme_db:
+Lme_e9:
 .text
 	.align 2
 	.no_dead_strip _System_Array_InternalArray__get_Item_T_int
@@ -4892,24 +5176,24 @@ _System_Array_InternalArray__get_Item_T_int:
 
 	.byte 128,64,45,233,13,112,160,225,0,9,45,233,32,208,77,226,13,176,160,225,8,128,139,229,16,0,139,229,20,16,139,229
 	.byte 8,0,155,229
-bl _p_166
+bl _p_174
 
 	.byte 4,0,139,229,0,0,144,229,0,0,160,227,12,0,139,229,0,0,160,227,0,0,139,229,16,0,155,229,12,16,144,229
 	.byte 20,0,155,229,1,0,80,225,15,0,0,42,8,0,155,229
-bl _p_167
+bl _p_175
 
 	.byte 24,0,139,229,8,0,155,229
-bl _p_168
+bl _p_176
 
 	.byte 0,48,160,225,24,0,155,229,0,128,160,225,16,0,155,229,20,16,155,229,11,32,160,225,51,255,47,225,0,0,155,229
 	.byte 32,208,139,226,0,9,189,232,128,128,189,232,27,4,3,227
 bl _p_103
 
-	.byte 0,16,160,225,146,2,0,227,0,2,64,227
+	.byte 0,16,160,225,153,2,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
-Lme_dc:
+Lme_ea:
 .text
 	.align 2
 	.no_dead_strip _System_Array_InternalArray__set_Item_T_int_T
@@ -4917,63 +5201,63 @@ _System_Array_InternalArray__set_Item_T_int_T:
 
 	.byte 128,64,45,233,13,112,160,225,96,13,45,233,44,208,77,226,13,176,160,225,0,128,139,229,0,96,160,225,20,16,139,229
 	.byte 24,32,139,229,0,0,155,229
-bl _p_169
+bl _p_177
 
 	.byte 0,80,160,225,0,0,149,229,0,0,160,227,4,0,139,229,12,16,150,229,20,0,155,229,1,0,80,225,55,0,0,42
 	.byte 8,96,139,229,6,160,160,225,0,0,86,227,24,0,0,10,8,0,155,229,0,0,144,229,12,0,139,229,22,0,208,229
 	.byte 1,0,80,227,17,0,0,26,12,0,155,229,0,0,144,229,4,0,144,229,16,0,139,229,28,0,144,229,0,16,159,229
 	.byte 0,0,0,234
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 896
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 936
 	.byte 1,16,159,231,1,0,80,225,7,0,0,26,0,16,159,229,0,0,0,234
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 900
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 940
 	.byte 1,16,159,231,16,0,155,229,1,0,80,225,0,0,0,10,0,160,160,227,10,80,160,225,0,0,90,227,6,0,0,10
 	.byte 24,32,155,229,5,0,160,225,20,16,155,229,0,48,149,229,15,224,160,225,128,240,147,229,13,0,0,234,24,0,139,226
 	.byte 36,0,139,229,0,0,155,229
-bl _p_170
+bl _p_178
 
 	.byte 32,0,139,229,0,0,155,229
-bl _p_171
+bl _p_179
 
 	.byte 0,48,160,225,32,0,155,229,36,32,155,229,0,128,160,225,6,0,160,225,20,16,155,229,51,255,47,225,44,208,139,226
 	.byte 96,13,189,232,128,128,189,232,27,4,3,227
 bl _p_103
 
-	.byte 0,16,160,225,146,2,0,227,0,2,64,227
+	.byte 0,16,160,225,153,2,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
-Lme_dd:
+Lme_eb:
 .text
 	.align 2
 	.no_dead_strip _System_Threading_Tasks_Task_Run_bool_System_Func_1_bool_System_Threading_CancellationToken
 _System_Threading_Tasks_Task_Run_bool_System_Func_1_bool_System_Threading_CancellationToken:
 
 	.byte 128,64,45,233,13,112,160,225,0,9,45,233,32,208,77,226,13,176,160,225,12,0,139,229,16,16,139,229,16,0,139,226
-bl _p_172
+bl _p_180
 
 	.byte 255,0,0,226,0,0,80,227,6,0,0,10
-bl _p_173
+bl _p_181
 
 	.byte 0,0,159,229,0,0,0,234
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 904
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 944
 	.byte 0,0,159,231,0,0,144,229,26,0,0,234
-bl _p_174
+bl _p_182
 
 	.byte 0,0,159,229,0,0,0,234
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 908
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 948
 	.byte 0,0,159,231,0,0,144,229,24,0,139,229,16,0,155,229,8,0,139,229
-bl _p_175
+bl _p_183
 
 	.byte 24,0,155,229,0,16,159,229,0,0,0,234
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 912
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 952
 	.byte 1,16,159,231,0,192,145,229,0,16,159,229,0,0,0,234
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 916
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 956
 	.byte 1,16,159,231,0,224,208,229,1,128,160,225,12,16,155,229,8,32,155,229,8,48,160,227,0,192,141,229
-bl _p_176
+bl _p_184
 
 	.byte 32,208,139,226,0,9,189,232,128,128,189,232
 
-Lme_de:
+Lme_ec:
 .text
 	.align 2
 	.no_dead_strip _System_Threading_Tasks_TaskFactory_StartNew_bool_System_Func_1_bool_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskScheduler
@@ -4981,41 +5265,41 @@ _System_Threading_Tasks_TaskFactory_StartNew_bool_System_Func_1_bool_System_Thre
 
 	.byte 128,64,45,233,13,112,160,225,64,9,45,233,28,208,77,226,13,176,160,225,0,0,139,229,4,16,139,229,8,32,139,229
 	.byte 3,96,160,225,48,224,157,229,12,224,139,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 856
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 896
 	.byte 0,0,159,231
 bl _p_1
 
 	.byte 16,0,139,229,4,16,155,229,8,32,155,229,6,48,160,225
-bl _p_177
+bl _p_185
 
 	.byte 16,0,155,229,0,96,160,225,0,16,160,225,0,224,209,229,76,0,144,229,5,0,80,227,0,0,160,227,1,0,160,179
 	.byte 0,0,80,227,0,0,160,19,1,0,160,3,0,0,80,227,3,0,0,26,6,0,160,225,12,16,155,229,0,224,214,229
-bl _p_178
+bl _p_186
 
 	.byte 6,0,160,225,28,208,139,226,64,9,189,232,128,128,189,232
 
-Lme_df:
+Lme_ed:
 .text
 	.align 2
 	.no_dead_strip _System_Threading_Tasks_TaskConstants_1_bool__cctor
 _System_Threading_Tasks_TaskConstants_1_bool__cctor:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,159,229,0,0,0,234
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 840
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 852
 	.byte 0,0,159,231
 bl _p_1
 
 	.byte 4,0,141,229
-bl _p_123
+bl _p_128
 
 	.byte 4,0,157,229,0,0,141,229,0,16,160,225,0,224,209,229
-bl _p_131
+bl _p_141
 
 	.byte 0,0,157,229,0,224,208,229,8,16,144,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 904
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 944
 	.byte 0,0,159,231,0,16,128,229,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_e0:
+Lme_ee:
 .text
 	.align 3
 methods_end:
@@ -5174,6 +5458,8 @@ bl _wrapper_delegate_invoke_System_Predicate_1_Robotics_Mobile_Core_Bluetooth_LE
 bl _wrapper_delegate_invoke_System_Action_1_Robotics_Mobile_Core_Bluetooth_LE_IDescriptor_invoke_void_T_Robotics_Mobile_Core_Bluetooth_LE_IDescriptor
 bl _wrapper_delegate_invoke_System_Comparison_1_Robotics_Mobile_Core_Bluetooth_LE_IDescriptor_invoke_int_T_T_Robotics_Mobile_Core_Bluetooth_LE_IDescriptor_Robotics_Mobile_Core_Bluetooth_LE_IDescriptor
 bl _wrapper_delegate_invoke_System_Func_1_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic_invoke_TResult
+bl _wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic_invoke_void_T_System_Threading_Tasks_Task_1_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic
+bl _wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
 bl _wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic_invoke_TResult_T_System_IAsyncResult
 bl _wrapper_delegate_invoke_System_EventHandler_1_MonoTouch_CoreBluetooth_CBCharacteristicEventArgs_invoke_void_object_TEventArgs_object_MonoTouch_CoreBluetooth_CBCharacteristicEventArgs
 bl _wrapper_delegate_invoke_System_Predicate_1_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic_invoke_bool_T_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic
@@ -5197,6 +5483,10 @@ bl _System_Threading_Tasks_Task_1_bool__ctor_System_Threading_Tasks_TaskActionIn
 bl _System_Threading_Tasks_Task_1_bool_get_Result
 bl _System_Threading_Tasks_Task_1_bool_set_Result_bool
 bl _System_Threading_Tasks_Task_1_bool_get_Factory
+bl _System_Threading_Tasks_Task_1_bool_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_bool
+bl _System_Threading_Tasks_Task_1_bool_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_bool_System_Threading_Tasks_TaskContinuationOptions
+bl _System_Threading_Tasks_Task_1_bool_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_bool_System_Threading_Tasks_TaskScheduler
+bl _System_Threading_Tasks_Task_1_bool_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_bool_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
 bl _System_Threading_Tasks_Task_1_bool_TrySetResult_bool
 bl _System_Threading_Tasks_Task_1_bool_ConfigureAwait_bool
 bl _System_Threading_Tasks_Task_1_bool_GetAwaiter
@@ -5205,11 +5495,15 @@ bl _System_Threading_Tasks_Task_1_bool__cctor
 bl _System_Threading_Tasks_TaskFactory_1_bool__ctor
 bl _System_Threading_Tasks_TaskFactory_1_bool__ctor_System_Threading_CancellationToken
 bl _System_Threading_Tasks_TaskFactory_1_bool__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
+bl _System_Threading_Tasks_TaskFactory_1_bool_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_bool_object
+bl _System_Threading_Tasks_TaskFactory_1_bool_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_bool_object_System_Threading_Tasks_TaskCreationOptions
+bl _System_Threading_Tasks_TaskFactory_1_bool_FromAsyncBeginEnd_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_bool_object_System_Threading_Tasks_TaskCreationOptions
 bl _System_Threading_Tasks_TaskFactory_1_bool_InnerInvoke_System_Threading_Tasks_TaskCompletionSource_1_bool_System_Func_2_System_IAsyncResult_bool_System_IAsyncResult
 bl _System_Runtime_CompilerServices_TaskAwaiter_1_bool__ctor_System_Threading_Tasks_Task_1_bool
 bl _System_Runtime_CompilerServices_TaskAwaiter_1_bool_get_IsCompleted
 bl _System_Runtime_CompilerServices_TaskAwaiter_1_bool_GetResult
 bl _System_Runtime_CompilerServices_TaskAwaiter_1_bool_UnsafeOnCompleted_System_Action
+bl _wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_bool_invoke_void_T_System_Threading_Tasks_Task_1_bool
 bl _System_Threading_Tasks_TaskCompletionSource_1_bool__ctor
 bl _System_Threading_Tasks_TaskCompletionSource_1_bool__ctor_object_System_Threading_Tasks_TaskCreationOptions
 bl _System_Threading_Tasks_TaskCompletionSource_1_bool_SetCanceled
@@ -5227,6 +5521,8 @@ bl method_addresses
 bl method_addresses
 bl method_addresses
 bl _wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_bool_invoke_TResult_T_System_IAsyncResult
+bl _System_Threading_Tasks_TaskFactory_1__FromAsyncBeginEndc__AnonStorey2_bool__ctor
+bl _System_Threading_Tasks_TaskFactory_1__FromAsyncBeginEndc__AnonStorey2_bool__m__0_System_IAsyncResult
 bl _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_Robotics_Mobile_Core_iOS_BluetoothLEManager__BeginScanningForDevicesc__async0_Robotics_Mobile_Core_iOS_BluetoothLEManager__BeginScanningForDevicesc__async0_
 bl _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_Robotics_Mobile_Core_Bluetooth_LE_Adapter__WaitForStatec__async0_Robotics_Mobile_Core_Bluetooth_LE_Adapter__WaitForStatec__async0_
 bl _System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_Robotics_Mobile_Core_Bluetooth_LE_Adapter__StartScanningForDevicesc__async1_Robotics_Mobile_Core_Bluetooth_LE_Adapter__StartScanningForDevicesc__async1_
@@ -5236,6 +5532,8 @@ bl _System_Threading_Tasks_Task_Run_bool_System_Func_1_bool
 bl _System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_Robotics_Mobile_Core_Bluetooth_LE_Adapter__StartScanningForDevicesc__async1_System_Runtime_CompilerServices_TaskAwaiter__Robotics_Mobile_Core_Bluetooth_LE_Adapter__StartScanningForDevicesc__async1_
 bl _System_Threading_Tasks_TaskActionInvoker_FuncInvoke_1_bool__ctor_System_Func_1_bool
 bl _System_Threading_Tasks_TaskActionInvoker_FuncInvoke_1_bool_Invoke_System_Threading_Tasks_Task_object_System_Threading_Tasks_Task
+bl _System_Threading_Tasks_TaskActionInvoker_ActionTaskInvoke_1_bool__ctor_System_Action_1_System_Threading_Tasks_Task_1_bool
+bl _System_Threading_Tasks_TaskActionInvoker_ActionTaskInvoke_1_bool_Invoke_System_Threading_Tasks_Task_object_System_Threading_Tasks_Task
 bl _System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_bool__ctor_System_Threading_Tasks_Task_1_bool_bool
 bl _System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_bool_GetAwaiter
 bl _System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_bool__ctor_System_Threading_Tasks_Task_1_bool_bool
@@ -5279,44 +5577,17 @@ bl ut_125
 	.long 126
 bl ut_126
 
-	.long 181
-bl ut_181
+	.long 190
+bl ut_190
 
-	.long 182
-bl ut_182
+	.long 191
+bl ut_191
 
-	.long 183
-bl ut_183
+	.long 192
+bl ut_192
 
-	.long 184
-bl ut_184
-
-	.long 202
-bl ut_202
-
-	.long 203
-bl ut_203
-
-	.long 204
-bl ut_204
-
-	.long 205
-bl ut_205
-
-	.long 206
-bl ut_206
-
-	.long 208
-bl ut_208
-
-	.long 211
-bl ut_211
-
-	.long 212
-bl ut_212
-
-	.long 213
-bl ut_213
+	.long 193
+bl ut_193
 
 	.long 214
 bl ut_214
@@ -5326,6 +5597,33 @@ bl ut_215
 
 	.long 216
 bl ut_216
+
+	.long 217
+bl ut_217
+
+	.long 218
+bl ut_218
+
+	.long 220
+bl ut_220
+
+	.long 225
+bl ut_225
+
+	.long 226
+bl ut_226
+
+	.long 227
+bl ut_227
+
+	.long 228
+bl ut_228
+
+	.long 229
+bl ut_229
+
+	.long 230
+bl ut_230
 unbox_trampolines_end:
 
 	.long 0
@@ -5333,120 +5631,125 @@ unbox_trampolines_end:
 	.align 3
 method_info_offsets:
 
-	.long 225,10,23,2
+	.long 239,10,24,2
 	.short 0, 10, 20, 31, 42, 53, 64, 75
 	.short 86, 98, 109, 120, 131, 147, 158, 169
-	.short 180, 196, 207, 218, 233, 244, 255
+	.short 180, 196, 207, 218, 229, 244, 255, 266
 	.byte 1,5,52,5,5,5,5,5,5,5,98,3,3,3,3,4,4,4,3,3,128,131,3,3,4,5,4,4,2,2,3,128
 	.byte 163,9,4,4,2,2,2,3,2,2,128,199,2,2,2,2,9,2,13,3,8,128,246,5,2,9,4,4,2,2,2,2
 	.byte 129,28,3,3,5,2,19,4,4,3,2,129,75,2,2,2,2,2,3,7,2,6,129,119,6,128,131,7,7,7,7,7
 	.byte 7,7,130,56,5,5,5,5,3,3,3,3,3,130,96,5,5,5,5,8,6,12,3,3,130,151,3,3,3,10,5,12
 	.byte 19,7,3,130,229,2,2,5,20,2,19,255,255,255,252,233,131,25,4,131,33,4,4,4,4,2,2,2,2,2,131,61
-	.byte 2,2,4,4,4,4,4,4,4,131,97,4,4,4,4,4,4,4,4,4,131,137,4,255,255,255,252,115,0,0,0,131
-	.byte 145,4,10,6,131,173,6,8,6,8,8,8,10,2,2,131,235,2,2,2,2,2,2,6,4,4,132,9,4,2,2,4
-	.byte 4,2,255,255,255,251,229,0,0,0,132,29,4,2,2,5,8,10,7,11,132,80,4,4,2,2,2,2,2,2,2,132
-	.byte 104,2,6,13,14
+	.byte 2,2,4,4,4,4,4,4,4,131,97,4,4,4,4,4,4,4,4,4,131,137,4,4,4,255,255,255,252,107,0,0
+	.byte 0,131,153,4,131,167,6,8,6,8,6,6,6,12,6,131,239,8,8,10,2,2,4,2,4,20,132,45,2,2,2,2
+	.byte 4,2,6,4,4,132,77,4,2,2,4,4,2,255,255,255,251,161,0,0,0,132,97,4,2,4,2,2,5,8,10,132
+	.byte 141,11,2,4,2,4,4,2,2,2,132,176,2,2,2,2,2,6,13,14
 .section __TEXT, __const
 	.align 3
 extra_method_table:
 
-	.long 163,0,0,0,0,0,0,1730
-	.long 159,0,0,0,0,1630,153,0
-	.long 1778,166,0,0,0,0,0,0
-	.long 0,2771,221,0,1519,147,170,0
-	.long 0,0,0,0,0,1697,157,0
-	.long 0,0,0,1668,155,0,2242,190
-	.long 0,0,0,0,0,0,0,2830
-	.long 224,0,1183,129,172,0,0,0
-	.long 0,0,0,0,0,0,1968,176
+	.long 163,0,0,0,0,0,0,1866
+	.long 161,0,0,0,0,1766,155,0
+	.long 1914,168,0,0,0,0,0,0
+	.long 0,3165,235,0,1599,147,172,0
+	.long 0,0,2073,176,0,1833,159,0
+	.long 0,0,0,1804,157,0,2540,200
+	.long 0,2094,177,0,0,0,0,3224
+	.long 238,0,1263,129,175,0,0,0
+	.long 0,0,0,0,0,0,2188,182
 	.long 0,0,0,0,0,0,0,0
-	.long 0,0,0,0,0,1279,136,0
-	.long 1171,128,0,1364,140,169,0,0
-	.long 0,0,0,0,1874,171,0,0
+	.long 0,0,0,0,0,1359,136,0
+	.long 1251,128,0,1444,140,171,0,0
+	.long 0,0,0,0,2010,173,0,0
 	.long 0,0,0,0,0,0,0,0
-	.long 2534,211,0,0,0,0,1709,158
-	.long 165,2116,184,0,0,0,0,0
+	.long 2928,225,0,0,0,0,1845,160
+	.long 165,2393,193,0,0,0,0,0
+	.long 0,0,0,0,0,2052,175,0
+	.long 0,0,0,2219,183,0,1523,143
+	.long 164,1947,170,183,0,0,0,0
+	.long 0,0,2947,226,0,2521,199,0
+	.long 1380,138,0,0,0,0,0,0
+	.long 0,0,0,0,1646,149,170,0
 	.long 0,0,0,0,0,0,0,0
-	.long 0,0,0,1999,177,0,1443,143
-	.long 164,1811,168,179,0,0,0,0
-	.long 0,0,2553,212,0,2223,189,0
-	.long 1300,138,0,0,0,0,0,0
-	.long 0,0,0,0,0,0,0,0
-	.long 0,0,0,0,0,0,0,0
-	.long 0,0,0,0,0,0,1219,132
-	.long 174,1571,150,0,2337,195,0,2601
-	.long 214,0,2399,202,0,0,0,0
-	.long 1561,149,0,0,0,0,0,0
-	.long 0,0,0,0,0,0,0,0
-	.long 0,0,0,0,0,0,0,0
-	.long 0,0,0,0,0,0,1332,139
-	.long 0,0,0,0,2299,193,0,2739
-	.long 220,0,0,0,0,2204,188,0
-	.long 0,0,0,2443,206,0,0,0
-	.long 0,1649,154,0,0,0,0,1592
-	.long 151,167,1538,148,0,0,0,0
-	.long 1687,156,0,0,0,0,2280,192
-	.long 0,2421,204,0,2620,215,176,0
-	.long 0,0,1424,142,0,0,0,0
-	.long 1275,135,0,1283,137,175,1749,160
-	.long 0,2096,182,0,2465,208,0,0
-	.long 0,0,1207,131,0,1256,134,0
-	.long 2790,222,0,0,0,0,1768,161
-	.long 0,1790,167,0,0,0,0,1481
-	.long 145,171,0,0,0,2261,191,0
-	.long 1832,169,0,0,0,0,0,0
-	.long 0,0,0,0,1611,152,0,0
-	.long 0,0,2389,201,173,0,0,0
-	.long 0,0,0,0,0,0,0,0
-	.long 0,0,0,0,1231,133,0,2810
-	.long 223,0,2582,213,178,1947,175,0
-	.long 1195,130,0,1853,170,166,0,0
-	.long 0,0,0,0,0,0,0,2018
-	.long 178,168,1396,141,0,0,0,0
+	.long 0,0,0,0,0,0,1299,132
+	.long 177,1707,152,0,2295,187,174,2995
+	.long 228,0,2745,214,0,0,0,0
+	.long 1697,151,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
-	.long 0,0,0,0,0,2318,194,0
-	.long 1895,172,0,2410,203,177,0,0
-	.long 0,2037,179,0,0,0,0,0
+	.long 0,0,0,0,0,0,1412,139
+	.long 166,0,0,0,2597,203,0,2726
+	.long 213,184,0,0,0,2502,198,0
+	.long 0,0,0,2789,218,0,0,0
+	.long 0,1785,156,179,0,0,0,1728
+	.long 153,168,1618,148,0,0,0,0
+	.long 1823,158,0,0,0,0,2578,202
+	.long 0,2767,216,0,3014,229,180,2899
+	.long 224,0,1504,142,0,0,0,0
+	.long 1355,135,0,1363,137,178,1885,162
+	.long 0,2373,191,0,2811,220,0,0
+	.long 0,0,1287,131,0,1336,134,0
+	.long 3184,236,0,0,0,0,1904,163
+	.long 0,1926,169,0,0,0,0,1561
+	.long 145,173,0,0,0,2559,201,0
+	.long 1968,171,0,0,0,0,0,0
+	.long 0,0,0,0,1747,154,0,0
+	.long 0,0,2687,211,176,0,0,0
 	.long 0,0,0,0,0,0,0,0
-	.long 2486,209,0,0,0,0,1462,144
+	.long 0,0,0,0,1311,133,0,3204
+	.long 237,0,2976,227,182,2167,181,0
+	.long 1275,130,0,1989,172,167,0,0
+	.long 0,0,0,0,0,0,0,2238
+	.long 184,169,1476,141,0,0,0,0
+	.long 2031,174,0,0,0,0,0,0
+	.long 0,0,0,0,2314,188,0,0
+	.long 0,0,0,0,0,2616,204,0
+	.long 2115,178,0,2756,215,181,0,0
+	.long 0,2257,185,0,2707,212,0,0
+	.long 0,0,0,0,0,1674,150,0
+	.long 2832,221,0,0,0,0,1542,144
 	.long 163,0,0,0,0,0,0,0
-	.long 0,0,1500,146,0,1916,173,0
-	.long 1937,174,0,2056,180,0,2075,181
-	.long 0,2106,183,0,2147,185,0,2166
-	.long 186,0,2185,187,0,2356,196,0
-	.long 2432,205,0,2454,207,0,2505,210
-	.long 0,2639,216,0,2671,217,0,2690
-	.long 218,0,2707,219,0
+	.long 0,0,1580,146,0,2136,179,0
+	.long 2157,180,0,2276,186,0,2333,189
+	.long 0,2352,190,0,2383,192,0,2425
+	.long 194,0,2445,195,0,2464,196,0
+	.long 2483,197,0,2635,205,0,2654,206
+	.long 0,2778,217,0,2800,219,0,2851
+	.long 222,0,2880,223,0,3033,230,0
+	.long 3065,231,0,3084,232,0,3101,233
+	.long 0,3133,234,0
 .section __TEXT, __const
 	.align 3
 extra_method_info_offsets:
 
-	.long 97,128,1171,129,1183,130,1195,131
-	.long 1207,132,1219,133,1231,134,1256,135
-	.long 1275,136,1279,137,1283,138,1300,139
-	.long 1332,140,1364,141,1396,142,1424,143
-	.long 1443,144,1462,145,1481,146,1500,147
-	.long 1519,148,1538,149,1561,150,1571,151
-	.long 1592,152,1611,153,1630,154,1649,155
-	.long 1668,156,1687,157,1697,158,1709,159
-	.long 1730,160,1749,161,1768,162,0,163
-	.long 0,164,0,165,0,166,1778,167
-	.long 1790,168,1811,169,1832,170,1853,171
-	.long 1874,172,1895,173,1916,174,1937,175
-	.long 1947,176,1968,177,1999,178,2018,179
-	.long 2037,180,2056,181,2075,182,2096,183
-	.long 2106,184,2116,185,2147,186,2166,187
-	.long 2185,188,2204,189,2223,190,2242,191
-	.long 2261,192,2280,193,2299,194,2318,195
-	.long 2337,196,2356,197,0,198,0,199
-	.long 0,200,0,201,2389,202,2399,203
-	.long 2410,204,2421,205,2432,206,2443,207
-	.long 2454,208,2465,209,2486,210,2505,211
-	.long 2534,212,2553,213,2582,214,2601,215
-	.long 2620,216,2639,217,2671,218,2690,219
-	.long 2707,220,2739,221,2771,222,2790,223
-	.long 2810,224,2830
+	.long 111,128,1251,129,1263,130,1275,131
+	.long 1287,132,1299,133,1311,134,1336,135
+	.long 1355,136,1359,137,1363,138,1380,139
+	.long 1412,140,1444,141,1476,142,1504,143
+	.long 1523,144,1542,145,1561,146,1580,147
+	.long 1599,148,1618,149,1646,150,1674,151
+	.long 1697,152,1707,153,1728,154,1747,155
+	.long 1766,156,1785,157,1804,158,1823,159
+	.long 1833,160,1845,161,1866,162,1885,163
+	.long 1904,164,0,165,0,166,0,167
+	.long 0,168,1914,169,1926,170,1947,171
+	.long 1968,172,1989,173,2010,174,2031,175
+	.long 2052,176,2073,177,2094,178,2115,179
+	.long 2136,180,2157,181,2167,182,2188,183
+	.long 2219,184,2238,185,2257,186,2276,187
+	.long 2295,188,2314,189,2333,190,2352,191
+	.long 2373,192,2383,193,2393,194,2425,195
+	.long 2445,196,2464,197,2483,198,2502,199
+	.long 2521,200,2540,201,2559,202,2578,203
+	.long 2597,204,2616,205,2635,206,2654,207
+	.long 0,208,0,209,0,210,0,211
+	.long 2687,212,2707,213,2726,214,2745,215
+	.long 2756,216,2767,217,2778,218,2789,219
+	.long 2800,220,2811,221,2832,222,2851,223
+	.long 2880,224,2899,225,2928,226,2947,227
+	.long 2976,228,2995,229,3014,230,3033,231
+	.long 3065,232,3084,233,3101,234,3133,235
+	.long 3165,236,3184,237,3204,238,3224
 .section __TEXT, __const
 	.align 3
 class_name_table:
@@ -5461,36 +5764,37 @@ class_name_table:
 	.align 3
 got_info_offsets:
 
-	.long 233,10,24,2
+	.long 243,10,25,2
 	.short 0, 11, 22, 33, 44, 55, 66, 77
 	.short 88, 99, 110, 121, 132, 143, 154, 165
 	.short 176, 187, 198, 209, 220, 231, 242, 253
-	.byte 139,33,2,1,1,1,3,4,4,6,2,139,59,9,4,6,2,2,9,4,6,2,139,105,9,4,5,2,2,8,15,6
-	.byte 4,139,162,2,9,2,2,8,2,2,9,2,139,202,9,6,12,6,12,6,12,5,12,140,38,3,3,4,4,4,4,4
-	.byte 4,6,140,76,2,9,6,12,7,15,6,3,11,140,150,6,6,2,2,9,4,4,2,2,140,196,4,2,2,9,4,4
-	.byte 4,3,4,140,236,4,2,2,8,15,6,11,5,4,141,39,2,8,15,6,6,2,2,9,6,141,97,2,9,5,11,11
-	.byte 5,5,5,4,141,157,11,4,4,5,11,4,3,3,4,141,210,6,2,2,9,4,6,2,2,9,142,0,2,2,9,4
-	.byte 2,2,9,4,2,142,38,8,4,2,2,8,15,6,5,2,142,92,9,2,2,8,2,2,9,2,2,142,139,2,2,9
-	.byte 6,12,6,12,7,12,142,219,4,5,4,11,11,5,3,11,4,143,25,11,5,4,12,4,4,5,6,2,143,80,9,12
-	.byte 6,12,7,12,6,1,21,143,170,7,8,4,4,4,5,7,6,5,143,223,5,5,3,21,3,6,4,5,5,144,30,7
-	.byte 7
+	.short 264
+	.byte 140,171,2,1,1,1,3,4,4,6,2,140,197,9,4,6,2,2,9,4,6,2,140,243,9,4,5,2,2,8,15,6
+	.byte 4,141,44,2,9,2,2,8,2,2,9,2,141,84,9,6,12,6,12,6,12,5,12,141,176,3,3,4,4,4,4,4
+	.byte 4,6,141,214,2,9,6,12,7,15,6,3,11,142,32,6,6,2,2,9,4,4,2,2,142,78,4,2,2,9,4,4
+	.byte 4,3,4,142,118,4,2,2,8,15,6,11,5,4,142,177,2,8,15,6,6,2,2,9,6,142,235,2,9,5,11,11
+	.byte 5,5,5,4,143,39,11,4,4,5,11,4,3,3,4,143,92,6,2,2,9,4,6,2,2,9,143,138,2,2,9,4
+	.byte 2,2,9,4,2,143,176,8,4,2,2,8,15,6,5,2,143,230,9,2,2,8,2,2,9,2,2,144,21,2,2,9
+	.byte 6,12,6,12,7,12,144,101,4,5,4,11,11,5,3,11,4,144,163,11,5,4,12,4,4,5,6,2,144,218,9,12
+	.byte 6,12,7,12,6,1,21,145,52,7,8,21,4,5,4,4,4,5,145,118,5,5,20,20,26,5,7,6,5,145,220,5
+	.byte 5,3,21,3,6,4,5,5,146,27,7,7
 .section __TEXT, __const
 	.align 3
 ex_info_offsets:
 
-	.long 225,10,23,2
+	.long 239,10,24,2
 	.short 0, 11, 22, 33, 44, 55, 66, 77
 	.short 88, 99, 110, 121, 132, 148, 159, 170
-	.short 181, 197, 208, 219, 234, 245, 256
-	.byte 152,236,3,3,3,3,3,3,3,3,3,153,10,3,3,3,3,3,3,3,3,3,153,40,3,3,3,4,4,4,3,3
-	.byte 4,153,75,4,3,3,3,4,3,4,4,3,153,110,3,3,3,3,4,3,4,4,4,153,145,4,3,4,3,3,4,4
-	.byte 3,3,153,180,4,4,4,3,4,3,3,4,3,153,215,3,3,3,3,3,4,19,3,4,154,19,3,4,3,3,3,3
-	.byte 3,3,3,154,50,3,3,3,3,3,3,3,3,3,154,80,4,4,4,3,4,4,19,3,3,154,131,3,3,3,4,4
-	.byte 4,15,4,3,154,191,3,3,4,17,3,17,255,255,255,229,18,154,241,4,154,249,4,4,4,4,32,3,3,3,32,155
-	.byte 114,32,32,4,4,4,4,4,4,4,155,210,4,4,4,4,4,4,4,4,4,155,250,4,255,255,255,228,2,0,0,0
-	.byte 156,2,4,4,4,156,18,3,3,4,4,4,4,3,3,4,156,54,26,3,3,4,3,3,4,3,4,156,110,3,3,3
-	.byte 4,4,3,255,255,255,227,126,0,0,0,156,133,4,4,4,4,4,4,3,4,156,167,4,4,4,4,3,4,3,32,3
-	.byte 157,4,32,32,4,4
+	.short 181, 197, 208, 219, 230, 245, 256, 267
+	.byte 155,96,3,3,3,3,3,3,3,3,3,155,126,3,3,3,3,3,3,3,3,3,155,156,3,3,3,4,4,4,3,3
+	.byte 4,155,191,4,3,3,3,4,3,4,4,3,155,226,3,3,3,3,4,3,4,4,4,156,5,4,3,4,3,3,4,4
+	.byte 3,3,156,40,4,4,4,3,4,3,3,4,3,156,75,3,3,3,3,3,4,19,3,4,156,135,3,4,3,3,3,3
+	.byte 3,3,3,156,166,3,3,3,3,3,3,3,3,3,156,196,4,4,4,3,4,4,19,3,3,156,247,3,3,3,4,4
+	.byte 4,15,4,3,157,51,3,3,4,17,3,17,255,255,255,226,158,157,101,4,157,109,4,4,4,4,32,3,3,3,32,157
+	.byte 230,32,32,4,4,4,4,4,4,4,158,70,4,4,4,4,4,4,4,4,4,158,110,4,4,4,255,255,255,225,134,0
+	.byte 0,0,158,126,4,158,134,4,4,3,3,3,4,4,4,4,158,171,4,4,3,3,4,4,4,4,4,158,231,3,3,4
+	.byte 3,4,3,4,3,4,159,9,3,3,3,4,4,3,255,255,255,224,227,0,0,0,159,32,4,3,4,4,4,4,4,4
+	.byte 159,66,4,3,4,3,4,4,4,4,3,159,103,3,32,3,32,32,32,4,4
 .section __TEXT, __const
 	.align 3
 unwind_info:
@@ -5529,20 +5833,22 @@ unwind_info:
 	.byte 68,14,128,1,68,13,11,26,12,13,0,72,14,8,135,2,68,14,28,132,7,133,6,134,5,136,4,138,3,142,1,68
 	.byte 14,32,20,12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,24,18,12,13,0,72,14,8,135,2
 	.byte 68,14,12,136,3,142,1,68,14,48,23,12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,32,68
-	.byte 13,11,27,12,13,0,72,14,8,135,2,68,14,24,132,6,134,5,136,4,139,3,142,1,68,14,56,68,13,11,25,12
-	.byte 13,0,72,14,8,135,2,68,14,20,134,5,136,4,139,3,142,1,68,14,80,68,13,11,18,12,13,0,72,14,8,135
-	.byte 2,68,14,12,136,3,142,1,68,14,72,18,12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,88,20,12
-	.byte 13,0,72,14,8,135,2,68,14,16,133,4,136,3,142,1,68,14,40,31,12,13,0,72,14,8,135,2,68,14,32,132
-	.byte 8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,64,68,13,11,29,12,13,0,72,14,8,135,2,68,14,28,133
-	.byte 7,134,6,136,5,138,4,139,3,142,1,68,14,72,68,13,11,25,12,13,0,72,14,8,135,2,68,14,20,134,5,136
-	.byte 4,139,3,142,1,68,14,48,68,13,11
+	.byte 13,11,27,12,13,0,72,14,8,135,2,68,14,24,132,6,134,5,136,4,139,3,142,1,68,14,56,68,13,11,22,12
+	.byte 13,0,72,14,8,135,2,68,14,20,132,5,136,4,139,3,142,1,68,14,48,25,12,13,0,72,14,8,135,2,68,14
+	.byte 20,134,5,136,4,139,3,142,1,68,14,80,68,13,11,20,12,13,0,72,14,8,135,2,68,14,16,134,4,136,3,142
+	.byte 1,68,14,24,18,12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,72,18,12,13,0,72,14,8,135,2
+	.byte 68,14,12,136,3,142,1,68,14,88,20,12,13,0,72,14,8,135,2,68,14,16,133,4,136,3,142,1,68,14,40,22
+	.byte 12,13,0,72,14,8,135,2,68,14,20,133,5,134,4,136,3,142,1,68,14,40,31,12,13,0,72,14,8,135,2,68
+	.byte 14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,64,68,13,11,29,12,13,0,72,14,8,135,2,68
+	.byte 14,28,133,7,134,6,136,5,138,4,139,3,142,1,68,14,72,68,13,11,25,12,13,0,72,14,8,135,2,68,14,20
+	.byte 134,5,136,4,139,3,142,1,68,14,48,68,13,11
 .section __TEXT, __const
 	.align 3
 class_info_offsets:
 
 	.long 11,10,2,2
 	.short 0, 11
-	.byte 157,79,7,24,26,40,31,41,40,25,23,158,105
+	.byte 159,248,7,24,26,40,31,41,40,25,23,161,18
 
 .text
 	.align 4
@@ -5553,1069 +5859,1117 @@ plt__jit_icall_mono_object_new_fast:
 _p_1:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 932,4161
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 972,4670
 	.no_dead_strip plt_Robotics_Mobile_Core_iOS_BluetoothLEManager__ctor
 plt_Robotics_Mobile_Core_iOS_BluetoothLEManager__ctor:
 _p_2:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 936,4184
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 976,4693
 	.no_dead_strip plt__class_init_System_EmptyArray_MonoTouch_CoreBluetooth_CBPeripheral_
 plt__class_init_System_EmptyArray_MonoTouch_CoreBluetooth_CBPeripheral_:
 _p_3:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 940,4186
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 980,4695
 	.no_dead_strip plt_MonoTouch_CoreFoundation_DispatchQueue_get_CurrentQueue
 plt_MonoTouch_CoreFoundation_DispatchQueue_get_CurrentQueue:
 _p_4:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 944,4190
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 984,4699
 	.no_dead_strip plt__jit_icall_mono_object_new_specific
 plt__jit_icall_mono_object_new_specific:
 _p_5:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 948,4195
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 988,4704
 	.no_dead_strip plt_MonoTouch_CoreBluetooth_CBCentralManager__ctor_MonoTouch_CoreFoundation_DispatchQueue
 plt_MonoTouch_CoreBluetooth_CBCentralManager__ctor_MonoTouch_CoreFoundation_DispatchQueue:
 _p_6:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 952,4222
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 992,4731
 	.no_dead_strip plt_MonoTouch_CoreBluetooth_CBCentralManager_add_DiscoveredPeripheral_System_EventHandler_1_MonoTouch_CoreBluetooth_CBDiscoveredPeripheralEventArgs
 plt_MonoTouch_CoreBluetooth_CBCentralManager_add_DiscoveredPeripheral_System_EventHandler_1_MonoTouch_CoreBluetooth_CBDiscoveredPeripheralEventArgs:
 _p_7:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 956,4227
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 996,4736
 	.no_dead_strip plt_MonoTouch_CoreBluetooth_CBCentralManager_add_UpdatedState_System_EventHandler
 plt_MonoTouch_CoreBluetooth_CBCentralManager_add_UpdatedState_System_EventHandler:
 _p_8:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 960,4232
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1000,4741
 	.no_dead_strip plt_MonoTouch_CoreBluetooth_CBCentralManager_add_ConnectedPeripheral_System_EventHandler_1_MonoTouch_CoreBluetooth_CBPeripheralEventArgs
 plt_MonoTouch_CoreBluetooth_CBCentralManager_add_ConnectedPeripheral_System_EventHandler_1_MonoTouch_CoreBluetooth_CBPeripheralEventArgs:
 _p_9:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 964,4237
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1004,4746
 	.no_dead_strip plt_MonoTouch_CoreBluetooth_CBCentralManager_add_DisconnectedPeripheral_System_EventHandler_1_MonoTouch_CoreBluetooth_CBPeripheralErrorEventArgs
 plt_MonoTouch_CoreBluetooth_CBCentralManager_add_DisconnectedPeripheral_System_EventHandler_1_MonoTouch_CoreBluetooth_CBPeripheralErrorEventArgs:
 _p_10:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 968,4242
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1008,4751
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_11:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 972,4247
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1012,4756
 	.no_dead_strip plt_System_Delegate_Combine_System_Delegate_System_Delegate
 plt_System_Delegate_Combine_System_Delegate_System_Delegate:
 _p_12:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 976,4282
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1016,4791
 	.no_dead_strip plt_System_Delegate_Remove_System_Delegate_System_Delegate
 plt_System_Delegate_Remove_System_Delegate_System_Delegate:
 _p_13:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 980,4287
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1020,4796
 	.no_dead_strip plt__class_init_Robotics_Mobile_Core_iOS_BluetoothLEManager
 plt__class_init_Robotics_Mobile_Core_iOS_BluetoothLEManager:
 _p_14:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 984,4292
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1024,4801
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Create
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Create:
 _p_15:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 988,4295
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1028,4804
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_Robotics_Mobile_Core_iOS_BluetoothLEManager__BeginScanningForDevicesc__async0_Robotics_Mobile_Core_iOS_BluetoothLEManager__BeginScanningForDevicesc__async0_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_Robotics_Mobile_Core_iOS_BluetoothLEManager__BeginScanningForDevicesc__async0_Robotics_Mobile_Core_iOS_BluetoothLEManager__BeginScanningForDevicesc__async0_:
 _p_16:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 992,4300
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1032,4809
 	.no_dead_strip plt_System_Console_WriteLine_string
 plt_System_Console_WriteLine_string:
 _p_17:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 996,4312
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1036,4821
 	.no_dead_strip plt_string_Concat_string_string
 plt_string_Concat_string_string:
 _p_18:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1000,4317
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1040,4826
 	.no_dead_strip plt_System_Collections_Generic_List_1_MonoTouch_CoreBluetooth_CBPeripheral_Add_MonoTouch_CoreBluetooth_CBPeripheral
 plt_System_Collections_Generic_List_1_MonoTouch_CoreBluetooth_CBPeripheral_Add_MonoTouch_CoreBluetooth_CBPeripheral:
 _p_19:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1004,4322
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1044,4831
 	.no_dead_strip plt__jit_icall_mono_object_new_ptrfree_box
 plt__jit_icall_mono_object_new_ptrfree_box:
 _p_20:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1008,4333
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1048,4842
 	.no_dead_strip plt_string_Concat_object_object
 plt_string_Concat_object_object:
 _p_21:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1012,4363
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1052,4872
 	.no_dead_strip plt_System_Collections_Generic_List_1_MonoTouch_CoreBluetooth_CBPeripheral_Contains_MonoTouch_CoreBluetooth_CBPeripheral
 plt_System_Collections_Generic_List_1_MonoTouch_CoreBluetooth_CBPeripheral_Contains_MonoTouch_CoreBluetooth_CBPeripheral:
 _p_22:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1016,4368
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1056,4877
 	.no_dead_strip plt_System_Collections_Generic_List_1_MonoTouch_CoreBluetooth_CBPeripheral_Remove_MonoTouch_CoreBluetooth_CBPeripheral
 plt_System_Collections_Generic_List_1_MonoTouch_CoreBluetooth_CBPeripheral_Remove_MonoTouch_CoreBluetooth_CBPeripheral:
 _p_23:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1020,4379
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1060,4888
 	.no_dead_strip plt_System_Guid_ParseExact_string_string
 plt_System_Guid_ParseExact_string_string:
 _p_24:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1024,4390
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1064,4899
 	.no_dead_strip plt_Robotics_Mobile_Core_Bluetooth_LE_Descriptor_get_ID
 plt_Robotics_Mobile_Core_Bluetooth_LE_Descriptor_get_ID:
 _p_25:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1028,4395
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1068,4904
 	.no_dead_strip plt_Robotics_Mobile_Core_Bluetooth_LE_KnownDescriptors_Lookup_System_Guid
 plt_Robotics_Mobile_Core_Bluetooth_LE_KnownDescriptors_Lookup_System_Guid:
 _p_26:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1032,4397
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1072,4906
 	.no_dead_strip plt_Robotics_Mobile_Core_Bluetooth_LE_Characteristic_CharacteristicUuidToGuid_MonoTouch_CoreBluetooth_CBUUID
 plt_Robotics_Mobile_Core_Bluetooth_LE_Characteristic_CharacteristicUuidToGuid_MonoTouch_CoreBluetooth_CBUUID:
 _p_27:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1036,4402
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1076,4911
 	.no_dead_strip plt_MonoTouch_Foundation_NSData_ToArray
 plt_MonoTouch_Foundation_NSData_ToArray:
 _p_28:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1040,4404
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1080,4913
 	.no_dead_strip plt_System_Text_Encoding_get_UTF8
 plt_System_Text_Encoding_get_UTF8:
 _p_29:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1044,4409
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1084,4918
 	.no_dead_strip plt_Robotics_Mobile_Core_Bluetooth_LE_KnownCharacteristics_Lookup_System_Guid
 plt_Robotics_Mobile_Core_Bluetooth_LE_KnownCharacteristics_Lookup_System_Guid:
 _p_30:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1048,4414
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1088,4923
 	.no_dead_strip plt__class_init_System_EmptyArray_Robotics_Mobile_Core_Bluetooth_LE_IDescriptor_
 plt__class_init_System_EmptyArray_Robotics_Mobile_Core_Bluetooth_LE_IDescriptor_:
 _p_31:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1052,4419
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1092,4928
 	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic__ctor
 plt_System_Threading_Tasks_TaskCompletionSource_1_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic__ctor:
 _p_32:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1056,4423
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1096,4932
 	.no_dead_strip plt_MonoTouch_CoreBluetooth_CBPeripheral_add_UpdatedCharacterteristicValue_System_EventHandler_1_MonoTouch_CoreBluetooth_CBCharacteristicEventArgs
 plt_MonoTouch_CoreBluetooth_CBPeripheral_add_UpdatedCharacterteristicValue_System_EventHandler_1_MonoTouch_CoreBluetooth_CBCharacteristicEventArgs:
 _p_33:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1060,4434
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1100,4943
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr
 plt__jit_icall_mono_helper_ldstr:
 _p_34:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1064,4439
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1104,4948
 	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
 plt__jit_icall_mono_arch_throw_exception:
 _p_35:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1068,4459
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1108,4968
 	.no_dead_strip plt_MonoTouch_Foundation_NSData_FromArray_byte__
 plt_MonoTouch_Foundation_NSData_FromArray_byte__:
 _p_36:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1072,4487
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1112,4996
 	.no_dead_strip plt_bool_ToString
 plt_bool_ToString:
 _p_37:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1076,4492
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1116,5001
 	.no_dead_strip plt_Robotics_Mobile_Core_Bluetooth_LE_Characteristic__ctor_MonoTouch_CoreBluetooth_CBCharacteristic_MonoTouch_CoreBluetooth_CBPeripheral
 plt_Robotics_Mobile_Core_Bluetooth_LE_Characteristic__ctor_MonoTouch_CoreBluetooth_CBCharacteristic_MonoTouch_CoreBluetooth_CBPeripheral:
 _p_38:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1080,4497
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1120,5006
 	.no_dead_strip plt_MonoTouch_CoreBluetooth_CBPeripheral_remove_UpdatedCharacterteristicValue_System_EventHandler_1_MonoTouch_CoreBluetooth_CBCharacteristicEventArgs
 plt_MonoTouch_CoreBluetooth_CBPeripheral_remove_UpdatedCharacterteristicValue_System_EventHandler_1_MonoTouch_CoreBluetooth_CBCharacteristicEventArgs:
 _p_39:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1084,4499
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1124,5008
 	.no_dead_strip plt_string_Concat_string_string_string
 plt_string_Concat_string_string_string:
 _p_40:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1088,4504
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1128,5013
 	.no_dead_strip plt_Robotics_Mobile_Core_Bluetooth_LE_Service_ServiceUuidToGuid_MonoTouch_CoreBluetooth_CBUUID
 plt_Robotics_Mobile_Core_Bluetooth_LE_Service_ServiceUuidToGuid_MonoTouch_CoreBluetooth_CBUUID:
 _p_41:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1092,4509
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1132,5018
 	.no_dead_strip plt_Robotics_Mobile_Core_Bluetooth_LE_KnownServices_Lookup_System_Guid
 plt_Robotics_Mobile_Core_Bluetooth_LE_KnownServices_Lookup_System_Guid:
 _p_42:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1096,4511
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1136,5020
 	.no_dead_strip plt_MonoTouch_CoreBluetooth_CBPeripheral_DiscoverCharacteristics_MonoTouch_CoreBluetooth_CBService
 plt_MonoTouch_CoreBluetooth_CBPeripheral_DiscoverCharacteristics_MonoTouch_CoreBluetooth_CBService:
 _p_43:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1100,4516
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1140,5025
 	.no_dead_strip plt__class_init_System_EmptyArray_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic_
 plt__class_init_System_EmptyArray_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic_:
 _p_44:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1104,4521
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1144,5030
 	.no_dead_strip plt__jit_icall_mono_object_new_ptrfree
 plt__jit_icall_mono_object_new_ptrfree:
 _p_45:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1108,4525
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1148,5034
 	.no_dead_strip plt_System_Guid_ToString
 plt_System_Guid_ToString:
 _p_46:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1112,4551
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1152,5060
 	.no_dead_strip plt_string_Equals_string_string
 plt_string_Equals_string_string:
 _p_47:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1116,4556
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1156,5065
 	.no_dead_strip plt__class_init_System_EmptyArray_Robotics_Mobile_Core_Bluetooth_LE_IService_
 plt__class_init_System_EmptyArray_Robotics_Mobile_Core_Bluetooth_LE_IService_:
 _p_48:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1120,4561
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1160,5070
 	.no_dead_strip plt_Robotics_Mobile_Core_Bluetooth_LE_DeviceBase__ctor
 plt_Robotics_Mobile_Core_Bluetooth_LE_DeviceBase__ctor:
 _p_49:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1124,4565
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1164,5074
 	.no_dead_strip plt_MonoTouch_CoreBluetooth_CBPeripheral_add_DiscoveredService_System_EventHandler_1_MonoTouch_Foundation_NSErrorEventArgs
 plt_MonoTouch_CoreBluetooth_CBPeripheral_add_DiscoveredService_System_EventHandler_1_MonoTouch_Foundation_NSErrorEventArgs:
 _p_50:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1128,4570
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1168,5079
 	.no_dead_strip plt_MonoTouch_CoreBluetooth_CBPeripheral_add_DiscoverCharacteristic_System_EventHandler_1_MonoTouch_CoreBluetooth_CBServiceEventArgs
 plt_MonoTouch_CoreBluetooth_CBPeripheral_add_DiscoverCharacteristic_System_EventHandler_1_MonoTouch_CoreBluetooth_CBServiceEventArgs:
 _p_51:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1132,4575
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1172,5084
 	.no_dead_strip plt_Robotics_Mobile_Core_Bluetooth_LE_Device_GetState
 plt_Robotics_Mobile_Core_Bluetooth_LE_Device_GetState:
 _p_52:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1136,4580
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1176,5089
 	.no_dead_strip plt_MonoTouch_CoreBluetooth_CBPeripheral_DiscoverServices
 plt_MonoTouch_CoreBluetooth_CBPeripheral_DiscoverServices:
 _p_53:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1140,4582
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1180,5091
 	.no_dead_strip plt_Robotics_Mobile_Core_Bluetooth_LE_Adapter_get_Current
 plt_Robotics_Mobile_Core_Bluetooth_LE_Adapter_get_Current:
 _p_54:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1144,4587
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1184,5096
 	.no_dead_strip plt_Robotics_Mobile_Core_Bluetooth_LE_Adapter_DisconnectDevice_Robotics_Mobile_Core_Bluetooth_LE_IDevice
 plt_Robotics_Mobile_Core_Bluetooth_LE_Adapter_DisconnectDevice_Robotics_Mobile_Core_Bluetooth_LE_IDevice:
 _p_55:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1148,4589
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1188,5098
 	.no_dead_strip plt_MonoTouch_Foundation_NSObject_Dispose
 plt_MonoTouch_Foundation_NSObject_Dispose:
 _p_56:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1152,4591
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1192,5100
 	.no_dead_strip plt_System_Guid_op_Equality_System_Guid_System_Guid
 plt_System_Guid_op_Equality_System_Guid_System_Guid:
 _p_57:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1156,4596
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1196,5105
 	.no_dead_strip plt_Robotics_Mobile_Core_Bluetooth_LE_Device_ServiceExists_MonoTouch_CoreBluetooth_CBService
 plt_Robotics_Mobile_Core_Bluetooth_LE_Device_ServiceExists_MonoTouch_CoreBluetooth_CBService:
 _p_58:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1160,4601
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1200,5110
 	.no_dead_strip plt_Robotics_Mobile_Core_Bluetooth_LE_Service__ctor_MonoTouch_CoreBluetooth_CBService_MonoTouch_CoreBluetooth_CBPeripheral
 plt_Robotics_Mobile_Core_Bluetooth_LE_Service__ctor_MonoTouch_CoreBluetooth_CBService_MonoTouch_CoreBluetooth_CBPeripheral:
 _p_59:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1164,4603
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1204,5112
 	.no_dead_strip plt_Robotics_Mobile_Core_Bluetooth_LE_Service_OnCharacteristicsDiscovered
 plt_Robotics_Mobile_Core_Bluetooth_LE_Service_OnCharacteristicsDiscovered:
 _p_60:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1168,4605
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1208,5114
 	.no_dead_strip plt_Robotics_Mobile_Core_Bluetooth_LE_Adapter__ctor
 plt_Robotics_Mobile_Core_Bluetooth_LE_Adapter__ctor:
 _p_61:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1172,4607
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1212,5116
 	.no_dead_strip plt__class_init_System_EmptyArray_Robotics_Mobile_Core_Bluetooth_LE_IDevice_
 plt__class_init_System_EmptyArray_Robotics_Mobile_Core_Bluetooth_LE_IDevice_:
 _p_62:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1176,4609
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1216,5118
 	.no_dead_strip plt_System_Threading_AutoResetEvent__ctor_bool
 plt_System_Threading_AutoResetEvent__ctor_bool:
 _p_63:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1180,4613
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1220,5122
 	.no_dead_strip plt_MonoTouch_CoreBluetooth_CBCentralManager_add_FailedToConnectPeripheral_System_EventHandler_1_MonoTouch_CoreBluetooth_CBPeripheralErrorEventArgs
 plt_MonoTouch_CoreBluetooth_CBCentralManager_add_FailedToConnectPeripheral_System_EventHandler_1_MonoTouch_CoreBluetooth_CBPeripheralErrorEventArgs:
 _p_64:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1184,4618
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1224,5127
 	.no_dead_strip plt__class_init_Robotics_Mobile_Core_Bluetooth_LE_Adapter
 plt__class_init_Robotics_Mobile_Core_Bluetooth_LE_Adapter:
 _p_65:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1188,4623
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1228,5132
 	.no_dead_strip plt__class_init_System_Guid
 plt__class_init_System_Guid:
 _p_66:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1192,4626
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1232,5135
 	.no_dead_strip plt_Robotics_Mobile_Core_Bluetooth_LE_Adapter_StartScanningForDevices_System_Guid
 plt_Robotics_Mobile_Core_Bluetooth_LE_Adapter_StartScanningForDevices_System_Guid:
 _p_67:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1196,4631
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1236,5140
 	.no_dead_strip plt_string_memset_byte__int_int
 plt_string_memset_byte__int_int:
 _p_68:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1200,4633
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1240,5142
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_Robotics_Mobile_Core_Bluetooth_LE_Adapter__WaitForStatec__async0_Robotics_Mobile_Core_Bluetooth_LE_Adapter__WaitForStatec__async0_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_Robotics_Mobile_Core_Bluetooth_LE_Adapter__WaitForStatec__async0_Robotics_Mobile_Core_Bluetooth_LE_Adapter__WaitForStatec__async0_:
 _p_69:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1204,4638
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1244,5147
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Create
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Create:
 _p_70:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1208,4650
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1248,5159
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_Robotics_Mobile_Core_Bluetooth_LE_Adapter__StartScanningForDevicesc__async1_Robotics_Mobile_Core_Bluetooth_LE_Adapter__StartScanningForDevicesc__async1_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_Robotics_Mobile_Core_Bluetooth_LE_Adapter__StartScanningForDevicesc__async1_Robotics_Mobile_Core_Bluetooth_LE_Adapter__StartScanningForDevicesc__async1_:
 _p_71:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1212,4655
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1252,5164
 	.no_dead_strip plt_MonoTouch_CoreBluetooth_PeripheralConnectionOptions__ctor
 plt_MonoTouch_CoreBluetooth_PeripheralConnectionOptions__ctor:
 _p_72:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1216,4667
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1256,5176
 	.no_dead_strip plt_MonoTouch_CoreBluetooth_CBCentralManager_ConnectPeripheral_MonoTouch_CoreBluetooth_CBPeripheral_MonoTouch_CoreBluetooth_PeripheralConnectionOptions
 plt_MonoTouch_CoreBluetooth_CBCentralManager_ConnectPeripheral_MonoTouch_CoreBluetooth_CBPeripheral_MonoTouch_CoreBluetooth_PeripheralConnectionOptions:
 _p_73:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1220,4672
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1260,5181
 	.no_dead_strip plt_Robotics_Mobile_Core_Bluetooth_LE_Device__ctor_MonoTouch_CoreBluetooth_CBPeripheral
 plt_Robotics_Mobile_Core_Bluetooth_LE_Device__ctor_MonoTouch_CoreBluetooth_CBPeripheral:
 _p_74:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1224,4677
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1264,5186
 	.no_dead_strip plt_Robotics_Mobile_Core_Bluetooth_LE_Adapter_ContainsDevice_System_Collections_Generic_IEnumerable_1_Robotics_Mobile_Core_Bluetooth_LE_IDevice_MonoTouch_CoreBluetooth_CBPeripheral
 plt_Robotics_Mobile_Core_Bluetooth_LE_Adapter_ContainsDevice_System_Collections_Generic_IEnumerable_1_Robotics_Mobile_Core_Bluetooth_LE_IDevice_MonoTouch_CoreBluetooth_CBPeripheral:
 _p_75:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1228,4679
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1268,5188
 	.no_dead_strip plt_System_Threading_EventWaitHandle_Set
 plt_System_Threading_EventWaitHandle_Set:
 _p_76:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1232,4681
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1272,5190
 	.no_dead_strip plt_MonoTouch_CoreBluetooth_CBCentralManager_ScanForPeripherals_System_Guid__
 plt_MonoTouch_CoreBluetooth_CBCentralManager_ScanForPeripherals_System_Guid__:
 _p_77:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1236,4686
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1276,5195
 	.no_dead_strip plt_System_Threading_Tasks_Task_Delay_int
 plt_System_Threading_Tasks_Task_Delay_int:
 _p_78:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1240,4691
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1280,5200
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_Robotics_Mobile_Core_iOS_BluetoothLEManager__BeginScanningForDevicesc__async0_System_Runtime_CompilerServices_TaskAwaiter__Robotics_Mobile_Core_iOS_BluetoothLEManager__BeginScanningForDevicesc__async0_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_Robotics_Mobile_Core_iOS_BluetoothLEManager__BeginScanningForDevicesc__async0_System_Runtime_CompilerServices_TaskAwaiter__Robotics_Mobile_Core_iOS_BluetoothLEManager__BeginScanningForDevicesc__async0_:
 _p_79:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1244,4696
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1284,5205
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_GetResult
 plt_System_Runtime_CompilerServices_TaskAwaiter_GetResult:
 _p_80:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1248,4708
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1288,5217
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetException_System_Exception
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetException_System_Exception:
 _p_81:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1252,4713
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1292,5222
 	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
 plt__jit_icall_mono_thread_get_undeniable_exception:
 _p_82:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1256,4718
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1296,5227
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetResult
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetResult:
 _p_83:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1260,4757
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1300,5266
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_84:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1264,4762
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1304,5271
 	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic_SetResult_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic
 plt_System_Threading_Tasks_TaskCompletionSource_1_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic_SetResult_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic:
 _p_85:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1268,4767
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1308,5276
 	.no_dead_strip plt_System_Threading_Tasks_Task_Run_bool_System_Func_1_bool
 plt_System_Threading_Tasks_Task_Run_bool_System_Func_1_bool:
 _p_86:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1272,4778
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1312,5287
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_bool_GetAwaiter
 plt_System_Threading_Tasks_Task_1_bool_GetAwaiter:
 _p_87:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1276,4790
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1316,5299
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_Robotics_Mobile_Core_Bluetooth_LE_Adapter__WaitForStatec__async0_System_Runtime_CompilerServices_TaskAwaiter_1_bool__Robotics_Mobile_Core_Bluetooth_LE_Adapter__WaitForStatec__async0_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_Robotics_Mobile_Core_Bluetooth_LE_Adapter__WaitForStatec__async0_System_Runtime_CompilerServices_TaskAwaiter_1_bool__Robotics_Mobile_Core_Bluetooth_LE_Adapter__WaitForStatec__async0_:
 _p_88:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1280,4801
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1320,5310
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_bool_GetResult
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_bool_GetResult:
 _p_89:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1284,4813
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1324,5322
 	.no_dead_strip plt_Robotics_Mobile_Core_Bluetooth_LE_Adapter_WaitForState_MonoTouch_CoreBluetooth_CBCentralManagerState
 plt_Robotics_Mobile_Core_Bluetooth_LE_Adapter_WaitForState_MonoTouch_CoreBluetooth_CBCentralManagerState:
 _p_90:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1288,4824
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1328,5333
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_Robotics_Mobile_Core_Bluetooth_LE_Adapter__StartScanningForDevicesc__async1_System_Runtime_CompilerServices_TaskAwaiter__Robotics_Mobile_Core_Bluetooth_LE_Adapter__StartScanningForDevicesc__async1_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_Robotics_Mobile_Core_Bluetooth_LE_Adapter__StartScanningForDevicesc__async1_System_Runtime_CompilerServices_TaskAwaiter__Robotics_Mobile_Core_Bluetooth_LE_Adapter__StartScanningForDevicesc__async1_:
 _p_91:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1292,4826
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1332,5335
 	.no_dead_strip plt_System_Guid_op_Inequality_System_Guid_System_Guid
 plt_System_Guid_op_Inequality_System_Guid_System_Guid:
 _p_92:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1296,4838
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1336,5347
 	.no_dead_strip plt_MonoTouch_CoreBluetooth_CBUUID_FromString_string
 plt_MonoTouch_CoreBluetooth_CBUUID_FromString_string:
 _p_93:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1300,4843
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1340,5352
 	.no_dead_strip plt__jit_icall_mono_array_new_specific
 plt__jit_icall_mono_array_new_specific:
 _p_94:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1304,4848
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1344,5357
 	.no_dead_strip plt_MonoTouch_CoreBluetooth_CBCentralManager_ScanForPeripherals_MonoTouch_CoreBluetooth_CBUUID__
 plt_MonoTouch_CoreBluetooth_CBCentralManager_ScanForPeripherals_MonoTouch_CoreBluetooth_CBUUID__:
 _p_95:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1308,4874
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1348,5383
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetException_System_Exception
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetException_System_Exception:
 _p_96:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1312,4879
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1352,5388
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetResult
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetResult:
 _p_97:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1316,4884
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1356,5393
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_98:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1320,4889
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1360,5398
 	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
 plt__jit_icall_mono_thread_interruption_checkpoint:
 _p_99:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1324,4894
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1364,5403
 	.no_dead_strip plt__rgctx_fetch_0
 plt__rgctx_fetch_0:
 _p_100:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1328,4951
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1368,5460
 	.no_dead_strip plt__rgctx_fetch_1
 plt__rgctx_fetch_1:
 _p_101:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1332,4987
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1372,5496
 	.no_dead_strip plt__rgctx_fetch_2
 plt__rgctx_fetch_2:
 _p_102:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1336,4995
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1376,5504
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
 plt__jit_icall_mono_helper_ldstr_mscorlib:
 _p_103:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1340,5018
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1380,5527
 	.no_dead_strip plt__rgctx_fetch_3
 plt__rgctx_fetch_3:
 _p_104:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1344,5066
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1384,5575
 	.no_dead_strip plt__rgctx_fetch_4
 plt__rgctx_fetch_4:
 _p_105:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1348,5112
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1388,5621
 	.no_dead_strip plt__rgctx_fetch_5
 plt__rgctx_fetch_5:
 _p_106:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1352,5158
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1392,5667
 	.no_dead_strip plt__rgctx_fetch_6
 plt__rgctx_fetch_6:
 _p_107:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1356,5185
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1396,5694
 	.no_dead_strip plt__rgctx_fetch_7
 plt__rgctx_fetch_7:
 _p_108:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1360,5209
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1400,5718
 	.no_dead_strip plt_Locale_GetText_string
 plt_Locale_GetText_string:
 _p_109:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1364,5250
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1404,5759
 	.no_dead_strip plt__rgctx_fetch_8
 plt__rgctx_fetch_8:
 _p_110:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1368,5274
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1408,5783
 	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
 plt_System_Array_Copy_System_Array_int_System_Array_int_int:
 _p_111:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1372,5301
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1412,5810
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_System_Threading_Tasks_TaskActionInvoker_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_Task_System_Threading_Tasks_Task_bool
 plt_System_Threading_Tasks_Task__ctor_System_Threading_Tasks_TaskActionInvoker_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_Task_System_Threading_Tasks_Task_bool:
 _p_112:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1376,5306
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1416,5815
 	.no_dead_strip plt_System_Threading_Tasks_Task_Wait
 plt_System_Threading_Tasks_Task_Wait:
 _p_113:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1380,5311
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1420,5820
 	.no_dead_strip plt_System_Threading_Tasks_Task_get_Exception
 plt_System_Threading_Tasks_Task_get_Exception:
 _p_114:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1384,5316
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1424,5825
 	.no_dead_strip plt__jit_icall_mono_helper_newobj_mscorlib
 plt__jit_icall_mono_helper_newobj_mscorlib:
 _p_115:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1388,5321
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1428,5830
 	.no_dead_strip plt_System_Threading_Tasks_TaskCanceledException__ctor_System_Threading_Tasks_Task
 plt_System_Threading_Tasks_TaskCanceledException__ctor_System_Threading_Tasks_Task:
 _p_116:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1392,5351
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1432,5860
 	.no_dead_strip plt_System_AggregateException__ctor_System_Exception__
 plt_System_AggregateException__ctor_System_Exception__:
 _p_117:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1396,5356
-	.no_dead_strip plt_System_Threading_AtomicBooleanValue_TryRelaxedSet
-plt_System_Threading_AtomicBooleanValue_TryRelaxedSet:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1436,5865
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_bool_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_bool_System_Threading_Tasks_TaskContinuationOptions
+plt_System_Threading_Tasks_Task_1_bool_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_bool_System_Threading_Tasks_TaskContinuationOptions:
 _p_118:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1400,5361
-	.no_dead_strip plt_System_Threading_SpinWait_SpinOnce
-plt_System_Threading_SpinWait_SpinOnce:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1440,5870
+	.no_dead_strip plt_System_Threading_Tasks_TaskScheduler_get_Current
+plt_System_Threading_Tasks_TaskScheduler_get_Current:
 _p_119:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1404,5366
-	.no_dead_strip plt_System_Threading_Tasks_Task_Finish
-plt_System_Threading_Tasks_Task_Finish:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1444,5892
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_bool_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_bool_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
+plt_System_Threading_Tasks_Task_1_bool_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_bool_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler:
 _p_120:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1408,5371
-	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_bool__ctor_System_Threading_Tasks_Task_1_bool_bool
-plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_bool__ctor_System_Threading_Tasks_Task_1_bool_bool:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1448,5897
+	.no_dead_strip plt_System_Threading_Tasks_Task_GetCreationOptions_System_Threading_Tasks_TaskContinuationOptions
+plt_System_Threading_Tasks_Task_GetCreationOptions_System_Threading_Tasks_TaskContinuationOptions:
 _p_121:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1412,5376
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_bool__ctor_System_Threading_Tasks_Task_1_bool
-plt_System_Runtime_CompilerServices_TaskAwaiter_1_bool__ctor_System_Threading_Tasks_Task_1_bool:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1452,5919
+	.no_dead_strip plt_System_Threading_Tasks_Task_ContinueWithCore_System_Threading_Tasks_Task_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
+plt_System_Threading_Tasks_Task_ContinueWithCore_System_Threading_Tasks_Task_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler:
 _p_122:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1416,5396
-	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_bool__ctor
-plt_System_Threading_Tasks_TaskCompletionSource_1_bool__ctor:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1456,5924
+	.no_dead_strip plt_System_Threading_AtomicBooleanValue_TryRelaxedSet
+plt_System_Threading_AtomicBooleanValue_TryRelaxedSet:
 _p_123:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1420,5418
-	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_bool_TrySetException_System_Exception
-plt_System_Threading_Tasks_TaskCompletionSource_1_bool_TrySetException_System_Exception:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1460,5929
+	.no_dead_strip plt_System_Threading_SpinWait_SpinOnce
+plt_System_Threading_SpinWait_SpinOnce:
 _p_124:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1424,5438
-	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_bool__ctor
-plt_System_Threading_Tasks_TaskFactory_1_bool__ctor:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1464,5934
+	.no_dead_strip plt_System_Threading_Tasks_Task_Finish
+plt_System_Threading_Tasks_Task_Finish:
 _p_125:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1428,5458
-	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_bool__ctor_System_Threading_CancellationToken
-plt_System_Threading_Tasks_TaskFactory_1_bool__ctor_System_Threading_CancellationToken:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1468,5939
+	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_bool__ctor_System_Threading_Tasks_Task_1_bool_bool
+plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_bool__ctor_System_Threading_Tasks_Task_1_bool_bool:
 _p_126:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1432,5478
-	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_bool__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
-plt_System_Threading_Tasks_TaskFactory_1_bool__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1472,5944
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_bool__ctor_System_Threading_Tasks_Task_1_bool
+plt_System_Runtime_CompilerServices_TaskAwaiter_1_bool__ctor_System_Threading_Tasks_Task_1_bool:
 _p_127:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1436,5498
-	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CheckContinuationOptions_System_Threading_Tasks_TaskContinuationOptions
-plt_System_Threading_Tasks_TaskFactory_CheckContinuationOptions_System_Threading_Tasks_TaskContinuationOptions:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1476,5964
+	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_bool__ctor
+plt_System_Threading_Tasks_TaskCompletionSource_1_bool__ctor:
 _p_128:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1440,5518
-	.no_dead_strip plt_System_Threading_Tasks_TaskFactory__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
-plt_System_Threading_Tasks_TaskFactory__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1480,5986
+	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_bool_TrySetException_System_Exception
+plt_System_Threading_Tasks_TaskCompletionSource_1_bool_TrySetException_System_Exception:
 _p_129:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1444,5523
-	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_bool_SetResult_bool
-plt_System_Threading_Tasks_TaskCompletionSource_1_bool_SetResult_bool:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1484,6006
+	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_bool__ctor
+plt_System_Threading_Tasks_TaskFactory_1_bool__ctor:
 _p_130:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1448,5528
-	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_bool_SetCanceled
-plt_System_Threading_Tasks_TaskCompletionSource_1_bool_SetCanceled:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1488,6026
+	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_bool__ctor_System_Threading_CancellationToken
+plt_System_Threading_Tasks_TaskFactory_1_bool__ctor_System_Threading_CancellationToken:
 _p_131:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1452,5548
-	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_bool_SetException_System_Exception
-plt_System_Threading_Tasks_TaskCompletionSource_1_bool_SetException_System_Exception:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1492,6046
+	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_bool__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
+plt_System_Threading_Tasks_TaskFactory_1_bool__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler:
 _p_132:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1456,5568
-	.no_dead_strip plt_System_Threading_Tasks_Task_WaitCore_int_System_Threading_CancellationToken_bool
-plt_System_Threading_Tasks_Task_WaitCore_int_System_Threading_CancellationToken_bool:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1496,6066
+	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CheckContinuationOptions_System_Threading_Tasks_TaskContinuationOptions
+plt_System_Threading_Tasks_TaskFactory_CheckContinuationOptions_System_Threading_Tasks_TaskContinuationOptions:
 _p_133:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1460,5588
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_HandleUnexpectedTaskResult_System_Threading_Tasks_Task
-plt_System_Runtime_CompilerServices_TaskAwaiter_HandleUnexpectedTaskResult_System_Threading_Tasks_Task:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1500,6086
+	.no_dead_strip plt_System_Threading_Tasks_TaskFactory__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
+plt_System_Threading_Tasks_TaskFactory__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler:
 _p_134:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1464,5593
-	.no_dead_strip plt_System_Runtime_ExceptionServices_ExceptionDispatchInfo_Capture_System_Exception
-plt_System_Runtime_ExceptionServices_ExceptionDispatchInfo_Capture_System_Exception:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1504,6091
+	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_bool_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_bool_object_System_Threading_Tasks_TaskCreationOptions
+plt_System_Threading_Tasks_TaskFactory_1_bool_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_bool_object_System_Threading_Tasks_TaskCreationOptions:
 _p_135:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1468,5598
-	.no_dead_strip plt_System_Runtime_ExceptionServices_ExceptionDispatchInfo_Throw
-plt_System_Runtime_ExceptionServices_ExceptionDispatchInfo_Throw:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1508,6096
+	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_bool_FromAsyncBeginEnd_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_bool_object_System_Threading_Tasks_TaskCreationOptions
+plt_System_Threading_Tasks_TaskFactory_1_bool_FromAsyncBeginEnd_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_bool_object_System_Threading_Tasks_TaskCreationOptions:
 _p_136:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1472,5603
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_bool_get_Result
-plt_System_Threading_Tasks_Task_1_bool_get_Result:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1512,6116
+	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_bool__ctor_object_System_Threading_Tasks_TaskCreationOptions
+plt_System_Threading_Tasks_TaskCompletionSource_1_bool__ctor_object_System_Threading_Tasks_TaskCreationOptions:
 _p_137:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1476,5608
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_HandleOnCompleted_System_Threading_Tasks_Task_System_Action_bool_bool
-plt_System_Runtime_CompilerServices_TaskAwaiter_HandleOnCompleted_System_Threading_Tasks_Task_System_Action_bool_bool:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1516,6136
+	.no_dead_strip plt_System_Threading_AtomicBoolean_TryRelaxedSet
+plt_System_Threading_AtomicBoolean_TryRelaxedSet:
 _p_138:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1480,5630
-	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_bool__ctor_object_System_Threading_Tasks_TaskCreationOptions
-plt_System_Threading_Tasks_TaskCompletionSource_1_bool__ctor_object_System_Threading_Tasks_TaskCreationOptions:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1520,6156
+	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_bool_InnerInvoke_System_Threading_Tasks_TaskCompletionSource_1_bool_System_Func_2_System_IAsyncResult_bool_System_IAsyncResult
+plt_System_Threading_Tasks_TaskFactory_1_bool_InnerInvoke_System_Threading_Tasks_TaskCompletionSource_1_bool_System_Func_2_System_IAsyncResult_bool_System_IAsyncResult:
 _p_139:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1484,5635
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_bool__ctor_System_Threading_Tasks_TaskActionInvoker_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_Task_System_Threading_Tasks_Task_bool
-plt_System_Threading_Tasks_Task_1_bool__ctor_System_Threading_Tasks_TaskActionInvoker_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_Task_System_Threading_Tasks_Task_bool:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1524,6161
+	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_bool_SetResult_bool
+plt_System_Threading_Tasks_TaskCompletionSource_1_bool_SetResult_bool:
 _p_140:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1488,5655
-	.no_dead_strip plt_System_Threading_Tasks_TaskScheduler_get_Current
-plt_System_Threading_Tasks_TaskScheduler_get_Current:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1528,6181
+	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_bool_SetCanceled
+plt_System_Threading_Tasks_TaskCompletionSource_1_bool_SetCanceled:
 _p_141:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1492,5677
-	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_bool_TrySetCanceled
-plt_System_Threading_Tasks_TaskCompletionSource_1_bool_TrySetCanceled:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1532,6201
+	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_bool_SetException_System_Exception
+plt_System_Threading_Tasks_TaskCompletionSource_1_bool_SetException_System_Exception:
 _p_142:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1496,5682
-	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_bool_SetException_System_Collections_Generic_IEnumerable_1_System_Exception
-plt_System_Threading_Tasks_TaskCompletionSource_1_bool_SetException_System_Collections_Generic_IEnumerable_1_System_Exception:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1536,6221
+	.no_dead_strip plt_System_Threading_Tasks_Task_WaitCore_int_System_Threading_CancellationToken_bool
+plt_System_Threading_Tasks_Task_WaitCore_int_System_Threading_CancellationToken_bool:
 _p_143:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1500,5702
-	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_bool_TrySetException_System_Collections_Generic_IEnumerable_1_System_Exception
-plt_System_Threading_Tasks_TaskCompletionSource_1_bool_TrySetException_System_Collections_Generic_IEnumerable_1_System_Exception:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1540,6241
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_HandleUnexpectedTaskResult_System_Threading_Tasks_Task
+plt_System_Runtime_CompilerServices_TaskAwaiter_HandleUnexpectedTaskResult_System_Threading_Tasks_Task:
 _p_144:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1504,5722
-	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_bool_TrySetResult_bool
-plt_System_Threading_Tasks_TaskCompletionSource_1_bool_TrySetResult_bool:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1544,6246
+	.no_dead_strip plt_System_Runtime_ExceptionServices_ExceptionDispatchInfo_Capture_System_Exception
+plt_System_Runtime_ExceptionServices_ExceptionDispatchInfo_Capture_System_Exception:
 _p_145:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1508,5742
-	.no_dead_strip plt_System_Threading_Tasks_Task_TrySetCanceled
-plt_System_Threading_Tasks_Task_TrySetCanceled:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1548,6251
+	.no_dead_strip plt_System_Runtime_ExceptionServices_ExceptionDispatchInfo_Throw
+plt_System_Runtime_ExceptionServices_ExceptionDispatchInfo_Throw:
 _p_146:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1512,5762
-	.no_dead_strip plt_System_AggregateException__ctor_System_Collections_Generic_IEnumerable_1_System_Exception
-plt_System_AggregateException__ctor_System_Collections_Generic_IEnumerable_1_System_Exception:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1552,6256
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_bool_get_Result
+plt_System_Threading_Tasks_Task_1_bool_get_Result:
 _p_147:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1516,5767
-	.no_dead_strip plt_System_AggregateException_get_InnerExceptions
-plt_System_AggregateException_get_InnerExceptions:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1556,6261
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_HandleOnCompleted_System_Threading_Tasks_Task_System_Action_bool_bool
+plt_System_Runtime_CompilerServices_TaskAwaiter_HandleOnCompleted_System_Threading_Tasks_Task_System_Action_bool_bool:
 _p_148:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1520,5772
-	.no_dead_strip plt_System_Collections_ObjectModel_ReadOnlyCollection_1_System_Exception_get_Count
-plt_System_Collections_ObjectModel_ReadOnlyCollection_1_System_Exception_get_Count:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1560,6283
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_bool__ctor_System_Threading_Tasks_TaskActionInvoker_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_Task_System_Threading_Tasks_Task_bool
+plt_System_Threading_Tasks_Task_1_bool__ctor_System_Threading_Tasks_TaskActionInvoker_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_Task_System_Threading_Tasks_Task_bool:
 _p_149:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1524,5787
-	.no_dead_strip plt_System_Threading_Tasks_Task_TrySetException_System_AggregateException_bool_bool
-plt_System_Threading_Tasks_Task_TrySetException_System_AggregateException_bool_bool:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1564,6288
+	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_bool_TrySetCanceled
+plt_System_Threading_Tasks_TaskCompletionSource_1_bool_TrySetCanceled:
 _p_150:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1528,5807
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_bool_TrySetResult_bool
-plt_System_Threading_Tasks_Task_1_bool_TrySetResult_bool:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1568,6310
+	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_bool_SetException_System_Collections_Generic_IEnumerable_1_System_Exception
+plt_System_Threading_Tasks_TaskCompletionSource_1_bool_SetException_System_Collections_Generic_IEnumerable_1_System_Exception:
 _p_151:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1532,5812
-	.no_dead_strip plt_Robotics_Mobile_Core_iOS_BluetoothLEManager__BeginScanningForDevicesc__async0_MoveNext
-plt_Robotics_Mobile_Core_iOS_BluetoothLEManager__BeginScanningForDevicesc__async0_MoveNext:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1572,6330
+	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_bool_TrySetException_System_Collections_Generic_IEnumerable_1_System_Exception
+plt_System_Threading_Tasks_TaskCompletionSource_1_bool_TrySetException_System_Collections_Generic_IEnumerable_1_System_Exception:
 _p_152:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1536,5834
-	.no_dead_strip plt_string_memcpy_byte__byte__int
-plt_string_memcpy_byte__byte__int:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1576,6350
+	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_bool_TrySetResult_bool
+plt_System_Threading_Tasks_TaskCompletionSource_1_bool_TrySetResult_bool:
 _p_153:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1540,5836
-	.no_dead_strip plt_Robotics_Mobile_Core_Bluetooth_LE_Adapter__WaitForStatec__async0_MoveNext
-plt_Robotics_Mobile_Core_Bluetooth_LE_Adapter__WaitForStatec__async0_MoveNext:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1580,6370
+	.no_dead_strip plt_System_Threading_Tasks_Task_TrySetCanceled
+plt_System_Threading_Tasks_Task_TrySetCanceled:
 _p_154:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1544,5841
-	.no_dead_strip plt_Robotics_Mobile_Core_Bluetooth_LE_Adapter__StartScanningForDevicesc__async1_MoveNext
-plt_Robotics_Mobile_Core_Bluetooth_LE_Adapter__StartScanningForDevicesc__async1_MoveNext:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1584,6390
+	.no_dead_strip plt_System_AggregateException__ctor_System_Collections_Generic_IEnumerable_1_System_Exception
+plt_System_AggregateException__ctor_System_Collections_Generic_IEnumerable_1_System_Exception:
 _p_155:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1548,5843
-	.no_dead_strip plt__jit_icall_mono_ldvirtfn
-plt__jit_icall_mono_ldvirtfn:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1588,6395
+	.no_dead_strip plt_System_AggregateException_get_InnerExceptions
+plt_System_AggregateException_get_InnerExceptions:
 _p_156:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1552,5845
-	.no_dead_strip plt_System_Action__ctor_object_intptr
-plt_System_Action__ctor_object_intptr:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1592,6400
+	.no_dead_strip plt_System_Collections_ObjectModel_ReadOnlyCollection_1_System_Exception_get_Count
+plt_System_Collections_ObjectModel_ReadOnlyCollection_1_System_Exception_get_Count:
 _p_157:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1556,5861
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_UnsafeOnCompleted_System_Action
-plt_System_Runtime_CompilerServices_TaskAwaiter_UnsafeOnCompleted_System_Action:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1596,6415
+	.no_dead_strip plt_System_Threading_Tasks_Task_TrySetException_System_AggregateException_bool_bool
+plt_System_Threading_Tasks_Task_TrySetException_System_AggregateException_bool_bool:
 _p_158:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1560,5866
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_bool_UnsafeOnCompleted_System_Action
-plt_System_Runtime_CompilerServices_TaskAwaiter_1_bool_UnsafeOnCompleted_System_Action:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1600,6435
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_bool_TrySetResult_bool
+plt_System_Threading_Tasks_Task_1_bool_TrySetResult_bool:
 _p_159:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1564,5871
-	.no_dead_strip plt_System_Threading_Tasks_Task_Run_bool_System_Func_1_bool_System_Threading_CancellationToken
-plt_System_Threading_Tasks_Task_Run_bool_System_Func_1_bool_System_Threading_CancellationToken:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1604,6440
+	.no_dead_strip plt_Robotics_Mobile_Core_iOS_BluetoothLEManager__BeginScanningForDevicesc__async0_MoveNext
+plt_Robotics_Mobile_Core_iOS_BluetoothLEManager__BeginScanningForDevicesc__async0_MoveNext:
 _p_160:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1568,5893
-	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_bool__ctor_System_Threading_Tasks_Task_1_bool_bool
-plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_bool__ctor_System_Threading_Tasks_Task_1_bool_bool:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1608,6462
+	.no_dead_strip plt_string_memcpy_byte__byte__int
+plt_string_memcpy_byte__byte__int:
 _p_161:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1572,5914
-	.no_dead_strip plt__rgctx_fetch_9
-plt__rgctx_fetch_9:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1612,6464
+	.no_dead_strip plt_Robotics_Mobile_Core_Bluetooth_LE_Adapter__WaitForStatec__async0_MoveNext
+plt_Robotics_Mobile_Core_Bluetooth_LE_Adapter__WaitForStatec__async0_MoveNext:
 _p_162:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1576,5953
-	.no_dead_strip plt__rgctx_fetch_10
-plt__rgctx_fetch_10:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1616,6469
+	.no_dead_strip plt_Robotics_Mobile_Core_Bluetooth_LE_Adapter__StartScanningForDevicesc__async1_MoveNext
+plt_Robotics_Mobile_Core_Bluetooth_LE_Adapter__StartScanningForDevicesc__async1_MoveNext:
 _p_163:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1580,5999
-	.no_dead_strip plt__rgctx_fetch_11
-plt__rgctx_fetch_11:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1620,6471
+	.no_dead_strip plt__jit_icall_mono_ldvirtfn
+plt__jit_icall_mono_ldvirtfn:
 _p_164:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1584,6026
-	.no_dead_strip plt__rgctx_fetch_12
-plt__rgctx_fetch_12:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1624,6473
+	.no_dead_strip plt_System_Action__ctor_object_intptr
+plt_System_Action__ctor_object_intptr:
 _p_165:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1588,6050
-	.no_dead_strip plt__rgctx_fetch_13
-plt__rgctx_fetch_13:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1628,6489
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_UnsafeOnCompleted_System_Action
+plt_System_Runtime_CompilerServices_TaskAwaiter_UnsafeOnCompleted_System_Action:
 _p_166:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1592,6110
-	.no_dead_strip plt__rgctx_fetch_14
-plt__rgctx_fetch_14:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1632,6494
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_bool_UnsafeOnCompleted_System_Action
+plt_System_Runtime_CompilerServices_TaskAwaiter_1_bool_UnsafeOnCompleted_System_Action:
 _p_167:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1596,6137
-	.no_dead_strip plt__rgctx_fetch_15
-plt__rgctx_fetch_15:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1636,6499
+	.no_dead_strip plt_System_Threading_Tasks_Task_Run_bool_System_Func_1_bool_System_Threading_CancellationToken
+plt_System_Threading_Tasks_Task_Run_bool_System_Func_1_bool_System_Threading_CancellationToken:
 _p_168:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1600,6161
-	.no_dead_strip plt__rgctx_fetch_16
-plt__rgctx_fetch_16:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1640,6521
+	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_bool__ctor_System_Threading_Tasks_Task_1_bool_bool
+plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_bool__ctor_System_Threading_Tasks_Task_1_bool_bool:
 _p_169:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1604,6221
-	.no_dead_strip plt__rgctx_fetch_17
-plt__rgctx_fetch_17:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1644,6542
+	.no_dead_strip plt__rgctx_fetch_9
+plt__rgctx_fetch_9:
 _p_170:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1608,6248
-	.no_dead_strip plt__rgctx_fetch_18
-plt__rgctx_fetch_18:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1648,6581
+	.no_dead_strip plt__rgctx_fetch_10
+plt__rgctx_fetch_10:
 _p_171:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1612,6272
-	.no_dead_strip plt_System_Threading_CancellationToken_get_IsCancellationRequested
-plt_System_Threading_CancellationToken_get_IsCancellationRequested:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1652,6627
+	.no_dead_strip plt__rgctx_fetch_11
+plt__rgctx_fetch_11:
 _p_172:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1616,6313
-	.no_dead_strip plt__class_init_System_Threading_Tasks_TaskConstants_System_Boolean_
-plt__class_init_System_Threading_Tasks_TaskConstants_System_Boolean_:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1656,6654
+	.no_dead_strip plt__rgctx_fetch_12
+plt__rgctx_fetch_12:
 _p_173:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1620,6318
-	.no_dead_strip plt__class_init_System_Threading_Tasks_Task
-plt__class_init_System_Threading_Tasks_Task:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1660,6678
+	.no_dead_strip plt__rgctx_fetch_13
+plt__rgctx_fetch_13:
 _p_174:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1624,6322
-	.no_dead_strip plt__class_init_System_Threading_Tasks_TaskScheduler
-plt__class_init_System_Threading_Tasks_TaskScheduler:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1664,6738
+	.no_dead_strip plt__rgctx_fetch_14
+plt__rgctx_fetch_14:
 _p_175:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1628,6327
-	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_StartNew_bool_System_Func_1_bool_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskScheduler
-plt_System_Threading_Tasks_TaskFactory_StartNew_bool_System_Func_1_bool_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskScheduler:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1668,6765
+	.no_dead_strip plt__rgctx_fetch_15
+plt__rgctx_fetch_15:
 _p_176:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1632,6332
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_bool__ctor_System_Func_1_bool_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions
-plt_System_Threading_Tasks_Task_1_bool__ctor_System_Func_1_bool_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1672,6789
+	.no_dead_strip plt__rgctx_fetch_16
+plt__rgctx_fetch_16:
 _p_177:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1636,6353
-	.no_dead_strip plt_System_Threading_Tasks_Task_Start_System_Threading_Tasks_TaskScheduler
-plt_System_Threading_Tasks_Task_Start_System_Threading_Tasks_TaskScheduler:
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1676,6849
+	.no_dead_strip plt__rgctx_fetch_17
+plt__rgctx_fetch_17:
 _p_178:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1640,6375
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1680,6876
+	.no_dead_strip plt__rgctx_fetch_18
+plt__rgctx_fetch_18:
+_p_179:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1684,6900
+	.no_dead_strip plt_System_Threading_CancellationToken_get_IsCancellationRequested
+plt_System_Threading_CancellationToken_get_IsCancellationRequested:
+_p_180:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1688,6941
+	.no_dead_strip plt__class_init_System_Threading_Tasks_TaskConstants_System_Boolean_
+plt__class_init_System_Threading_Tasks_TaskConstants_System_Boolean_:
+_p_181:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1692,6946
+	.no_dead_strip plt__class_init_System_Threading_Tasks_Task
+plt__class_init_System_Threading_Tasks_Task:
+_p_182:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1696,6950
+	.no_dead_strip plt__class_init_System_Threading_Tasks_TaskScheduler
+plt__class_init_System_Threading_Tasks_TaskScheduler:
+_p_183:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1700,6955
+	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_StartNew_bool_System_Func_1_bool_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskScheduler
+plt_System_Threading_Tasks_TaskFactory_StartNew_bool_System_Func_1_bool_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskScheduler:
+_p_184:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1704,6960
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_bool__ctor_System_Func_1_bool_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions
+plt_System_Threading_Tasks_Task_1_bool__ctor_System_Func_1_bool_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions:
+_p_185:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1708,6981
+	.no_dead_strip plt_System_Threading_Tasks_Task_Start_System_Threading_Tasks_TaskScheduler
+plt_System_Threading_Tasks_Task_Start_System_Threading_Tasks_TaskScheduler:
+_p_186:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long _mono_aot_Robotics_Mobile_Core_iOS_got - . + 1712,7003
 plt_end:
 .section __TEXT, __const
 	.align 3
@@ -6630,14 +6984,14 @@ image_table:
 
 	.long 0,0,0,0,0
 	.asciz "mscorlib"
-	.asciz "84138FE2-3A88-40C1-9B0F-0DCAE2A8F1A4"
+	.asciz "A36CB8DA-7BB7-4A6B-A7E5-38A1219AC3FC"
 	.asciz ""
 	.asciz "7cec85d7bea7798e"
 	.align 3
 
 	.long 1,2,0,5,0
 	.asciz "monotouch"
-	.asciz "5668FDC0-CB97-43F6-BAB8-064E17EFA0B9"
+	.asciz "8CEB6F95-BAD4-4A52-88AD-CCF07F65AF11"
 	.asciz ""
 	.asciz "84e04ff9cfb79065"
 	.align 3
@@ -6653,7 +7007,7 @@ image_table:
 .data
 	.align 3
 _mono_aot_Robotics_Mobile_Core_iOS_got:
-	.space 1648
+	.space 1720
 got_end:
 .section __TEXT, __const
 	.align 2
@@ -6733,7 +7087,7 @@ _mono_aot_file_info:
 	.align 2
 	.long unbox_trampolines_end
 
-	.long 233,1648,179,225,10,387000831,0,7810
+	.long 243,1720,187,239,10,387000831,0,8491
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,128,4,4,14
 	.long 0,0,0,0,0
@@ -6774,223 +7128,244 @@ blob:
 	.byte 207,0,1,128,207,0,1,128,207,0,1,128,207,0,1,128,207,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 	.byte 0,0,1,128,207,0,1,128,207,0,1,128,207,0,1,128,207,0,1,128,207,0,1,128,207,0,1,128,207,0,1,128
 	.byte 207,0,1,128,207,0,1,128,207,0,1,128,207,0,1,128,207,0,1,128,207,0,1,128,207,0,1,128,207,0,1,128
-	.byte 207,0,1,128,207,0,1,128,207,0,1,128,207,0,1,128,207,0,1,128,207,3,219,0,0,25,2,128,208,128,209,3
-	.byte 219,0,0,25,0,3,219,0,0,25,1,128,210,3,219,0,0,25,0,3,219,0,0,25,1,128,211,3,219,0,0,25
-	.byte 0,3,219,0,0,25,1,128,212,3,219,0,0,25,1,128,202,3,219,0,0,25,1,128,213,3,219,0,0,25,2,128
-	.byte 214,128,211,0,0,0,0,0,1,128,215,0,0,0,0,0,0,0,0,0,0,0,0,0,2,128,216,128,217,0,1,128
-	.byte 213,0,1,128,210,0,1,128,213,0,1,128,213,0,0,0,0,0,1,128,210,0,1,128,218,0,0,0,0,0,1,128
-	.byte 207,0,0,0,0,2,129,131,1,0,0,3,128,219,128,220,128,221,0,4,128,222,128,220,128,221,128,202,2,130,56,1
-	.byte 1,128,223,2,129,131,1,3,128,224,128,220,128,221,0,0,0,1,128,225,0,1,128,226,0,0,0,0,0,0,0,0
-	.byte 0,0,0,0,0,0,0,0,0,0,0,2,128,227,128,228,2,130,56,1,4,128,229,128,230,128,231,128,232,0,1,128
-	.byte 217,4,2,130,66,1,1,2,130,163,1,7,132,129,2,128,213,128,229,255,252,0,0,0,1,1,3,219,0,0,1,255
-	.byte 252,0,0,0,1,1,3,219,0,0,2,255,252,0,0,0,1,1,3,219,0,0,3,255,252,0,0,0,1,1,3,219
-	.byte 0,0,4,255,252,0,0,0,1,1,3,219,0,0,5,255,252,0,0,0,1,1,3,219,0,0,6,5,30,0,1,255
-	.byte 255,255,255,255,193,0,17,15,255,253,0,0,0,2,130,148,1,1,198,0,17,15,0,1,7,132,219,193,0,17,13,193
-	.byte 0,17,14,193,0,17,16,5,30,0,1,255,255,255,255,255,193,0,17,17,255,253,0,0,0,2,130,148,1,1,198,0
-	.byte 17,17,0,1,7,133,7,5,30,0,1,255,255,255,255,255,193,0,17,18,255,253,0,0,0,2,130,148,1,1,198,0
-	.byte 17,18,0,1,7,133,39,5,30,0,1,255,255,255,255,255,193,0,17,19,255,253,0,0,0,2,130,148,1,1,198,0
-	.byte 17,19,0,1,7,133,71,5,30,0,1,255,255,255,255,255,193,0,17,20,255,253,0,0,0,2,130,148,1,1,198,0
-	.byte 17,20,0,1,7,133,103,4,2,131,20,1,1,2,11,2,255,252,0,0,0,1,1,7,133,135,4,2,130,129,1,1
-	.byte 2,11,2,255,252,0,0,0,1,1,7,133,154,4,2,130,170,1,1,2,11,2,255,252,0,0,0,1,1,7,133,173
-	.byte 4,2,131,20,1,1,2,8,3,255,252,0,0,0,1,1,7,133,192,4,2,130,129,1,1,2,8,3,255,252,0,0
-	.byte 0,1,1,7,133,211,4,2,130,170,1,1,2,8,3,255,252,0,0,0,1,1,7,133,230,4,2,130,206,1,1,2
-	.byte 7,3,255,252,0,0,0,1,1,7,133,249,4,2,130,207,1,2,2,130,219,1,2,7,3,255,252,0,0,0,1,1
-	.byte 7,134,12,255,252,0,0,0,1,1,3,219,0,0,11,4,2,131,20,1,1,2,7,3,255,252,0,0,0,1,1,7
-	.byte 134,47,4,2,130,129,1,1,2,7,3,255,252,0,0,0,1,1,7,134,66,4,2,130,170,1,1,2,7,3,255,252
-	.byte 0,0,0,1,1,7,134,85,4,2,131,20,1,1,2,10,3,255,252,0,0,0,1,1,7,134,104,4,2,130,129,1
-	.byte 1,2,10,3,255,252,0,0,0,1,1,7,134,123,4,2,130,170,1,1,2,10,3,255,252,0,0,0,1,1,7,134
-	.byte 142,255,252,0,0,0,1,1,3,219,0,0,15,255,252,0,0,0,1,1,3,219,0,0,16,4,2,131,20,1,1,2
-	.byte 9,3,255,252,0,0,0,1,1,7,134,185,4,2,130,129,1,1,2,9,3,255,252,0,0,0,1,1,7,134,204,4
-	.byte 2,130,170,1,1,2,9,3,255,252,0,0,0,1,1,7,134,223,255,252,0,0,0,1,1,3,219,0,0,24,255,253
-	.byte 0,0,0,3,219,0,0,25,1,198,0,15,155,1,2,130,163,1,0,255,253,0,0,0,3,219,0,0,25,1,198,0
-	.byte 15,156,1,2,130,163,1,0,255,253,0,0,0,3,219,0,0,25,1,198,0,15,157,1,2,130,163,1,0,255,253,0
-	.byte 0,0,3,219,0,0,25,1,198,0,15,158,1,2,130,163,1,0,255,253,0,0,0,3,219,0,0,25,1,198,0,15
-	.byte 159,1,2,130,163,1,0,255,253,0,0,0,3,219,0,0,25,1,198,0,15,160,1,2,130,163,1,0,255,253,0,0
-	.byte 0,3,219,0,0,25,1,198,0,15,161,1,2,130,163,1,0,255,254,0,0,0,0,202,0,0,143,255,253,0,0,0
-	.byte 3,219,0,0,25,1,198,0,15,163,1,2,130,163,1,0,255,253,0,0,0,3,219,0,0,25,1,198,0,15,164,1
-	.byte 2,130,163,1,0,4,2,130,78,1,1,2,130,163,1,255,253,0,0,0,7,135,197,1,198,0,15,132,1,2,130,163
-	.byte 1,0,255,253,0,0,0,7,135,197,1,198,0,15,133,1,2,130,163,1,0,255,253,0,0,0,7,135,197,1,198,0
-	.byte 15,134,1,2,130,163,1,0,255,253,0,0,0,7,135,197,1,198,0,15,138,1,2,130,163,1,0,255,253,0,0,0
-	.byte 3,219,0,0,26,1,198,0,12,34,1,2,130,163,1,0,255,254,0,0,0,0,202,0,0,144,255,254,0,0,0,0
-	.byte 202,0,0,145,255,253,0,0,0,3,219,0,0,26,1,198,0,12,37,1,2,130,163,1,0,4,2,130,64,1,1,2
-	.byte 130,163,1,255,253,0,0,0,7,136,89,1,198,0,15,88,1,2,130,163,1,0,255,253,0,0,0,7,136,89,1,198
-	.byte 0,15,89,1,2,130,163,1,0,255,253,0,0,0,7,136,89,1,198,0,15,90,1,2,130,163,1,0,255,253,0,0
-	.byte 0,7,136,89,1,198,0,15,91,1,2,130,163,1,0,255,253,0,0,0,7,136,89,1,198,0,15,92,1,2,130,163
-	.byte 1,0,255,253,0,0,0,7,136,89,1,198,0,15,93,1,2,130,163,1,0,255,253,0,0,0,7,136,89,1,198,0
-	.byte 15,94,1,2,130,163,1,0,255,253,0,0,0,7,136,89,1,198,0,15,95,1,2,130,163,1,0,255,253,0,0,0
-	.byte 7,136,89,1,198,0,15,96,1,2,130,163,1,0,255,253,0,0,0,7,136,89,1,198,0,15,97,1,2,130,163,1
-	.byte 0,255,253,0,0,0,7,136,89,1,198,0,15,98,1,2,130,163,1,0,255,253,0,0,0,7,136,89,1,198,0,15
-	.byte 99,1,2,130,163,1,0,4,2,130,207,1,2,2,130,219,1,2,130,163,1,255,252,0,0,0,1,1,7,137,71,255
-	.byte 254,0,0,0,0,255,43,0,0,5,255,254,0,0,0,0,255,43,0,0,10,255,254,0,0,0,0,255,43,0,0,11
-	.byte 255,254,0,0,0,0,255,43,0,0,6,255,254,0,0,0,0,255,43,0,0,13,255,254,0,0,0,0,255,43,0,0
-	.byte 12,255,254,0,0,0,0,255,43,0,0,14,4,2,130,60,1,1,2,130,163,1,255,253,0,0,0,7,137,172,1,198
-	.byte 0,15,78,1,2,130,163,1,0,255,253,0,0,0,7,137,172,1,198,0,15,79,1,2,130,163,1,0,4,2,129,141
-	.byte 1,1,2,130,163,1,255,253,0,0,0,7,137,220,1,198,0,12,1,1,2,130,163,1,0,255,253,0,0,0,7,137
-	.byte 220,1,198,0,12,2,1,2,130,163,1,0,4,2,129,142,1,1,2,130,163,1,255,253,0,0,0,7,138,12,1,198
-	.byte 0,12,3,1,2,130,163,1,0,255,253,0,0,0,7,138,12,1,198,0,12,4,1,2,130,163,1,0,255,253,0,0
-	.byte 0,7,138,12,1,198,0,12,5,1,2,130,163,1,0,255,253,0,0,0,7,138,12,1,198,0,12,6,1,2,130,163
-	.byte 1,0,5,30,0,1,255,255,255,255,255,193,0,17,23,255,253,0,0,0,2,130,148,1,1,198,0,17,23,0,1,7
-	.byte 138,98,193,0,17,24,5,30,0,1,255,255,255,255,255,193,0,17,25,255,253,0,0,0,2,130,148,1,1,198,0,17
-	.byte 25,0,1,7,138,134,5,30,0,1,255,255,255,255,255,193,0,17,26,255,253,0,0,0,2,130,148,1,1,198,0,17
-	.byte 26,0,1,7,138,166,5,30,0,1,255,255,255,255,255,193,0,17,27,255,253,0,0,0,2,130,148,1,1,198,0,17
-	.byte 27,0,1,7,138,198,255,253,0,0,0,2,130,56,1,1,198,0,15,48,0,1,2,130,163,1,255,253,0,0,0,2
-	.byte 130,76,1,1,198,0,15,126,0,1,2,130,163,1,255,253,0,0,0,7,132,129,1,198,0,15,101,1,2,130,163,1
-	.byte 0,12,0,39,42,47,14,1,2,16,1,2,10,16,1,2,11,14,3,219,0,0,1,6,19,50,19,30,3,219,0,0
-	.byte 1,1,19,0,16,1,2,12,14,3,219,0,0,2,6,20,50,20,30,3,219,0,0,2,1,20,0,16,1,2,13,14
-	.byte 3,219,0,0,3,6,21,50,21,30,3,219,0,0,3,1,21,0,16,1,2,14,14,2,130,199,1,6,22,50,22,30
-	.byte 2,130,199,1,1,22,0,14,3,219,0,0,7,4,2,130,189,1,1,2,11,2,16,7,139,141,137,123,14,2,6,2
-	.byte 6,23,50,23,30,3,219,0,0,1,1,23,0,6,24,50,24,30,2,130,199,1,1,24,0,6,25,50,25,30,3,219
-	.byte 0,0,2,1,25,0,6,26,50,26,30,3,219,0,0,3,1,26,0,11,3,219,0,0,1,34,255,254,0,0,0,0
-	.byte 255,43,0,0,1,11,3,219,0,0,2,34,255,254,0,0,0,0,255,43,0,0,2,11,3,219,0,0,3,34,255,254
-	.byte 0,0,0,0,255,43,0,0,3,11,2,130,199,1,34,255,254,0,0,0,0,255,43,0,0,4,34,255,254,0,0,0
-	.byte 0,255,43,0,0,5,17,0,1,17,0,103,17,0,128,149,14,2,94,2,17,0,128,179,17,0,128,223,17,0,129,207
-	.byte 16,1,4,21,14,3,219,0,0,4,6,52,50,52,30,3,219,0,0,4,1,52,0,11,3,219,0,0,4,34,255,254
-	.byte 0,0,0,0,255,43,0,0,7,16,2,131,33,1,138,43,14,3,219,0,0,8,4,2,130,189,1,1,2,8,3,16
-	.byte 7,140,118,137,123,14,1,3,6,255,254,0,0,0,0,202,0,0,66,14,1,9,14,3,219,0,0,10,14,3,219,0
-	.byte 0,11,6,123,50,123,30,3,219,0,0,11,1,123,0,17,0,130,29,17,0,130,135,6,49,50,49,30,3,219,0,0
-	.byte 11,1,49,0,17,0,131,18,6,50,50,50,30,3,219,0,0,11,1,50,0,17,0,131,167,17,0,131,225,14,2,15
-	.byte 3,14,1,4,17,0,132,106,17,0,132,116,16,1,5,27,6,64,50,64,30,2,130,199,1,1,64,0,14,3,219,0
-	.byte 0,12,4,2,130,189,1,1,2,7,3,16,7,141,2,137,123,6,255,254,0,0,0,0,202,0,0,90,14,2,130,197
-	.byte 1,16,1,6,32,6,78,50,78,30,2,130,199,1,1,78,0,14,3,219,0,0,14,4,2,130,189,1,1,2,10,3
-	.byte 16,7,141,55,137,123,14,3,219,0,0,15,6,79,50,79,30,3,219,0,0,15,1,79,0,14,3,219,0,0,16,6
-	.byte 80,50,80,30,3,219,0,0,16,1,80,0,8,3,96,88,80,6,255,254,0,0,0,0,202,0,0,104,6,255,254,0
-	.byte 0,0,0,202,0,0,105,6,195,0,0,62,6,193,0,6,139,6,193,0,21,85,17,0,132,244,14,1,5,6,255,254
-	.byte 0,0,0,0,202,0,0,112,17,0,133,44,11,2,11,2,6,195,0,0,65,6,255,254,0,0,0,0,202,0,0,115
-	.byte 17,0,133,114,11,1,5,14,1,7,16,1,7,44,16,1,7,46,14,3,219,0,0,5,6,108,50,108,30,3,219,0
-	.byte 0,5,1,108,0,16,1,7,47,14,3,219,0,0,6,6,109,50,109,30,3,219,0,0,6,1,109,0,16,1,7,48
-	.byte 6,110,50,110,30,3,219,0,0,6,1,110,0,16,1,7,49,6,111,50,111,30,3,219,0,0,6,1,111,0,16,1
-	.byte 7,50,6,112,50,112,30,2,130,199,1,1,112,0,16,1,7,51,6,113,50,113,30,2,130,199,1,1,113,0,14,3
-	.byte 219,0,0,20,4,2,130,189,1,1,2,9,3,16,7,142,68,137,123,14,2,130,90,1,6,114,50,114,30,3,219,0
-	.byte 0,1,1,114,0,6,115,50,115,30,2,130,199,1,1,115,0,6,116,50,116,30,3,219,0,0,2,1,116,0,6,117
-	.byte 50,117,30,3,219,0,0,3,1,117,0,6,118,50,118,30,3,219,0,0,3,1,118,0,11,3,219,0,0,5,34,255
-	.byte 254,0,0,0,0,255,43,0,0,8,11,3,219,0,0,6,34,255,254,0,0,0,0,255,43,0,0,9,16,2,130,216
-	.byte 1,137,162,34,255,254,0,0,0,0,255,43,0,0,10,34,255,254,0,0,0,0,255,43,0,0,11,17,0,133,148,6
-	.byte 195,0,0,56,14,2,98,2,6,255,254,0,0,0,0,202,0,0,127,6,255,254,0,0,0,0,202,0,0,128,6,195
-	.byte 0,0,53,14,1,6,6,255,254,0,0,0,0,202,0,0,130,14,2,4,3,14,2,3,3,6,255,254,0,0,0,0
-	.byte 202,0,0,138,8,2,104,129,160,17,0,129,17,34,255,254,0,0,0,0,255,43,0,0,6,17,0,129,115,17,0,132
-	.byte 174,8,2,104,129,164,14,3,219,0,0,24,6,119,50,119,30,3,219,0,0,24,1,119,0,34,255,254,0,0,0,0
-	.byte 255,43,0,0,12,14,3,219,0,0,26,34,255,254,0,0,0,0,255,43,0,0,13,8,3,104,129,28,131,88,34,255
-	.byte 254,0,0,0,0,255,43,0,0,14,14,6,1,2,5,2,33,34,255,253,0,0,0,2,130,57,1,1,198,0,15,71
-	.byte 0,1,2,130,163,1,14,7,137,172,14,6,1,2,130,200,1,16,3,219,0,0,25,136,31,14,7,137,220,14,7,136
-	.byte 89,14,7,135,197,14,2,130,76,1,16,2,130,57,1,135,214,14,3,219,0,0,25,14,2,130,138,1,14,1,8,6
-	.byte 193,0,12,11,14,2,130,128,1,14,1,10,34,255,253,0,0,0,2,130,56,1,1,198,0,15,48,0,1,2,130,163
-	.byte 1,14,1,11,11,3,219,0,0,25,14,7,138,12,11,2,131,67,1,11,2,130,196,1,16,7,132,129,135,225,16,2
-	.byte 130,56,1,135,196,16,2,130,80,1,136,17,34,255,253,0,0,0,2,130,76,1,1,198,0,15,126,0,1,2,130,163
-	.byte 1,7,20,109,111,110,111,95,111,98,106,101,99,116,95,110,101,119,95,102,97,115,116,0,3,2,15,7,139,141,3,194
-	.byte 0,3,100,7,24,109,111,110,111,95,111,98,106,101,99,116,95,110,101,119,95,115,112,101,99,105,102,105,99,0,3,194
-	.byte 0,0,49,3,194,0,0,70,3,194,0,0,74,3,194,0,0,66,3,194,0,0,68,7,32,109,111,110,111,95,97,114
-	.byte 99,104,95,116,104,114,111,119,95,99,111,114,108,105,98,95,101,120,99,101,112,116,105,111,110,0,3,193,0,20,77,3
-	.byte 193,0,20,79,15,1,2,3,193,0,11,213,3,255,254,0,0,0,0,255,43,0,0,5,3,193,0,18,73,3,193,0
-	.byte 23,185,3,255,254,0,0,0,0,202,0,0,28,7,27,109,111,110,111,95,111,98,106,101,99,116,95,110,101,119,95,112
-	.byte 116,114,102,114,101,101,95,98,111,120,0,3,193,0,23,183,3,255,254,0,0,0,0,202,0,0,33,3,255,254,0,0
-	.byte 0,0,202,0,0,36,3,193,0,21,46,3,29,3,195,0,0,85,3,51,3,194,0,1,50,3,193,0,14,94,3,195
-	.byte 0,0,70,15,7,140,118,3,255,254,0,0,0,0,202,0,0,67,3,194,0,0,119,7,17,109,111,110,111,95,104,101
-	.byte 108,112,101,114,95,108,100,115,116,114,0,7,25,109,111,110,111,95,97,114,99,104,95,116,104,114,111,119,95,101,120,99
-	.byte 101,112,116,105,111,110,0,3,194,0,1,53,3,193,0,17,209,3,31,3,194,0,0,120,3,193,0,23,186,3,63,3
-	.byte 195,0,0,82,3,194,0,0,102,15,7,141,2,7,23,109,111,110,111,95,111,98,106,101,99,116,95,110,101,119,95,112
-	.byte 116,114,102,114,101,101,0,3,193,0,21,41,3,193,0,23,87,15,7,141,55,3,195,0,0,1,3,194,0,0,117,3
-	.byte 194,0,0,115,3,76,3,194,0,0,101,3,100,3,106,3,194,0,3,211,3,193,0,21,44,3,77,3,53,3,61,3
-	.byte 82,15,7,142,68,3,193,0,15,192,3,194,0,0,72,15,1,7,15,2,130,216,1,3,103,3,193,0,23,232,3,255
-	.byte 254,0,0,0,0,255,43,0,0,10,3,193,0,11,228,3,255,254,0,0,0,0,255,43,0,0,11,3,194,0,3,30
-	.byte 3,194,0,0,52,3,65,3,107,3,193,0,16,0,3,194,0,0,54,3,193,0,15,40,3,255,254,0,0,0,0,255
-	.byte 43,0,0,6,3,193,0,12,30,3,193,0,11,214,7,36,109,111,110,111,95,116,104,114,101,97,100,95,103,101,116,95
-	.byte 117,110,100,101,110,105,97,98,108,101,95,101,120,99,101,112,116,105,111,110,0,3,193,0,11,216,3,193,0,11,215,3
-	.byte 255,254,0,0,0,0,202,0,0,83,3,255,254,0,0,0,0,255,43,0,0,12,3,255,254,0,0,0,0,202,0,0
-	.byte 143,3,255,254,0,0,0,0,255,43,0,0,13,3,255,254,0,0,0,0,202,0,0,145,3,102,3,255,254,0,0,0
-	.byte 0,255,43,0,0,14,3,193,0,21,45,3,194,0,0,45,7,23,109,111,110,111,95,97,114,114,97,121,95,110,101,119
-	.byte 95,115,112,101,99,105,102,105,99,0,3,194,0,0,56,3,193,0,11,229,3,193,0,11,231,3,193,0,11,230,7,35
-	.byte 109,111,110,111,95,116,104,114,101,97,100,95,105,110,116,101,114,114,117,112,116,105,111,110,95,99,104,101,99,107,112,111
-	.byte 105,110,116,0,255,253,0,0,0,2,130,148,1,1,198,0,17,15,0,1,7,132,219,35,147,68,192,0,92,41,255,253
-	.byte 0,0,0,2,130,148,1,1,198,0,17,15,0,1,7,132,219,0,4,2,130,149,1,1,7,132,219,35,147,68,150,5
-	.byte 7,147,114,35,147,68,140,13,255,253,0,0,0,7,147,114,1,198,0,17,110,1,7,132,219,0,7,26,109,111,110,111
-	.byte 95,104,101,108,112,101,114,95,108,100,115,116,114,95,109,115,99,111,114,108,105,98,0,255,253,0,0,0,2,130,148,1
-	.byte 1,198,0,17,17,0,1,7,133,7,35,147,183,192,0,92,41,255,253,0,0,0,2,130,148,1,1,198,0,17,17,0
-	.byte 1,7,133,7,0,255,253,0,0,0,2,130,148,1,1,198,0,17,18,0,1,7,133,39,35,147,229,192,0,92,41,255
-	.byte 253,0,0,0,2,130,148,1,1,198,0,17,18,0,1,7,133,39,0,255,253,0,0,0,2,130,148,1,1,198,0,17
-	.byte 19,0,1,7,133,71,35,148,19,192,0,92,41,255,253,0,0,0,2,130,148,1,1,198,0,17,19,0,1,7,133,71
-	.byte 0,35,148,19,140,17,255,253,0,0,0,2,130,148,1,1,198,0,17,28,0,1,7,133,71,35,148,19,192,0,90,33
-	.byte 16,1,3,1,18,2,130,148,1,8,16,30,7,133,71,255,253,0,0,0,2,130,148,1,1,198,0,17,28,0,1,7
-	.byte 133,71,3,193,0,0,150,255,253,0,0,0,2,130,148,1,1,198,0,17,20,0,1,7,133,103,35,148,135,192,0,92
-	.byte 41,255,253,0,0,0,2,130,148,1,1,198,0,17,20,0,1,7,133,103,0,3,193,0,17,70,3,193,0,15,9,3
-	.byte 193,0,15,33,3,193,0,15,51,7,27,109,111,110,111,95,104,101,108,112,101,114,95,110,101,119,111,98,106,95,109,115
-	.byte 99,111,114,108,105,98,0,3,193,0,15,83,3,193,0,16,215,3,193,0,15,179,3,193,0,16,54,3,193,0,15,25
-	.byte 3,255,253,0,0,0,7,137,220,1,198,0,12,1,1,2,130,163,1,0,3,255,253,0,0,0,3,219,0,0,26,1
-	.byte 198,0,12,34,1,2,130,163,1,0,3,255,253,0,0,0,7,136,89,1,198,0,15,88,1,2,130,163,1,0,3,255
-	.byte 253,0,0,0,7,136,89,1,198,0,15,96,1,2,130,163,1,0,3,255,253,0,0,0,7,135,197,1,198,0,15,132
-	.byte 1,2,130,163,1,0,3,255,253,0,0,0,7,135,197,1,198,0,15,133,1,2,130,163,1,0,3,255,253,0,0,0
-	.byte 7,135,197,1,198,0,15,134,1,2,130,163,1,0,3,193,0,15,121,3,193,0,15,120,3,255,253,0,0,0,7,136
-	.byte 89,1,198,0,15,93,1,2,130,163,1,0,3,255,253,0,0,0,7,136,89,1,198,0,15,90,1,2,130,163,1,0
-	.byte 3,255,253,0,0,0,7,136,89,1,198,0,15,91,1,2,130,163,1,0,3,193,0,15,35,3,193,0,12,31,3,193
-	.byte 0,12,42,3,193,0,12,43,3,255,253,0,0,0,3,219,0,0,25,1,198,0,15,157,1,2,130,163,1,0,3,193
-	.byte 0,12,32,3,255,253,0,0,0,7,136,89,1,198,0,15,89,1,2,130,163,1,0,3,255,253,0,0,0,3,219,0
-	.byte 0,25,1,198,0,15,156,1,2,130,163,1,0,3,193,0,15,144,3,255,253,0,0,0,7,136,89,1,198,0,15,95
-	.byte 1,2,130,163,1,0,3,255,253,0,0,0,7,136,89,1,198,0,15,92,1,2,130,163,1,0,3,255,253,0,0,0
-	.byte 7,136,89,1,198,0,15,97,1,2,130,163,1,0,3,255,253,0,0,0,7,136,89,1,198,0,15,98,1,2,130,163
-	.byte 1,0,3,193,0,15,19,3,193,0,16,217,3,193,0,16,219,4,2,128,155,1,1,2,130,200,1,3,255,253,0,0
-	.byte 0,7,150,145,1,198,0,5,2,1,2,130,200,1,0,3,193,0,15,20,3,255,253,0,0,0,3,219,0,0,25,1
-	.byte 198,0,15,160,1,2,130,163,1,0,3,120,3,193,0,23,236,3,124,3,126,7,13,109,111,110,111,95,108,100,118,105
-	.byte 114,116,102,110,0,3,193,0,16,168,3,193,0,12,33,3,255,253,0,0,0,3,219,0,0,26,1,198,0,12,37,1
-	.byte 2,130,163,1,0,3,255,253,0,0,0,2,130,56,1,1,198,0,15,48,0,1,2,130,163,1,3,255,253,0,0,0
-	.byte 7,138,12,1,198,0,12,3,1,2,130,163,1,0,255,253,0,0,0,2,130,148,1,1,198,0,17,23,0,1,7,138
-	.byte 98,35,151,46,192,0,92,41,255,253,0,0,0,2,130,148,1,1,198,0,17,23,0,1,7,138,98,0,255,253,0,0
-	.byte 0,2,130,148,1,1,198,0,17,25,0,1,7,138,134,35,151,92,192,0,92,41,255,253,0,0,0,2,130,148,1,1
-	.byte 198,0,17,25,0,1,7,138,134,0,35,151,92,140,17,255,253,0,0,0,2,130,148,1,1,198,0,17,28,0,1,7
-	.byte 138,134,35,151,92,192,0,90,33,16,1,3,1,18,2,130,148,1,8,16,30,7,138,134,255,253,0,0,0,2,130,148
-	.byte 1,1,198,0,17,28,0,1,7,138,134,255,253,0,0,0,2,130,148,1,1,198,0,17,26,0,1,7,138,166,35,151
-	.byte 203,192,0,92,41,255,253,0,0,0,2,130,148,1,1,198,0,17,26,0,1,7,138,166,0,35,151,203,140,17,255,253
-	.byte 0,0,0,2,130,148,1,1,198,0,17,28,0,1,7,138,166,35,151,203,192,0,90,33,16,1,3,1,18,2,130,148
-	.byte 1,8,16,30,7,138,166,255,253,0,0,0,2,130,148,1,1,198,0,17,28,0,1,7,138,166,255,253,0,0,0,2
-	.byte 130,148,1,1,198,0,17,27,0,1,7,138,198,35,152,58,192,0,92,41,255,253,0,0,0,2,130,148,1,1,198,0
-	.byte 17,27,0,1,7,138,198,0,35,152,58,140,17,255,253,0,0,0,2,130,148,1,1,198,0,17,29,0,1,7,138,198
-	.byte 35,152,58,192,0,90,33,16,1,3,1,18,2,130,148,1,8,16,30,7,138,198,255,253,0,0,0,2,130,148,1,1
-	.byte 198,0,17,29,0,1,7,138,198,3,193,0,15,206,15,7,132,129,15,2,130,56,1,15,2,130,80,1,3,255,253,0
-	.byte 0,0,2,130,76,1,1,198,0,15,126,0,1,2,130,163,1,3,255,253,0,0,0,3,219,0,0,25,1,198,0,15
-	.byte 155,1,2,130,163,1,0,3,193,0,15,12,2,0,0,2,19,0,2,42,0,2,42,0,2,42,0,2,42,0,2,42
-	.byte 0,2,42,0,2,42,0,2,42,0,2,0,0,2,0,0,2,0,0,2,0,0,2,71,0,2,90,0,2,0,0,2
-	.byte 0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,109,0,2,128,132,0,2,128,151,0,2,128,151,0,2,0,0
-	.byte 2,0,0,2,128,132,0,2,128,174,0,2,128,200,0,2,42,0,2,42,0,2,0,0,2,128,132,0,2,0,0,2
-	.byte 128,221,0,2,128,240,0,2,0,0,2,129,8,0,2,0,0,2,0,0,2,0,0,2,0,0,2,129,35,0,2,109
-	.byte 0,2,129,58,0,2,129,79,0,2,129,97,0,2,129,97,0,2,129,120,0,2,0,0,2,128,200,0,2,42,0,2
-	.byte 42,0,2,128,132,0,2,128,174,0,2,0,0,2,0,0,2,129,141,0,2,128,221,0,2,129,168,0,2,129,120,0
-	.byte 2,0,0,2,129,120,0,2,42,0,2,42,0,2,128,132,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0
-	.byte 2,0,0,2,0,0,2,129,79,0,38,129,198,1,1,2,32,129,156,84,129,80,129,84,0,4,129,20,0,2,0,0
-	.byte 2,129,226,0,6,129,253,1,2,44,131,240,129,28,131,164,131,168,0,2,0,0,2,129,97,0,2,42,0,2,42,0
-	.byte 2,42,0,2,42,0,2,42,0,2,42,0,2,42,0,2,42,0,2,42,0,2,42,0,2,42,0,2,42,0,2,0
-	.byte 0,2,0,0,2,0,0,2,0,0,2,0,0,2,71,0,2,130,30,0,2,130,54,0,2,130,73,0,2,0,0,2
-	.byte 130,97,0,2,130,122,0,38,130,144,1,1,2,32,129,184,84,129,108,129,112,0,4,129,48,0,2,0,0,2,0,0
-	.byte 2,0,0,2,0,0,2,0,0,2,0,0,2,130,172,0,2,128,132,0,2,130,197,0,6,130,220,1,2,36,129,252
-	.byte 128,152,129,176,129,180,0,2,130,251,0,2,0,0,6,131,16,1,0,4,4,2,130,200,1,52,130,68,130,68,0,2
-	.byte 0,0,2,0,0,2,131,42,0,6,128,174,1,0,4,4,2,130,200,1,52,129,240,129,240,0,2,0,0,6,131,65
-	.byte 1,0,24,4,2,130,200,1,52,132,12,132,12,0,2,0,0,2,131,92,0,2,131,92,0,2,131,92,0,2,131,92
-	.byte 0,2,131,92,0,2,131,92,0,3,131,118,0,1,11,4,19,255,253,0,0,0,2,130,148,1,1,198,0,17,15,0
-	.byte 1,7,132,219,1,0,1,0,0,2,0,0,2,0,0,2,0,0,3,131,142,0,1,11,4,19,255,253,0,0,0,2
-	.byte 130,148,1,1,198,0,17,17,0,1,7,133,7,1,0,1,0,0,3,131,142,0,1,11,4,19,255,253,0,0,0,2
-	.byte 130,148,1,1,198,0,17,18,0,1,7,133,39,1,0,1,0,0,3,131,166,0,1,11,4,19,255,253,0,0,0,2
-	.byte 130,148,1,1,198,0,17,19,0,1,7,133,71,1,0,1,0,0,3,131,198,0,1,11,8,19,255,253,0,0,0,2
-	.byte 130,148,1,1,198,0,17,20,0,1,7,133,103,1,0,1,0,0,2,131,231,0,2,131,231,0,2,131,92,0,2,131
-	.byte 231,0,2,131,231,0,2,131,92,0,2,130,122,0,2,131,231,0,2,131,92,0,2,131,231,0,2,131,231,0,2,131
-	.byte 92,0,2,131,231,0,2,131,231,0,2,131,92,0,2,131,92,0,2,131,92,0,2,131,231,0,2,131,231,0,2,131
-	.byte 92,0,2,130,122,0,2,130,30,0,2,128,240,0,2,129,58,0,2,0,0,2,71,0,2,132,2,0,2,132,23,0
-	.byte 2,128,221,0,2,128,221,0,2,0,0,2,0,0,2,132,42,0,2,132,66,0,6,132,94,2,0,4,4,2,131,14
-	.byte 1,40,88,88,0,8,4,2,130,200,1,40,88,128,136,0,2,0,0,2,0,0,2,132,2,0,2,0,0,2,0,0
-	.byte 2,128,240,0,2,0,0,2,128,221,0,2,0,0,2,0,0,2,71,0,2,0,0,2,128,221,0,2,128,200,0,2
-	.byte 0,0,2,0,0,2,131,231,0,2,132,23,0,2,132,23,0,2,130,54,0,2,130,54,0,2,132,120,0,2,0,0
-	.byte 2,132,139,0,2,0,0,2,132,158,0,2,132,23,0,2,128,221,0,2,128,221,0,2,0,0,2,132,2,0,2,0
-	.byte 0,3,131,142,0,1,11,4,19,255,253,0,0,0,2,130,148,1,1,198,0,17,23,0,1,7,138,98,1,0,1,0
-	.byte 0,2,0,0,3,132,179,0,1,11,4,19,255,253,0,0,0,2,130,148,1,1,198,0,17,25,0,1,7,138,134,1
-	.byte 0,1,0,0,3,130,30,0,1,11,8,19,255,253,0,0,0,2,130,148,1,1,198,0,17,26,0,1,7,138,166,1
-	.byte 0,1,0,0,3,132,211,0,1,11,0,19,255,253,0,0,0,2,130,148,1,1,198,0,17,27,0,1,7,138,198,1
-	.byte 0,1,0,0,2,130,30,0,2,132,241,0,2,0,0,0,128,144,8,0,0,1,4,128,236,1,40,20,0,4,193,0
-	.byte 22,228,193,0,22,225,193,0,22,224,193,0,22,222,7,128,160,16,0,0,4,193,0,22,228,193,0,22,225,193,0,22
-	.byte 224,193,0,22,222,28,29,30,21,128,232,24,4,0,4,193,0,22,228,193,0,22,225,193,0,22,224,193,0,22,222,32
-	.byte 33,35,34,36,37,40,41,38,39,42,43,44,47,48,45,46,12,128,224,28,4,0,4,193,0,22,228,193,0,22,225,193
-	.byte 0,22,224,193,0,22,222,54,55,56,57,58,60,62,59,22,128,224,28,4,0,4,195,0,0,10,193,0,22,225,193,0
-	.byte 22,224,193,0,22,222,66,67,68,69,70,71,72,73,74,74,73,71,72,70,69,68,67,66,20,128,236,81,52,28,0,4
-	.byte 193,0,22,228,193,0,22,225,193,0,22,224,193,0,22,222,83,84,85,86,87,88,91,92,96,98,99,101,103,104,105,106
-	.byte 6,128,160,28,0,0,4,193,0,25,115,193,0,25,114,193,0,22,224,193,0,25,112,120,121,4,128,160,20,0,0,4
-	.byte 193,0,22,228,193,0,22,225,193,0,22,224,193,0,22,222,6,128,160,32,0,0,4,193,0,25,115,193,0,25,114,193
-	.byte 0,22,224,193,0,25,112,124,125,6,128,160,48,0,0,4,193,0,25,115,193,0,25,114,193,0,22,224,193,0,25,112
-	.byte 126,127,98,111,101,104,109,0
+	.byte 207,0,1,128,207,0,1,128,207,0,1,128,207,0,1,128,207,0,1,128,207,0,1,128,207,0,1,128,207,3,219,0
+	.byte 0,25,2,128,208,128,209,3,219,0,0,25,0,3,219,0,0,25,1,128,210,3,219,0,0,25,0,3,219,0,0,25
+	.byte 1,128,211,3,219,0,0,25,0,3,219,0,0,25,0,3,219,0,0,25,0,3,219,0,0,25,3,128,212,128,213,128
+	.byte 214,3,219,0,0,25,0,3,219,0,0,25,1,128,215,3,219,0,0,25,1,128,202,3,219,0,0,25,1,128,216,3
+	.byte 219,0,0,25,2,128,217,128,211,0,0,0,0,0,1,128,218,0,0,0,1,128,217,0,9,128,219,128,216,128,220,128
+	.byte 221,128,222,128,223,128,224,128,225,128,217,0,0,0,0,0,0,0,0,0,0,0,1,128,207,0,0,0,2,128,226,128
+	.byte 227,0,1,128,216,0,1,128,210,0,1,128,216,0,1,128,216,0,0,0,0,0,1,128,210,0,1,128,228,0,0,0
+	.byte 0,0,1,128,207,0,0,0,1,128,217,0,0,0,0,2,129,131,1,0,0,3,128,229,128,230,128,231,0,4,128,232
+	.byte 128,230,128,231,128,202,2,130,58,1,1,128,233,2,129,131,1,3,128,234,128,230,128,231,0,0,0,1,128,235,0,0
+	.byte 0,1,128,235,0,1,128,236,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,128,237,128,238
+	.byte 2,130,58,1,4,128,239,128,240,128,241,128,242,0,1,128,227,4,2,130,70,1,1,2,130,170,1,7,132,209,2,128
+	.byte 216,128,239,255,252,0,0,0,1,1,3,219,0,0,1,255,252,0,0,0,1,1,3,219,0,0,2,255,252,0,0,0
+	.byte 1,1,3,219,0,0,3,255,252,0,0,0,1,1,3,219,0,0,4,255,252,0,0,0,1,1,3,219,0,0,5,255
+	.byte 252,0,0,0,1,1,3,219,0,0,6,5,30,0,1,255,255,255,255,255,193,0,17,67,255,253,0,0,0,2,130,155
+	.byte 1,1,198,0,17,67,0,1,7,133,43,193,0,17,65,193,0,17,66,193,0,17,68,5,30,0,1,255,255,255,255,255
+	.byte 193,0,17,69,255,253,0,0,0,2,130,155,1,1,198,0,17,69,0,1,7,133,87,5,30,0,1,255,255,255,255,255
+	.byte 193,0,17,70,255,253,0,0,0,2,130,155,1,1,198,0,17,70,0,1,7,133,119,5,30,0,1,255,255,255,255,255
+	.byte 193,0,17,71,255,253,0,0,0,2,130,155,1,1,198,0,17,71,0,1,7,133,151,5,30,0,1,255,255,255,255,255
+	.byte 193,0,17,72,255,253,0,0,0,2,130,155,1,1,198,0,17,72,0,1,7,133,183,4,2,131,27,1,1,2,11,2
+	.byte 255,252,0,0,0,1,1,7,133,215,4,2,130,136,1,1,2,11,2,255,252,0,0,0,1,1,7,133,234,4,2,130
+	.byte 177,1,1,2,11,2,255,252,0,0,0,1,1,7,133,253,4,2,131,27,1,1,2,8,3,255,252,0,0,0,1,1
+	.byte 7,134,16,4,2,130,136,1,1,2,8,3,255,252,0,0,0,1,1,7,134,35,4,2,130,177,1,1,2,8,3,255
+	.byte 252,0,0,0,1,1,7,134,54,4,2,130,213,1,1,2,7,3,255,252,0,0,0,1,1,7,134,73,4,2,130,89
+	.byte 1,1,2,7,3,4,2,130,136,1,1,7,134,92,255,252,0,0,0,1,1,7,134,101,4,2,130,215,1,3,2,130
+	.byte 164,1,2,131,17,1,2,130,226,1,255,252,0,0,0,1,1,7,134,120,4,2,130,214,1,2,2,130,226,1,2,7
+	.byte 3,255,252,0,0,0,1,1,7,134,148,255,252,0,0,0,1,1,3,219,0,0,11,4,2,131,27,1,1,2,7,3
+	.byte 255,252,0,0,0,1,1,7,134,183,4,2,130,136,1,1,2,7,3,255,252,0,0,0,1,1,7,134,202,4,2,130
+	.byte 177,1,1,2,7,3,255,252,0,0,0,1,1,7,134,221,4,2,131,27,1,1,2,10,3,255,252,0,0,0,1,1
+	.byte 7,134,240,4,2,130,136,1,1,2,10,3,255,252,0,0,0,1,1,7,135,3,4,2,130,177,1,1,2,10,3,255
+	.byte 252,0,0,0,1,1,7,135,22,255,252,0,0,0,1,1,3,219,0,0,15,255,252,0,0,0,1,1,3,219,0,0
+	.byte 16,4,2,131,27,1,1,2,9,3,255,252,0,0,0,1,1,7,135,65,4,2,130,136,1,1,2,9,3,255,252,0
+	.byte 0,0,1,1,7,135,84,4,2,130,177,1,1,2,9,3,255,252,0,0,0,1,1,7,135,103,255,252,0,0,0,1
+	.byte 1,3,219,0,0,24,255,253,0,0,0,3,219,0,0,25,1,198,0,15,199,1,2,130,170,1,0,255,253,0,0,0
+	.byte 3,219,0,0,25,1,198,0,15,200,1,2,130,170,1,0,255,253,0,0,0,3,219,0,0,25,1,198,0,15,201,1
+	.byte 2,130,170,1,0,255,253,0,0,0,3,219,0,0,25,1,198,0,15,202,1,2,130,170,1,0,255,253,0,0,0,3
+	.byte 219,0,0,25,1,198,0,15,203,1,2,130,170,1,0,255,253,0,0,0,3,219,0,0,25,1,198,0,15,204,1,2
+	.byte 130,170,1,0,255,253,0,0,0,3,219,0,0,25,1,198,0,15,205,1,2,130,170,1,0,255,253,0,0,0,3,219
+	.byte 0,0,25,1,198,0,15,206,1,2,130,170,1,0,255,253,0,0,0,3,219,0,0,25,1,198,0,15,207,1,2,130
+	.byte 170,1,0,255,253,0,0,0,3,219,0,0,25,1,198,0,15,210,1,2,130,170,1,0,255,253,0,0,0,3,219,0
+	.byte 0,25,1,198,0,15,211,1,2,130,170,1,0,255,254,0,0,0,0,202,0,0,143,255,253,0,0,0,3,219,0,0
+	.byte 25,1,198,0,15,213,1,2,130,170,1,0,255,253,0,0,0,3,219,0,0,25,1,198,0,15,214,1,2,130,170,1
+	.byte 0,4,2,130,83,1,1,2,130,170,1,255,253,0,0,0,7,136,161,1,198,0,15,171,1,2,130,170,1,0,255,253
+	.byte 0,0,0,7,136,161,1,198,0,15,172,1,2,130,170,1,0,255,253,0,0,0,7,136,161,1,198,0,15,173,1,2
+	.byte 130,170,1,0,255,253,0,0,0,7,136,161,1,198,0,15,174,1,2,130,170,1,0,255,253,0,0,0,7,136,161,1
+	.byte 198,0,15,175,1,2,130,170,1,0,255,253,0,0,0,7,136,161,1,198,0,15,176,1,2,130,170,1,0,255,253,0
+	.byte 0,0,7,136,161,1,198,0,15,180,1,2,130,170,1,0,255,253,0,0,0,3,219,0,0,26,1,198,0,12,62,1
+	.byte 2,130,170,1,0,255,254,0,0,0,0,202,0,0,144,255,254,0,0,0,0,202,0,0,145,255,253,0,0,0,3,219
+	.byte 0,0,26,1,198,0,12,65,1,2,130,170,1,0,4,2,130,136,1,1,3,219,0,0,25,255,252,0,0,0,1,1
+	.byte 7,137,110,4,2,130,68,1,1,2,130,170,1,255,253,0,0,0,7,137,131,1,198,0,15,124,1,2,130,170,1,0
+	.byte 255,253,0,0,0,7,137,131,1,198,0,15,125,1,2,130,170,1,0,255,253,0,0,0,7,137,131,1,198,0,15,126
+	.byte 1,2,130,170,1,0,255,253,0,0,0,7,137,131,1,198,0,15,127,1,2,130,170,1,0,255,253,0,0,0,7,137
+	.byte 131,1,198,0,15,128,1,2,130,170,1,0,255,253,0,0,0,7,137,131,1,198,0,15,129,1,2,130,170,1,0,255
+	.byte 253,0,0,0,7,137,131,1,198,0,15,130,1,2,130,170,1,0,255,253,0,0,0,7,137,131,1,198,0,15,131,1
+	.byte 2,130,170,1,0,255,253,0,0,0,7,137,131,1,198,0,15,132,1,2,130,170,1,0,255,253,0,0,0,7,137,131
+	.byte 1,198,0,15,133,1,2,130,170,1,0,255,253,0,0,0,7,137,131,1,198,0,15,134,1,2,130,170,1,0,255,253
+	.byte 0,0,0,7,137,131,1,198,0,15,135,1,2,130,170,1,0,4,2,130,214,1,2,2,130,226,1,2,130,170,1,255
+	.byte 252,0,0,0,1,1,7,138,113,4,2,130,84,1,1,2,130,170,1,255,253,0,0,0,7,138,137,1,198,0,15,181
+	.byte 1,2,130,170,1,0,255,253,0,0,0,7,138,137,1,198,0,15,182,1,2,130,170,1,0,255,254,0,0,0,0,255
+	.byte 43,0,0,5,255,254,0,0,0,0,255,43,0,0,10,255,254,0,0,0,0,255,43,0,0,11,255,254,0,0,0,0
+	.byte 255,43,0,0,6,255,254,0,0,0,0,255,43,0,0,13,255,254,0,0,0,0,255,43,0,0,12,255,254,0,0,0
+	.byte 0,255,43,0,0,14,4,2,130,63,1,1,2,130,170,1,255,253,0,0,0,7,139,6,1,198,0,15,112,1,2,130
+	.byte 170,1,0,255,253,0,0,0,7,139,6,1,198,0,15,113,1,2,130,170,1,0,4,2,130,62,1,1,2,130,170,1
+	.byte 255,253,0,0,0,7,139,54,1,198,0,15,110,1,2,130,170,1,0,255,253,0,0,0,7,139,54,1,198,0,15,111
+	.byte 1,2,130,170,1,0,4,2,129,141,1,1,2,130,170,1,255,253,0,0,0,7,139,102,1,198,0,12,29,1,2,130
+	.byte 170,1,0,255,253,0,0,0,7,139,102,1,198,0,12,30,1,2,130,170,1,0,4,2,129,142,1,1,2,130,170,1
+	.byte 255,253,0,0,0,7,139,150,1,198,0,12,31,1,2,130,170,1,0,255,253,0,0,0,7,139,150,1,198,0,12,32
+	.byte 1,2,130,170,1,0,255,253,0,0,0,7,139,150,1,198,0,12,33,1,2,130,170,1,0,255,253,0,0,0,7,139
+	.byte 150,1,198,0,12,34,1,2,130,170,1,0,5,30,0,1,255,255,255,255,255,193,0,17,75,255,253,0,0,0,2,130
+	.byte 155,1,1,198,0,17,75,0,1,7,139,236,193,0,17,76,5,30,0,1,255,255,255,255,255,193,0,17,77,255,253,0
+	.byte 0,0,2,130,155,1,1,198,0,17,77,0,1,7,140,16,5,30,0,1,255,255,255,255,255,193,0,17,78,255,253,0
+	.byte 0,0,2,130,155,1,1,198,0,17,78,0,1,7,140,48,5,30,0,1,255,255,255,255,255,193,0,17,79,255,253,0
+	.byte 0,0,2,130,155,1,1,198,0,17,79,0,1,7,140,80,255,253,0,0,0,2,130,58,1,1,198,0,15,77,0,1
+	.byte 2,130,170,1,255,253,0,0,0,2,130,81,1,1,198,0,15,165,0,1,2,130,170,1,255,253,0,0,0,7,132,209
+	.byte 1,198,0,15,137,1,2,130,170,1,0,12,0,39,42,47,14,1,2,16,1,2,10,16,1,2,11,14,3,219,0,0
+	.byte 1,6,19,50,19,30,3,219,0,0,1,1,19,0,16,1,2,12,14,3,219,0,0,2,6,20,50,20,30,3,219,0
+	.byte 0,2,1,20,0,16,1,2,13,14,3,219,0,0,3,6,21,50,21,30,3,219,0,0,3,1,21,0,16,1,2,14
+	.byte 14,2,130,206,1,6,22,50,22,30,2,130,206,1,1,22,0,14,3,219,0,0,7,4,2,130,196,1,1,2,11,2
+	.byte 16,7,141,23,137,132,14,2,6,2,6,23,50,23,30,3,219,0,0,1,1,23,0,6,24,50,24,30,2,130,206,1
+	.byte 1,24,0,6,25,50,25,30,3,219,0,0,2,1,25,0,6,26,50,26,30,3,219,0,0,3,1,26,0,11,3,219
+	.byte 0,0,1,34,255,254,0,0,0,0,255,43,0,0,1,11,3,219,0,0,2,34,255,254,0,0,0,0,255,43,0,0
+	.byte 2,11,3,219,0,0,3,34,255,254,0,0,0,0,255,43,0,0,3,11,2,130,206,1,34,255,254,0,0,0,0,255
+	.byte 43,0,0,4,34,255,254,0,0,0,0,255,43,0,0,5,17,0,1,17,0,103,17,0,128,149,14,2,91,2,17,0
+	.byte 128,179,17,0,128,223,17,0,129,207,16,1,4,21,14,3,219,0,0,4,6,52,50,52,30,3,219,0,0,4,1,52
+	.byte 0,11,3,219,0,0,4,34,255,254,0,0,0,0,255,43,0,0,7,16,2,131,41,1,138,56,14,3,219,0,0,8
+	.byte 4,2,130,196,1,1,2,8,3,16,7,142,0,137,132,14,1,3,6,255,254,0,0,0,0,202,0,0,66,14,1,9
+	.byte 14,3,219,0,0,10,14,3,219,0,0,11,6,123,50,123,30,3,219,0,0,11,1,123,0,17,0,130,29,17,0,130
+	.byte 135,6,49,50,49,30,3,219,0,0,11,1,49,0,17,0,131,18,6,50,50,50,30,3,219,0,0,11,1,50,0,17
+	.byte 0,131,167,17,0,131,225,14,2,15,3,14,1,4,17,0,132,106,17,0,132,116,16,1,5,27,6,64,50,64,30,2
+	.byte 130,206,1,1,64,0,14,3,219,0,0,12,4,2,130,196,1,1,2,7,3,16,7,142,140,137,132,6,255,254,0,0
+	.byte 0,0,202,0,0,90,14,2,130,204,1,16,1,6,32,6,78,50,78,30,2,130,206,1,1,78,0,14,3,219,0,0
+	.byte 14,4,2,130,196,1,1,2,10,3,16,7,142,193,137,132,14,3,219,0,0,15,6,79,50,79,30,3,219,0,0,15
+	.byte 1,79,0,14,3,219,0,0,16,6,80,50,80,30,3,219,0,0,16,1,80,0,8,3,96,88,80,6,255,254,0,0
+	.byte 0,0,202,0,0,104,6,255,254,0,0,0,0,202,0,0,105,6,195,0,0,62,6,193,0,6,143,6,193,0,21,141
+	.byte 17,0,132,244,14,1,5,6,255,254,0,0,0,0,202,0,0,112,17,0,133,44,11,2,11,2,6,195,0,0,65,6
+	.byte 255,254,0,0,0,0,202,0,0,115,17,0,133,114,11,1,5,14,1,7,16,1,7,44,16,1,7,46,14,3,219,0
+	.byte 0,5,6,108,50,108,30,3,219,0,0,5,1,108,0,16,1,7,47,14,3,219,0,0,6,6,109,50,109,30,3,219
+	.byte 0,0,6,1,109,0,16,1,7,48,6,110,50,110,30,3,219,0,0,6,1,110,0,16,1,7,49,6,111,50,111,30
+	.byte 3,219,0,0,6,1,111,0,16,1,7,50,6,112,50,112,30,2,130,206,1,1,112,0,16,1,7,51,6,113,50,113
+	.byte 30,2,130,206,1,1,113,0,14,3,219,0,0,20,4,2,130,196,1,1,2,9,3,16,7,143,206,137,132,14,2,130
+	.byte 96,1,6,114,50,114,30,3,219,0,0,1,1,114,0,6,115,50,115,30,2,130,206,1,1,115,0,6,116,50,116,30
+	.byte 3,219,0,0,2,1,116,0,6,117,50,117,30,3,219,0,0,3,1,117,0,6,118,50,118,30,3,219,0,0,3,1
+	.byte 118,0,11,3,219,0,0,5,34,255,254,0,0,0,0,255,43,0,0,8,11,3,219,0,0,6,34,255,254,0,0,0
+	.byte 0,255,43,0,0,9,16,2,130,223,1,137,171,34,255,254,0,0,0,0,255,43,0,0,10,34,255,254,0,0,0,0
+	.byte 255,43,0,0,11,17,0,133,148,6,195,0,0,56,14,2,95,2,6,255,254,0,0,0,0,202,0,0,127,6,255,254
+	.byte 0,0,0,0,202,0,0,128,6,195,0,0,53,14,1,6,6,255,254,0,0,0,0,202,0,0,130,14,2,4,3,14
+	.byte 2,3,3,6,255,254,0,0,0,0,202,0,0,138,8,2,104,129,160,17,0,129,17,34,255,254,0,0,0,0,255,43
+	.byte 0,0,6,17,0,129,115,17,0,132,174,8,2,104,129,164,14,3,219,0,0,24,6,119,50,119,30,3,219,0,0,24
+	.byte 1,119,0,34,255,254,0,0,0,0,255,43,0,0,12,14,3,219,0,0,26,34,255,254,0,0,0,0,255,43,0,0
+	.byte 13,8,3,104,129,28,131,88,34,255,254,0,0,0,0,255,43,0,0,14,14,6,1,2,5,2,33,34,255,253,0,0
+	.byte 0,2,130,59,1,1,198,0,15,102,0,1,2,130,170,1,14,7,139,6,14,6,1,2,130,207,1,16,3,219,0,0
+	.byte 25,136,40,34,255,253,0,0,0,2,130,59,1,1,198,0,15,101,0,1,2,130,170,1,14,7,139,54,14,2,130,58
+	.byte 1,14,7,139,102,14,7,137,131,14,7,136,161,14,2,130,81,1,14,7,138,137,14,2,130,95,1,14,2,130,164,1
+	.byte 6,255,253,0,0,0,7,138,137,1,198,0,15,182,1,2,130,170,1,0,50,255,253,0,0,0,7,138,137,1,198,0
+	.byte 15,182,1,2,130,170,1,0,30,2,130,164,1,1,255,253,0,0,0,7,138,137,1,198,0,15,182,1,2,130,170,1
+	.byte 0,0,6,193,0,21,120,16,2,130,59,1,135,216,14,3,219,0,0,25,14,2,130,145,1,14,1,8,6,193,0,12
+	.byte 39,14,2,130,135,1,14,1,10,34,255,253,0,0,0,2,130,58,1,1,198,0,15,77,0,1,2,130,170,1,14,1
+	.byte 11,11,3,219,0,0,25,14,7,139,150,11,2,131,75,1,11,2,130,203,1,16,7,132,209,135,229,16,2,130,58,1
+	.byte 135,198,16,2,130,86,1,136,26,34,255,253,0,0,0,2,130,81,1,1,198,0,15,165,0,1,2,130,170,1,7,20
+	.byte 109,111,110,111,95,111,98,106,101,99,116,95,110,101,119,95,102,97,115,116,0,3,2,15,7,141,23,3,194,0,2,242
+	.byte 7,24,109,111,110,111,95,111,98,106,101,99,116,95,110,101,119,95,115,112,101,99,105,102,105,99,0,3,194,0,0,50
+	.byte 3,194,0,0,71,3,194,0,0,75,3,194,0,0,67,3,194,0,0,69,7,32,109,111,110,111,95,97,114,99,104,95
+	.byte 116,104,114,111,119,95,99,111,114,108,105,98,95,101,120,99,101,112,116,105,111,110,0,3,193,0,20,134,3,193,0,20
+	.byte 136,15,1,2,3,193,0,11,241,3,255,254,0,0,0,0,255,43,0,0,5,3,193,0,18,127,3,193,0,23,246,3
+	.byte 255,254,0,0,0,0,202,0,0,28,7,27,109,111,110,111,95,111,98,106,101,99,116,95,110,101,119,95,112,116,114,102
+	.byte 114,101,101,95,98,111,120,0,3,193,0,23,244,3,255,254,0,0,0,0,202,0,0,33,3,255,254,0,0,0,0,202
+	.byte 0,0,36,3,193,0,21,102,3,29,3,195,0,0,85,3,51,3,194,0,0,221,3,193,0,14,121,3,195,0,0,70
+	.byte 15,7,142,0,3,255,254,0,0,0,0,202,0,0,67,3,194,0,0,120,7,17,109,111,110,111,95,104,101,108,112,101
+	.byte 114,95,108,100,115,116,114,0,7,25,109,111,110,111,95,97,114,99,104,95,116,104,114,111,119,95,101,120,99,101,112,116
+	.byte 105,111,110,0,3,194,0,0,224,3,193,0,18,7,3,31,3,194,0,0,121,3,193,0,23,247,3,63,3,195,0,0
+	.byte 82,3,194,0,0,103,15,7,142,140,7,23,109,111,110,111,95,111,98,106,101,99,116,95,110,101,119,95,112,116,114,102
+	.byte 114,101,101,0,3,193,0,21,97,3,193,0,23,148,15,7,142,193,3,195,0,0,1,3,194,0,0,118,3,194,0,0
+	.byte 116,3,76,3,194,0,0,102,3,100,3,106,3,194,0,3,99,3,193,0,21,100,3,77,3,53,3,61,3,82,15,7
+	.byte 143,206,3,193,0,15,242,3,194,0,0,73,15,1,7,15,2,130,223,1,3,103,3,193,0,24,37,3,255,254,0,0
+	.byte 0,0,255,43,0,0,10,3,193,0,12,0,3,255,254,0,0,0,0,255,43,0,0,11,3,194,0,2,229,3,194,0
+	.byte 0,53,3,65,3,107,3,193,0,16,50,3,194,0,0,55,3,193,0,15,69,3,255,254,0,0,0,0,255,43,0,0
+	.byte 6,3,193,0,12,58,3,193,0,11,242,7,36,109,111,110,111,95,116,104,114,101,97,100,95,103,101,116,95,117,110,100
+	.byte 101,110,105,97,98,108,101,95,101,120,99,101,112,116,105,111,110,0,3,193,0,11,244,3,193,0,11,243,3,255,254,0
+	.byte 0,0,0,202,0,0,83,3,255,254,0,0,0,0,255,43,0,0,12,3,255,254,0,0,0,0,202,0,0,143,3,255
+	.byte 254,0,0,0,0,255,43,0,0,13,3,255,254,0,0,0,0,202,0,0,145,3,102,3,255,254,0,0,0,0,255,43
+	.byte 0,0,14,3,193,0,21,101,3,194,0,0,46,7,23,109,111,110,111,95,97,114,114,97,121,95,110,101,119,95,115,112
+	.byte 101,99,105,102,105,99,0,3,194,0,0,57,3,193,0,12,1,3,193,0,12,3,3,193,0,12,2,7,35,109,111,110
+	.byte 111,95,116,104,114,101,97,100,95,105,110,116,101,114,114,117,112,116,105,111,110,95,99,104,101,99,107,112,111,105,110,116
+	.byte 0,255,253,0,0,0,2,130,155,1,1,198,0,17,67,0,1,7,133,43,35,149,65,192,0,92,41,255,253,0,0,0
+	.byte 2,130,155,1,1,198,0,17,67,0,1,7,133,43,0,4,2,130,156,1,1,7,133,43,35,149,65,150,5,7,149,111
+	.byte 35,149,65,140,13,255,253,0,0,0,7,149,111,1,198,0,17,163,1,7,133,43,0,7,26,109,111,110,111,95,104,101
+	.byte 108,112,101,114,95,108,100,115,116,114,95,109,115,99,111,114,108,105,98,0,255,253,0,0,0,2,130,155,1,1,198,0
+	.byte 17,69,0,1,7,133,87,35,149,180,192,0,92,41,255,253,0,0,0,2,130,155,1,1,198,0,17,69,0,1,7,133
+	.byte 87,0,255,253,0,0,0,2,130,155,1,1,198,0,17,70,0,1,7,133,119,35,149,226,192,0,92,41,255,253,0,0
+	.byte 0,2,130,155,1,1,198,0,17,70,0,1,7,133,119,0,255,253,0,0,0,2,130,155,1,1,198,0,17,71,0,1
+	.byte 7,133,151,35,150,16,192,0,92,41,255,253,0,0,0,2,130,155,1,1,198,0,17,71,0,1,7,133,151,0,35,150
+	.byte 16,140,17,255,253,0,0,0,2,130,155,1,1,198,0,17,80,0,1,7,133,151,35,150,16,192,0,90,33,16,1,3
+	.byte 1,18,2,130,155,1,8,16,30,7,133,151,255,253,0,0,0,2,130,155,1,1,198,0,17,80,0,1,7,133,151,3
+	.byte 193,0,0,151,255,253,0,0,0,2,130,155,1,1,198,0,17,72,0,1,7,133,183,35,150,132,192,0,92,41,255,253
+	.byte 0,0,0,2,130,155,1,1,198,0,17,72,0,1,7,133,183,0,3,193,0,17,122,3,193,0,15,36,3,193,0,15
+	.byte 62,3,193,0,15,80,7,27,109,111,110,111,95,104,101,108,112,101,114,95,110,101,119,111,98,106,95,109,115,99,111,114
+	.byte 108,105,98,0,3,193,0,15,119,3,193,0,17,11,3,255,253,0,0,0,3,219,0,0,25,1,198,0,15,205,1,2
+	.byte 130,170,1,0,3,193,0,15,188,3,255,253,0,0,0,3,219,0,0,25,1,198,0,15,207,1,2,130,170,1,0,3
+	.byte 193,0,15,45,3,193,0,15,42,3,193,0,15,229,3,193,0,16,105,3,193,0,15,54,3,255,253,0,0,0,7,139
+	.byte 102,1,198,0,12,29,1,2,130,170,1,0,3,255,253,0,0,0,3,219,0,0,26,1,198,0,12,62,1,2,130,170
+	.byte 1,0,3,255,253,0,0,0,7,137,131,1,198,0,15,124,1,2,130,170,1,0,3,255,253,0,0,0,7,137,131,1
+	.byte 198,0,15,132,1,2,130,170,1,0,3,255,253,0,0,0,7,136,161,1,198,0,15,171,1,2,130,170,1,0,3,255
+	.byte 253,0,0,0,7,136,161,1,198,0,15,172,1,2,130,170,1,0,3,255,253,0,0,0,7,136,161,1,198,0,15,173
+	.byte 1,2,130,170,1,0,3,193,0,15,160,3,193,0,15,159,3,255,253,0,0,0,7,136,161,1,198,0,15,175,1,2
+	.byte 130,170,1,0,3,255,253,0,0,0,7,136,161,1,198,0,15,176,1,2,130,170,1,0,3,255,253,0,0,0,7,137
+	.byte 131,1,198,0,15,125,1,2,130,170,1,0,3,193,0,15,236,3,255,253,0,0,0,7,136,161,1,198,0,15,180,1
+	.byte 2,130,170,1,0,3,255,253,0,0,0,7,137,131,1,198,0,15,129,1,2,130,170,1,0,3,255,253,0,0,0,7
+	.byte 137,131,1,198,0,15,126,1,2,130,170,1,0,3,255,253,0,0,0,7,137,131,1,198,0,15,127,1,2,130,170,1
+	.byte 0,3,193,0,15,64,3,193,0,12,59,3,193,0,12,70,3,193,0,12,71,3,255,253,0,0,0,3,219,0,0,25
+	.byte 1,198,0,15,201,1,2,130,170,1,0,3,193,0,12,60,3,255,253,0,0,0,3,219,0,0,25,1,198,0,15,200
+	.byte 1,2,130,170,1,0,3,255,253,0,0,0,7,137,131,1,198,0,15,131,1,2,130,170,1,0,3,255,253,0,0,0
+	.byte 7,137,131,1,198,0,15,128,1,2,130,170,1,0,3,255,253,0,0,0,7,137,131,1,198,0,15,133,1,2,130,170
+	.byte 1,0,3,255,253,0,0,0,7,137,131,1,198,0,15,134,1,2,130,170,1,0,3,193,0,15,48,3,193,0,17,13
+	.byte 3,193,0,17,15,4,2,128,155,1,1,2,130,207,1,3,255,253,0,0,0,7,153,5,1,198,0,5,6,1,2,130
+	.byte 207,1,0,3,193,0,15,49,3,255,253,0,0,0,3,219,0,0,25,1,198,0,15,210,1,2,130,170,1,0,3,120
+	.byte 3,193,0,24,41,3,124,3,126,7,13,109,111,110,111,95,108,100,118,105,114,116,102,110,0,3,193,0,16,220,3,193
+	.byte 0,12,61,3,255,253,0,0,0,3,219,0,0,26,1,198,0,12,65,1,2,130,170,1,0,3,255,253,0,0,0,2
+	.byte 130,58,1,1,198,0,15,77,0,1,2,130,170,1,3,255,253,0,0,0,7,139,150,1,198,0,12,31,1,2,130,170
+	.byte 1,0,255,253,0,0,0,2,130,155,1,1,198,0,17,75,0,1,7,139,236,35,153,162,192,0,92,41,255,253,0,0
+	.byte 0,2,130,155,1,1,198,0,17,75,0,1,7,139,236,0,255,253,0,0,0,2,130,155,1,1,198,0,17,77,0,1
+	.byte 7,140,16,35,153,208,192,0,92,41,255,253,0,0,0,2,130,155,1,1,198,0,17,77,0,1,7,140,16,0,35,153
+	.byte 208,140,17,255,253,0,0,0,2,130,155,1,1,198,0,17,80,0,1,7,140,16,35,153,208,192,0,90,33,16,1,3
+	.byte 1,18,2,130,155,1,8,16,30,7,140,16,255,253,0,0,0,2,130,155,1,1,198,0,17,80,0,1,7,140,16,255
+	.byte 253,0,0,0,2,130,155,1,1,198,0,17,78,0,1,7,140,48,35,154,63,192,0,92,41,255,253,0,0,0,2,130
+	.byte 155,1,1,198,0,17,78,0,1,7,140,48,0,35,154,63,140,17,255,253,0,0,0,2,130,155,1,1,198,0,17,80
+	.byte 0,1,7,140,48,35,154,63,192,0,90,33,16,1,3,1,18,2,130,155,1,8,16,30,7,140,48,255,253,0,0,0
+	.byte 2,130,155,1,1,198,0,17,80,0,1,7,140,48,255,253,0,0,0,2,130,155,1,1,198,0,17,79,0,1,7,140
+	.byte 80,35,154,174,192,0,92,41,255,253,0,0,0,2,130,155,1,1,198,0,17,79,0,1,7,140,80,0,35,154,174,140
+	.byte 17,255,253,0,0,0,2,130,155,1,1,198,0,17,81,0,1,7,140,80,35,154,174,192,0,90,33,16,1,3,1,18
+	.byte 2,130,155,1,8,16,30,7,140,80,255,253,0,0,0,2,130,155,1,1,198,0,17,81,0,1,7,140,80,3,193,0
+	.byte 16,0,15,7,132,209,15,2,130,58,1,15,2,130,86,1,3,255,253,0,0,0,2,130,81,1,1,198,0,15,165,0
+	.byte 1,2,130,170,1,3,255,253,0,0,0,3,219,0,0,25,1,198,0,15,199,1,2,130,170,1,0,3,193,0,15,39
+	.byte 2,0,0,2,19,0,2,42,0,2,42,0,2,42,0,2,42,0,2,42,0,2,42,0,2,42,0,2,42,0,2,0
+	.byte 0,2,0,0,2,0,0,2,0,0,2,71,0,2,90,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2
+	.byte 0,0,2,109,0,2,128,132,0,2,128,151,0,2,128,151,0,2,0,0,2,0,0,2,128,132,0,2,128,174,0,2
+	.byte 128,200,0,2,42,0,2,42,0,2,0,0,2,128,132,0,2,0,0,2,128,221,0,2,128,240,0,2,0,0,2,129
+	.byte 8,0,2,0,0,2,0,0,2,0,0,2,0,0,2,129,35,0,2,109,0,2,129,58,0,2,129,79,0,2,129,97
+	.byte 0,2,129,97,0,2,129,120,0,2,0,0,2,128,200,0,2,42,0,2,42,0,2,128,132,0,2,128,174,0,2,0
+	.byte 0,2,0,0,2,129,141,0,2,128,221,0,2,129,168,0,2,129,120,0,2,0,0,2,129,120,0,2,42,0,2,42
+	.byte 0,2,128,132,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,129,79,0,38,129
+	.byte 198,1,1,2,32,129,156,84,129,80,129,84,0,4,129,20,0,2,0,0,2,129,226,0,6,129,253,1,2,44,131,240
+	.byte 129,28,131,164,131,168,0,2,0,0,2,129,97,0,2,42,0,2,42,0,2,42,0,2,42,0,2,42,0,2,42,0
+	.byte 2,42,0,2,42,0,2,42,0,2,42,0,2,42,0,2,42,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0
+	.byte 0,2,71,0,2,130,30,0,2,130,54,0,2,130,73,0,2,0,0,2,130,97,0,2,130,122,0,38,130,144,1,1
+	.byte 2,32,129,184,84,129,108,129,112,0,4,129,48,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0
+	.byte 2,130,172,0,2,128,132,0,2,130,197,0,6,130,220,1,2,36,129,252,128,152,129,176,129,180,0,2,130,251,0,2
+	.byte 0,0,6,131,16,1,0,4,4,2,130,207,1,52,130,68,130,68,0,2,0,0,2,0,0,2,131,42,0,6,128,174
+	.byte 1,0,4,4,2,130,207,1,52,129,240,129,240,0,2,0,0,6,131,65,1,0,24,4,2,130,207,1,52,132,12,132
+	.byte 12,0,2,0,0,2,131,92,0,2,131,92,0,2,131,92,0,2,131,92,0,2,131,92,0,2,131,92,0,3,131,118
+	.byte 0,1,11,4,19,255,253,0,0,0,2,130,155,1,1,198,0,17,67,0,1,7,133,43,1,0,1,0,0,2,0,0
+	.byte 2,0,0,2,0,0,3,131,142,0,1,11,4,19,255,253,0,0,0,2,130,155,1,1,198,0,17,69,0,1,7,133
+	.byte 87,1,0,1,0,0,3,131,142,0,1,11,4,19,255,253,0,0,0,2,130,155,1,1,198,0,17,70,0,1,7,133
+	.byte 119,1,0,1,0,0,3,131,166,0,1,11,4,19,255,253,0,0,0,2,130,155,1,1,198,0,17,71,0,1,7,133
+	.byte 151,1,0,1,0,0,3,131,198,0,1,11,8,19,255,253,0,0,0,2,130,155,1,1,198,0,17,72,0,1,7,133
+	.byte 183,1,0,1,0,0,2,131,231,0,2,131,231,0,2,131,92,0,2,131,231,0,2,131,231,0,2,131,92,0,2,130
+	.byte 122,0,2,131,231,0,2,131,92,0,2,131,231,0,2,131,92,0,2,131,231,0,2,131,231,0,2,131,92,0,2,131
+	.byte 231,0,2,131,231,0,2,131,92,0,2,131,92,0,2,131,92,0,2,131,231,0,2,131,231,0,2,131,92,0,2,130
+	.byte 122,0,2,130,30,0,2,128,240,0,2,129,58,0,2,0,0,2,71,0,2,0,0,2,131,142,0,2,131,142,0,2
+	.byte 131,16,0,2,132,2,0,2,132,23,0,2,128,221,0,2,128,221,0,2,0,0,2,0,0,2,132,42,0,2,132,66
+	.byte 0,2,131,142,0,2,131,142,0,2,132,94,0,6,132,117,2,0,4,4,2,131,21,1,40,88,88,0,8,4,2,130
+	.byte 207,1,40,88,128,136,0,2,0,0,2,0,0,2,132,2,0,2,0,0,2,131,231,0,2,0,0,2,128,240,0,2
+	.byte 0,0,2,128,221,0,2,0,0,2,0,0,2,71,0,2,0,0,2,128,221,0,2,128,200,0,2,0,0,2,0,0
+	.byte 2,131,231,0,2,0,0,2,132,143,0,2,132,23,0,2,132,23,0,2,130,54,0,2,130,54,0,2,132,164,0,2
+	.byte 0,0,2,132,183,0,2,0,0,2,132,202,0,2,0,0,2,132,223,0,2,132,23,0,2,128,221,0,2,128,221,0
+	.byte 2,0,0,2,132,2,0,2,0,0,3,131,142,0,1,11,4,19,255,253,0,0,0,2,130,155,1,1,198,0,17,75
+	.byte 0,1,7,139,236,1,0,1,0,0,2,0,0,3,132,246,0,1,11,4,19,255,253,0,0,0,2,130,155,1,1,198
+	.byte 0,17,77,0,1,7,140,16,1,0,1,0,0,3,130,30,0,1,11,8,19,255,253,0,0,0,2,130,155,1,1,198
+	.byte 0,17,78,0,1,7,140,48,1,0,1,0,0,3,133,22,0,1,11,0,19,255,253,0,0,0,2,130,155,1,1,198
+	.byte 0,17,79,0,1,7,140,80,1,0,1,0,0,2,130,30,0,2,133,52,0,2,0,0,0,128,144,8,0,0,1,4
+	.byte 128,236,1,40,20,0,4,193,0,23,29,193,0,23,26,193,0,23,25,193,0,23,23,7,128,160,16,0,0,4,193,0
+	.byte 23,29,193,0,23,26,193,0,23,25,193,0,23,23,28,29,30,21,128,232,24,4,0,4,193,0,23,29,193,0,23,26
+	.byte 193,0,23,25,193,0,23,23,32,33,35,34,36,37,40,41,38,39,42,43,44,47,48,45,46,12,128,224,28,4,0,4
+	.byte 193,0,23,29,193,0,23,26,193,0,23,25,193,0,23,23,54,55,56,57,58,60,62,59,22,128,224,28,4,0,4,195
+	.byte 0,0,10,193,0,23,26,193,0,23,25,193,0,23,23,66,67,68,69,70,71,72,73,74,74,73,71,72,70,69,68,67
+	.byte 66,20,128,236,81,52,28,0,4,193,0,23,29,193,0,23,26,193,0,23,25,193,0,23,23,83,84,85,86,87,88,91
+	.byte 92,96,98,99,101,103,104,105,106,6,128,160,28,0,0,4,193,0,25,179,193,0,25,178,193,0,23,25,193,0,25,176
+	.byte 120,121,4,128,160,20,0,0,4,193,0,23,29,193,0,23,26,193,0,23,25,193,0,23,23,6,128,160,32,0,0,4
+	.byte 193,0,25,179,193,0,25,178,193,0,23,25,193,0,25,176,124,125,6,128,160,48,0,0,4,193,0,25,179,193,0,25
+	.byte 178,193,0,23,25,193,0,25,176,126,127,98,111,101,104,109,0
 .section __TEXT, __const
 	.align 3
 Lglobals_hash:
@@ -16023,13 +16398,13 @@ Lfde147_end:
 LTDIE_107:
 
 	.byte 5
-	.asciz "System_Func`2"
+	.asciz "System_Action`1"
 
 	.byte 52,16
 LDIFF_SYM1281=LTDIE_3 - Ldebug_info_start
 	.long LDIFF_SYM1281
 	.byte 2,35,0,0,7
-	.asciz "System_Func`2"
+	.asciz "System_Action`1"
 
 LDIFF_SYM1282=LTDIE_107 - Ldebug_info_start
 	.long LDIFF_SYM1282
@@ -16043,7 +16418,169 @@ LTDIE_107_REFERENCE:
 	.byte 14
 LDIFF_SYM1284=LTDIE_107 - Ldebug_info_start
 	.long LDIFF_SYM1284
+	.byte 2
+	.asciz "(wrapper delegate-invoke) System.Action`1<System.Threading.Tasks.Task`1<Robotics.Mobile.Core.Bluetooth.LE.ICharacteristic>>:invoke_void_T"
+	.long _wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic_invoke_void_T_System_Threading_Tasks_Task_1_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic
+	.long Lme_95
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1285=LTDIE_107_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1285
+	.byte 1,86,3
+	.asciz "param0"
+
+LDIFF_SYM1286=LTDIE_39_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1286
+	.byte 1,90,11
+	.asciz "V_0"
+
+LDIFF_SYM1287=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1287
+	.byte 1,85,11
+	.asciz "V_1"
+
+LDIFF_SYM1288=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1288
+	.byte 1,84,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1289=Lfde148_end - Lfde148_start
+	.long LDIFF_SYM1289
+Lfde148_start:
+
+	.long 0
+	.align 2
+	.long _wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic_invoke_void_T_System_Threading_Tasks_Task_1_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic
+
+LDIFF_SYM1290=Lme_95 - _wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic_invoke_void_T_System_Threading_Tasks_Task_1_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic
+	.long LDIFF_SYM1290
+	.byte 12,13,0,72,14,8,135,2,68,14,28,132,7,133,6,134,5,136,4,138,3,142,1,68,14,32
+	.align 2
+Lfde148_end:
+
+.section __DWARF, __debug_info,regular,debug
 LTDIE_108:
+
+	.byte 5
+	.asciz "System_Func`3"
+
+	.byte 52,16
+LDIFF_SYM1291=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM1291
+	.byte 2,35,0,0,7
+	.asciz "System_Func`3"
+
+LDIFF_SYM1292=LTDIE_108 - Ldebug_info_start
+	.long LDIFF_SYM1292
+LTDIE_108_POINTER:
+
+	.byte 13
+LDIFF_SYM1293=LTDIE_108 - Ldebug_info_start
+	.long LDIFF_SYM1293
+LTDIE_108_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1294=LTDIE_108 - Ldebug_info_start
+	.long LDIFF_SYM1294
+LTDIE_109:
+
+	.byte 5
+	.asciz "System_AsyncCallback"
+
+	.byte 52,16
+LDIFF_SYM1295=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM1295
+	.byte 2,35,0,0,7
+	.asciz "System_AsyncCallback"
+
+LDIFF_SYM1296=LTDIE_109 - Ldebug_info_start
+	.long LDIFF_SYM1296
+LTDIE_109_POINTER:
+
+	.byte 13
+LDIFF_SYM1297=LTDIE_109 - Ldebug_info_start
+	.long LDIFF_SYM1297
+LTDIE_109_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1298=LTDIE_109 - Ldebug_info_start
+	.long LDIFF_SYM1298
+	.byte 2
+	.asciz "(wrapper delegate-invoke) System.Func`3<System.AsyncCallback, object, System.IAsyncResult>:invoke_TResult_T1_T2"
+	.long _wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
+	.long Lme_96
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1299=LTDIE_108_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1299
+	.byte 1,85,3
+	.asciz "param0"
+
+LDIFF_SYM1300=LTDIE_109_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1300
+	.byte 1,86,3
+	.asciz "param1"
+
+LDIFF_SYM1301=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1301
+	.byte 1,90,11
+	.asciz "V_0"
+
+LDIFF_SYM1302=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1302
+	.byte 1,84,11
+	.asciz "V_1"
+
+LDIFF_SYM1303=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1303
+	.byte 1,91,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1304=Lfde149_end - Lfde149_start
+	.long LDIFF_SYM1304
+Lfde149_start:
+
+	.long 0
+	.align 2
+	.long _wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
+
+LDIFF_SYM1305=Lme_96 - _wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
+	.long LDIFF_SYM1305
+	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1
+	.align 2
+Lfde149_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_110:
+
+	.byte 5
+	.asciz "System_Func`2"
+
+	.byte 52,16
+LDIFF_SYM1306=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM1306
+	.byte 2,35,0,0,7
+	.asciz "System_Func`2"
+
+LDIFF_SYM1307=LTDIE_110 - Ldebug_info_start
+	.long LDIFF_SYM1307
+LTDIE_110_POINTER:
+
+	.byte 13
+LDIFF_SYM1308=LTDIE_110 - Ldebug_info_start
+	.long LDIFF_SYM1308
+LTDIE_110_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1309=LTDIE_110 - Ldebug_info_start
+	.long LDIFF_SYM1309
+LTDIE_111:
 
 	.byte 17
 	.asciz "System_IAsyncResult"
@@ -16051,316 +16588,110 @@ LTDIE_108:
 	.byte 8,7
 	.asciz "System_IAsyncResult"
 
-LDIFF_SYM1285=LTDIE_108 - Ldebug_info_start
-	.long LDIFF_SYM1285
-LTDIE_108_POINTER:
+LDIFF_SYM1310=LTDIE_111 - Ldebug_info_start
+	.long LDIFF_SYM1310
+LTDIE_111_POINTER:
 
 	.byte 13
-LDIFF_SYM1286=LTDIE_108 - Ldebug_info_start
-	.long LDIFF_SYM1286
-LTDIE_108_REFERENCE:
+LDIFF_SYM1311=LTDIE_111 - Ldebug_info_start
+	.long LDIFF_SYM1311
+LTDIE_111_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1287=LTDIE_108 - Ldebug_info_start
-	.long LDIFF_SYM1287
+LDIFF_SYM1312=LTDIE_111 - Ldebug_info_start
+	.long LDIFF_SYM1312
 	.byte 2
 	.asciz "(wrapper delegate-invoke) System.Func`2<System.IAsyncResult, Robotics.Mobile.Core.Bluetooth.LE.ICharacteristic>:invoke_TResult_T"
 	.long _wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic_invoke_TResult_T_System_IAsyncResult
-	.long Lme_95
+	.long Lme_97
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1288=LTDIE_107_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1288
+LDIFF_SYM1313=LTDIE_110_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1313
 	.byte 1,86,3
 	.asciz "param0"
 
-LDIFF_SYM1289=LTDIE_108_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1289
+LDIFF_SYM1314=LTDIE_111_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1314
 	.byte 1,90,11
 	.asciz "V_0"
 
-LDIFF_SYM1290=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1290
+LDIFF_SYM1315=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1315
 	.byte 1,85,11
 	.asciz "V_1"
 
-LDIFF_SYM1291=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1291
+LDIFF_SYM1316=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1316
 	.byte 1,84,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1292=Lfde148_end - Lfde148_start
-	.long LDIFF_SYM1292
-Lfde148_start:
+LDIFF_SYM1317=Lfde150_end - Lfde150_start
+	.long LDIFF_SYM1317
+Lfde150_start:
 
 	.long 0
 	.align 2
 	.long _wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic_invoke_TResult_T_System_IAsyncResult
 
-LDIFF_SYM1293=Lme_95 - _wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic_invoke_TResult_T_System_IAsyncResult
-	.long LDIFF_SYM1293
+LDIFF_SYM1318=Lme_97 - _wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic_invoke_TResult_T_System_IAsyncResult
+	.long LDIFF_SYM1318
 	.byte 12,13,0,72,14,8,135,2,68,14,28,132,7,133,6,134,5,136,4,138,3,142,1,68,14,32
 	.align 2
-Lfde148_end:
+Lfde150_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
 	.asciz "(wrapper delegate-invoke) System.EventHandler`1<MonoTouch.CoreBluetooth.CBCharacteristicEventArgs>:invoke_void_object_TEventArgs"
 	.long _wrapper_delegate_invoke_System_EventHandler_1_MonoTouch_CoreBluetooth_CBCharacteristicEventArgs_invoke_void_object_TEventArgs_object_MonoTouch_CoreBluetooth_CBCharacteristicEventArgs
-	.long Lme_96
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1294=LTDIE_65_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1294
-	.byte 1,85,3
-	.asciz "param0"
-
-LDIFF_SYM1295=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1295
-	.byte 1,86,3
-	.asciz "param1"
-
-LDIFF_SYM1296=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1296
-	.byte 1,90,11
-	.asciz "V_0"
-
-LDIFF_SYM1297=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1297
-	.byte 1,84,11
-	.asciz "V_1"
-
-LDIFF_SYM1298=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1298
-	.byte 1,91,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1299=Lfde149_end - Lfde149_start
-	.long LDIFF_SYM1299
-Lfde149_start:
-
-	.long 0
-	.align 2
-	.long _wrapper_delegate_invoke_System_EventHandler_1_MonoTouch_CoreBluetooth_CBCharacteristicEventArgs_invoke_void_object_TEventArgs_object_MonoTouch_CoreBluetooth_CBCharacteristicEventArgs
-
-LDIFF_SYM1300=Lme_96 - _wrapper_delegate_invoke_System_EventHandler_1_MonoTouch_CoreBluetooth_CBCharacteristicEventArgs_invoke_void_object_TEventArgs_object_MonoTouch_CoreBluetooth_CBCharacteristicEventArgs
-	.long LDIFF_SYM1300
-	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1
-	.align 2
-Lfde149_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_109:
-
-	.byte 5
-	.asciz "System_Predicate`1"
-
-	.byte 52,16
-LDIFF_SYM1301=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM1301
-	.byte 2,35,0,0,7
-	.asciz "System_Predicate`1"
-
-LDIFF_SYM1302=LTDIE_109 - Ldebug_info_start
-	.long LDIFF_SYM1302
-LTDIE_109_POINTER:
-
-	.byte 13
-LDIFF_SYM1303=LTDIE_109 - Ldebug_info_start
-	.long LDIFF_SYM1303
-LTDIE_109_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1304=LTDIE_109 - Ldebug_info_start
-	.long LDIFF_SYM1304
-	.byte 2
-	.asciz "(wrapper delegate-invoke) System.Predicate`1<Robotics.Mobile.Core.Bluetooth.LE.ICharacteristic>:invoke_bool_T"
-	.long _wrapper_delegate_invoke_System_Predicate_1_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic_invoke_bool_T_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic
-	.long Lme_97
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1305=LTDIE_109_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1305
-	.byte 1,86,3
-	.asciz "param0"
-
-LDIFF_SYM1306=LTDIE_64_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1306
-	.byte 1,90,11
-	.asciz "V_0"
-
-LDIFF_SYM1307=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1307
-	.byte 1,85,11
-	.asciz "V_1"
-
-LDIFF_SYM1308=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1308
-	.byte 1,84,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1309=Lfde150_end - Lfde150_start
-	.long LDIFF_SYM1309
-Lfde150_start:
-
-	.long 0
-	.align 2
-	.long _wrapper_delegate_invoke_System_Predicate_1_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic_invoke_bool_T_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic
-
-LDIFF_SYM1310=Lme_97 - _wrapper_delegate_invoke_System_Predicate_1_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic_invoke_bool_T_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic
-	.long LDIFF_SYM1310
-	.byte 12,13,0,72,14,8,135,2,68,14,28,132,7,133,6,134,5,136,4,138,3,142,1,68,14,32
-	.align 2
-Lfde150_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_110:
-
-	.byte 5
-	.asciz "System_Action`1"
-
-	.byte 52,16
-LDIFF_SYM1311=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM1311
-	.byte 2,35,0,0,7
-	.asciz "System_Action`1"
-
-LDIFF_SYM1312=LTDIE_110 - Ldebug_info_start
-	.long LDIFF_SYM1312
-LTDIE_110_POINTER:
-
-	.byte 13
-LDIFF_SYM1313=LTDIE_110 - Ldebug_info_start
-	.long LDIFF_SYM1313
-LTDIE_110_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1314=LTDIE_110 - Ldebug_info_start
-	.long LDIFF_SYM1314
-	.byte 2
-	.asciz "(wrapper delegate-invoke) System.Action`1<Robotics.Mobile.Core.Bluetooth.LE.ICharacteristic>:invoke_void_T"
-	.long _wrapper_delegate_invoke_System_Action_1_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic_invoke_void_T_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic
 	.long Lme_98
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1315=LTDIE_110_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1315
-	.byte 1,86,3
-	.asciz "param0"
-
-LDIFF_SYM1316=LTDIE_64_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1316
-	.byte 1,90,11
-	.asciz "V_0"
-
-LDIFF_SYM1317=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1317
-	.byte 1,85,11
-	.asciz "V_1"
-
-LDIFF_SYM1318=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1318
-	.byte 1,84,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1319=Lfde151_end - Lfde151_start
+LDIFF_SYM1319=LTDIE_65_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1319
-Lfde151_start:
-
-	.long 0
-	.align 2
-	.long _wrapper_delegate_invoke_System_Action_1_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic_invoke_void_T_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic
-
-LDIFF_SYM1320=Lme_98 - _wrapper_delegate_invoke_System_Action_1_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic_invoke_void_T_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic
-	.long LDIFF_SYM1320
-	.byte 12,13,0,72,14,8,135,2,68,14,28,132,7,133,6,134,5,136,4,138,3,142,1,68,14,32
-	.align 2
-Lfde151_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_111:
-
-	.byte 5
-	.asciz "System_Comparison`1"
-
-	.byte 52,16
-LDIFF_SYM1321=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM1321
-	.byte 2,35,0,0,7
-	.asciz "System_Comparison`1"
-
-LDIFF_SYM1322=LTDIE_111 - Ldebug_info_start
-	.long LDIFF_SYM1322
-LTDIE_111_POINTER:
-
-	.byte 13
-LDIFF_SYM1323=LTDIE_111 - Ldebug_info_start
-	.long LDIFF_SYM1323
-LTDIE_111_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1324=LTDIE_111 - Ldebug_info_start
-	.long LDIFF_SYM1324
-	.byte 2
-	.asciz "(wrapper delegate-invoke) System.Comparison`1<Robotics.Mobile.Core.Bluetooth.LE.ICharacteristic>:invoke_int_T_T"
-	.long _wrapper_delegate_invoke_System_Comparison_1_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic_invoke_int_T_T_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic
-	.long Lme_99
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1325=LTDIE_111_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1325
 	.byte 1,85,3
 	.asciz "param0"
 
-LDIFF_SYM1326=LTDIE_64_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1326
+LDIFF_SYM1320=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1320
 	.byte 1,86,3
 	.asciz "param1"
 
-LDIFF_SYM1327=LTDIE_64_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1327
+LDIFF_SYM1321=LTDIE_68_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1321
 	.byte 1,90,11
 	.asciz "V_0"
 
-LDIFF_SYM1328=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1328
+LDIFF_SYM1322=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1322
 	.byte 1,84,11
 	.asciz "V_1"
 
-LDIFF_SYM1329=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1329
+LDIFF_SYM1323=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1323
 	.byte 1,91,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1330=Lfde152_end - Lfde152_start
-	.long LDIFF_SYM1330
-Lfde152_start:
+LDIFF_SYM1324=Lfde151_end - Lfde151_start
+	.long LDIFF_SYM1324
+Lfde151_start:
 
 	.long 0
 	.align 2
-	.long _wrapper_delegate_invoke_System_Comparison_1_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic_invoke_int_T_T_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic
+	.long _wrapper_delegate_invoke_System_EventHandler_1_MonoTouch_CoreBluetooth_CBCharacteristicEventArgs_invoke_void_object_TEventArgs_object_MonoTouch_CoreBluetooth_CBCharacteristicEventArgs
 
-LDIFF_SYM1331=Lme_99 - _wrapper_delegate_invoke_System_Comparison_1_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic_invoke_int_T_T_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic
-	.long LDIFF_SYM1331
+LDIFF_SYM1325=Lme_98 - _wrapper_delegate_invoke_System_EventHandler_1_MonoTouch_CoreBluetooth_CBCharacteristicEventArgs_invoke_void_object_TEventArgs_object_MonoTouch_CoreBluetooth_CBCharacteristicEventArgs
+	.long LDIFF_SYM1325
 	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1
 	.align 2
-Lfde152_end:
+Lfde151_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_112:
@@ -16369,65 +16700,65 @@ LTDIE_112:
 	.asciz "System_Predicate`1"
 
 	.byte 52,16
-LDIFF_SYM1332=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM1332
+LDIFF_SYM1326=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM1326
 	.byte 2,35,0,0,7
 	.asciz "System_Predicate`1"
 
-LDIFF_SYM1333=LTDIE_112 - Ldebug_info_start
-	.long LDIFF_SYM1333
+LDIFF_SYM1327=LTDIE_112 - Ldebug_info_start
+	.long LDIFF_SYM1327
 LTDIE_112_POINTER:
 
 	.byte 13
-LDIFF_SYM1334=LTDIE_112 - Ldebug_info_start
-	.long LDIFF_SYM1334
+LDIFF_SYM1328=LTDIE_112 - Ldebug_info_start
+	.long LDIFF_SYM1328
 LTDIE_112_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1335=LTDIE_112 - Ldebug_info_start
-	.long LDIFF_SYM1335
+LDIFF_SYM1329=LTDIE_112 - Ldebug_info_start
+	.long LDIFF_SYM1329
 	.byte 2
-	.asciz "(wrapper delegate-invoke) System.Predicate`1<Robotics.Mobile.Core.Bluetooth.LE.IService>:invoke_bool_T"
-	.long _wrapper_delegate_invoke_System_Predicate_1_Robotics_Mobile_Core_Bluetooth_LE_IService_invoke_bool_T_Robotics_Mobile_Core_Bluetooth_LE_IService
-	.long Lme_9a
+	.asciz "(wrapper delegate-invoke) System.Predicate`1<Robotics.Mobile.Core.Bluetooth.LE.ICharacteristic>:invoke_bool_T"
+	.long _wrapper_delegate_invoke_System_Predicate_1_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic_invoke_bool_T_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic
+	.long Lme_99
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1336=LTDIE_112_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1336
+LDIFF_SYM1330=LTDIE_112_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1330
 	.byte 1,86,3
 	.asciz "param0"
 
-LDIFF_SYM1337=LTDIE_78_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1337
+LDIFF_SYM1331=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1331
 	.byte 1,90,11
 	.asciz "V_0"
 
-LDIFF_SYM1338=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1338
+LDIFF_SYM1332=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1332
 	.byte 1,85,11
 	.asciz "V_1"
 
-LDIFF_SYM1339=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1339
+LDIFF_SYM1333=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1333
 	.byte 1,84,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1340=Lfde153_end - Lfde153_start
-	.long LDIFF_SYM1340
-Lfde153_start:
+LDIFF_SYM1334=Lfde152_end - Lfde152_start
+	.long LDIFF_SYM1334
+Lfde152_start:
 
 	.long 0
 	.align 2
-	.long _wrapper_delegate_invoke_System_Predicate_1_Robotics_Mobile_Core_Bluetooth_LE_IService_invoke_bool_T_Robotics_Mobile_Core_Bluetooth_LE_IService
+	.long _wrapper_delegate_invoke_System_Predicate_1_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic_invoke_bool_T_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic
 
-LDIFF_SYM1341=Lme_9a - _wrapper_delegate_invoke_System_Predicate_1_Robotics_Mobile_Core_Bluetooth_LE_IService_invoke_bool_T_Robotics_Mobile_Core_Bluetooth_LE_IService
-	.long LDIFF_SYM1341
+LDIFF_SYM1335=Lme_99 - _wrapper_delegate_invoke_System_Predicate_1_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic_invoke_bool_T_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic
+	.long LDIFF_SYM1335
 	.byte 12,13,0,72,14,8,135,2,68,14,28,132,7,133,6,134,5,136,4,138,3,142,1,68,14,32
 	.align 2
-Lfde153_end:
+Lfde152_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_113:
@@ -16436,65 +16767,65 @@ LTDIE_113:
 	.asciz "System_Action`1"
 
 	.byte 52,16
-LDIFF_SYM1342=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM1342
+LDIFF_SYM1336=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM1336
 	.byte 2,35,0,0,7
 	.asciz "System_Action`1"
 
-LDIFF_SYM1343=LTDIE_113 - Ldebug_info_start
-	.long LDIFF_SYM1343
+LDIFF_SYM1337=LTDIE_113 - Ldebug_info_start
+	.long LDIFF_SYM1337
 LTDIE_113_POINTER:
 
 	.byte 13
-LDIFF_SYM1344=LTDIE_113 - Ldebug_info_start
-	.long LDIFF_SYM1344
+LDIFF_SYM1338=LTDIE_113 - Ldebug_info_start
+	.long LDIFF_SYM1338
 LTDIE_113_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1345=LTDIE_113 - Ldebug_info_start
-	.long LDIFF_SYM1345
+LDIFF_SYM1339=LTDIE_113 - Ldebug_info_start
+	.long LDIFF_SYM1339
 	.byte 2
-	.asciz "(wrapper delegate-invoke) System.Action`1<Robotics.Mobile.Core.Bluetooth.LE.IService>:invoke_void_T"
-	.long _wrapper_delegate_invoke_System_Action_1_Robotics_Mobile_Core_Bluetooth_LE_IService_invoke_void_T_Robotics_Mobile_Core_Bluetooth_LE_IService
-	.long Lme_9b
+	.asciz "(wrapper delegate-invoke) System.Action`1<Robotics.Mobile.Core.Bluetooth.LE.ICharacteristic>:invoke_void_T"
+	.long _wrapper_delegate_invoke_System_Action_1_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic_invoke_void_T_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic
+	.long Lme_9a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1346=LTDIE_113_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1346
+LDIFF_SYM1340=LTDIE_113_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1340
 	.byte 1,86,3
 	.asciz "param0"
 
-LDIFF_SYM1347=LTDIE_78_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1347
+LDIFF_SYM1341=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1341
 	.byte 1,90,11
 	.asciz "V_0"
 
-LDIFF_SYM1348=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1348
+LDIFF_SYM1342=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1342
 	.byte 1,85,11
 	.asciz "V_1"
 
-LDIFF_SYM1349=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1349
+LDIFF_SYM1343=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1343
 	.byte 1,84,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1350=Lfde154_end - Lfde154_start
-	.long LDIFF_SYM1350
-Lfde154_start:
+LDIFF_SYM1344=Lfde153_end - Lfde153_start
+	.long LDIFF_SYM1344
+Lfde153_start:
 
 	.long 0
 	.align 2
-	.long _wrapper_delegate_invoke_System_Action_1_Robotics_Mobile_Core_Bluetooth_LE_IService_invoke_void_T_Robotics_Mobile_Core_Bluetooth_LE_IService
+	.long _wrapper_delegate_invoke_System_Action_1_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic_invoke_void_T_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic
 
-LDIFF_SYM1351=Lme_9b - _wrapper_delegate_invoke_System_Action_1_Robotics_Mobile_Core_Bluetooth_LE_IService_invoke_void_T_Robotics_Mobile_Core_Bluetooth_LE_IService
-	.long LDIFF_SYM1351
+LDIFF_SYM1345=Lme_9a - _wrapper_delegate_invoke_System_Action_1_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic_invoke_void_T_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic
+	.long LDIFF_SYM1345
 	.byte 12,13,0,72,14,8,135,2,68,14,28,132,7,133,6,134,5,136,4,138,3,142,1,68,14,32
 	.align 2
-Lfde154_end:
+Lfde153_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_114:
@@ -16503,911 +16834,982 @@ LTDIE_114:
 	.asciz "System_Comparison`1"
 
 	.byte 52,16
-LDIFF_SYM1352=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM1352
+LDIFF_SYM1346=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM1346
 	.byte 2,35,0,0,7
 	.asciz "System_Comparison`1"
 
-LDIFF_SYM1353=LTDIE_114 - Ldebug_info_start
-	.long LDIFF_SYM1353
+LDIFF_SYM1347=LTDIE_114 - Ldebug_info_start
+	.long LDIFF_SYM1347
 LTDIE_114_POINTER:
 
 	.byte 13
-LDIFF_SYM1354=LTDIE_114 - Ldebug_info_start
-	.long LDIFF_SYM1354
+LDIFF_SYM1348=LTDIE_114 - Ldebug_info_start
+	.long LDIFF_SYM1348
 LTDIE_114_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1355=LTDIE_114 - Ldebug_info_start
-	.long LDIFF_SYM1355
+LDIFF_SYM1349=LTDIE_114 - Ldebug_info_start
+	.long LDIFF_SYM1349
 	.byte 2
-	.asciz "(wrapper delegate-invoke) System.Comparison`1<Robotics.Mobile.Core.Bluetooth.LE.IService>:invoke_int_T_T"
-	.long _wrapper_delegate_invoke_System_Comparison_1_Robotics_Mobile_Core_Bluetooth_LE_IService_invoke_int_T_T_Robotics_Mobile_Core_Bluetooth_LE_IService_Robotics_Mobile_Core_Bluetooth_LE_IService
-	.long Lme_9c
+	.asciz "(wrapper delegate-invoke) System.Comparison`1<Robotics.Mobile.Core.Bluetooth.LE.ICharacteristic>:invoke_int_T_T"
+	.long _wrapper_delegate_invoke_System_Comparison_1_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic_invoke_int_T_T_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic
+	.long Lme_9b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1356=LTDIE_114_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1356
+LDIFF_SYM1350=LTDIE_114_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1350
 	.byte 1,85,3
 	.asciz "param0"
 
-LDIFF_SYM1357=LTDIE_78_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1357
+LDIFF_SYM1351=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1351
 	.byte 1,86,3
 	.asciz "param1"
 
-LDIFF_SYM1358=LTDIE_78_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1358
+LDIFF_SYM1352=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1352
 	.byte 1,90,11
 	.asciz "V_0"
 
-LDIFF_SYM1359=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1359
+LDIFF_SYM1353=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1353
 	.byte 1,84,11
 	.asciz "V_1"
 
-LDIFF_SYM1360=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1360
+LDIFF_SYM1354=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1354
 	.byte 1,91,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1361=Lfde155_end - Lfde155_start
-	.long LDIFF_SYM1361
-Lfde155_start:
+LDIFF_SYM1355=Lfde154_end - Lfde154_start
+	.long LDIFF_SYM1355
+Lfde154_start:
 
 	.long 0
 	.align 2
-	.long _wrapper_delegate_invoke_System_Comparison_1_Robotics_Mobile_Core_Bluetooth_LE_IService_invoke_int_T_T_Robotics_Mobile_Core_Bluetooth_LE_IService_Robotics_Mobile_Core_Bluetooth_LE_IService
+	.long _wrapper_delegate_invoke_System_Comparison_1_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic_invoke_int_T_T_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic
 
-LDIFF_SYM1362=Lme_9c - _wrapper_delegate_invoke_System_Comparison_1_Robotics_Mobile_Core_Bluetooth_LE_IService_invoke_int_T_T_Robotics_Mobile_Core_Bluetooth_LE_IService_Robotics_Mobile_Core_Bluetooth_LE_IService
-	.long LDIFF_SYM1362
+LDIFF_SYM1356=Lme_9b - _wrapper_delegate_invoke_System_Comparison_1_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic_invoke_int_T_T_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic_Robotics_Mobile_Core_Bluetooth_LE_ICharacteristic
+	.long LDIFF_SYM1356
 	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1
 	.align 2
-Lfde155_end:
+Lfde154_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_115:
 
 	.byte 5
-	.asciz "System_EventHandler`1"
+	.asciz "System_Predicate`1"
 
 	.byte 52,16
-LDIFF_SYM1363=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM1363
+LDIFF_SYM1357=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM1357
 	.byte 2,35,0,0,7
-	.asciz "System_EventHandler`1"
+	.asciz "System_Predicate`1"
 
-LDIFF_SYM1364=LTDIE_115 - Ldebug_info_start
-	.long LDIFF_SYM1364
+LDIFF_SYM1358=LTDIE_115 - Ldebug_info_start
+	.long LDIFF_SYM1358
 LTDIE_115_POINTER:
 
 	.byte 13
-LDIFF_SYM1365=LTDIE_115 - Ldebug_info_start
-	.long LDIFF_SYM1365
+LDIFF_SYM1359=LTDIE_115 - Ldebug_info_start
+	.long LDIFF_SYM1359
 LTDIE_115_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1366=LTDIE_115 - Ldebug_info_start
-	.long LDIFF_SYM1366
+LDIFF_SYM1360=LTDIE_115 - Ldebug_info_start
+	.long LDIFF_SYM1360
 	.byte 2
-	.asciz "(wrapper delegate-invoke) System.EventHandler`1<MonoTouch.Foundation.NSErrorEventArgs>:invoke_void_object_TEventArgs"
-	.long _wrapper_delegate_invoke_System_EventHandler_1_MonoTouch_Foundation_NSErrorEventArgs_invoke_void_object_TEventArgs_object_MonoTouch_Foundation_NSErrorEventArgs
-	.long Lme_9d
+	.asciz "(wrapper delegate-invoke) System.Predicate`1<Robotics.Mobile.Core.Bluetooth.LE.IService>:invoke_bool_T"
+	.long _wrapper_delegate_invoke_System_Predicate_1_Robotics_Mobile_Core_Bluetooth_LE_IService_invoke_bool_T_Robotics_Mobile_Core_Bluetooth_LE_IService
+	.long Lme_9c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1367=LTDIE_115_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1367
-	.byte 1,85,3
+LDIFF_SYM1361=LTDIE_115_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1361
+	.byte 1,86,3
 	.asciz "param0"
 
-LDIFF_SYM1368=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1368
-	.byte 1,86,3
-	.asciz "param1"
-
-LDIFF_SYM1369=LTDIE_80_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1369
+LDIFF_SYM1362=LTDIE_78_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1362
 	.byte 1,90,11
 	.asciz "V_0"
 
-LDIFF_SYM1370=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1370
-	.byte 1,84,11
+LDIFF_SYM1363=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1363
+	.byte 1,85,11
 	.asciz "V_1"
 
-LDIFF_SYM1371=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1371
-	.byte 1,91,0
+LDIFF_SYM1364=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1364
+	.byte 1,84,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1372=Lfde156_end - Lfde156_start
-	.long LDIFF_SYM1372
-Lfde156_start:
+LDIFF_SYM1365=Lfde155_end - Lfde155_start
+	.long LDIFF_SYM1365
+Lfde155_start:
 
 	.long 0
 	.align 2
-	.long _wrapper_delegate_invoke_System_EventHandler_1_MonoTouch_Foundation_NSErrorEventArgs_invoke_void_object_TEventArgs_object_MonoTouch_Foundation_NSErrorEventArgs
+	.long _wrapper_delegate_invoke_System_Predicate_1_Robotics_Mobile_Core_Bluetooth_LE_IService_invoke_bool_T_Robotics_Mobile_Core_Bluetooth_LE_IService
 
-LDIFF_SYM1373=Lme_9d - _wrapper_delegate_invoke_System_EventHandler_1_MonoTouch_Foundation_NSErrorEventArgs_invoke_void_object_TEventArgs_object_MonoTouch_Foundation_NSErrorEventArgs
-	.long LDIFF_SYM1373
-	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1
+LDIFF_SYM1366=Lme_9c - _wrapper_delegate_invoke_System_Predicate_1_Robotics_Mobile_Core_Bluetooth_LE_IService_invoke_bool_T_Robotics_Mobile_Core_Bluetooth_LE_IService
+	.long LDIFF_SYM1366
+	.byte 12,13,0,72,14,8,135,2,68,14,28,132,7,133,6,134,5,136,4,138,3,142,1,68,14,32
 	.align 2
-Lfde156_end:
+Lfde155_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_116:
 
 	.byte 5
-	.asciz "System_EventHandler`1"
+	.asciz "System_Action`1"
 
 	.byte 52,16
-LDIFF_SYM1374=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM1374
+LDIFF_SYM1367=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM1367
 	.byte 2,35,0,0,7
-	.asciz "System_EventHandler`1"
+	.asciz "System_Action`1"
 
-LDIFF_SYM1375=LTDIE_116 - Ldebug_info_start
-	.long LDIFF_SYM1375
+LDIFF_SYM1368=LTDIE_116 - Ldebug_info_start
+	.long LDIFF_SYM1368
 LTDIE_116_POINTER:
 
 	.byte 13
-LDIFF_SYM1376=LTDIE_116 - Ldebug_info_start
-	.long LDIFF_SYM1376
+LDIFF_SYM1369=LTDIE_116 - Ldebug_info_start
+	.long LDIFF_SYM1369
 LTDIE_116_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1377=LTDIE_116 - Ldebug_info_start
-	.long LDIFF_SYM1377
+LDIFF_SYM1370=LTDIE_116 - Ldebug_info_start
+	.long LDIFF_SYM1370
 	.byte 2
-	.asciz "(wrapper delegate-invoke) System.EventHandler`1<MonoTouch.CoreBluetooth.CBServiceEventArgs>:invoke_void_object_TEventArgs"
-	.long _wrapper_delegate_invoke_System_EventHandler_1_MonoTouch_CoreBluetooth_CBServiceEventArgs_invoke_void_object_TEventArgs_object_MonoTouch_CoreBluetooth_CBServiceEventArgs
-	.long Lme_9e
+	.asciz "(wrapper delegate-invoke) System.Action`1<Robotics.Mobile.Core.Bluetooth.LE.IService>:invoke_void_T"
+	.long _wrapper_delegate_invoke_System_Action_1_Robotics_Mobile_Core_Bluetooth_LE_IService_invoke_void_T_Robotics_Mobile_Core_Bluetooth_LE_IService
+	.long Lme_9d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1378=LTDIE_116_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1378
-	.byte 1,85,3
+LDIFF_SYM1371=LTDIE_116_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1371
+	.byte 1,86,3
 	.asciz "param0"
 
-LDIFF_SYM1379=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1379
-	.byte 1,86,3
-	.asciz "param1"
-
-LDIFF_SYM1380=LTDIE_81_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1380
+LDIFF_SYM1372=LTDIE_78_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1372
 	.byte 1,90,11
 	.asciz "V_0"
 
-LDIFF_SYM1381=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1381
-	.byte 1,84,11
+LDIFF_SYM1373=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1373
+	.byte 1,85,11
 	.asciz "V_1"
 
-LDIFF_SYM1382=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1382
-	.byte 1,91,0
+LDIFF_SYM1374=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1374
+	.byte 1,84,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1383=Lfde157_end - Lfde157_start
-	.long LDIFF_SYM1383
-Lfde157_start:
+LDIFF_SYM1375=Lfde156_end - Lfde156_start
+	.long LDIFF_SYM1375
+Lfde156_start:
 
 	.long 0
 	.align 2
-	.long _wrapper_delegate_invoke_System_EventHandler_1_MonoTouch_CoreBluetooth_CBServiceEventArgs_invoke_void_object_TEventArgs_object_MonoTouch_CoreBluetooth_CBServiceEventArgs
+	.long _wrapper_delegate_invoke_System_Action_1_Robotics_Mobile_Core_Bluetooth_LE_IService_invoke_void_T_Robotics_Mobile_Core_Bluetooth_LE_IService
 
-LDIFF_SYM1384=Lme_9e - _wrapper_delegate_invoke_System_EventHandler_1_MonoTouch_CoreBluetooth_CBServiceEventArgs_invoke_void_object_TEventArgs_object_MonoTouch_CoreBluetooth_CBServiceEventArgs
-	.long LDIFF_SYM1384
-	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1
+LDIFF_SYM1376=Lme_9d - _wrapper_delegate_invoke_System_Action_1_Robotics_Mobile_Core_Bluetooth_LE_IService_invoke_void_T_Robotics_Mobile_Core_Bluetooth_LE_IService
+	.long LDIFF_SYM1376
+	.byte 12,13,0,72,14,8,135,2,68,14,28,132,7,133,6,134,5,136,4,138,3,142,1,68,14,32
 	.align 2
-Lfde157_end:
+Lfde156_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_117:
 
 	.byte 5
-	.asciz "System_Predicate`1"
+	.asciz "System_Comparison`1"
 
 	.byte 52,16
-LDIFF_SYM1385=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM1385
+LDIFF_SYM1377=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM1377
 	.byte 2,35,0,0,7
-	.asciz "System_Predicate`1"
+	.asciz "System_Comparison`1"
 
-LDIFF_SYM1386=LTDIE_117 - Ldebug_info_start
-	.long LDIFF_SYM1386
+LDIFF_SYM1378=LTDIE_117 - Ldebug_info_start
+	.long LDIFF_SYM1378
 LTDIE_117_POINTER:
 
 	.byte 13
-LDIFF_SYM1387=LTDIE_117 - Ldebug_info_start
-	.long LDIFF_SYM1387
+LDIFF_SYM1379=LTDIE_117 - Ldebug_info_start
+	.long LDIFF_SYM1379
 LTDIE_117_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1388=LTDIE_117 - Ldebug_info_start
-	.long LDIFF_SYM1388
+LDIFF_SYM1380=LTDIE_117 - Ldebug_info_start
+	.long LDIFF_SYM1380
 	.byte 2
-	.asciz "(wrapper delegate-invoke) System.Predicate`1<Robotics.Mobile.Core.Bluetooth.LE.IDevice>:invoke_bool_T"
-	.long _wrapper_delegate_invoke_System_Predicate_1_Robotics_Mobile_Core_Bluetooth_LE_IDevice_invoke_bool_T_Robotics_Mobile_Core_Bluetooth_LE_IDevice
-	.long Lme_9f
+	.asciz "(wrapper delegate-invoke) System.Comparison`1<Robotics.Mobile.Core.Bluetooth.LE.IService>:invoke_int_T_T"
+	.long _wrapper_delegate_invoke_System_Comparison_1_Robotics_Mobile_Core_Bluetooth_LE_IService_invoke_int_T_T_Robotics_Mobile_Core_Bluetooth_LE_IService_Robotics_Mobile_Core_Bluetooth_LE_IService
+	.long Lme_9e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1389=LTDIE_117_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1389
-	.byte 1,86,3
+LDIFF_SYM1381=LTDIE_117_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1381
+	.byte 1,85,3
 	.asciz "param0"
 
-LDIFF_SYM1390=LTDIE_88_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1390
+LDIFF_SYM1382=LTDIE_78_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1382
+	.byte 1,86,3
+	.asciz "param1"
+
+LDIFF_SYM1383=LTDIE_78_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1383
 	.byte 1,90,11
 	.asciz "V_0"
 
-LDIFF_SYM1391=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1391
-	.byte 1,85,11
+LDIFF_SYM1384=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1384
+	.byte 1,84,11
 	.asciz "V_1"
 
-LDIFF_SYM1392=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1392
-	.byte 1,84,0
+LDIFF_SYM1385=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1385
+	.byte 1,91,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1393=Lfde158_end - Lfde158_start
-	.long LDIFF_SYM1393
-Lfde158_start:
+LDIFF_SYM1386=Lfde157_end - Lfde157_start
+	.long LDIFF_SYM1386
+Lfde157_start:
 
 	.long 0
 	.align 2
-	.long _wrapper_delegate_invoke_System_Predicate_1_Robotics_Mobile_Core_Bluetooth_LE_IDevice_invoke_bool_T_Robotics_Mobile_Core_Bluetooth_LE_IDevice
+	.long _wrapper_delegate_invoke_System_Comparison_1_Robotics_Mobile_Core_Bluetooth_LE_IService_invoke_int_T_T_Robotics_Mobile_Core_Bluetooth_LE_IService_Robotics_Mobile_Core_Bluetooth_LE_IService
 
-LDIFF_SYM1394=Lme_9f - _wrapper_delegate_invoke_System_Predicate_1_Robotics_Mobile_Core_Bluetooth_LE_IDevice_invoke_bool_T_Robotics_Mobile_Core_Bluetooth_LE_IDevice
-	.long LDIFF_SYM1394
-	.byte 12,13,0,72,14,8,135,2,68,14,28,132,7,133,6,134,5,136,4,138,3,142,1,68,14,32
+LDIFF_SYM1387=Lme_9e - _wrapper_delegate_invoke_System_Comparison_1_Robotics_Mobile_Core_Bluetooth_LE_IService_invoke_int_T_T_Robotics_Mobile_Core_Bluetooth_LE_IService_Robotics_Mobile_Core_Bluetooth_LE_IService
+	.long LDIFF_SYM1387
+	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1
 	.align 2
-Lfde158_end:
+Lfde157_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_118:
 
 	.byte 5
-	.asciz "System_Action`1"
+	.asciz "System_EventHandler`1"
 
 	.byte 52,16
-LDIFF_SYM1395=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM1395
+LDIFF_SYM1388=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM1388
 	.byte 2,35,0,0,7
-	.asciz "System_Action`1"
+	.asciz "System_EventHandler`1"
 
-LDIFF_SYM1396=LTDIE_118 - Ldebug_info_start
-	.long LDIFF_SYM1396
+LDIFF_SYM1389=LTDIE_118 - Ldebug_info_start
+	.long LDIFF_SYM1389
 LTDIE_118_POINTER:
 
 	.byte 13
-LDIFF_SYM1397=LTDIE_118 - Ldebug_info_start
-	.long LDIFF_SYM1397
+LDIFF_SYM1390=LTDIE_118 - Ldebug_info_start
+	.long LDIFF_SYM1390
 LTDIE_118_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1398=LTDIE_118 - Ldebug_info_start
-	.long LDIFF_SYM1398
+LDIFF_SYM1391=LTDIE_118 - Ldebug_info_start
+	.long LDIFF_SYM1391
 	.byte 2
-	.asciz "(wrapper delegate-invoke) System.Action`1<Robotics.Mobile.Core.Bluetooth.LE.IDevice>:invoke_void_T"
-	.long _wrapper_delegate_invoke_System_Action_1_Robotics_Mobile_Core_Bluetooth_LE_IDevice_invoke_void_T_Robotics_Mobile_Core_Bluetooth_LE_IDevice
-	.long Lme_a0
+	.asciz "(wrapper delegate-invoke) System.EventHandler`1<MonoTouch.Foundation.NSErrorEventArgs>:invoke_void_object_TEventArgs"
+	.long _wrapper_delegate_invoke_System_EventHandler_1_MonoTouch_Foundation_NSErrorEventArgs_invoke_void_object_TEventArgs_object_MonoTouch_Foundation_NSErrorEventArgs
+	.long Lme_9f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1399=LTDIE_118_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1399
-	.byte 1,86,3
+LDIFF_SYM1392=LTDIE_118_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1392
+	.byte 1,85,3
 	.asciz "param0"
 
-LDIFF_SYM1400=LTDIE_88_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1400
+LDIFF_SYM1393=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1393
+	.byte 1,86,3
+	.asciz "param1"
+
+LDIFF_SYM1394=LTDIE_80_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1394
 	.byte 1,90,11
 	.asciz "V_0"
 
-LDIFF_SYM1401=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1401
-	.byte 1,85,11
+LDIFF_SYM1395=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1395
+	.byte 1,84,11
 	.asciz "V_1"
 
-LDIFF_SYM1402=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1402
-	.byte 1,84,0
+LDIFF_SYM1396=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1396
+	.byte 1,91,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1403=Lfde159_end - Lfde159_start
-	.long LDIFF_SYM1403
-Lfde159_start:
+LDIFF_SYM1397=Lfde158_end - Lfde158_start
+	.long LDIFF_SYM1397
+Lfde158_start:
 
 	.long 0
 	.align 2
-	.long _wrapper_delegate_invoke_System_Action_1_Robotics_Mobile_Core_Bluetooth_LE_IDevice_invoke_void_T_Robotics_Mobile_Core_Bluetooth_LE_IDevice
+	.long _wrapper_delegate_invoke_System_EventHandler_1_MonoTouch_Foundation_NSErrorEventArgs_invoke_void_object_TEventArgs_object_MonoTouch_Foundation_NSErrorEventArgs
 
-LDIFF_SYM1404=Lme_a0 - _wrapper_delegate_invoke_System_Action_1_Robotics_Mobile_Core_Bluetooth_LE_IDevice_invoke_void_T_Robotics_Mobile_Core_Bluetooth_LE_IDevice
-	.long LDIFF_SYM1404
-	.byte 12,13,0,72,14,8,135,2,68,14,28,132,7,133,6,134,5,136,4,138,3,142,1,68,14,32
+LDIFF_SYM1398=Lme_9f - _wrapper_delegate_invoke_System_EventHandler_1_MonoTouch_Foundation_NSErrorEventArgs_invoke_void_object_TEventArgs_object_MonoTouch_Foundation_NSErrorEventArgs
+	.long LDIFF_SYM1398
+	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1
 	.align 2
-Lfde159_end:
+Lfde158_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_119:
 
 	.byte 5
-	.asciz "System_Comparison`1"
+	.asciz "System_EventHandler`1"
 
 	.byte 52,16
-LDIFF_SYM1405=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM1405
+LDIFF_SYM1399=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM1399
 	.byte 2,35,0,0,7
-	.asciz "System_Comparison`1"
+	.asciz "System_EventHandler`1"
 
-LDIFF_SYM1406=LTDIE_119 - Ldebug_info_start
-	.long LDIFF_SYM1406
+LDIFF_SYM1400=LTDIE_119 - Ldebug_info_start
+	.long LDIFF_SYM1400
 LTDIE_119_POINTER:
 
 	.byte 13
-LDIFF_SYM1407=LTDIE_119 - Ldebug_info_start
-	.long LDIFF_SYM1407
+LDIFF_SYM1401=LTDIE_119 - Ldebug_info_start
+	.long LDIFF_SYM1401
 LTDIE_119_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1408=LTDIE_119 - Ldebug_info_start
-	.long LDIFF_SYM1408
+LDIFF_SYM1402=LTDIE_119 - Ldebug_info_start
+	.long LDIFF_SYM1402
 	.byte 2
-	.asciz "(wrapper delegate-invoke) System.Comparison`1<Robotics.Mobile.Core.Bluetooth.LE.IDevice>:invoke_int_T_T"
-	.long _wrapper_delegate_invoke_System_Comparison_1_Robotics_Mobile_Core_Bluetooth_LE_IDevice_invoke_int_T_T_Robotics_Mobile_Core_Bluetooth_LE_IDevice_Robotics_Mobile_Core_Bluetooth_LE_IDevice
-	.long Lme_a1
+	.asciz "(wrapper delegate-invoke) System.EventHandler`1<MonoTouch.CoreBluetooth.CBServiceEventArgs>:invoke_void_object_TEventArgs"
+	.long _wrapper_delegate_invoke_System_EventHandler_1_MonoTouch_CoreBluetooth_CBServiceEventArgs_invoke_void_object_TEventArgs_object_MonoTouch_CoreBluetooth_CBServiceEventArgs
+	.long Lme_a0
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1409=LTDIE_119_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1409
+LDIFF_SYM1403=LTDIE_119_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1403
 	.byte 1,85,3
 	.asciz "param0"
 
-LDIFF_SYM1410=LTDIE_88_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1410
+LDIFF_SYM1404=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1404
 	.byte 1,86,3
 	.asciz "param1"
 
-LDIFF_SYM1411=LTDIE_88_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1411
+LDIFF_SYM1405=LTDIE_81_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1405
 	.byte 1,90,11
 	.asciz "V_0"
 
-LDIFF_SYM1412=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1412
+LDIFF_SYM1406=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1406
 	.byte 1,84,11
 	.asciz "V_1"
 
-LDIFF_SYM1413=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1413
+LDIFF_SYM1407=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1407
 	.byte 1,91,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1414=Lfde160_end - Lfde160_start
-	.long LDIFF_SYM1414
-Lfde160_start:
+LDIFF_SYM1408=Lfde159_end - Lfde159_start
+	.long LDIFF_SYM1408
+Lfde159_start:
 
 	.long 0
 	.align 2
-	.long _wrapper_delegate_invoke_System_Comparison_1_Robotics_Mobile_Core_Bluetooth_LE_IDevice_invoke_int_T_T_Robotics_Mobile_Core_Bluetooth_LE_IDevice_Robotics_Mobile_Core_Bluetooth_LE_IDevice
+	.long _wrapper_delegate_invoke_System_EventHandler_1_MonoTouch_CoreBluetooth_CBServiceEventArgs_invoke_void_object_TEventArgs_object_MonoTouch_CoreBluetooth_CBServiceEventArgs
 
-LDIFF_SYM1415=Lme_a1 - _wrapper_delegate_invoke_System_Comparison_1_Robotics_Mobile_Core_Bluetooth_LE_IDevice_invoke_int_T_T_Robotics_Mobile_Core_Bluetooth_LE_IDevice_Robotics_Mobile_Core_Bluetooth_LE_IDevice
-	.long LDIFF_SYM1415
+LDIFF_SYM1409=Lme_a0 - _wrapper_delegate_invoke_System_EventHandler_1_MonoTouch_CoreBluetooth_CBServiceEventArgs_invoke_void_object_TEventArgs_object_MonoTouch_CoreBluetooth_CBServiceEventArgs
+	.long LDIFF_SYM1409
 	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1
 	.align 2
-Lfde160_end:
+Lfde159_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_120:
 
 	.byte 5
-	.asciz "System_Func`1"
+	.asciz "System_Predicate`1"
 
 	.byte 52,16
-LDIFF_SYM1416=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM1416
+LDIFF_SYM1410=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM1410
 	.byte 2,35,0,0,7
-	.asciz "System_Func`1"
+	.asciz "System_Predicate`1"
 
-LDIFF_SYM1417=LTDIE_120 - Ldebug_info_start
-	.long LDIFF_SYM1417
+LDIFF_SYM1411=LTDIE_120 - Ldebug_info_start
+	.long LDIFF_SYM1411
 LTDIE_120_POINTER:
 
 	.byte 13
-LDIFF_SYM1418=LTDIE_120 - Ldebug_info_start
-	.long LDIFF_SYM1418
+LDIFF_SYM1412=LTDIE_120 - Ldebug_info_start
+	.long LDIFF_SYM1412
 LTDIE_120_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1419=LTDIE_120 - Ldebug_info_start
-	.long LDIFF_SYM1419
+LDIFF_SYM1413=LTDIE_120 - Ldebug_info_start
+	.long LDIFF_SYM1413
 	.byte 2
-	.asciz "(wrapper delegate-invoke) System.Func`1<bool>:invoke_TResult"
-	.long _wrapper_delegate_invoke_System_Func_1_bool_invoke_TResult
-	.long Lme_a6
+	.asciz "(wrapper delegate-invoke) System.Predicate`1<Robotics.Mobile.Core.Bluetooth.LE.IDevice>:invoke_bool_T"
+	.long _wrapper_delegate_invoke_System_Predicate_1_Robotics_Mobile_Core_Bluetooth_LE_IDevice_invoke_bool_T_Robotics_Mobile_Core_Bluetooth_LE_IDevice
+	.long Lme_a1
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1420=LTDIE_120_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1420
+LDIFF_SYM1414=LTDIE_120_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1414
+	.byte 1,86,3
+	.asciz "param0"
+
+LDIFF_SYM1415=LTDIE_88_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1415
 	.byte 1,90,11
 	.asciz "V_0"
 
-LDIFF_SYM1421=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1421
-	.byte 1,86,11
+LDIFF_SYM1416=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1416
+	.byte 1,85,11
 	.asciz "V_1"
 
-LDIFF_SYM1422=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1422
-	.byte 1,85,0
+LDIFF_SYM1417=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1417
+	.byte 1,84,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1423=Lfde161_end - Lfde161_start
-	.long LDIFF_SYM1423
-Lfde161_start:
+LDIFF_SYM1418=Lfde160_end - Lfde160_start
+	.long LDIFF_SYM1418
+Lfde160_start:
 
 	.long 0
 	.align 2
-	.long _wrapper_delegate_invoke_System_Func_1_bool_invoke_TResult
+	.long _wrapper_delegate_invoke_System_Predicate_1_Robotics_Mobile_Core_Bluetooth_LE_IDevice_invoke_bool_T_Robotics_Mobile_Core_Bluetooth_LE_IDevice
 
-LDIFF_SYM1424=Lme_a6 - _wrapper_delegate_invoke_System_Func_1_bool_invoke_TResult
-	.long LDIFF_SYM1424
-	.byte 12,13,0,72,14,8,135,2,68,14,24,133,6,134,5,136,4,138,3,142,1
+LDIFF_SYM1419=Lme_a1 - _wrapper_delegate_invoke_System_Predicate_1_Robotics_Mobile_Core_Bluetooth_LE_IDevice_invoke_bool_T_Robotics_Mobile_Core_Bluetooth_LE_IDevice
+	.long LDIFF_SYM1419
+	.byte 12,13,0,72,14,8,135,2,68,14,28,132,7,133,6,134,5,136,4,138,3,142,1,68,14,32
 	.align 2
-Lfde161_end:
+Lfde160_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_121:
 
 	.byte 5
-	.asciz "System_Threading_Tasks_Task`1"
+	.asciz "System_Action`1"
 
-	.byte 88,16
-LDIFF_SYM1425=LTDIE_40 - Ldebug_info_start
-	.long LDIFF_SYM1425
-	.byte 2,35,0,6
-	.asciz "value"
+	.byte 52,16
+LDIFF_SYM1420=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM1420
+	.byte 2,35,0,0,7
+	.asciz "System_Action`1"
 
-LDIFF_SYM1426=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1426
-	.byte 2,35,84,0,7
-	.asciz "System_Threading_Tasks_Task`1"
-
-LDIFF_SYM1427=LTDIE_121 - Ldebug_info_start
-	.long LDIFF_SYM1427
+LDIFF_SYM1421=LTDIE_121 - Ldebug_info_start
+	.long LDIFF_SYM1421
 LTDIE_121_POINTER:
 
 	.byte 13
-LDIFF_SYM1428=LTDIE_121 - Ldebug_info_start
-	.long LDIFF_SYM1428
+LDIFF_SYM1422=LTDIE_121 - Ldebug_info_start
+	.long LDIFF_SYM1422
 LTDIE_121_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1429=LTDIE_121 - Ldebug_info_start
-	.long LDIFF_SYM1429
+LDIFF_SYM1423=LTDIE_121 - Ldebug_info_start
+	.long LDIFF_SYM1423
 	.byte 2
-	.asciz "System.Threading.Tasks.Task`1<bool>:.ctor"
-	.long _System_Threading_Tasks_Task_1_bool__ctor_System_Func_1_bool_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions
-	.long Lme_a7
+	.asciz "(wrapper delegate-invoke) System.Action`1<Robotics.Mobile.Core.Bluetooth.LE.IDevice>:invoke_void_T"
+	.long _wrapper_delegate_invoke_System_Action_1_Robotics_Mobile_Core_Bluetooth_LE_IDevice_invoke_void_T_Robotics_Mobile_Core_Bluetooth_LE_IDevice
+	.long Lme_a2
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1430=LTDIE_121_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1430
-	.byte 2,123,16,3
-	.asciz "function"
+LDIFF_SYM1424=LTDIE_121_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1424
+	.byte 1,86,3
+	.asciz "param0"
 
-LDIFF_SYM1431=LTDIE_120_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1431
-	.byte 2,123,20,3
-	.asciz "cancellationToken"
+LDIFF_SYM1425=LTDIE_88_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1425
+	.byte 1,90,11
+	.asciz "V_0"
 
-LDIFF_SYM1432=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1432
-	.byte 2,123,24,3
-	.asciz "creationOptions"
+LDIFF_SYM1426=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1426
+	.byte 1,85,11
+	.asciz "V_1"
 
-LDIFF_SYM1433=LTDIE_51 - Ldebug_info_start
-	.long LDIFF_SYM1433
-	.byte 2,123,28,0
+LDIFF_SYM1427=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1427
+	.byte 1,84,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1434=Lfde162_end - Lfde162_start
+LDIFF_SYM1428=Lfde161_end - Lfde161_start
+	.long LDIFF_SYM1428
+Lfde161_start:
+
+	.long 0
+	.align 2
+	.long _wrapper_delegate_invoke_System_Action_1_Robotics_Mobile_Core_Bluetooth_LE_IDevice_invoke_void_T_Robotics_Mobile_Core_Bluetooth_LE_IDevice
+
+LDIFF_SYM1429=Lme_a2 - _wrapper_delegate_invoke_System_Action_1_Robotics_Mobile_Core_Bluetooth_LE_IDevice_invoke_void_T_Robotics_Mobile_Core_Bluetooth_LE_IDevice
+	.long LDIFF_SYM1429
+	.byte 12,13,0,72,14,8,135,2,68,14,28,132,7,133,6,134,5,136,4,138,3,142,1,68,14,32
+	.align 2
+Lfde161_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_122:
+
+	.byte 5
+	.asciz "System_Comparison`1"
+
+	.byte 52,16
+LDIFF_SYM1430=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM1430
+	.byte 2,35,0,0,7
+	.asciz "System_Comparison`1"
+
+LDIFF_SYM1431=LTDIE_122 - Ldebug_info_start
+	.long LDIFF_SYM1431
+LTDIE_122_POINTER:
+
+	.byte 13
+LDIFF_SYM1432=LTDIE_122 - Ldebug_info_start
+	.long LDIFF_SYM1432
+LTDIE_122_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1433=LTDIE_122 - Ldebug_info_start
+	.long LDIFF_SYM1433
+	.byte 2
+	.asciz "(wrapper delegate-invoke) System.Comparison`1<Robotics.Mobile.Core.Bluetooth.LE.IDevice>:invoke_int_T_T"
+	.long _wrapper_delegate_invoke_System_Comparison_1_Robotics_Mobile_Core_Bluetooth_LE_IDevice_invoke_int_T_T_Robotics_Mobile_Core_Bluetooth_LE_IDevice_Robotics_Mobile_Core_Bluetooth_LE_IDevice
+	.long Lme_a3
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1434=LTDIE_122_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1434
+	.byte 1,85,3
+	.asciz "param0"
+
+LDIFF_SYM1435=LTDIE_88_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1435
+	.byte 1,86,3
+	.asciz "param1"
+
+LDIFF_SYM1436=LTDIE_88_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1436
+	.byte 1,90,11
+	.asciz "V_0"
+
+LDIFF_SYM1437=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1437
+	.byte 1,84,11
+	.asciz "V_1"
+
+LDIFF_SYM1438=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1438
+	.byte 1,91,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1439=Lfde162_end - Lfde162_start
+	.long LDIFF_SYM1439
 Lfde162_start:
 
 	.long 0
 	.align 2
-	.long _System_Threading_Tasks_Task_1_bool__ctor_System_Func_1_bool_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions
+	.long _wrapper_delegate_invoke_System_Comparison_1_Robotics_Mobile_Core_Bluetooth_LE_IDevice_invoke_int_T_T_Robotics_Mobile_Core_Bluetooth_LE_IDevice_Robotics_Mobile_Core_Bluetooth_LE_IDevice
 
-LDIFF_SYM1435=Lme_a7 - _System_Threading_Tasks_Task_1_bool__ctor_System_Func_1_bool_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions
-	.long LDIFF_SYM1435
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,48,68,13,11
+LDIFF_SYM1440=Lme_a3 - _wrapper_delegate_invoke_System_Comparison_1_Robotics_Mobile_Core_Bluetooth_LE_IDevice_invoke_int_T_T_Robotics_Mobile_Core_Bluetooth_LE_IDevice_Robotics_Mobile_Core_Bluetooth_LE_IDevice
+	.long LDIFF_SYM1440
+	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1
 	.align 2
 Lfde162_end:
 
 .section __DWARF, __debug_info,regular,debug
+LTDIE_123:
 
+	.byte 5
+	.asciz "System_Func`1"
+
+	.byte 52,16
+LDIFF_SYM1441=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM1441
+	.byte 2,35,0,0,7
+	.asciz "System_Func`1"
+
+LDIFF_SYM1442=LTDIE_123 - Ldebug_info_start
+	.long LDIFF_SYM1442
+LTDIE_123_POINTER:
+
+	.byte 13
+LDIFF_SYM1443=LTDIE_123 - Ldebug_info_start
+	.long LDIFF_SYM1443
+LTDIE_123_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1444=LTDIE_123 - Ldebug_info_start
+	.long LDIFF_SYM1444
 	.byte 2
-	.asciz "System.Threading.Tasks.Task`1<bool>:.ctor"
-	.long _System_Threading_Tasks_Task_1_bool__ctor_System_Threading_Tasks_TaskActionInvoker_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_Task_System_Threading_Tasks_Task_bool
+	.asciz "(wrapper delegate-invoke) System.Func`1<bool>:invoke_TResult"
+	.long _wrapper_delegate_invoke_System_Func_1_bool_invoke_TResult
 	.long Lme_a8
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1436=LTDIE_121_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1436
-	.byte 2,123,16,3
-	.asciz "invoker"
+LDIFF_SYM1445=LTDIE_123_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1445
+	.byte 1,90,11
+	.asciz "V_0"
 
-LDIFF_SYM1437=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1437
-	.byte 2,123,20,3
-	.asciz "state"
+LDIFF_SYM1446=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1446
+	.byte 1,86,11
+	.asciz "V_1"
 
-LDIFF_SYM1438=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1438
-	.byte 2,123,24,3
-	.asciz "cancellationToken"
-
-LDIFF_SYM1439=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1439
-	.byte 2,123,28,3
-	.asciz "creationOptions"
-
-LDIFF_SYM1440=LTDIE_51 - Ldebug_info_start
-	.long LDIFF_SYM1440
-	.byte 2,123,32,3
-	.asciz "parent"
-
-LDIFF_SYM1441=LTDIE_40_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1441
-	.byte 2,123,36,3
-	.asciz "contAncestor"
-
-LDIFF_SYM1442=LTDIE_40_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1442
-	.byte 2,123,40,3
-	.asciz "ignoreCancellation"
-
-LDIFF_SYM1443=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1443
-	.byte 2,123,44,0
+LDIFF_SYM1447=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1447
+	.byte 1,85,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1444=Lfde163_end - Lfde163_start
-	.long LDIFF_SYM1444
+LDIFF_SYM1448=Lfde163_end - Lfde163_start
+	.long LDIFF_SYM1448
 Lfde163_start:
 
 	.long 0
 	.align 2
-	.long _System_Threading_Tasks_Task_1_bool__ctor_System_Threading_Tasks_TaskActionInvoker_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_Task_System_Threading_Tasks_Task_bool
+	.long _wrapper_delegate_invoke_System_Func_1_bool_invoke_TResult
 
-LDIFF_SYM1445=Lme_a8 - _System_Threading_Tasks_Task_1_bool__ctor_System_Threading_Tasks_TaskActionInvoker_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_Task_System_Threading_Tasks_Task_bool
-	.long LDIFF_SYM1445
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,64,68,13,11
+LDIFF_SYM1449=Lme_a8 - _wrapper_delegate_invoke_System_Func_1_bool_invoke_TResult
+	.long LDIFF_SYM1449
+	.byte 12,13,0,72,14,8,135,2,68,14,24,133,6,134,5,136,4,138,3,142,1
 	.align 2
 Lfde163_end:
 
 .section __DWARF, __debug_info,regular,debug
+LTDIE_124:
 
+	.byte 5
+	.asciz "System_Threading_Tasks_Task`1"
+
+	.byte 88,16
+LDIFF_SYM1450=LTDIE_40 - Ldebug_info_start
+	.long LDIFF_SYM1450
+	.byte 2,35,0,6
+	.asciz "value"
+
+LDIFF_SYM1451=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1451
+	.byte 2,35,84,0,7
+	.asciz "System_Threading_Tasks_Task`1"
+
+LDIFF_SYM1452=LTDIE_124 - Ldebug_info_start
+	.long LDIFF_SYM1452
+LTDIE_124_POINTER:
+
+	.byte 13
+LDIFF_SYM1453=LTDIE_124 - Ldebug_info_start
+	.long LDIFF_SYM1453
+LTDIE_124_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1454=LTDIE_124 - Ldebug_info_start
+	.long LDIFF_SYM1454
 	.byte 2
-	.asciz "System.Threading.Tasks.Task`1<bool>:get_Result"
-	.long _System_Threading_Tasks_Task_1_bool_get_Result
+	.asciz "System.Threading.Tasks.Task`1<bool>:.ctor"
+	.long _System_Threading_Tasks_Task_1_bool__ctor_System_Func_1_bool_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions
 	.long Lme_a9
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1446=LTDIE_121_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1446
-	.byte 1,90,0
+LDIFF_SYM1455=LTDIE_124_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1455
+	.byte 2,123,16,3
+	.asciz "function"
+
+LDIFF_SYM1456=LTDIE_123_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1456
+	.byte 2,123,20,3
+	.asciz "cancellationToken"
+
+LDIFF_SYM1457=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1457
+	.byte 2,123,24,3
+	.asciz "creationOptions"
+
+LDIFF_SYM1458=LTDIE_51 - Ldebug_info_start
+	.long LDIFF_SYM1458
+	.byte 2,123,28,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1447=Lfde164_end - Lfde164_start
-	.long LDIFF_SYM1447
+LDIFF_SYM1459=Lfde164_end - Lfde164_start
+	.long LDIFF_SYM1459
 Lfde164_start:
 
 	.long 0
 	.align 2
-	.long _System_Threading_Tasks_Task_1_bool_get_Result
+	.long _System_Threading_Tasks_Task_1_bool__ctor_System_Func_1_bool_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions
 
-LDIFF_SYM1448=Lme_a9 - _System_Threading_Tasks_Task_1_bool_get_Result
-	.long LDIFF_SYM1448
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,32
+LDIFF_SYM1460=Lme_a9 - _System_Threading_Tasks_Task_1_bool__ctor_System_Func_1_bool_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions
+	.long LDIFF_SYM1460
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,48,68,13,11
 	.align 2
 Lfde164_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Threading.Tasks.Task`1<bool>:set_Result"
-	.long _System_Threading_Tasks_Task_1_bool_set_Result_bool
+	.asciz "System.Threading.Tasks.Task`1<bool>:.ctor"
+	.long _System_Threading_Tasks_Task_1_bool__ctor_System_Threading_Tasks_TaskActionInvoker_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_Task_System_Threading_Tasks_Task_bool
 	.long Lme_aa
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1449=LTDIE_121_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1449
-	.byte 2,125,0,3
-	.asciz "value"
+LDIFF_SYM1461=LTDIE_124_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1461
+	.byte 2,123,16,3
+	.asciz "invoker"
 
-LDIFF_SYM1450=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1450
-	.byte 2,125,4,0
+LDIFF_SYM1462=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1462
+	.byte 2,123,20,3
+	.asciz "state"
+
+LDIFF_SYM1463=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1463
+	.byte 2,123,24,3
+	.asciz "cancellationToken"
+
+LDIFF_SYM1464=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1464
+	.byte 2,123,28,3
+	.asciz "creationOptions"
+
+LDIFF_SYM1465=LTDIE_51 - Ldebug_info_start
+	.long LDIFF_SYM1465
+	.byte 2,123,32,3
+	.asciz "parent"
+
+LDIFF_SYM1466=LTDIE_40_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1466
+	.byte 2,123,36,3
+	.asciz "contAncestor"
+
+LDIFF_SYM1467=LTDIE_40_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1467
+	.byte 2,123,40,3
+	.asciz "ignoreCancellation"
+
+LDIFF_SYM1468=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1468
+	.byte 2,123,44,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1451=Lfde165_end - Lfde165_start
-	.long LDIFF_SYM1451
+LDIFF_SYM1469=Lfde165_end - Lfde165_start
+	.long LDIFF_SYM1469
 Lfde165_start:
 
 	.long 0
 	.align 2
-	.long _System_Threading_Tasks_Task_1_bool_set_Result_bool
+	.long _System_Threading_Tasks_Task_1_bool__ctor_System_Threading_Tasks_TaskActionInvoker_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_Task_System_Threading_Tasks_Task_bool
 
-LDIFF_SYM1452=Lme_aa - _System_Threading_Tasks_Task_1_bool_set_Result_bool
-	.long LDIFF_SYM1452
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM1470=Lme_aa - _System_Threading_Tasks_Task_1_bool__ctor_System_Threading_Tasks_TaskActionInvoker_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_Task_System_Threading_Tasks_Task_bool
+	.long LDIFF_SYM1470
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,64,68,13,11
 	.align 2
 Lfde165_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Threading.Tasks.Task`1<bool>:get_Factory"
-	.long _System_Threading_Tasks_Task_1_bool_get_Factory
+	.asciz "System.Threading.Tasks.Task`1<bool>:get_Result"
+	.long _System_Threading_Tasks_Task_1_bool_get_Result
 	.long Lme_ab
 
-	.byte 2,118,16,0
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1471=LTDIE_124_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1471
+	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1453=Lfde166_end - Lfde166_start
-	.long LDIFF_SYM1453
+LDIFF_SYM1472=Lfde166_end - Lfde166_start
+	.long LDIFF_SYM1472
 Lfde166_start:
 
 	.long 0
 	.align 2
-	.long _System_Threading_Tasks_Task_1_bool_get_Factory
+	.long _System_Threading_Tasks_Task_1_bool_get_Result
 
-LDIFF_SYM1454=Lme_ab - _System_Threading_Tasks_Task_1_bool_get_Factory
-	.long LDIFF_SYM1454
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,16
+LDIFF_SYM1473=Lme_ab - _System_Threading_Tasks_Task_1_bool_get_Result
+	.long LDIFF_SYM1473
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,32
 	.align 2
 Lfde166_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Threading.Tasks.Task`1<bool>:TrySetResult"
-	.long _System_Threading_Tasks_Task_1_bool_TrySetResult_bool
+	.asciz "System.Threading.Tasks.Task`1<bool>:set_Result"
+	.long _System_Threading_Tasks_Task_1_bool_set_Result_bool
 	.long Lme_ac
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1455=LTDIE_121_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1455
-	.byte 1,90,3
-	.asciz "result"
+LDIFF_SYM1474=LTDIE_124_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1474
+	.byte 2,125,0,3
+	.asciz "value"
 
-LDIFF_SYM1456=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1456
-	.byte 2,125,4,11
-	.asciz "sw"
-
-LDIFF_SYM1457=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1457
-	.byte 2,125,0,0
+LDIFF_SYM1475=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1475
+	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1458=Lfde167_end - Lfde167_start
-	.long LDIFF_SYM1458
+LDIFF_SYM1476=Lfde167_end - Lfde167_start
+	.long LDIFF_SYM1476
 Lfde167_start:
 
 	.long 0
 	.align 2
-	.long _System_Threading_Tasks_Task_1_bool_TrySetResult_bool
+	.long _System_Threading_Tasks_Task_1_bool_set_Result_bool
 
-LDIFF_SYM1459=Lme_ac - _System_Threading_Tasks_Task_1_bool_TrySetResult_bool
-	.long LDIFF_SYM1459
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,24
+LDIFF_SYM1477=Lme_ac - _System_Threading_Tasks_Task_1_bool_set_Result_bool
+	.long LDIFF_SYM1477
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde167_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Threading.Tasks.Task`1<bool>:ConfigureAwait"
-	.long _System_Threading_Tasks_Task_1_bool_ConfigureAwait_bool
+	.asciz "System.Threading.Tasks.Task`1<bool>:get_Factory"
+	.long _System_Threading_Tasks_Task_1_bool_get_Factory
 	.long Lme_ad
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1460=LTDIE_121_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1460
-	.byte 2,125,20,3
-	.asciz "continueOnCapturedContext"
-
-LDIFF_SYM1461=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1461
-	.byte 2,125,24,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1462=Lfde168_end - Lfde168_start
-	.long LDIFF_SYM1462
-Lfde168_start:
-
-	.long 0
-	.align 2
-	.long _System_Threading_Tasks_Task_1_bool_ConfigureAwait_bool
-
-LDIFF_SYM1463=Lme_ad - _System_Threading_Tasks_Task_1_bool_ConfigureAwait_bool
-	.long LDIFF_SYM1463
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,48
-	.align 2
-Lfde168_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Threading.Tasks.Task`1<bool>:GetAwaiter"
-	.long _System_Threading_Tasks_Task_1_bool_GetAwaiter
-	.long Lme_ae
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1464=LTDIE_121_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1464
-	.byte 2,125,12,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1465=Lfde169_end - Lfde169_start
-	.long LDIFF_SYM1465
-Lfde169_start:
-
-	.long 0
-	.align 2
-	.long _System_Threading_Tasks_Task_1_bool_GetAwaiter
-
-LDIFF_SYM1466=Lme_ae - _System_Threading_Tasks_Task_1_bool_GetAwaiter
-	.long LDIFF_SYM1466
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
-	.align 2
-Lfde169_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_122:
-
-	.byte 5
-	.asciz "System_Threading_Tasks_TaskCompletionSource`1"
-
-	.byte 12,16
-LDIFF_SYM1467=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1467
-	.byte 2,35,0,6
-	.asciz "source"
-
-LDIFF_SYM1468=LTDIE_121_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1468
-	.byte 2,35,8,0,7
-	.asciz "System_Threading_Tasks_TaskCompletionSource`1"
-
-LDIFF_SYM1469=LTDIE_122 - Ldebug_info_start
-	.long LDIFF_SYM1469
-LTDIE_122_POINTER:
-
-	.byte 13
-LDIFF_SYM1470=LTDIE_122 - Ldebug_info_start
-	.long LDIFF_SYM1470
-LTDIE_122_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1471=LTDIE_122 - Ldebug_info_start
-	.long LDIFF_SYM1471
-	.byte 2
-	.asciz "System.Threading.Tasks.Task`1<bool>:FromException"
-	.long _System_Threading_Tasks_Task_1_bool_FromException_System_Exception
-	.long Lme_af
-
-	.byte 2,118,16,3
-	.asciz "ex"
-
-LDIFF_SYM1472=LTDIE_55_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1472
-	.byte 2,125,0,11
-	.asciz "tcs"
-
-LDIFF_SYM1473=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1473
-	.byte 0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1474=Lfde170_end - Lfde170_start
-	.long LDIFF_SYM1474
-Lfde170_start:
-
-	.long 0
-	.align 2
-	.long _System_Threading_Tasks_Task_1_bool_FromException_System_Exception
-
-LDIFF_SYM1475=Lme_af - _System_Threading_Tasks_Task_1_bool_FromException_System_Exception
-	.long LDIFF_SYM1475
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
-	.align 2
-Lfde170_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Threading.Tasks.Task`1<bool>:.cctor"
-	.long _System_Threading_Tasks_Task_1_bool__cctor
-	.long Lme_b0
 
 	.byte 2,118,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1476=Lfde171_end - Lfde171_start
-	.long LDIFF_SYM1476
-Lfde171_start:
+LDIFF_SYM1478=Lfde168_end - Lfde168_start
+	.long LDIFF_SYM1478
+Lfde168_start:
 
 	.long 0
 	.align 2
-	.long _System_Threading_Tasks_Task_1_bool__cctor
+	.long _System_Threading_Tasks_Task_1_bool_get_Factory
 
-LDIFF_SYM1477=Lme_b0 - _System_Threading_Tasks_Task_1_bool__cctor
-	.long LDIFF_SYM1477
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM1479=Lme_ad - _System_Threading_Tasks_Task_1_bool_get_Factory
+	.long LDIFF_SYM1479
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,16
 	.align 2
-Lfde171_end:
+Lfde168_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_124:
+LTDIE_125:
+
+	.byte 5
+	.asciz "System_Action`1"
+
+	.byte 52,16
+LDIFF_SYM1480=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM1480
+	.byte 2,35,0,0,7
+	.asciz "System_Action`1"
+
+LDIFF_SYM1481=LTDIE_125 - Ldebug_info_start
+	.long LDIFF_SYM1481
+LTDIE_125_POINTER:
+
+	.byte 13
+LDIFF_SYM1482=LTDIE_125 - Ldebug_info_start
+	.long LDIFF_SYM1482
+LTDIE_125_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1483=LTDIE_125 - Ldebug_info_start
+	.long LDIFF_SYM1483
+	.byte 2
+	.asciz "System.Threading.Tasks.Task`1<bool>:ContinueWith"
+	.long _System_Threading_Tasks_Task_1_bool_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_bool
+	.long Lme_ae
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1484=LTDIE_124_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1484
+	.byte 2,125,0,3
+	.asciz "continuationAction"
+
+LDIFF_SYM1485=LTDIE_125_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1485
+	.byte 2,125,4,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1486=Lfde169_end - Lfde169_start
+	.long LDIFF_SYM1486
+Lfde169_start:
+
+	.long 0
+	.align 2
+	.long _System_Threading_Tasks_Task_1_bool_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_bool
+
+LDIFF_SYM1487=Lme_ae - _System_Threading_Tasks_Task_1_bool_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_bool
+	.long LDIFF_SYM1487
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+	.align 2
+Lfde169_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_126:
 
 	.byte 8
 	.asciz "System_Threading_Tasks_TaskContinuationOptions"
 
 	.byte 4
-LDIFF_SYM1478=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1478
+LDIFF_SYM1488=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1488
 	.byte 9
 	.asciz "None"
 
@@ -17453,286 +17855,253 @@ LDIFF_SYM1478=LDIE_I4 - Ldebug_info_start
 	.byte 128,128,32,0,7
 	.asciz "System_Threading_Tasks_TaskContinuationOptions"
 
-LDIFF_SYM1479=LTDIE_124 - Ldebug_info_start
-	.long LDIFF_SYM1479
-LTDIE_124_POINTER:
-
-	.byte 13
-LDIFF_SYM1480=LTDIE_124 - Ldebug_info_start
-	.long LDIFF_SYM1480
-LTDIE_124_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1481=LTDIE_124 - Ldebug_info_start
-	.long LDIFF_SYM1481
-LTDIE_125:
-
-	.byte 5
-	.asciz "System_Threading_Tasks_TaskFactory"
-
-	.byte 24,16
-LDIFF_SYM1482=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1482
-	.byte 2,35,0,6
-	.asciz "scheduler"
-
-LDIFF_SYM1483=LTDIE_52_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1483
-	.byte 2,35,8,6
-	.asciz "creationOptions"
-
-LDIFF_SYM1484=LTDIE_51 - Ldebug_info_start
-	.long LDIFF_SYM1484
-	.byte 2,35,16,6
-	.asciz "continuationOptions"
-
-LDIFF_SYM1485=LTDIE_124 - Ldebug_info_start
-	.long LDIFF_SYM1485
-	.byte 2,35,20,6
-	.asciz "cancellationToken"
-
-LDIFF_SYM1486=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1486
-	.byte 2,35,12,0,7
-	.asciz "System_Threading_Tasks_TaskFactory"
-
-LDIFF_SYM1487=LTDIE_125 - Ldebug_info_start
-	.long LDIFF_SYM1487
-LTDIE_125_POINTER:
-
-	.byte 13
-LDIFF_SYM1488=LTDIE_125 - Ldebug_info_start
-	.long LDIFF_SYM1488
-LTDIE_125_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1489=LTDIE_125 - Ldebug_info_start
+LDIFF_SYM1489=LTDIE_126 - Ldebug_info_start
 	.long LDIFF_SYM1489
-LTDIE_123:
-
-	.byte 5
-	.asciz "System_Threading_Tasks_TaskFactory`1"
-
-	.byte 28,16
-LDIFF_SYM1490=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1490
-	.byte 2,35,0,6
-	.asciz "scheduler"
-
-LDIFF_SYM1491=LTDIE_52_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1491
-	.byte 2,35,8,6
-	.asciz "creationOptions"
-
-LDIFF_SYM1492=LTDIE_51 - Ldebug_info_start
-	.long LDIFF_SYM1492
-	.byte 2,35,20,6
-	.asciz "continuationOptions"
-
-LDIFF_SYM1493=LTDIE_124 - Ldebug_info_start
-	.long LDIFF_SYM1493
-	.byte 2,35,24,6
-	.asciz "cancellationToken"
-
-LDIFF_SYM1494=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1494
-	.byte 2,35,12,6
-	.asciz "parent"
-
-LDIFF_SYM1495=LTDIE_125_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1495
-	.byte 2,35,16,0,7
-	.asciz "System_Threading_Tasks_TaskFactory`1"
-
-LDIFF_SYM1496=LTDIE_123 - Ldebug_info_start
-	.long LDIFF_SYM1496
-LTDIE_123_POINTER:
+LTDIE_126_POINTER:
 
 	.byte 13
-LDIFF_SYM1497=LTDIE_123 - Ldebug_info_start
-	.long LDIFF_SYM1497
-LTDIE_123_REFERENCE:
+LDIFF_SYM1490=LTDIE_126 - Ldebug_info_start
+	.long LDIFF_SYM1490
+LTDIE_126_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1498=LTDIE_123 - Ldebug_info_start
-	.long LDIFF_SYM1498
+LDIFF_SYM1491=LTDIE_126 - Ldebug_info_start
+	.long LDIFF_SYM1491
 	.byte 2
-	.asciz "System.Threading.Tasks.TaskFactory`1<bool>:.ctor"
-	.long _System_Threading_Tasks_TaskFactory_1_bool__ctor
+	.asciz "System.Threading.Tasks.Task`1<bool>:ContinueWith"
+	.long _System_Threading_Tasks_Task_1_bool_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_bool_System_Threading_Tasks_TaskContinuationOptions
+	.long Lme_af
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1492=LTDIE_124_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1492
+	.byte 2,123,12,3
+	.asciz "continuationAction"
+
+LDIFF_SYM1493=LTDIE_125_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1493
+	.byte 2,123,16,3
+	.asciz "continuationOptions"
+
+LDIFF_SYM1494=LTDIE_126 - Ldebug_info_start
+	.long LDIFF_SYM1494
+	.byte 2,123,20,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1495=Lfde170_end - Lfde170_start
+	.long LDIFF_SYM1495
+Lfde170_start:
+
+	.long 0
+	.align 2
+	.long _System_Threading_Tasks_Task_1_bool_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_bool_System_Threading_Tasks_TaskContinuationOptions
+
+LDIFF_SYM1496=Lme_af - _System_Threading_Tasks_Task_1_bool_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_bool_System_Threading_Tasks_TaskContinuationOptions
+	.long LDIFF_SYM1496
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,40,68,13,11
+	.align 2
+Lfde170_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Threading.Tasks.Task`1<bool>:ContinueWith"
+	.long _System_Threading_Tasks_Task_1_bool_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_bool_System_Threading_Tasks_TaskScheduler
+	.long Lme_b0
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1497=LTDIE_124_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1497
+	.byte 2,123,12,3
+	.asciz "continuationAction"
+
+LDIFF_SYM1498=LTDIE_125_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1498
+	.byte 2,123,16,3
+	.asciz "scheduler"
+
+LDIFF_SYM1499=LTDIE_52_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1499
+	.byte 2,123,20,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1500=Lfde171_end - Lfde171_start
+	.long LDIFF_SYM1500
+Lfde171_start:
+
+	.long 0
+	.align 2
+	.long _System_Threading_Tasks_Task_1_bool_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_bool_System_Threading_Tasks_TaskScheduler
+
+LDIFF_SYM1501=Lme_b0 - _System_Threading_Tasks_Task_1_bool_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_bool_System_Threading_Tasks_TaskScheduler
+	.long LDIFF_SYM1501
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,40,68,13,11
+	.align 2
+Lfde171_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Threading.Tasks.Task`1<bool>:ContinueWith"
+	.long _System_Threading_Tasks_Task_1_bool_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_bool_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
 	.long Lme_b1
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1499=LTDIE_123_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1499
-	.byte 2,125,4,0
+LDIFF_SYM1502=LTDIE_124_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1502
+	.byte 2,123,16,3
+	.asciz "continuationAction"
+
+LDIFF_SYM1503=LTDIE_125_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1503
+	.byte 2,123,20,3
+	.asciz "cancellationToken"
+
+LDIFF_SYM1504=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1504
+	.byte 2,123,24,3
+	.asciz "continuationOptions"
+
+LDIFF_SYM1505=LTDIE_126 - Ldebug_info_start
+	.long LDIFF_SYM1505
+	.byte 2,123,28,3
+	.asciz "scheduler"
+
+LDIFF_SYM1506=LTDIE_52_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1506
+	.byte 2,123,32,11
+	.asciz "t"
+
+LDIFF_SYM1507=LTDIE_40_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1507
+	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1500=Lfde172_end - Lfde172_start
-	.long LDIFF_SYM1500
+LDIFF_SYM1508=Lfde172_end - Lfde172_start
+	.long LDIFF_SYM1508
 Lfde172_start:
 
 	.long 0
 	.align 2
-	.long _System_Threading_Tasks_TaskFactory_1_bool__ctor
+	.long _System_Threading_Tasks_Task_1_bool_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_bool_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
 
-LDIFF_SYM1501=Lme_b1 - _System_Threading_Tasks_TaskFactory_1_bool__ctor
-	.long LDIFF_SYM1501
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM1509=Lme_b1 - _System_Threading_Tasks_Task_1_bool_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_bool_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
+	.long LDIFF_SYM1509
+	.byte 12,13,0,72,14,8,135,2,68,14,20,136,5,138,4,139,3,142,1,68,14,80,68,13,11
 	.align 2
 Lfde172_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Threading.Tasks.TaskFactory`1<bool>:.ctor"
-	.long _System_Threading_Tasks_TaskFactory_1_bool__ctor_System_Threading_CancellationToken
+	.asciz "System.Threading.Tasks.Task`1<bool>:TrySetResult"
+	.long _System_Threading_Tasks_Task_1_bool_TrySetResult_bool
 	.long Lme_b2
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1502=LTDIE_123_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1502
-	.byte 2,123,8,3
-	.asciz "cancellationToken"
+LDIFF_SYM1510=LTDIE_124_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1510
+	.byte 1,90,3
+	.asciz "result"
 
-LDIFF_SYM1503=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1503
-	.byte 2,123,12,0
+LDIFF_SYM1511=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1511
+	.byte 2,125,4,11
+	.asciz "sw"
+
+LDIFF_SYM1512=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1512
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1504=Lfde173_end - Lfde173_start
-	.long LDIFF_SYM1504
+LDIFF_SYM1513=Lfde173_end - Lfde173_start
+	.long LDIFF_SYM1513
 Lfde173_start:
 
 	.long 0
 	.align 2
-	.long _System_Threading_Tasks_TaskFactory_1_bool__ctor_System_Threading_CancellationToken
+	.long _System_Threading_Tasks_Task_1_bool_TrySetResult_bool
 
-LDIFF_SYM1505=Lme_b2 - _System_Threading_Tasks_TaskFactory_1_bool__ctor_System_Threading_CancellationToken
-	.long LDIFF_SYM1505
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,32,68,13,11
+LDIFF_SYM1514=Lme_b2 - _System_Threading_Tasks_Task_1_bool_TrySetResult_bool
+	.long LDIFF_SYM1514
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,24
 	.align 2
 Lfde173_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Threading.Tasks.TaskFactory`1<bool>:.ctor"
-	.long _System_Threading_Tasks_TaskFactory_1_bool__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
+	.asciz "System.Threading.Tasks.Task`1<bool>:ConfigureAwait"
+	.long _System_Threading_Tasks_Task_1_bool_ConfigureAwait_bool
 	.long Lme_b3
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1506=LTDIE_123_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1506
-	.byte 1,84,3
-	.asciz "cancellationToken"
+LDIFF_SYM1515=LTDIE_124_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1515
+	.byte 2,125,20,3
+	.asciz "continueOnCapturedContext"
 
-LDIFF_SYM1507=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1507
-	.byte 2,123,8,3
-	.asciz "creationOptions"
-
-LDIFF_SYM1508=LTDIE_51 - Ldebug_info_start
-	.long LDIFF_SYM1508
-	.byte 2,123,12,3
-	.asciz "continuationOptions"
-
-LDIFF_SYM1509=LTDIE_124 - Ldebug_info_start
-	.long LDIFF_SYM1509
-	.byte 1,86,3
-	.asciz "scheduler"
-
-LDIFF_SYM1510=LTDIE_52_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1510
-	.byte 2,123,16,0
+LDIFF_SYM1516=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1516
+	.byte 2,125,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1511=Lfde174_end - Lfde174_start
-	.long LDIFF_SYM1511
+LDIFF_SYM1517=Lfde174_end - Lfde174_start
+	.long LDIFF_SYM1517
 Lfde174_start:
 
 	.long 0
 	.align 2
-	.long _System_Threading_Tasks_TaskFactory_1_bool__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
+	.long _System_Threading_Tasks_Task_1_bool_ConfigureAwait_bool
 
-LDIFF_SYM1512=Lme_b3 - _System_Threading_Tasks_TaskFactory_1_bool__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
-	.long LDIFF_SYM1512
-	.byte 12,13,0,72,14,8,135,2,68,14,24,132,6,134,5,136,4,139,3,142,1,68,14,56,68,13,11
+LDIFF_SYM1518=Lme_b3 - _System_Threading_Tasks_Task_1_bool_ConfigureAwait_bool
+	.long LDIFF_SYM1518
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,48
 	.align 2
 Lfde174_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_126:
 
-	.byte 5
-	.asciz "System_Func`2"
-
-	.byte 52,16
-LDIFF_SYM1513=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM1513
-	.byte 2,35,0,0,7
-	.asciz "System_Func`2"
-
-LDIFF_SYM1514=LTDIE_126 - Ldebug_info_start
-	.long LDIFF_SYM1514
-LTDIE_126_POINTER:
-
-	.byte 13
-LDIFF_SYM1515=LTDIE_126 - Ldebug_info_start
-	.long LDIFF_SYM1515
-LTDIE_126_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1516=LTDIE_126 - Ldebug_info_start
-	.long LDIFF_SYM1516
 	.byte 2
-	.asciz "System.Threading.Tasks.TaskFactory`1<bool>:InnerInvoke"
-	.long _System_Threading_Tasks_TaskFactory_1_bool_InnerInvoke_System_Threading_Tasks_TaskCompletionSource_1_bool_System_Func_2_System_IAsyncResult_bool_System_IAsyncResult
+	.asciz "System.Threading.Tasks.Task`1<bool>:GetAwaiter"
+	.long _System_Threading_Tasks_Task_1_bool_GetAwaiter
 	.long Lme_b4
 
 	.byte 2,118,16,3
-	.asciz "tcs"
+	.asciz "this"
 
-LDIFF_SYM1517=LTDIE_122_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1517
-	.byte 2,123,36,3
-	.asciz "endMethod"
-
-LDIFF_SYM1518=LTDIE_126_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1518
-	.byte 1,86,3
-	.asciz "l"
-
-LDIFF_SYM1519=LTDIE_108_REFERENCE - Ldebug_info_start
+LDIFF_SYM1519=LTDIE_124_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1519
-	.byte 2,123,40,11
-	.asciz "e"
-
-LDIFF_SYM1520=LTDIE_55_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1520
-	.byte 2,123,0,0
+	.byte 2,125,12,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1521=Lfde175_end - Lfde175_start
-	.long LDIFF_SYM1521
+LDIFF_SYM1520=Lfde175_end - Lfde175_start
+	.long LDIFF_SYM1520
 Lfde175_start:
 
 	.long 0
 	.align 2
-	.long _System_Threading_Tasks_TaskFactory_1_bool_InnerInvoke_System_Threading_Tasks_TaskCompletionSource_1_bool_System_Func_2_System_IAsyncResult_bool_System_IAsyncResult
+	.long _System_Threading_Tasks_Task_1_bool_GetAwaiter
 
-LDIFF_SYM1522=Lme_b4 - _System_Threading_Tasks_TaskFactory_1_bool_InnerInvoke_System_Threading_Tasks_TaskCompletionSource_1_bool_System_Func_2_System_IAsyncResult_bool_System_IAsyncResult
-	.long LDIFF_SYM1522
-	.byte 12,13,0,72,14,8,135,2,68,14,20,134,5,136,4,139,3,142,1,68,14,80,68,13,11
+LDIFF_SYM1521=Lme_b4 - _System_Threading_Tasks_Task_1_bool_GetAwaiter
+	.long LDIFF_SYM1521
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
 	.align 2
 Lfde175_end:
 
@@ -17740,401 +18109,634 @@ Lfde175_end:
 LTDIE_127:
 
 	.byte 5
-	.asciz "System_Runtime_CompilerServices_TaskAwaiter`1"
+	.asciz "System_Threading_Tasks_TaskCompletionSource`1"
 
 	.byte 12,16
-LDIFF_SYM1523=LTDIE_11 - Ldebug_info_start
-	.long LDIFF_SYM1523
+LDIFF_SYM1522=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1522
 	.byte 2,35,0,6
-	.asciz "task"
+	.asciz "source"
 
-LDIFF_SYM1524=LTDIE_121_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1524
+LDIFF_SYM1523=LTDIE_124_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1523
 	.byte 2,35,8,0,7
-	.asciz "System_Runtime_CompilerServices_TaskAwaiter`1"
+	.asciz "System_Threading_Tasks_TaskCompletionSource`1"
 
-LDIFF_SYM1525=LTDIE_127 - Ldebug_info_start
-	.long LDIFF_SYM1525
+LDIFF_SYM1524=LTDIE_127 - Ldebug_info_start
+	.long LDIFF_SYM1524
 LTDIE_127_POINTER:
 
 	.byte 13
-LDIFF_SYM1526=LTDIE_127 - Ldebug_info_start
-	.long LDIFF_SYM1526
+LDIFF_SYM1525=LTDIE_127 - Ldebug_info_start
+	.long LDIFF_SYM1525
 LTDIE_127_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1527=LTDIE_127 - Ldebug_info_start
-	.long LDIFF_SYM1527
+LDIFF_SYM1526=LTDIE_127 - Ldebug_info_start
+	.long LDIFF_SYM1526
 	.byte 2
-	.asciz "System.Runtime.CompilerServices.TaskAwaiter`1<bool>:.ctor"
-	.long _System_Runtime_CompilerServices_TaskAwaiter_1_bool__ctor_System_Threading_Tasks_Task_1_bool
+	.asciz "System.Threading.Tasks.Task`1<bool>:FromException"
+	.long _System_Threading_Tasks_Task_1_bool_FromException_System_Exception
 	.long Lme_b5
 
 	.byte 2,118,16,3
-	.asciz "this"
+	.asciz "ex"
 
-LDIFF_SYM1528=LDIE_I - Ldebug_info_start
+LDIFF_SYM1527=LTDIE_55_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1527
+	.byte 2,125,0,11
+	.asciz "tcs"
+
+LDIFF_SYM1528=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1528
-	.byte 2,125,0,3
-	.asciz "task"
-
-LDIFF_SYM1529=LTDIE_121_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1529
-	.byte 2,125,4,0
+	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1530=Lfde176_end - Lfde176_start
-	.long LDIFF_SYM1530
+LDIFF_SYM1529=Lfde176_end - Lfde176_start
+	.long LDIFF_SYM1529
 Lfde176_start:
 
 	.long 0
 	.align 2
-	.long _System_Runtime_CompilerServices_TaskAwaiter_1_bool__ctor_System_Threading_Tasks_Task_1_bool
+	.long _System_Threading_Tasks_Task_1_bool_FromException_System_Exception
 
-LDIFF_SYM1531=Lme_b5 - _System_Runtime_CompilerServices_TaskAwaiter_1_bool__ctor_System_Threading_Tasks_Task_1_bool
-	.long LDIFF_SYM1531
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM1530=Lme_b5 - _System_Threading_Tasks_Task_1_bool_FromException_System_Exception
+	.long LDIFF_SYM1530
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
 	.align 2
 Lfde176_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Runtime.CompilerServices.TaskAwaiter`1<bool>:get_IsCompleted"
-	.long _System_Runtime_CompilerServices_TaskAwaiter_1_bool_get_IsCompleted
+	.asciz "System.Threading.Tasks.Task`1<bool>:.cctor"
+	.long _System_Threading_Tasks_Task_1_bool__cctor
 	.long Lme_b6
 
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1532=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1532
-	.byte 2,125,0,0
+	.byte 2,118,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1533=Lfde177_end - Lfde177_start
-	.long LDIFF_SYM1533
+LDIFF_SYM1531=Lfde177_end - Lfde177_start
+	.long LDIFF_SYM1531
 Lfde177_start:
 
 	.long 0
 	.align 2
-	.long _System_Runtime_CompilerServices_TaskAwaiter_1_bool_get_IsCompleted
+	.long _System_Threading_Tasks_Task_1_bool__cctor
 
-LDIFF_SYM1534=Lme_b6 - _System_Runtime_CompilerServices_TaskAwaiter_1_bool_get_IsCompleted
-	.long LDIFF_SYM1534
+LDIFF_SYM1532=Lme_b6 - _System_Threading_Tasks_Task_1_bool__cctor
+	.long LDIFF_SYM1532
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde177_end:
 
 .section __DWARF, __debug_info,regular,debug
+LTDIE_129:
 
+	.byte 5
+	.asciz "System_Threading_Tasks_TaskFactory"
+
+	.byte 24,16
+LDIFF_SYM1533=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1533
+	.byte 2,35,0,6
+	.asciz "scheduler"
+
+LDIFF_SYM1534=LTDIE_52_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1534
+	.byte 2,35,8,6
+	.asciz "creationOptions"
+
+LDIFF_SYM1535=LTDIE_51 - Ldebug_info_start
+	.long LDIFF_SYM1535
+	.byte 2,35,16,6
+	.asciz "continuationOptions"
+
+LDIFF_SYM1536=LTDIE_126 - Ldebug_info_start
+	.long LDIFF_SYM1536
+	.byte 2,35,20,6
+	.asciz "cancellationToken"
+
+LDIFF_SYM1537=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1537
+	.byte 2,35,12,0,7
+	.asciz "System_Threading_Tasks_TaskFactory"
+
+LDIFF_SYM1538=LTDIE_129 - Ldebug_info_start
+	.long LDIFF_SYM1538
+LTDIE_129_POINTER:
+
+	.byte 13
+LDIFF_SYM1539=LTDIE_129 - Ldebug_info_start
+	.long LDIFF_SYM1539
+LTDIE_129_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1540=LTDIE_129 - Ldebug_info_start
+	.long LDIFF_SYM1540
+LTDIE_128:
+
+	.byte 5
+	.asciz "System_Threading_Tasks_TaskFactory`1"
+
+	.byte 28,16
+LDIFF_SYM1541=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1541
+	.byte 2,35,0,6
+	.asciz "scheduler"
+
+LDIFF_SYM1542=LTDIE_52_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1542
+	.byte 2,35,8,6
+	.asciz "creationOptions"
+
+LDIFF_SYM1543=LTDIE_51 - Ldebug_info_start
+	.long LDIFF_SYM1543
+	.byte 2,35,20,6
+	.asciz "continuationOptions"
+
+LDIFF_SYM1544=LTDIE_126 - Ldebug_info_start
+	.long LDIFF_SYM1544
+	.byte 2,35,24,6
+	.asciz "cancellationToken"
+
+LDIFF_SYM1545=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1545
+	.byte 2,35,12,6
+	.asciz "parent"
+
+LDIFF_SYM1546=LTDIE_129_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1546
+	.byte 2,35,16,0,7
+	.asciz "System_Threading_Tasks_TaskFactory`1"
+
+LDIFF_SYM1547=LTDIE_128 - Ldebug_info_start
+	.long LDIFF_SYM1547
+LTDIE_128_POINTER:
+
+	.byte 13
+LDIFF_SYM1548=LTDIE_128 - Ldebug_info_start
+	.long LDIFF_SYM1548
+LTDIE_128_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1549=LTDIE_128 - Ldebug_info_start
+	.long LDIFF_SYM1549
 	.byte 2
-	.asciz "System.Runtime.CompilerServices.TaskAwaiter`1<bool>:GetResult"
-	.long _System_Runtime_CompilerServices_TaskAwaiter_1_bool_GetResult
+	.asciz "System.Threading.Tasks.TaskFactory`1<bool>:.ctor"
+	.long _System_Threading_Tasks_TaskFactory_1_bool__ctor
 	.long Lme_b7
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1535=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1535
-	.byte 1,90,0
+LDIFF_SYM1550=LTDIE_128_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1550
+	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1536=Lfde178_end - Lfde178_start
-	.long LDIFF_SYM1536
+LDIFF_SYM1551=Lfde178_end - Lfde178_start
+	.long LDIFF_SYM1551
 Lfde178_start:
 
 	.long 0
 	.align 2
-	.long _System_Runtime_CompilerServices_TaskAwaiter_1_bool_GetResult
+	.long _System_Threading_Tasks_TaskFactory_1_bool__ctor
 
-LDIFF_SYM1537=Lme_b7 - _System_Runtime_CompilerServices_TaskAwaiter_1_bool_GetResult
-	.long LDIFF_SYM1537
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,24
+LDIFF_SYM1552=Lme_b7 - _System_Threading_Tasks_TaskFactory_1_bool__ctor
+	.long LDIFF_SYM1552
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde178_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_128:
 
-	.byte 5
-	.asciz "System_Action"
-
-	.byte 52,16
-LDIFF_SYM1538=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM1538
-	.byte 2,35,0,0,7
-	.asciz "System_Action"
-
-LDIFF_SYM1539=LTDIE_128 - Ldebug_info_start
-	.long LDIFF_SYM1539
-LTDIE_128_POINTER:
-
-	.byte 13
-LDIFF_SYM1540=LTDIE_128 - Ldebug_info_start
-	.long LDIFF_SYM1540
-LTDIE_128_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1541=LTDIE_128 - Ldebug_info_start
-	.long LDIFF_SYM1541
 	.byte 2
-	.asciz "System.Runtime.CompilerServices.TaskAwaiter`1<bool>:UnsafeOnCompleted"
-	.long _System_Runtime_CompilerServices_TaskAwaiter_1_bool_UnsafeOnCompleted_System_Action
+	.asciz "System.Threading.Tasks.TaskFactory`1<bool>:.ctor"
+	.long _System_Threading_Tasks_TaskFactory_1_bool__ctor_System_Threading_CancellationToken
 	.long Lme_b8
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1542=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1542
-	.byte 2,125,0,3
-	.asciz "continuation"
+LDIFF_SYM1553=LTDIE_128_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1553
+	.byte 2,123,8,3
+	.asciz "cancellationToken"
 
-LDIFF_SYM1543=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1543
-	.byte 2,125,4,0
+LDIFF_SYM1554=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1554
+	.byte 2,123,12,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1544=Lfde179_end - Lfde179_start
-	.long LDIFF_SYM1544
+LDIFF_SYM1555=Lfde179_end - Lfde179_start
+	.long LDIFF_SYM1555
 Lfde179_start:
 
 	.long 0
 	.align 2
-	.long _System_Runtime_CompilerServices_TaskAwaiter_1_bool_UnsafeOnCompleted_System_Action
+	.long _System_Threading_Tasks_TaskFactory_1_bool__ctor_System_Threading_CancellationToken
 
-LDIFF_SYM1545=Lme_b8 - _System_Runtime_CompilerServices_TaskAwaiter_1_bool_UnsafeOnCompleted_System_Action
-	.long LDIFF_SYM1545
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM1556=Lme_b8 - _System_Threading_Tasks_TaskFactory_1_bool__ctor_System_Threading_CancellationToken
+	.long LDIFF_SYM1556
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,32,68,13,11
 	.align 2
 Lfde179_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Threading.Tasks.TaskCompletionSource`1<bool>:.ctor"
-	.long _System_Threading_Tasks_TaskCompletionSource_1_bool__ctor
+	.asciz "System.Threading.Tasks.TaskFactory`1<bool>:.ctor"
+	.long _System_Threading_Tasks_TaskFactory_1_bool__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
 	.long Lme_b9
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1546=LTDIE_122_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1546
-	.byte 2,125,0,0
+LDIFF_SYM1557=LTDIE_128_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1557
+	.byte 1,84,3
+	.asciz "cancellationToken"
+
+LDIFF_SYM1558=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1558
+	.byte 2,123,8,3
+	.asciz "creationOptions"
+
+LDIFF_SYM1559=LTDIE_51 - Ldebug_info_start
+	.long LDIFF_SYM1559
+	.byte 2,123,12,3
+	.asciz "continuationOptions"
+
+LDIFF_SYM1560=LTDIE_126 - Ldebug_info_start
+	.long LDIFF_SYM1560
+	.byte 1,86,3
+	.asciz "scheduler"
+
+LDIFF_SYM1561=LTDIE_52_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1561
+	.byte 2,123,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1547=Lfde180_end - Lfde180_start
-	.long LDIFF_SYM1547
+LDIFF_SYM1562=Lfde180_end - Lfde180_start
+	.long LDIFF_SYM1562
 Lfde180_start:
 
 	.long 0
 	.align 2
-	.long _System_Threading_Tasks_TaskCompletionSource_1_bool__ctor
+	.long _System_Threading_Tasks_TaskFactory_1_bool__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
 
-LDIFF_SYM1548=Lme_b9 - _System_Threading_Tasks_TaskCompletionSource_1_bool__ctor
-	.long LDIFF_SYM1548
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM1563=Lme_b9 - _System_Threading_Tasks_TaskFactory_1_bool__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
+	.long LDIFF_SYM1563
+	.byte 12,13,0,72,14,8,135,2,68,14,24,132,6,134,5,136,4,139,3,142,1,68,14,56,68,13,11
 	.align 2
 Lfde180_end:
 
 .section __DWARF, __debug_info,regular,debug
+LTDIE_130:
 
+	.byte 5
+	.asciz "System_Func`2"
+
+	.byte 52,16
+LDIFF_SYM1564=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM1564
+	.byte 2,35,0,0,7
+	.asciz "System_Func`2"
+
+LDIFF_SYM1565=LTDIE_130 - Ldebug_info_start
+	.long LDIFF_SYM1565
+LTDIE_130_POINTER:
+
+	.byte 13
+LDIFF_SYM1566=LTDIE_130 - Ldebug_info_start
+	.long LDIFF_SYM1566
+LTDIE_130_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1567=LTDIE_130 - Ldebug_info_start
+	.long LDIFF_SYM1567
 	.byte 2
-	.asciz "System.Threading.Tasks.TaskCompletionSource`1<bool>:.ctor"
-	.long _System_Threading_Tasks_TaskCompletionSource_1_bool__ctor_object_System_Threading_Tasks_TaskCreationOptions
+	.asciz "System.Threading.Tasks.TaskFactory`1<bool>:FromAsync"
+	.long _System_Threading_Tasks_TaskFactory_1_bool_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_bool_object
 	.long Lme_ba
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1549=LTDIE_122_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1549
-	.byte 2,123,20,3
+LDIFF_SYM1568=LTDIE_128_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1568
+	.byte 2,123,8,3
+	.asciz "beginMethod"
+
+LDIFF_SYM1569=LTDIE_108_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1569
+	.byte 2,123,12,3
+	.asciz "endMethod"
+
+LDIFF_SYM1570=LTDIE_130_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1570
+	.byte 2,123,16,3
 	.asciz "state"
 
-LDIFF_SYM1550=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1550
-	.byte 2,123,24,3
-	.asciz "creationOptions"
-
-LDIFF_SYM1551=LTDIE_51 - Ldebug_info_start
-	.long LDIFF_SYM1551
-	.byte 2,123,28,0
+LDIFF_SYM1571=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1571
+	.byte 2,123,20,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1552=Lfde181_end - Lfde181_start
-	.long LDIFF_SYM1552
+LDIFF_SYM1572=Lfde181_end - Lfde181_start
+	.long LDIFF_SYM1572
 Lfde181_start:
 
 	.long 0
 	.align 2
-	.long _System_Threading_Tasks_TaskCompletionSource_1_bool__ctor_object_System_Threading_Tasks_TaskCreationOptions
+	.long _System_Threading_Tasks_TaskFactory_1_bool_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_bool_object
 
-LDIFF_SYM1553=Lme_ba - _System_Threading_Tasks_TaskCompletionSource_1_bool__ctor_object_System_Threading_Tasks_TaskCreationOptions
-	.long LDIFF_SYM1553
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,64,68,13,11
+LDIFF_SYM1573=Lme_ba - _System_Threading_Tasks_TaskFactory_1_bool_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_bool_object
+	.long LDIFF_SYM1573
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,40,68,13,11
 	.align 2
 Lfde181_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Threading.Tasks.TaskCompletionSource`1<bool>:SetCanceled"
-	.long _System_Threading_Tasks_TaskCompletionSource_1_bool_SetCanceled
+	.asciz "System.Threading.Tasks.TaskFactory`1<bool>:FromAsync"
+	.long _System_Threading_Tasks_TaskFactory_1_bool_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_bool_object_System_Threading_Tasks_TaskCreationOptions
 	.long Lme_bb
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1554=LTDIE_122_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1554
-	.byte 2,125,0,0
+LDIFF_SYM1574=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1574
+	.byte 0,3
+	.asciz "beginMethod"
+
+LDIFF_SYM1575=LTDIE_108_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1575
+	.byte 2,123,4,3
+	.asciz "endMethod"
+
+LDIFF_SYM1576=LTDIE_130_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1576
+	.byte 2,123,8,3
+	.asciz "state"
+
+LDIFF_SYM1577=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1577
+	.byte 2,123,12,3
+	.asciz "creationOptions"
+
+LDIFF_SYM1578=LTDIE_51 - Ldebug_info_start
+	.long LDIFF_SYM1578
+	.byte 2,123,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1555=Lfde182_end - Lfde182_start
-	.long LDIFF_SYM1555
+LDIFF_SYM1579=Lfde182_end - Lfde182_start
+	.long LDIFF_SYM1579
 Lfde182_start:
 
 	.long 0
 	.align 2
-	.long _System_Threading_Tasks_TaskCompletionSource_1_bool_SetCanceled
+	.long _System_Threading_Tasks_TaskFactory_1_bool_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_bool_object_System_Threading_Tasks_TaskCreationOptions
 
-LDIFF_SYM1556=Lme_bb - _System_Threading_Tasks_TaskCompletionSource_1_bool_SetCanceled
-	.long LDIFF_SYM1556
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM1580=Lme_bb - _System_Threading_Tasks_TaskFactory_1_bool_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_bool_object_System_Threading_Tasks_TaskCreationOptions
+	.long LDIFF_SYM1580
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,40,68,13,11
 	.align 2
 Lfde182_end:
 
 .section __DWARF, __debug_info,regular,debug
+LTDIE_132:
 
+	.byte 5
+	.asciz "System_Threading_AtomicBoolean"
+
+	.byte 12,16
+LDIFF_SYM1581=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1581
+	.byte 2,35,0,6
+	.asciz "flag"
+
+LDIFF_SYM1582=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1582
+	.byte 2,35,8,0,7
+	.asciz "System_Threading_AtomicBoolean"
+
+LDIFF_SYM1583=LTDIE_132 - Ldebug_info_start
+	.long LDIFF_SYM1583
+LTDIE_132_POINTER:
+
+	.byte 13
+LDIFF_SYM1584=LTDIE_132 - Ldebug_info_start
+	.long LDIFF_SYM1584
+LTDIE_132_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1585=LTDIE_132 - Ldebug_info_start
+	.long LDIFF_SYM1585
+LTDIE_131:
+
+	.byte 5
+	.asciz "_<FromAsyncBeginEnd>c__AnonStorey2"
+
+	.byte 20,16
+LDIFF_SYM1586=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1586
+	.byte 2,35,0,6
+	.asciz "alreadyInvoked"
+
+LDIFF_SYM1587=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1587
+	.byte 2,35,8,6
+	.asciz "tcs"
+
+LDIFF_SYM1588=LTDIE_127_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1588
+	.byte 2,35,12,6
+	.asciz "endMethod"
+
+LDIFF_SYM1589=LTDIE_130_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1589
+	.byte 2,35,16,0,7
+	.asciz "_<FromAsyncBeginEnd>c__AnonStorey2"
+
+LDIFF_SYM1590=LTDIE_131 - Ldebug_info_start
+	.long LDIFF_SYM1590
+LTDIE_131_POINTER:
+
+	.byte 13
+LDIFF_SYM1591=LTDIE_131 - Ldebug_info_start
+	.long LDIFF_SYM1591
+LTDIE_131_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1592=LTDIE_131 - Ldebug_info_start
+	.long LDIFF_SYM1592
 	.byte 2
-	.asciz "System.Threading.Tasks.TaskCompletionSource`1<bool>:SetException"
-	.long _System_Threading_Tasks_TaskCompletionSource_1_bool_SetException_System_Exception
+	.asciz "System.Threading.Tasks.TaskFactory`1<bool>:FromAsyncBeginEnd"
+	.long _System_Threading_Tasks_TaskFactory_1_bool_FromAsyncBeginEnd_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_bool_object_System_Threading_Tasks_TaskCreationOptions
 	.long Lme_bc
 
 	.byte 2,118,16,3
-	.asciz "this"
+	.asciz "beginMethod"
 
-LDIFF_SYM1557=LTDIE_122_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1557
-	.byte 2,125,0,3
-	.asciz "exception"
+LDIFF_SYM1593=LTDIE_108_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1593
+	.byte 1,84,3
+	.asciz "endMethod"
 
-LDIFF_SYM1558=LTDIE_55_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1558
-	.byte 2,125,4,0
+LDIFF_SYM1594=LTDIE_130_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1594
+	.byte 2,125,4,3
+	.asciz "state"
+
+LDIFF_SYM1595=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1595
+	.byte 2,125,8,3
+	.asciz "creationOptions"
+
+LDIFF_SYM1596=LTDIE_51 - Ldebug_info_start
+	.long LDIFF_SYM1596
+	.byte 2,125,12,11
+	.asciz ""
+
+LDIFF_SYM1597=LTDIE_131_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1597
+	.byte 1,91,11
+	.asciz "iar"
+
+LDIFF_SYM1598=LTDIE_111_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1598
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1559=Lfde183_end - Lfde183_start
-	.long LDIFF_SYM1559
+LDIFF_SYM1599=Lfde183_end - Lfde183_start
+	.long LDIFF_SYM1599
 Lfde183_start:
 
 	.long 0
 	.align 2
-	.long _System_Threading_Tasks_TaskCompletionSource_1_bool_SetException_System_Exception
+	.long _System_Threading_Tasks_TaskFactory_1_bool_FromAsyncBeginEnd_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_bool_object_System_Threading_Tasks_TaskCreationOptions
 
-LDIFF_SYM1560=Lme_bc - _System_Threading_Tasks_TaskCompletionSource_1_bool_SetException_System_Exception
-	.long LDIFF_SYM1560
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
+LDIFF_SYM1600=Lme_bc - _System_Threading_Tasks_TaskFactory_1_bool_FromAsyncBeginEnd_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_bool_object_System_Threading_Tasks_TaskCreationOptions
+	.long LDIFF_SYM1600
+	.byte 12,13,0,72,14,8,135,2,68,14,20,132,5,136,4,139,3,142,1,68,14,48
 	.align 2
 Lfde183_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_129:
 
-	.byte 17
-	.asciz "System_Collections_Generic_IEnumerable`1"
-
-	.byte 8,7
-	.asciz "System_Collections_Generic_IEnumerable`1"
-
-LDIFF_SYM1561=LTDIE_129 - Ldebug_info_start
-	.long LDIFF_SYM1561
-LTDIE_129_POINTER:
-
-	.byte 13
-LDIFF_SYM1562=LTDIE_129 - Ldebug_info_start
-	.long LDIFF_SYM1562
-LTDIE_129_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1563=LTDIE_129 - Ldebug_info_start
-	.long LDIFF_SYM1563
 	.byte 2
-	.asciz "System.Threading.Tasks.TaskCompletionSource`1<bool>:SetException"
-	.long _System_Threading_Tasks_TaskCompletionSource_1_bool_SetException_System_Collections_Generic_IEnumerable_1_System_Exception
+	.asciz "System.Threading.Tasks.TaskFactory`1<bool>:InnerInvoke"
+	.long _System_Threading_Tasks_TaskFactory_1_bool_InnerInvoke_System_Threading_Tasks_TaskCompletionSource_1_bool_System_Func_2_System_IAsyncResult_bool_System_IAsyncResult
 	.long Lme_bd
 
 	.byte 2,118,16,3
-	.asciz "this"
+	.asciz "tcs"
 
-LDIFF_SYM1564=LTDIE_122_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1564
-	.byte 2,125,0,3
-	.asciz "exceptions"
+LDIFF_SYM1601=LTDIE_127_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1601
+	.byte 2,123,36,3
+	.asciz "endMethod"
 
-LDIFF_SYM1565=LTDIE_129_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1565
-	.byte 2,125,4,0
+LDIFF_SYM1602=LTDIE_130_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1602
+	.byte 1,86,3
+	.asciz "l"
+
+LDIFF_SYM1603=LTDIE_111_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1603
+	.byte 2,123,40,11
+	.asciz "e"
+
+LDIFF_SYM1604=LTDIE_55_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1604
+	.byte 2,123,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1566=Lfde184_end - Lfde184_start
-	.long LDIFF_SYM1566
+LDIFF_SYM1605=Lfde184_end - Lfde184_start
+	.long LDIFF_SYM1605
 Lfde184_start:
 
 	.long 0
 	.align 2
-	.long _System_Threading_Tasks_TaskCompletionSource_1_bool_SetException_System_Collections_Generic_IEnumerable_1_System_Exception
+	.long _System_Threading_Tasks_TaskFactory_1_bool_InnerInvoke_System_Threading_Tasks_TaskCompletionSource_1_bool_System_Func_2_System_IAsyncResult_bool_System_IAsyncResult
 
-LDIFF_SYM1567=Lme_bd - _System_Threading_Tasks_TaskCompletionSource_1_bool_SetException_System_Collections_Generic_IEnumerable_1_System_Exception
-	.long LDIFF_SYM1567
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM1606=Lme_bd - _System_Threading_Tasks_TaskFactory_1_bool_InnerInvoke_System_Threading_Tasks_TaskCompletionSource_1_bool_System_Func_2_System_IAsyncResult_bool_System_IAsyncResult
+	.long LDIFF_SYM1606
+	.byte 12,13,0,72,14,8,135,2,68,14,20,134,5,136,4,139,3,142,1,68,14,80,68,13,11
 	.align 2
 Lfde184_end:
 
 .section __DWARF, __debug_info,regular,debug
+LTDIE_133:
 
+	.byte 5
+	.asciz "System_Runtime_CompilerServices_TaskAwaiter`1"
+
+	.byte 12,16
+LDIFF_SYM1607=LTDIE_11 - Ldebug_info_start
+	.long LDIFF_SYM1607
+	.byte 2,35,0,6
+	.asciz "task"
+
+LDIFF_SYM1608=LTDIE_124_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1608
+	.byte 2,35,8,0,7
+	.asciz "System_Runtime_CompilerServices_TaskAwaiter`1"
+
+LDIFF_SYM1609=LTDIE_133 - Ldebug_info_start
+	.long LDIFF_SYM1609
+LTDIE_133_POINTER:
+
+	.byte 13
+LDIFF_SYM1610=LTDIE_133 - Ldebug_info_start
+	.long LDIFF_SYM1610
+LTDIE_133_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1611=LTDIE_133 - Ldebug_info_start
+	.long LDIFF_SYM1611
 	.byte 2
-	.asciz "System.Threading.Tasks.TaskCompletionSource`1<bool>:SetResult"
-	.long _System_Threading_Tasks_TaskCompletionSource_1_bool_SetResult_bool
+	.asciz "System.Runtime.CompilerServices.TaskAwaiter`1<bool>:.ctor"
+	.long _System_Runtime_CompilerServices_TaskAwaiter_1_bool__ctor_System_Threading_Tasks_Task_1_bool
 	.long Lme_be
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1568=LTDIE_122_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1568
+LDIFF_SYM1612=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1612
 	.byte 2,125,0,3
-	.asciz "result"
+	.asciz "task"
 
-LDIFF_SYM1569=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1569
+LDIFF_SYM1613=LTDIE_124_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1613
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1570=Lfde185_end - Lfde185_start
-	.long LDIFF_SYM1570
+LDIFF_SYM1614=Lfde185_end - Lfde185_start
+	.long LDIFF_SYM1614
 Lfde185_start:
 
 	.long 0
 	.align 2
-	.long _System_Threading_Tasks_TaskCompletionSource_1_bool_SetResult_bool
+	.long _System_Runtime_CompilerServices_TaskAwaiter_1_bool__ctor_System_Threading_Tasks_Task_1_bool
 
-LDIFF_SYM1571=Lme_be - _System_Threading_Tasks_TaskCompletionSource_1_bool_SetResult_bool
-	.long LDIFF_SYM1571
+LDIFF_SYM1615=Lme_be - _System_Runtime_CompilerServices_TaskAwaiter_1_bool__ctor_System_Threading_Tasks_Task_1_bool
+	.long LDIFF_SYM1615
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde185_end:
@@ -18142,164 +18744,191 @@ Lfde185_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Threading.Tasks.TaskCompletionSource`1<bool>:ThrowInvalidException"
-	.long _System_Threading_Tasks_TaskCompletionSource_1_bool_ThrowInvalidException
+	.asciz "System.Runtime.CompilerServices.TaskAwaiter`1<bool>:get_IsCompleted"
+	.long _System_Runtime_CompilerServices_TaskAwaiter_1_bool_get_IsCompleted
 	.long Lme_bf
 
-	.byte 2,118,16,0
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1616=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1616
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1572=Lfde186_end - Lfde186_start
-	.long LDIFF_SYM1572
+LDIFF_SYM1617=Lfde186_end - Lfde186_start
+	.long LDIFF_SYM1617
 Lfde186_start:
 
 	.long 0
 	.align 2
-	.long _System_Threading_Tasks_TaskCompletionSource_1_bool_ThrowInvalidException
+	.long _System_Runtime_CompilerServices_TaskAwaiter_1_bool_get_IsCompleted
 
-LDIFF_SYM1573=Lme_bf - _System_Threading_Tasks_TaskCompletionSource_1_bool_ThrowInvalidException
-	.long LDIFF_SYM1573
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,16
+LDIFF_SYM1618=Lme_bf - _System_Runtime_CompilerServices_TaskAwaiter_1_bool_get_IsCompleted
+	.long LDIFF_SYM1618
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde186_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Threading.Tasks.TaskCompletionSource`1<bool>:TrySetCanceled"
-	.long _System_Threading_Tasks_TaskCompletionSource_1_bool_TrySetCanceled
+	.asciz "System.Runtime.CompilerServices.TaskAwaiter`1<bool>:GetResult"
+	.long _System_Runtime_CompilerServices_TaskAwaiter_1_bool_GetResult
 	.long Lme_c0
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1574=LTDIE_122_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1574
-	.byte 2,125,0,0
+LDIFF_SYM1619=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1619
+	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1575=Lfde187_end - Lfde187_start
-	.long LDIFF_SYM1575
+LDIFF_SYM1620=Lfde187_end - Lfde187_start
+	.long LDIFF_SYM1620
 Lfde187_start:
 
 	.long 0
 	.align 2
-	.long _System_Threading_Tasks_TaskCompletionSource_1_bool_TrySetCanceled
+	.long _System_Runtime_CompilerServices_TaskAwaiter_1_bool_GetResult
 
-LDIFF_SYM1576=Lme_c0 - _System_Threading_Tasks_TaskCompletionSource_1_bool_TrySetCanceled
-	.long LDIFF_SYM1576
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM1621=Lme_c0 - _System_Runtime_CompilerServices_TaskAwaiter_1_bool_GetResult
+	.long LDIFF_SYM1621
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,24
 	.align 2
 Lfde187_end:
 
 .section __DWARF, __debug_info,regular,debug
+LTDIE_134:
 
+	.byte 5
+	.asciz "System_Action"
+
+	.byte 52,16
+LDIFF_SYM1622=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM1622
+	.byte 2,35,0,0,7
+	.asciz "System_Action"
+
+LDIFF_SYM1623=LTDIE_134 - Ldebug_info_start
+	.long LDIFF_SYM1623
+LTDIE_134_POINTER:
+
+	.byte 13
+LDIFF_SYM1624=LTDIE_134 - Ldebug_info_start
+	.long LDIFF_SYM1624
+LTDIE_134_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1625=LTDIE_134 - Ldebug_info_start
+	.long LDIFF_SYM1625
 	.byte 2
-	.asciz "System.Threading.Tasks.TaskCompletionSource`1<bool>:TrySetException"
-	.long _System_Threading_Tasks_TaskCompletionSource_1_bool_TrySetException_System_Exception
+	.asciz "System.Runtime.CompilerServices.TaskAwaiter`1<bool>:UnsafeOnCompleted"
+	.long _System_Runtime_CompilerServices_TaskAwaiter_1_bool_UnsafeOnCompleted_System_Action
 	.long Lme_c1
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1577=LTDIE_122_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1577
+LDIFF_SYM1626=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1626
 	.byte 2,125,0,3
-	.asciz "exception"
+	.asciz "continuation"
 
-LDIFF_SYM1578=LTDIE_55_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1578
+LDIFF_SYM1627=LTDIE_134_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1627
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1579=Lfde188_end - Lfde188_start
-	.long LDIFF_SYM1579
+LDIFF_SYM1628=Lfde188_end - Lfde188_start
+	.long LDIFF_SYM1628
 Lfde188_start:
 
 	.long 0
 	.align 2
-	.long _System_Threading_Tasks_TaskCompletionSource_1_bool_TrySetException_System_Exception
+	.long _System_Runtime_CompilerServices_TaskAwaiter_1_bool_UnsafeOnCompleted_System_Action
 
-LDIFF_SYM1580=Lme_c1 - _System_Threading_Tasks_TaskCompletionSource_1_bool_TrySetException_System_Exception
-	.long LDIFF_SYM1580
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
+LDIFF_SYM1629=Lme_c1 - _System_Runtime_CompilerServices_TaskAwaiter_1_bool_UnsafeOnCompleted_System_Action
+	.long LDIFF_SYM1629
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde188_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Threading.Tasks.TaskCompletionSource`1<bool>:TrySetException"
-	.long _System_Threading_Tasks_TaskCompletionSource_1_bool_TrySetException_System_Collections_Generic_IEnumerable_1_System_Exception
+	.asciz "(wrapper delegate-invoke) System.Action`1<System.Threading.Tasks.Task`1<bool>>:invoke_void_T"
+	.long _wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_bool_invoke_void_T_System_Threading_Tasks_Task_1_bool
 	.long Lme_c2
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1581=LTDIE_122_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1581
-	.byte 2,125,0,3
-	.asciz "exceptions"
+LDIFF_SYM1630=LTDIE_125_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1630
+	.byte 1,86,3
+	.asciz "param0"
 
-LDIFF_SYM1582=LTDIE_129_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1582
-	.byte 2,125,4,11
-	.asciz "aggregate"
+LDIFF_SYM1631=LTDIE_124_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1631
+	.byte 1,90,11
+	.asciz "V_0"
 
-LDIFF_SYM1583=LTDIE_54_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1583
-	.byte 1,85,0
+LDIFF_SYM1632=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1632
+	.byte 1,85,11
+	.asciz "V_1"
+
+LDIFF_SYM1633=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1633
+	.byte 1,84,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1584=Lfde189_end - Lfde189_start
-	.long LDIFF_SYM1584
+LDIFF_SYM1634=Lfde189_end - Lfde189_start
+	.long LDIFF_SYM1634
 Lfde189_start:
 
 	.long 0
 	.align 2
-	.long _System_Threading_Tasks_TaskCompletionSource_1_bool_TrySetException_System_Collections_Generic_IEnumerable_1_System_Exception
+	.long _wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_bool_invoke_void_T_System_Threading_Tasks_Task_1_bool
 
-LDIFF_SYM1585=Lme_c2 - _System_Threading_Tasks_TaskCompletionSource_1_bool_TrySetException_System_Collections_Generic_IEnumerable_1_System_Exception
-	.long LDIFF_SYM1585
-	.byte 12,13,0,72,14,8,135,2,68,14,16,133,4,136,3,142,1,68,14,32
+LDIFF_SYM1635=Lme_c2 - _wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_bool_invoke_void_T_System_Threading_Tasks_Task_1_bool
+	.long LDIFF_SYM1635
+	.byte 12,13,0,72,14,8,135,2,68,14,28,132,7,133,6,134,5,136,4,138,3,142,1,68,14,32
 	.align 2
 Lfde189_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Threading.Tasks.TaskCompletionSource`1<bool>:TrySetResult"
-	.long _System_Threading_Tasks_TaskCompletionSource_1_bool_TrySetResult_bool
+	.asciz "System.Threading.Tasks.TaskCompletionSource`1<bool>:.ctor"
+	.long _System_Threading_Tasks_TaskCompletionSource_1_bool__ctor
 	.long Lme_c3
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1586=LTDIE_122_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1586
-	.byte 2,125,0,3
-	.asciz "result"
-
-LDIFF_SYM1587=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1587
-	.byte 2,125,4,0
+LDIFF_SYM1636=LTDIE_127_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1636
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1588=Lfde190_end - Lfde190_start
-	.long LDIFF_SYM1588
+LDIFF_SYM1637=Lfde190_end - Lfde190_start
+	.long LDIFF_SYM1637
 Lfde190_start:
 
 	.long 0
 	.align 2
-	.long _System_Threading_Tasks_TaskCompletionSource_1_bool_TrySetResult_bool
+	.long _System_Threading_Tasks_TaskCompletionSource_1_bool__ctor
 
-LDIFF_SYM1589=Lme_c3 - _System_Threading_Tasks_TaskCompletionSource_1_bool_TrySetResult_bool
-	.long LDIFF_SYM1589
+LDIFF_SYM1638=Lme_c3 - _System_Threading_Tasks_TaskCompletionSource_1_bool__ctor
+	.long LDIFF_SYM1638
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde190_end:
@@ -18307,548 +18936,358 @@ Lfde190_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Threading.Tasks.TaskCompletionSource`1<bool>:get_Task"
-	.long _System_Threading_Tasks_TaskCompletionSource_1_bool_get_Task
+	.asciz "System.Threading.Tasks.TaskCompletionSource`1<bool>:.ctor"
+	.long _System_Threading_Tasks_TaskCompletionSource_1_bool__ctor_object_System_Threading_Tasks_TaskCreationOptions
 	.long Lme_c4
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1590=LTDIE_122_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1590
-	.byte 2,125,0,0
+LDIFF_SYM1639=LTDIE_127_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1639
+	.byte 2,123,20,3
+	.asciz "state"
+
+LDIFF_SYM1640=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1640
+	.byte 2,123,24,3
+	.asciz "creationOptions"
+
+LDIFF_SYM1641=LTDIE_51 - Ldebug_info_start
+	.long LDIFF_SYM1641
+	.byte 2,123,28,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1591=Lfde191_end - Lfde191_start
-	.long LDIFF_SYM1591
+LDIFF_SYM1642=Lfde191_end - Lfde191_start
+	.long LDIFF_SYM1642
 Lfde191_start:
 
 	.long 0
 	.align 2
-	.long _System_Threading_Tasks_TaskCompletionSource_1_bool_get_Task
+	.long _System_Threading_Tasks_TaskCompletionSource_1_bool__ctor_object_System_Threading_Tasks_TaskCreationOptions
 
-LDIFF_SYM1592=Lme_c4 - _System_Threading_Tasks_TaskCompletionSource_1_bool_get_Task
-	.long LDIFF_SYM1592
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM1643=Lme_c4 - _System_Threading_Tasks_TaskCompletionSource_1_bool__ctor_object_System_Threading_Tasks_TaskCreationOptions
+	.long LDIFF_SYM1643
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,64,68,13,11
 	.align 2
 Lfde191_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "(wrapper delegate-invoke) System.Func`2<System.IAsyncResult, bool>:invoke_TResult_T"
-	.long _wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_bool_invoke_TResult_T_System_IAsyncResult
-	.long Lme_c9
+	.asciz "System.Threading.Tasks.TaskCompletionSource`1<bool>:SetCanceled"
+	.long _System_Threading_Tasks_TaskCompletionSource_1_bool_SetCanceled
+	.long Lme_c5
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1593=LTDIE_126_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1593
-	.byte 1,86,3
-	.asciz "param0"
-
-LDIFF_SYM1594=LTDIE_108_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1594
-	.byte 1,90,11
-	.asciz "V_0"
-
-LDIFF_SYM1595=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1595
-	.byte 1,85,11
-	.asciz "V_1"
-
-LDIFF_SYM1596=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1596
-	.byte 1,84,0
+LDIFF_SYM1644=LTDIE_127_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1644
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1597=Lfde192_end - Lfde192_start
-	.long LDIFF_SYM1597
+LDIFF_SYM1645=Lfde192_end - Lfde192_start
+	.long LDIFF_SYM1645
 Lfde192_start:
 
 	.long 0
 	.align 2
-	.long _wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_bool_invoke_TResult_T_System_IAsyncResult
+	.long _System_Threading_Tasks_TaskCompletionSource_1_bool_SetCanceled
 
-LDIFF_SYM1598=Lme_c9 - _wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_bool_invoke_TResult_T_System_IAsyncResult
-	.long LDIFF_SYM1598
-	.byte 12,13,0,72,14,8,135,2,68,14,28,132,7,133,6,134,5,136,4,138,3,142,1,68,14,32
+LDIFF_SYM1646=Lme_c5 - _System_Threading_Tasks_TaskCompletionSource_1_bool_SetCanceled
+	.long LDIFF_SYM1646
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde192_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_131:
 
-	.byte 5
-	.asciz "System_Threading_Tasks_Task`1"
-
-	.byte 88,16
-LDIFF_SYM1599=LTDIE_40 - Ldebug_info_start
-	.long LDIFF_SYM1599
-	.byte 2,35,0,6
-	.asciz "value"
-
-LDIFF_SYM1600=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1600
-	.byte 2,35,84,0,7
-	.asciz "System_Threading_Tasks_Task`1"
-
-LDIFF_SYM1601=LTDIE_131 - Ldebug_info_start
-	.long LDIFF_SYM1601
-LTDIE_131_POINTER:
-
-	.byte 13
-LDIFF_SYM1602=LTDIE_131 - Ldebug_info_start
-	.long LDIFF_SYM1602
-LTDIE_131_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1603=LTDIE_131 - Ldebug_info_start
-	.long LDIFF_SYM1603
-LTDIE_130:
-
-	.byte 5
-	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder"
-
-	.byte 16,16
-LDIFF_SYM1604=LTDIE_11 - Ldebug_info_start
-	.long LDIFF_SYM1604
-	.byte 2,35,0,6
-	.asciz "task"
-
-LDIFF_SYM1605=LTDIE_131_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1605
-	.byte 2,35,0,6
-	.asciz "stateMachine"
-
-LDIFF_SYM1606=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1606
-	.byte 2,35,4,0,7
-	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder"
-
-LDIFF_SYM1607=LTDIE_130 - Ldebug_info_start
-	.long LDIFF_SYM1607
-LTDIE_130_POINTER:
-
-	.byte 13
-LDIFF_SYM1608=LTDIE_130 - Ldebug_info_start
-	.long LDIFF_SYM1608
-LTDIE_130_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1609=LTDIE_130 - Ldebug_info_start
-	.long LDIFF_SYM1609
 	.byte 2
-	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start<Robotics.Mobile.Core.iOS.BluetoothLEManager/<BeginScanningForDevices>c__async0>"
-	.long _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_Robotics_Mobile_Core_iOS_BluetoothLEManager__BeginScanningForDevicesc__async0_Robotics_Mobile_Core_iOS_BluetoothLEManager__BeginScanningForDevicesc__async0_
-	.long Lme_ca
+	.asciz "System.Threading.Tasks.TaskCompletionSource`1<bool>:SetException"
+	.long _System_Threading_Tasks_TaskCompletionSource_1_bool_SetException_System_Exception
+	.long Lme_c6
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1610=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1610
-	.byte 0,3
-	.asciz "stateMachine"
+LDIFF_SYM1647=LTDIE_127_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1647
+	.byte 2,125,0,3
+	.asciz "exception"
 
-LDIFF_SYM1611=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1611
-	.byte 2,125,24,0
+LDIFF_SYM1648=LTDIE_55_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1648
+	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1612=Lfde193_end - Lfde193_start
-	.long LDIFF_SYM1612
+LDIFF_SYM1649=Lfde193_end - Lfde193_start
+	.long LDIFF_SYM1649
 Lfde193_start:
 
 	.long 0
 	.align 2
-	.long _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_Robotics_Mobile_Core_iOS_BluetoothLEManager__BeginScanningForDevicesc__async0_Robotics_Mobile_Core_iOS_BluetoothLEManager__BeginScanningForDevicesc__async0_
+	.long _System_Threading_Tasks_TaskCompletionSource_1_bool_SetException_System_Exception
 
-LDIFF_SYM1613=Lme_ca - _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_Robotics_Mobile_Core_iOS_BluetoothLEManager__BeginScanningForDevicesc__async0_Robotics_Mobile_Core_iOS_BluetoothLEManager__BeginScanningForDevicesc__async0_
-	.long LDIFF_SYM1613
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,48
+LDIFF_SYM1650=Lme_c6 - _System_Threading_Tasks_TaskCompletionSource_1_bool_SetException_System_Exception
+	.long LDIFF_SYM1650
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
 	.align 2
 Lfde193_end:
 
 .section __DWARF, __debug_info,regular,debug
+LTDIE_135:
 
+	.byte 17
+	.asciz "System_Collections_Generic_IEnumerable`1"
+
+	.byte 8,7
+	.asciz "System_Collections_Generic_IEnumerable`1"
+
+LDIFF_SYM1651=LTDIE_135 - Ldebug_info_start
+	.long LDIFF_SYM1651
+LTDIE_135_POINTER:
+
+	.byte 13
+LDIFF_SYM1652=LTDIE_135 - Ldebug_info_start
+	.long LDIFF_SYM1652
+LTDIE_135_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1653=LTDIE_135 - Ldebug_info_start
+	.long LDIFF_SYM1653
 	.byte 2
-	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start<Robotics.Mobile.Core.Bluetooth.LE.Adapter/<WaitForState>c__async0>"
-	.long _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_Robotics_Mobile_Core_Bluetooth_LE_Adapter__WaitForStatec__async0_Robotics_Mobile_Core_Bluetooth_LE_Adapter__WaitForStatec__async0_
-	.long Lme_cb
+	.asciz "System.Threading.Tasks.TaskCompletionSource`1<bool>:SetException"
+	.long _System_Threading_Tasks_TaskCompletionSource_1_bool_SetException_System_Collections_Generic_IEnumerable_1_System_Exception
+	.long Lme_c7
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1614=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1614
-	.byte 0,3
-	.asciz "stateMachine"
+LDIFF_SYM1654=LTDIE_127_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1654
+	.byte 2,125,0,3
+	.asciz "exceptions"
 
-LDIFF_SYM1615=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1615
-	.byte 2,125,28,0
+LDIFF_SYM1655=LTDIE_135_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1655
+	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1616=Lfde194_end - Lfde194_start
-	.long LDIFF_SYM1616
+LDIFF_SYM1656=Lfde194_end - Lfde194_start
+	.long LDIFF_SYM1656
 Lfde194_start:
 
 	.long 0
 	.align 2
-	.long _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_Robotics_Mobile_Core_Bluetooth_LE_Adapter__WaitForStatec__async0_Robotics_Mobile_Core_Bluetooth_LE_Adapter__WaitForStatec__async0_
+	.long _System_Threading_Tasks_TaskCompletionSource_1_bool_SetException_System_Collections_Generic_IEnumerable_1_System_Exception
 
-LDIFF_SYM1617=Lme_cb - _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_Robotics_Mobile_Core_Bluetooth_LE_Adapter__WaitForStatec__async0_Robotics_Mobile_Core_Bluetooth_LE_Adapter__WaitForStatec__async0_
-	.long LDIFF_SYM1617
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,48
+LDIFF_SYM1657=Lme_c7 - _System_Threading_Tasks_TaskCompletionSource_1_bool_SetException_System_Collections_Generic_IEnumerable_1_System_Exception
+	.long LDIFF_SYM1657
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde194_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_133:
 
-	.byte 5
-	.asciz "System_Threading_SynchronizationContext"
-
-	.byte 8,16
-LDIFF_SYM1618=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1618
-	.byte 2,35,0,0,7
-	.asciz "System_Threading_SynchronizationContext"
-
-LDIFF_SYM1619=LTDIE_133 - Ldebug_info_start
-	.long LDIFF_SYM1619
-LTDIE_133_POINTER:
-
-	.byte 13
-LDIFF_SYM1620=LTDIE_133 - Ldebug_info_start
-	.long LDIFF_SYM1620
-LTDIE_133_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1621=LTDIE_133 - Ldebug_info_start
-	.long LDIFF_SYM1621
-LTDIE_132:
-
-	.byte 5
-	.asciz "System_Runtime_CompilerServices_AsyncVoidMethodBuilder"
-
-	.byte 16,16
-LDIFF_SYM1622=LTDIE_11 - Ldebug_info_start
-	.long LDIFF_SYM1622
-	.byte 2,35,0,6
-	.asciz "context"
-
-LDIFF_SYM1623=LTDIE_133_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1623
-	.byte 2,35,0,6
-	.asciz "stateMachine"
-
-LDIFF_SYM1624=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1624
-	.byte 2,35,4,0,7
-	.asciz "System_Runtime_CompilerServices_AsyncVoidMethodBuilder"
-
-LDIFF_SYM1625=LTDIE_132 - Ldebug_info_start
-	.long LDIFF_SYM1625
-LTDIE_132_POINTER:
-
-	.byte 13
-LDIFF_SYM1626=LTDIE_132 - Ldebug_info_start
-	.long LDIFF_SYM1626
-LTDIE_132_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1627=LTDIE_132 - Ldebug_info_start
-	.long LDIFF_SYM1627
 	.byte 2
-	.asciz "System.Runtime.CompilerServices.AsyncVoidMethodBuilder:Start<Robotics.Mobile.Core.Bluetooth.LE.Adapter/<StartScanningForDevices>c__async1>"
-	.long _System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_Robotics_Mobile_Core_Bluetooth_LE_Adapter__StartScanningForDevicesc__async1_Robotics_Mobile_Core_Bluetooth_LE_Adapter__StartScanningForDevicesc__async1_
-	.long Lme_cc
+	.asciz "System.Threading.Tasks.TaskCompletionSource`1<bool>:SetResult"
+	.long _System_Threading_Tasks_TaskCompletionSource_1_bool_SetResult_bool
+	.long Lme_c8
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1628=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1628
-	.byte 0,3
-	.asciz "stateMachine"
+LDIFF_SYM1658=LTDIE_127_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1658
+	.byte 2,125,0,3
+	.asciz "result"
 
-LDIFF_SYM1629=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1629
-	.byte 2,125,44,0
+LDIFF_SYM1659=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1659
+	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1630=Lfde195_end - Lfde195_start
-	.long LDIFF_SYM1630
+LDIFF_SYM1660=Lfde195_end - Lfde195_start
+	.long LDIFF_SYM1660
 Lfde195_start:
 
 	.long 0
 	.align 2
-	.long _System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_Robotics_Mobile_Core_Bluetooth_LE_Adapter__StartScanningForDevicesc__async1_Robotics_Mobile_Core_Bluetooth_LE_Adapter__StartScanningForDevicesc__async1_
+	.long _System_Threading_Tasks_TaskCompletionSource_1_bool_SetResult_bool
 
-LDIFF_SYM1631=Lme_cc - _System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_Robotics_Mobile_Core_Bluetooth_LE_Adapter__StartScanningForDevicesc__async1_Robotics_Mobile_Core_Bluetooth_LE_Adapter__StartScanningForDevicesc__async1_
-	.long LDIFF_SYM1631
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,64
+LDIFF_SYM1661=Lme_c8 - _System_Threading_Tasks_TaskCompletionSource_1_bool_SetResult_bool
+	.long LDIFF_SYM1661
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde195_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_134:
 
-	.byte 5
-	.asciz "System_Runtime_CompilerServices_TaskAwaiter"
-
-	.byte 12,16
-LDIFF_SYM1632=LTDIE_11 - Ldebug_info_start
-	.long LDIFF_SYM1632
-	.byte 2,35,0,6
-	.asciz "task"
-
-LDIFF_SYM1633=LTDIE_40_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1633
-	.byte 2,35,0,0,7
-	.asciz "System_Runtime_CompilerServices_TaskAwaiter"
-
-LDIFF_SYM1634=LTDIE_134 - Ldebug_info_start
-	.long LDIFF_SYM1634
-LTDIE_134_POINTER:
-
-	.byte 13
-LDIFF_SYM1635=LTDIE_134 - Ldebug_info_start
-	.long LDIFF_SYM1635
-LTDIE_134_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1636=LTDIE_134 - Ldebug_info_start
-	.long LDIFF_SYM1636
 	.byte 2
-	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder:AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter, Robotics.Mobile.Core.iOS.BluetoothLEManager/<BeginScanningForDevices>c__async0>"
-	.long _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_Robotics_Mobile_Core_iOS_BluetoothLEManager__BeginScanningForDevicesc__async0_System_Runtime_CompilerServices_TaskAwaiter__Robotics_Mobile_Core_iOS_BluetoothLEManager__BeginScanningForDevicesc__async0_
-	.long Lme_cd
+	.asciz "System.Threading.Tasks.TaskCompletionSource`1<bool>:ThrowInvalidException"
+	.long _System_Threading_Tasks_TaskCompletionSource_1_bool_ThrowInvalidException
+	.long Lme_c9
 
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1637=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1637
-	.byte 0,3
-	.asciz "awaiter"
-
-LDIFF_SYM1638=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1638
-	.byte 2,125,24,3
-	.asciz "stateMachine"
-
-LDIFF_SYM1639=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1639
-	.byte 2,125,28,11
-	.asciz "action"
-
-LDIFF_SYM1640=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1640
-	.byte 0,0
+	.byte 2,118,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1641=Lfde196_end - Lfde196_start
-	.long LDIFF_SYM1641
+LDIFF_SYM1662=Lfde196_end - Lfde196_start
+	.long LDIFF_SYM1662
 Lfde196_start:
 
 	.long 0
 	.align 2
-	.long _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_Robotics_Mobile_Core_iOS_BluetoothLEManager__BeginScanningForDevicesc__async0_System_Runtime_CompilerServices_TaskAwaiter__Robotics_Mobile_Core_iOS_BluetoothLEManager__BeginScanningForDevicesc__async0_
+	.long _System_Threading_Tasks_TaskCompletionSource_1_bool_ThrowInvalidException
 
-LDIFF_SYM1642=Lme_cd - _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_Robotics_Mobile_Core_iOS_BluetoothLEManager__BeginScanningForDevicesc__async0_System_Runtime_CompilerServices_TaskAwaiter__Robotics_Mobile_Core_iOS_BluetoothLEManager__BeginScanningForDevicesc__async0_
-	.long LDIFF_SYM1642
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,64
+LDIFF_SYM1663=Lme_c9 - _System_Threading_Tasks_TaskCompletionSource_1_bool_ThrowInvalidException
+	.long LDIFF_SYM1663
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,16
 	.align 2
 Lfde196_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder:AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<bool>, Robotics.Mobile.Core.Bluetooth.LE.Adapter/<WaitForState>c__async0>"
-	.long _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_Robotics_Mobile_Core_Bluetooth_LE_Adapter__WaitForStatec__async0_System_Runtime_CompilerServices_TaskAwaiter_1_bool__Robotics_Mobile_Core_Bluetooth_LE_Adapter__WaitForStatec__async0_
-	.long Lme_ce
+	.asciz "System.Threading.Tasks.TaskCompletionSource`1<bool>:TrySetCanceled"
+	.long _System_Threading_Tasks_TaskCompletionSource_1_bool_TrySetCanceled
+	.long Lme_ca
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1643=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1643
-	.byte 0,3
-	.asciz "awaiter"
-
-LDIFF_SYM1644=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1644
-	.byte 2,125,28,3
-	.asciz "stateMachine"
-
-LDIFF_SYM1645=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1645
-	.byte 2,125,32,11
-	.asciz "action"
-
-LDIFF_SYM1646=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1646
-	.byte 0,0
+LDIFF_SYM1664=LTDIE_127_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1664
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1647=Lfde197_end - Lfde197_start
-	.long LDIFF_SYM1647
+LDIFF_SYM1665=Lfde197_end - Lfde197_start
+	.long LDIFF_SYM1665
 Lfde197_start:
 
 	.long 0
 	.align 2
-	.long _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_Robotics_Mobile_Core_Bluetooth_LE_Adapter__WaitForStatec__async0_System_Runtime_CompilerServices_TaskAwaiter_1_bool__Robotics_Mobile_Core_Bluetooth_LE_Adapter__WaitForStatec__async0_
+	.long _System_Threading_Tasks_TaskCompletionSource_1_bool_TrySetCanceled
 
-LDIFF_SYM1648=Lme_ce - _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_Robotics_Mobile_Core_Bluetooth_LE_Adapter__WaitForStatec__async0_System_Runtime_CompilerServices_TaskAwaiter_1_bool__Robotics_Mobile_Core_Bluetooth_LE_Adapter__WaitForStatec__async0_
-	.long LDIFF_SYM1648
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,72
+LDIFF_SYM1666=Lme_ca - _System_Threading_Tasks_TaskCompletionSource_1_bool_TrySetCanceled
+	.long LDIFF_SYM1666
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde197_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Threading.Tasks.Task:Run<bool>"
-	.long _System_Threading_Tasks_Task_Run_bool_System_Func_1_bool
-	.long Lme_cf
+	.asciz "System.Threading.Tasks.TaskCompletionSource`1<bool>:TrySetException"
+	.long _System_Threading_Tasks_TaskCompletionSource_1_bool_TrySetException_System_Exception
+	.long Lme_cb
 
 	.byte 2,118,16,3
-	.asciz "function"
+	.asciz "this"
 
-LDIFF_SYM1649=LTDIE_120_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1649
+LDIFF_SYM1667=LTDIE_127_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1667
+	.byte 2,125,0,3
+	.asciz "exception"
+
+LDIFF_SYM1668=LTDIE_55_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1668
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1650=Lfde198_end - Lfde198_start
-	.long LDIFF_SYM1650
+LDIFF_SYM1669=Lfde198_end - Lfde198_start
+	.long LDIFF_SYM1669
 Lfde198_start:
 
 	.long 0
 	.align 2
-	.long _System_Threading_Tasks_Task_Run_bool_System_Func_1_bool
+	.long _System_Threading_Tasks_TaskCompletionSource_1_bool_TrySetException_System_Exception
 
-LDIFF_SYM1651=Lme_cf - _System_Threading_Tasks_Task_Run_bool_System_Func_1_bool
-	.long LDIFF_SYM1651
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM1670=Lme_cb - _System_Threading_Tasks_TaskCompletionSource_1_bool_TrySetException_System_Exception
+	.long LDIFF_SYM1670
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
 	.align 2
 Lfde198_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Runtime.CompilerServices.AsyncVoidMethodBuilder:AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter, Robotics.Mobile.Core.Bluetooth.LE.Adapter/<StartScanningForDevices>c__async1>"
-	.long _System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_Robotics_Mobile_Core_Bluetooth_LE_Adapter__StartScanningForDevicesc__async1_System_Runtime_CompilerServices_TaskAwaiter__Robotics_Mobile_Core_Bluetooth_LE_Adapter__StartScanningForDevicesc__async1_
-	.long Lme_d0
+	.asciz "System.Threading.Tasks.TaskCompletionSource`1<bool>:TrySetException"
+	.long _System_Threading_Tasks_TaskCompletionSource_1_bool_TrySetException_System_Collections_Generic_IEnumerable_1_System_Exception
+	.long Lme_cc
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1652=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1652
-	.byte 0,3
-	.asciz "awaiter"
+LDIFF_SYM1671=LTDIE_127_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1671
+	.byte 2,125,0,3
+	.asciz "exceptions"
 
-LDIFF_SYM1653=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1653
-	.byte 2,125,44,3
-	.asciz "stateMachine"
+LDIFF_SYM1672=LTDIE_135_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1672
+	.byte 2,125,4,11
+	.asciz "aggregate"
 
-LDIFF_SYM1654=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1654
-	.byte 2,125,48,11
-	.asciz "action"
-
-LDIFF_SYM1655=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1655
-	.byte 0,0
+LDIFF_SYM1673=LTDIE_54_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1673
+	.byte 1,85,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1656=Lfde199_end - Lfde199_start
-	.long LDIFF_SYM1656
+LDIFF_SYM1674=Lfde199_end - Lfde199_start
+	.long LDIFF_SYM1674
 Lfde199_start:
 
 	.long 0
 	.align 2
-	.long _System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_Robotics_Mobile_Core_Bluetooth_LE_Adapter__StartScanningForDevicesc__async1_System_Runtime_CompilerServices_TaskAwaiter__Robotics_Mobile_Core_Bluetooth_LE_Adapter__StartScanningForDevicesc__async1_
+	.long _System_Threading_Tasks_TaskCompletionSource_1_bool_TrySetException_System_Collections_Generic_IEnumerable_1_System_Exception
 
-LDIFF_SYM1657=Lme_d0 - _System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_Robotics_Mobile_Core_Bluetooth_LE_Adapter__StartScanningForDevicesc__async1_System_Runtime_CompilerServices_TaskAwaiter__Robotics_Mobile_Core_Bluetooth_LE_Adapter__StartScanningForDevicesc__async1_
-	.long LDIFF_SYM1657
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,88
+LDIFF_SYM1675=Lme_cc - _System_Threading_Tasks_TaskCompletionSource_1_bool_TrySetException_System_Collections_Generic_IEnumerable_1_System_Exception
+	.long LDIFF_SYM1675
+	.byte 12,13,0,72,14,8,135,2,68,14,16,133,4,136,3,142,1,68,14,32
 	.align 2
 Lfde199_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_135:
 
-	.byte 5
-	.asciz "_FuncInvoke`1"
-
-	.byte 12,16
-LDIFF_SYM1658=LTDIE_61 - Ldebug_info_start
-	.long LDIFF_SYM1658
-	.byte 2,35,0,6
-	.asciz "action"
-
-LDIFF_SYM1659=LTDIE_120_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1659
-	.byte 2,35,8,0,7
-	.asciz "_FuncInvoke`1"
-
-LDIFF_SYM1660=LTDIE_135 - Ldebug_info_start
-	.long LDIFF_SYM1660
-LTDIE_135_POINTER:
-
-	.byte 13
-LDIFF_SYM1661=LTDIE_135 - Ldebug_info_start
-	.long LDIFF_SYM1661
-LTDIE_135_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1662=LTDIE_135 - Ldebug_info_start
-	.long LDIFF_SYM1662
 	.byte 2
-	.asciz "System.Threading.Tasks.TaskActionInvoker/FuncInvoke`1<bool>:.ctor"
-	.long _System_Threading_Tasks_TaskActionInvoker_FuncInvoke_1_bool__ctor_System_Func_1_bool
-	.long Lme_d1
+	.asciz "System.Threading.Tasks.TaskCompletionSource`1<bool>:TrySetResult"
+	.long _System_Threading_Tasks_TaskCompletionSource_1_bool_TrySetResult_bool
+	.long Lme_cd
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1663=LTDIE_135_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1663
+LDIFF_SYM1676=LTDIE_127_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1676
 	.byte 2,125,0,3
-	.asciz "action"
+	.asciz "result"
 
-LDIFF_SYM1664=LTDIE_120_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1664
+LDIFF_SYM1677=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1677
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1665=Lfde200_end - Lfde200_start
-	.long LDIFF_SYM1665
+LDIFF_SYM1678=Lfde200_end - Lfde200_start
+	.long LDIFF_SYM1678
 Lfde200_start:
 
 	.long 0
 	.align 2
-	.long _System_Threading_Tasks_TaskActionInvoker_FuncInvoke_1_bool__ctor_System_Func_1_bool
+	.long _System_Threading_Tasks_TaskCompletionSource_1_bool_TrySetResult_bool
 
-LDIFF_SYM1666=Lme_d1 - _System_Threading_Tasks_TaskActionInvoker_FuncInvoke_1_bool__ctor_System_Func_1_bool
-	.long LDIFF_SYM1666
+LDIFF_SYM1679=Lme_cd - _System_Threading_Tasks_TaskCompletionSource_1_bool_TrySetResult_bool
+	.long LDIFF_SYM1679
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde200_end:
@@ -18856,641 +19295,1362 @@ Lfde200_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Threading.Tasks.TaskActionInvoker/FuncInvoke`1<bool>:Invoke"
-	.long _System_Threading_Tasks_TaskActionInvoker_FuncInvoke_1_bool_Invoke_System_Threading_Tasks_Task_object_System_Threading_Tasks_Task
-	.long Lme_d2
+	.asciz "System.Threading.Tasks.TaskCompletionSource`1<bool>:get_Task"
+	.long _System_Threading_Tasks_TaskCompletionSource_1_bool_get_Task
+	.long Lme_ce
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1667=LTDIE_135_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1667
-	.byte 2,125,0,3
-	.asciz "owner"
-
-LDIFF_SYM1668=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1668
-	.byte 0,3
-	.asciz "state"
-
-LDIFF_SYM1669=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1669
-	.byte 0,3
-	.asciz "context"
-
-LDIFF_SYM1670=LTDIE_40_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1670
-	.byte 2,125,12,0
+LDIFF_SYM1680=LTDIE_127_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1680
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1671=Lfde201_end - Lfde201_start
-	.long LDIFF_SYM1671
+LDIFF_SYM1681=Lfde201_end - Lfde201_start
+	.long LDIFF_SYM1681
 Lfde201_start:
 
 	.long 0
 	.align 2
-	.long _System_Threading_Tasks_TaskActionInvoker_FuncInvoke_1_bool_Invoke_System_Threading_Tasks_Task_object_System_Threading_Tasks_Task
+	.long _System_Threading_Tasks_TaskCompletionSource_1_bool_get_Task
 
-LDIFF_SYM1672=Lme_d2 - _System_Threading_Tasks_TaskActionInvoker_FuncInvoke_1_bool_Invoke_System_Threading_Tasks_Task_object_System_Threading_Tasks_Task
-	.long LDIFF_SYM1672
-	.byte 12,13,0,72,14,8,135,2,68,14,16,133,4,136,3,142,1,68,14,40
+LDIFF_SYM1682=Lme_ce - _System_Threading_Tasks_TaskCompletionSource_1_bool_get_Task
+	.long LDIFF_SYM1682
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde201_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_136:
 
-	.byte 5
-	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable`1"
-
-	.byte 16,16
-LDIFF_SYM1673=LTDIE_11 - Ldebug_info_start
-	.long LDIFF_SYM1673
-	.byte 2,35,0,6
-	.asciz "awaiter"
-
-LDIFF_SYM1674=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1674
-	.byte 2,35,8,0,7
-	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable`1"
-
-LDIFF_SYM1675=LTDIE_136 - Ldebug_info_start
-	.long LDIFF_SYM1675
-LTDIE_136_POINTER:
-
-	.byte 13
-LDIFF_SYM1676=LTDIE_136 - Ldebug_info_start
-	.long LDIFF_SYM1676
-LTDIE_136_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1677=LTDIE_136 - Ldebug_info_start
-	.long LDIFF_SYM1677
 	.byte 2
-	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1<bool>:.ctor"
-	.long _System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_bool__ctor_System_Threading_Tasks_Task_1_bool_bool
+	.asciz "(wrapper delegate-invoke) System.Func`2<System.IAsyncResult, bool>:invoke_TResult_T"
+	.long _wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_bool_invoke_TResult_T_System_IAsyncResult
 	.long Lme_d3
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1678=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1678
-	.byte 2,125,16,3
-	.asciz "task"
+LDIFF_SYM1683=LTDIE_130_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1683
+	.byte 1,86,3
+	.asciz "param0"
 
-LDIFF_SYM1679=LTDIE_121_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1679
-	.byte 2,125,20,3
-	.asciz "continueOnSourceContext"
+LDIFF_SYM1684=LTDIE_111_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1684
+	.byte 1,90,11
+	.asciz "V_0"
 
-LDIFF_SYM1680=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1680
-	.byte 2,125,24,0
+LDIFF_SYM1685=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1685
+	.byte 1,85,11
+	.asciz "V_1"
+
+LDIFF_SYM1686=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1686
+	.byte 1,84,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1681=Lfde202_end - Lfde202_start
-	.long LDIFF_SYM1681
+LDIFF_SYM1687=Lfde202_end - Lfde202_start
+	.long LDIFF_SYM1687
 Lfde202_start:
 
 	.long 0
 	.align 2
-	.long _System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_bool__ctor_System_Threading_Tasks_Task_1_bool_bool
+	.long _wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_bool_invoke_TResult_T_System_IAsyncResult
 
-LDIFF_SYM1682=Lme_d3 - _System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_bool__ctor_System_Threading_Tasks_Task_1_bool_bool
-	.long LDIFF_SYM1682
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,48
+LDIFF_SYM1688=Lme_d3 - _wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_bool_invoke_TResult_T_System_IAsyncResult
+	.long LDIFF_SYM1688
+	.byte 12,13,0,72,14,8,135,2,68,14,28,132,7,133,6,134,5,136,4,138,3,142,1,68,14,32
 	.align 2
 Lfde202_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1<bool>:GetAwaiter"
-	.long _System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_bool_GetAwaiter
+	.asciz "System.Threading.Tasks.TaskFactory`1/<FromAsyncBeginEnd>c__AnonStorey2<bool>:.ctor"
+	.long _System_Threading_Tasks_TaskFactory_1__FromAsyncBeginEndc__AnonStorey2_bool__ctor
 	.long Lme_d4
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1683=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1683
-	.byte 2,125,12,0
+LDIFF_SYM1689=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1689
+	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1684=Lfde203_end - Lfde203_start
-	.long LDIFF_SYM1684
+LDIFF_SYM1690=Lfde203_end - Lfde203_start
+	.long LDIFF_SYM1690
 Lfde203_start:
 
 	.long 0
 	.align 2
-	.long _System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_bool_GetAwaiter
+	.long _System_Threading_Tasks_TaskFactory_1__FromAsyncBeginEndc__AnonStorey2_bool__ctor
 
-LDIFF_SYM1685=Lme_d4 - _System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_bool_GetAwaiter
-	.long LDIFF_SYM1685
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
+LDIFF_SYM1691=Lme_d4 - _System_Threading_Tasks_TaskFactory_1__FromAsyncBeginEndc__AnonStorey2_bool__ctor
+	.long LDIFF_SYM1691
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde203_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_137:
 
-	.byte 5
-	.asciz "_ConfiguredTaskAwaiter"
-
-	.byte 16,16
-LDIFF_SYM1686=LTDIE_11 - Ldebug_info_start
-	.long LDIFF_SYM1686
-	.byte 2,35,0,6
-	.asciz "task"
-
-LDIFF_SYM1687=LTDIE_121_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1687
-	.byte 2,35,8,6
-	.asciz "continueOnSourceContext"
-
-LDIFF_SYM1688=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1688
-	.byte 2,35,12,0,7
-	.asciz "_ConfiguredTaskAwaiter"
-
-LDIFF_SYM1689=LTDIE_137 - Ldebug_info_start
-	.long LDIFF_SYM1689
-LTDIE_137_POINTER:
-
-	.byte 13
-LDIFF_SYM1690=LTDIE_137 - Ldebug_info_start
-	.long LDIFF_SYM1690
-LTDIE_137_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1691=LTDIE_137 - Ldebug_info_start
-	.long LDIFF_SYM1691
 	.byte 2
-	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<bool>:.ctor"
-	.long _System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_bool__ctor_System_Threading_Tasks_Task_1_bool_bool
+	.asciz "System.Threading.Tasks.TaskFactory`1/<FromAsyncBeginEnd>c__AnonStorey2<bool>:<>m__0"
+	.long _System_Threading_Tasks_TaskFactory_1__FromAsyncBeginEndc__AnonStorey2_bool__m__0_System_IAsyncResult
 	.long Lme_d5
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1692=LDIE_I - Ldebug_info_start
+LDIFF_SYM1692=LTDIE_131_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1692
-	.byte 2,125,0,3
-	.asciz "task"
+	.byte 1,86,3
+	.asciz "l"
 
-LDIFF_SYM1693=LTDIE_121_REFERENCE - Ldebug_info_start
+LDIFF_SYM1693=LTDIE_111_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1693
-	.byte 2,125,4,3
-	.asciz "continueOnSourceContext"
-
-LDIFF_SYM1694=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1694
-	.byte 2,125,8,0
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1695=Lfde204_end - Lfde204_start
-	.long LDIFF_SYM1695
+LDIFF_SYM1694=Lfde204_end - Lfde204_start
+	.long LDIFF_SYM1694
 Lfde204_start:
 
 	.long 0
 	.align 2
-	.long _System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_bool__ctor_System_Threading_Tasks_Task_1_bool_bool
+	.long _System_Threading_Tasks_TaskFactory_1__FromAsyncBeginEndc__AnonStorey2_bool__m__0_System_IAsyncResult
 
-LDIFF_SYM1696=Lme_d5 - _System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_bool__ctor_System_Threading_Tasks_Task_1_bool_bool
-	.long LDIFF_SYM1696
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
+LDIFF_SYM1695=Lme_d5 - _System_Threading_Tasks_TaskFactory_1__FromAsyncBeginEndc__AnonStorey2_bool__m__0_System_IAsyncResult
+	.long LDIFF_SYM1695
+	.byte 12,13,0,72,14,8,135,2,68,14,16,134,4,136,3,142,1,68,14,24
 	.align 2
 Lfde204_end:
 
 .section __DWARF, __debug_info,regular,debug
+LTDIE_137:
 
+	.byte 5
+	.asciz "System_Threading_Tasks_Task`1"
+
+	.byte 88,16
+LDIFF_SYM1696=LTDIE_40 - Ldebug_info_start
+	.long LDIFF_SYM1696
+	.byte 2,35,0,6
+	.asciz "value"
+
+LDIFF_SYM1697=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1697
+	.byte 2,35,84,0,7
+	.asciz "System_Threading_Tasks_Task`1"
+
+LDIFF_SYM1698=LTDIE_137 - Ldebug_info_start
+	.long LDIFF_SYM1698
+LTDIE_137_POINTER:
+
+	.byte 13
+LDIFF_SYM1699=LTDIE_137 - Ldebug_info_start
+	.long LDIFF_SYM1699
+LTDIE_137_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1700=LTDIE_137 - Ldebug_info_start
+	.long LDIFF_SYM1700
+LTDIE_136:
+
+	.byte 5
+	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder"
+
+	.byte 16,16
+LDIFF_SYM1701=LTDIE_11 - Ldebug_info_start
+	.long LDIFF_SYM1701
+	.byte 2,35,0,6
+	.asciz "task"
+
+LDIFF_SYM1702=LTDIE_137_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1702
+	.byte 2,35,0,6
+	.asciz "stateMachine"
+
+LDIFF_SYM1703=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1703
+	.byte 2,35,4,0,7
+	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder"
+
+LDIFF_SYM1704=LTDIE_136 - Ldebug_info_start
+	.long LDIFF_SYM1704
+LTDIE_136_POINTER:
+
+	.byte 13
+LDIFF_SYM1705=LTDIE_136 - Ldebug_info_start
+	.long LDIFF_SYM1705
+LTDIE_136_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1706=LTDIE_136 - Ldebug_info_start
+	.long LDIFF_SYM1706
 	.byte 2
-	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<bool>:get_IsCompleted"
-	.long _System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_bool_get_IsCompleted
+	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start<Robotics.Mobile.Core.iOS.BluetoothLEManager/<BeginScanningForDevices>c__async0>"
+	.long _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_Robotics_Mobile_Core_iOS_BluetoothLEManager__BeginScanningForDevicesc__async0_Robotics_Mobile_Core_iOS_BluetoothLEManager__BeginScanningForDevicesc__async0_
 	.long Lme_d6
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1697=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1697
-	.byte 2,125,0,0
+LDIFF_SYM1707=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1707
+	.byte 0,3
+	.asciz "stateMachine"
+
+LDIFF_SYM1708=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1708
+	.byte 2,125,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1698=Lfde205_end - Lfde205_start
-	.long LDIFF_SYM1698
+LDIFF_SYM1709=Lfde205_end - Lfde205_start
+	.long LDIFF_SYM1709
 Lfde205_start:
 
 	.long 0
 	.align 2
-	.long _System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_bool_get_IsCompleted
+	.long _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_Robotics_Mobile_Core_iOS_BluetoothLEManager__BeginScanningForDevicesc__async0_Robotics_Mobile_Core_iOS_BluetoothLEManager__BeginScanningForDevicesc__async0_
 
-LDIFF_SYM1699=Lme_d6 - _System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_bool_get_IsCompleted
-	.long LDIFF_SYM1699
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM1710=Lme_d6 - _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_Robotics_Mobile_Core_iOS_BluetoothLEManager__BeginScanningForDevicesc__async0_Robotics_Mobile_Core_iOS_BluetoothLEManager__BeginScanningForDevicesc__async0_
+	.long LDIFF_SYM1710
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,48
 	.align 2
 Lfde205_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<bool>:GetResult"
-	.long _System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_bool_GetResult
+	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start<Robotics.Mobile.Core.Bluetooth.LE.Adapter/<WaitForState>c__async0>"
+	.long _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_Robotics_Mobile_Core_Bluetooth_LE_Adapter__WaitForStatec__async0_Robotics_Mobile_Core_Bluetooth_LE_Adapter__WaitForStatec__async0_
 	.long Lme_d7
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1700=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1700
-	.byte 1,90,0
+LDIFF_SYM1711=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1711
+	.byte 0,3
+	.asciz "stateMachine"
+
+LDIFF_SYM1712=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1712
+	.byte 2,125,28,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1701=Lfde206_end - Lfde206_start
-	.long LDIFF_SYM1701
+LDIFF_SYM1713=Lfde206_end - Lfde206_start
+	.long LDIFF_SYM1713
 Lfde206_start:
 
 	.long 0
 	.align 2
-	.long _System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_bool_GetResult
+	.long _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_Robotics_Mobile_Core_Bluetooth_LE_Adapter__WaitForStatec__async0_Robotics_Mobile_Core_Bluetooth_LE_Adapter__WaitForStatec__async0_
 
-LDIFF_SYM1702=Lme_d7 - _System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_bool_GetResult
-	.long LDIFF_SYM1702
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,24
+LDIFF_SYM1714=Lme_d7 - _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_Robotics_Mobile_Core_Bluetooth_LE_Adapter__WaitForStatec__async0_Robotics_Mobile_Core_Bluetooth_LE_Adapter__WaitForStatec__async0_
+	.long LDIFF_SYM1714
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,48
 	.align 2
 Lfde206_end:
 
 .section __DWARF, __debug_info,regular,debug
+LTDIE_139:
 
+	.byte 5
+	.asciz "System_Threading_SynchronizationContext"
+
+	.byte 8,16
+LDIFF_SYM1715=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1715
+	.byte 2,35,0,0,7
+	.asciz "System_Threading_SynchronizationContext"
+
+LDIFF_SYM1716=LTDIE_139 - Ldebug_info_start
+	.long LDIFF_SYM1716
+LTDIE_139_POINTER:
+
+	.byte 13
+LDIFF_SYM1717=LTDIE_139 - Ldebug_info_start
+	.long LDIFF_SYM1717
+LTDIE_139_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1718=LTDIE_139 - Ldebug_info_start
+	.long LDIFF_SYM1718
+LTDIE_138:
+
+	.byte 5
+	.asciz "System_Runtime_CompilerServices_AsyncVoidMethodBuilder"
+
+	.byte 16,16
+LDIFF_SYM1719=LTDIE_11 - Ldebug_info_start
+	.long LDIFF_SYM1719
+	.byte 2,35,0,6
+	.asciz "context"
+
+LDIFF_SYM1720=LTDIE_139_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1720
+	.byte 2,35,0,6
+	.asciz "stateMachine"
+
+LDIFF_SYM1721=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1721
+	.byte 2,35,4,0,7
+	.asciz "System_Runtime_CompilerServices_AsyncVoidMethodBuilder"
+
+LDIFF_SYM1722=LTDIE_138 - Ldebug_info_start
+	.long LDIFF_SYM1722
+LTDIE_138_POINTER:
+
+	.byte 13
+LDIFF_SYM1723=LTDIE_138 - Ldebug_info_start
+	.long LDIFF_SYM1723
+LTDIE_138_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1724=LTDIE_138 - Ldebug_info_start
+	.long LDIFF_SYM1724
 	.byte 2
-	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<bool>:UnsafeOnCompleted"
-	.long _System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_bool_UnsafeOnCompleted_System_Action
+	.asciz "System.Runtime.CompilerServices.AsyncVoidMethodBuilder:Start<Robotics.Mobile.Core.Bluetooth.LE.Adapter/<StartScanningForDevices>c__async1>"
+	.long _System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_Robotics_Mobile_Core_Bluetooth_LE_Adapter__StartScanningForDevicesc__async1_Robotics_Mobile_Core_Bluetooth_LE_Adapter__StartScanningForDevicesc__async1_
 	.long Lme_d8
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1703=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1703
-	.byte 2,125,0,3
-	.asciz "continuation"
+LDIFF_SYM1725=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1725
+	.byte 0,3
+	.asciz "stateMachine"
 
-LDIFF_SYM1704=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1704
-	.byte 2,125,4,0
+LDIFF_SYM1726=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1726
+	.byte 2,125,44,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1705=Lfde207_end - Lfde207_start
-	.long LDIFF_SYM1705
+LDIFF_SYM1727=Lfde207_end - Lfde207_start
+	.long LDIFF_SYM1727
 Lfde207_start:
 
 	.long 0
 	.align 2
-	.long _System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_bool_UnsafeOnCompleted_System_Action
+	.long _System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_Robotics_Mobile_Core_Bluetooth_LE_Adapter__StartScanningForDevicesc__async1_Robotics_Mobile_Core_Bluetooth_LE_Adapter__StartScanningForDevicesc__async1_
 
-LDIFF_SYM1706=Lme_d8 - _System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_bool_UnsafeOnCompleted_System_Action
-	.long LDIFF_SYM1706
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM1728=Lme_d8 - _System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_Robotics_Mobile_Core_Bluetooth_LE_Adapter__StartScanningForDevicesc__async1_Robotics_Mobile_Core_Bluetooth_LE_Adapter__StartScanningForDevicesc__async1_
+	.long LDIFF_SYM1728
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,64
 	.align 2
 Lfde207_end:
 
 .section __DWARF, __debug_info,regular,debug
+LTDIE_140:
 
+	.byte 5
+	.asciz "System_Runtime_CompilerServices_TaskAwaiter"
+
+	.byte 12,16
+LDIFF_SYM1729=LTDIE_11 - Ldebug_info_start
+	.long LDIFF_SYM1729
+	.byte 2,35,0,6
+	.asciz "task"
+
+LDIFF_SYM1730=LTDIE_40_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1730
+	.byte 2,35,0,0,7
+	.asciz "System_Runtime_CompilerServices_TaskAwaiter"
+
+LDIFF_SYM1731=LTDIE_140 - Ldebug_info_start
+	.long LDIFF_SYM1731
+LTDIE_140_POINTER:
+
+	.byte 13
+LDIFF_SYM1732=LTDIE_140 - Ldebug_info_start
+	.long LDIFF_SYM1732
+LTDIE_140_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1733=LTDIE_140 - Ldebug_info_start
+	.long LDIFF_SYM1733
 	.byte 2
-	.asciz "System.Array:InternalArray__Insert<T>"
-	.long _System_Array_InternalArray__Insert_T_int_T
+	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder:AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter, Robotics.Mobile.Core.iOS.BluetoothLEManager/<BeginScanningForDevices>c__async0>"
+	.long _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_Robotics_Mobile_Core_iOS_BluetoothLEManager__BeginScanningForDevicesc__async0_System_Runtime_CompilerServices_TaskAwaiter__Robotics_Mobile_Core_iOS_BluetoothLEManager__BeginScanningForDevicesc__async0_
 	.long Lme_d9
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1707=LTDIE_98_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1707
-	.byte 2,123,12,3
-	.asciz "index"
-
-LDIFF_SYM1708=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1708
+LDIFF_SYM1734=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1734
 	.byte 0,3
-	.asciz "item"
+	.asciz "awaiter"
 
-LDIFF_SYM1709=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1709
+LDIFF_SYM1735=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1735
+	.byte 2,125,24,3
+	.asciz "stateMachine"
+
+LDIFF_SYM1736=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1736
+	.byte 2,125,28,11
+	.asciz "action"
+
+LDIFF_SYM1737=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1737
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1710=Lfde208_end - Lfde208_start
-	.long LDIFF_SYM1710
+LDIFF_SYM1738=Lfde208_end - Lfde208_start
+	.long LDIFF_SYM1738
 Lfde208_start:
 
 	.long 0
 	.align 2
-	.long _System_Array_InternalArray__Insert_T_int_T
+	.long _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_Robotics_Mobile_Core_iOS_BluetoothLEManager__BeginScanningForDevicesc__async0_System_Runtime_CompilerServices_TaskAwaiter__Robotics_Mobile_Core_iOS_BluetoothLEManager__BeginScanningForDevicesc__async0_
 
-LDIFF_SYM1711=Lme_d9 - _System_Array_InternalArray__Insert_T_int_T
-	.long LDIFF_SYM1711
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,40,68,13,11
+LDIFF_SYM1739=Lme_d9 - _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_Robotics_Mobile_Core_iOS_BluetoothLEManager__BeginScanningForDevicesc__async0_System_Runtime_CompilerServices_TaskAwaiter__Robotics_Mobile_Core_iOS_BluetoothLEManager__BeginScanningForDevicesc__async0_
+	.long LDIFF_SYM1739
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,64
 	.align 2
 Lfde208_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Array:InternalArray__RemoveAt"
-	.long _System_Array_InternalArray__RemoveAt_int
+	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder:AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<bool>, Robotics.Mobile.Core.Bluetooth.LE.Adapter/<WaitForState>c__async0>"
+	.long _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_Robotics_Mobile_Core_Bluetooth_LE_Adapter__WaitForStatec__async0_System_Runtime_CompilerServices_TaskAwaiter_1_bool__Robotics_Mobile_Core_Bluetooth_LE_Adapter__WaitForStatec__async0_
 	.long Lme_da
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1712=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1712
+LDIFF_SYM1740=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1740
 	.byte 0,3
-	.asciz "index"
+	.asciz "awaiter"
 
-LDIFF_SYM1713=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1713
+LDIFF_SYM1741=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1741
+	.byte 2,125,28,3
+	.asciz "stateMachine"
+
+LDIFF_SYM1742=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1742
+	.byte 2,125,32,11
+	.asciz "action"
+
+LDIFF_SYM1743=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1743
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1714=Lfde209_end - Lfde209_start
-	.long LDIFF_SYM1714
+LDIFF_SYM1744=Lfde209_end - Lfde209_start
+	.long LDIFF_SYM1744
 Lfde209_start:
 
 	.long 0
 	.align 2
-	.long _System_Array_InternalArray__RemoveAt_int
+	.long _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_Robotics_Mobile_Core_Bluetooth_LE_Adapter__WaitForStatec__async0_System_Runtime_CompilerServices_TaskAwaiter_1_bool__Robotics_Mobile_Core_Bluetooth_LE_Adapter__WaitForStatec__async0_
 
-LDIFF_SYM1715=Lme_da - _System_Array_InternalArray__RemoveAt_int
-	.long LDIFF_SYM1715
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM1745=Lme_da - _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_Robotics_Mobile_Core_Bluetooth_LE_Adapter__WaitForStatec__async0_System_Runtime_CompilerServices_TaskAwaiter_1_bool__Robotics_Mobile_Core_Bluetooth_LE_Adapter__WaitForStatec__async0_
+	.long LDIFF_SYM1745
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,72
 	.align 2
 Lfde209_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Array:InternalArray__IndexOf<T>"
-	.long _System_Array_InternalArray__IndexOf_T_T
+	.asciz "System.Threading.Tasks.Task:Run<bool>"
+	.long _System_Threading_Tasks_Task_Run_bool_System_Func_1_bool
 	.long Lme_db
 
 	.byte 2,118,16,3
-	.asciz "this"
+	.asciz "function"
 
-LDIFF_SYM1716=LTDIE_98_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1716
-	.byte 1,86,3
-	.asciz "item"
-
-LDIFF_SYM1717=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1717
-	.byte 1,90,11
-	.asciz "length"
-
-LDIFF_SYM1718=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1718
-	.byte 1,85,11
-	.asciz "i"
-
-LDIFF_SYM1719=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1719
-	.byte 1,84,11
-	.asciz "value"
-
-LDIFF_SYM1720=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1720
-	.byte 2,123,0,0
+LDIFF_SYM1746=LTDIE_123_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1746
+	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1721=Lfde210_end - Lfde210_start
-	.long LDIFF_SYM1721
+LDIFF_SYM1747=Lfde210_end - Lfde210_start
+	.long LDIFF_SYM1747
 Lfde210_start:
 
 	.long 0
 	.align 2
-	.long _System_Array_InternalArray__IndexOf_T_T
+	.long _System_Threading_Tasks_Task_Run_bool_System_Func_1_bool
 
-LDIFF_SYM1722=Lme_db - _System_Array_InternalArray__IndexOf_T_T
-	.long LDIFF_SYM1722
-	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,64,68,13,11
+LDIFF_SYM1748=Lme_db - _System_Threading_Tasks_Task_Run_bool_System_Func_1_bool
+	.long LDIFF_SYM1748
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde210_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Array:InternalArray__get_Item<T>"
-	.long _System_Array_InternalArray__get_Item_T_int
+	.asciz "System.Runtime.CompilerServices.AsyncVoidMethodBuilder:AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter, Robotics.Mobile.Core.Bluetooth.LE.Adapter/<StartScanningForDevices>c__async1>"
+	.long _System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_Robotics_Mobile_Core_Bluetooth_LE_Adapter__StartScanningForDevicesc__async1_System_Runtime_CompilerServices_TaskAwaiter__Robotics_Mobile_Core_Bluetooth_LE_Adapter__StartScanningForDevicesc__async1_
 	.long Lme_dc
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1723=LTDIE_98_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1723
-	.byte 2,123,16,3
-	.asciz "index"
+LDIFF_SYM1749=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1749
+	.byte 0,3
+	.asciz "awaiter"
 
-LDIFF_SYM1724=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1724
-	.byte 2,123,20,11
-	.asciz "value"
+LDIFF_SYM1750=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1750
+	.byte 2,125,44,3
+	.asciz "stateMachine"
 
-LDIFF_SYM1725=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1725
-	.byte 2,123,0,0
+LDIFF_SYM1751=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1751
+	.byte 2,125,48,11
+	.asciz "action"
+
+LDIFF_SYM1752=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1752
+	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1726=Lfde211_end - Lfde211_start
-	.long LDIFF_SYM1726
+LDIFF_SYM1753=Lfde211_end - Lfde211_start
+	.long LDIFF_SYM1753
 Lfde211_start:
 
 	.long 0
 	.align 2
-	.long _System_Array_InternalArray__get_Item_T_int
+	.long _System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_Robotics_Mobile_Core_Bluetooth_LE_Adapter__StartScanningForDevicesc__async1_System_Runtime_CompilerServices_TaskAwaiter__Robotics_Mobile_Core_Bluetooth_LE_Adapter__StartScanningForDevicesc__async1_
 
-LDIFF_SYM1727=Lme_dc - _System_Array_InternalArray__get_Item_T_int
-	.long LDIFF_SYM1727
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,48,68,13,11
+LDIFF_SYM1754=Lme_dc - _System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_Robotics_Mobile_Core_Bluetooth_LE_Adapter__StartScanningForDevicesc__async1_System_Runtime_CompilerServices_TaskAwaiter__Robotics_Mobile_Core_Bluetooth_LE_Adapter__StartScanningForDevicesc__async1_
+	.long LDIFF_SYM1754
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,88
 	.align 2
 Lfde211_end:
 
 .section __DWARF, __debug_info,regular,debug
+LTDIE_141:
 
+	.byte 5
+	.asciz "_FuncInvoke`1"
+
+	.byte 12,16
+LDIFF_SYM1755=LTDIE_61 - Ldebug_info_start
+	.long LDIFF_SYM1755
+	.byte 2,35,0,6
+	.asciz "action"
+
+LDIFF_SYM1756=LTDIE_123_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1756
+	.byte 2,35,8,0,7
+	.asciz "_FuncInvoke`1"
+
+LDIFF_SYM1757=LTDIE_141 - Ldebug_info_start
+	.long LDIFF_SYM1757
+LTDIE_141_POINTER:
+
+	.byte 13
+LDIFF_SYM1758=LTDIE_141 - Ldebug_info_start
+	.long LDIFF_SYM1758
+LTDIE_141_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1759=LTDIE_141 - Ldebug_info_start
+	.long LDIFF_SYM1759
 	.byte 2
-	.asciz "System.Array:InternalArray__set_Item<T>"
-	.long _System_Array_InternalArray__set_Item_T_int_T
+	.asciz "System.Threading.Tasks.TaskActionInvoker/FuncInvoke`1<bool>:.ctor"
+	.long _System_Threading_Tasks_TaskActionInvoker_FuncInvoke_1_bool__ctor_System_Func_1_bool
 	.long Lme_dd
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1728=LTDIE_98_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1728
-	.byte 1,86,3
-	.asciz "index"
+LDIFF_SYM1760=LTDIE_141_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1760
+	.byte 2,125,0,3
+	.asciz "action"
 
-LDIFF_SYM1729=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1729
-	.byte 2,123,20,3
-	.asciz "item"
-
-LDIFF_SYM1730=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1730
-	.byte 2,123,24,11
-	.asciz "oarray"
-
-LDIFF_SYM1731=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1731
-	.byte 1,85,0
+LDIFF_SYM1761=LTDIE_123_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1761
+	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1732=Lfde212_end - Lfde212_start
-	.long LDIFF_SYM1732
+LDIFF_SYM1762=Lfde212_end - Lfde212_start
+	.long LDIFF_SYM1762
 Lfde212_start:
 
 	.long 0
 	.align 2
-	.long _System_Array_InternalArray__set_Item_T_int_T
+	.long _System_Threading_Tasks_TaskActionInvoker_FuncInvoke_1_bool__ctor_System_Func_1_bool
 
-LDIFF_SYM1733=Lme_dd - _System_Array_InternalArray__set_Item_T_int_T
-	.long LDIFF_SYM1733
-	.byte 12,13,0,72,14,8,135,2,68,14,28,133,7,134,6,136,5,138,4,139,3,142,1,68,14,72,68,13,11
+LDIFF_SYM1763=Lme_dd - _System_Threading_Tasks_TaskActionInvoker_FuncInvoke_1_bool__ctor_System_Func_1_bool
+	.long LDIFF_SYM1763
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde212_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Threading.Tasks.Task:Run<bool>"
-	.long _System_Threading_Tasks_Task_Run_bool_System_Func_1_bool_System_Threading_CancellationToken
+	.asciz "System.Threading.Tasks.TaskActionInvoker/FuncInvoke`1<bool>:Invoke"
+	.long _System_Threading_Tasks_TaskActionInvoker_FuncInvoke_1_bool_Invoke_System_Threading_Tasks_Task_object_System_Threading_Tasks_Task
 	.long Lme_de
 
 	.byte 2,118,16,3
-	.asciz "function"
+	.asciz "this"
 
-LDIFF_SYM1734=LTDIE_120_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1734
-	.byte 2,123,12,3
-	.asciz "cancellationToken"
+LDIFF_SYM1764=LTDIE_141_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1764
+	.byte 2,125,0,3
+	.asciz "owner"
 
-LDIFF_SYM1735=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1735
-	.byte 2,123,16,0
+LDIFF_SYM1765=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1765
+	.byte 0,3
+	.asciz "state"
+
+LDIFF_SYM1766=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1766
+	.byte 0,3
+	.asciz "context"
+
+LDIFF_SYM1767=LTDIE_40_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1767
+	.byte 2,125,12,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1736=Lfde213_end - Lfde213_start
-	.long LDIFF_SYM1736
+LDIFF_SYM1768=Lfde213_end - Lfde213_start
+	.long LDIFF_SYM1768
 Lfde213_start:
 
 	.long 0
 	.align 2
-	.long _System_Threading_Tasks_Task_Run_bool_System_Func_1_bool_System_Threading_CancellationToken
+	.long _System_Threading_Tasks_TaskActionInvoker_FuncInvoke_1_bool_Invoke_System_Threading_Tasks_Task_object_System_Threading_Tasks_Task
 
-LDIFF_SYM1737=Lme_de - _System_Threading_Tasks_Task_Run_bool_System_Func_1_bool_System_Threading_CancellationToken
-	.long LDIFF_SYM1737
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,48,68,13,11
+LDIFF_SYM1769=Lme_de - _System_Threading_Tasks_TaskActionInvoker_FuncInvoke_1_bool_Invoke_System_Threading_Tasks_Task_object_System_Threading_Tasks_Task
+	.long LDIFF_SYM1769
+	.byte 12,13,0,72,14,8,135,2,68,14,16,133,4,136,3,142,1,68,14,40
 	.align 2
 Lfde213_end:
 
 .section __DWARF, __debug_info,regular,debug
+LTDIE_142:
 
+	.byte 5
+	.asciz "_ActionTaskInvoke`1"
+
+	.byte 12,16
+LDIFF_SYM1770=LTDIE_61 - Ldebug_info_start
+	.long LDIFF_SYM1770
+	.byte 2,35,0,6
+	.asciz "action"
+
+LDIFF_SYM1771=LTDIE_125_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1771
+	.byte 2,35,8,0,7
+	.asciz "_ActionTaskInvoke`1"
+
+LDIFF_SYM1772=LTDIE_142 - Ldebug_info_start
+	.long LDIFF_SYM1772
+LTDIE_142_POINTER:
+
+	.byte 13
+LDIFF_SYM1773=LTDIE_142 - Ldebug_info_start
+	.long LDIFF_SYM1773
+LTDIE_142_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1774=LTDIE_142 - Ldebug_info_start
+	.long LDIFF_SYM1774
 	.byte 2
-	.asciz "System.Threading.Tasks.TaskFactory:StartNew<bool>"
-	.long _System_Threading_Tasks_TaskFactory_StartNew_bool_System_Func_1_bool_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskScheduler
+	.asciz "System.Threading.Tasks.TaskActionInvoker/ActionTaskInvoke`1<bool>:.ctor"
+	.long _System_Threading_Tasks_TaskActionInvoker_ActionTaskInvoke_1_bool__ctor_System_Action_1_System_Threading_Tasks_Task_1_bool
 	.long Lme_df
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1738=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1738
-	.byte 0,3
-	.asciz "function"
+LDIFF_SYM1775=LTDIE_142_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1775
+	.byte 2,125,0,3
+	.asciz "action"
 
-LDIFF_SYM1739=LTDIE_120_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1739
-	.byte 2,123,4,3
-	.asciz "cancellationToken"
-
-LDIFF_SYM1740=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1740
-	.byte 2,123,8,3
-	.asciz "creationOptions"
-
-LDIFF_SYM1741=LTDIE_51 - Ldebug_info_start
-	.long LDIFF_SYM1741
-	.byte 1,86,3
-	.asciz "scheduler"
-
-LDIFF_SYM1742=LTDIE_52_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1742
-	.byte 2,123,12,11
-	.asciz "t"
-
-LDIFF_SYM1743=LTDIE_121_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1743
-	.byte 1,86,0
+LDIFF_SYM1776=LTDIE_125_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1776
+	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1744=Lfde214_end - Lfde214_start
-	.long LDIFF_SYM1744
+LDIFF_SYM1777=Lfde214_end - Lfde214_start
+	.long LDIFF_SYM1777
 Lfde214_start:
 
 	.long 0
 	.align 2
-	.long _System_Threading_Tasks_TaskFactory_StartNew_bool_System_Func_1_bool_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskScheduler
+	.long _System_Threading_Tasks_TaskActionInvoker_ActionTaskInvoke_1_bool__ctor_System_Action_1_System_Threading_Tasks_Task_1_bool
 
-LDIFF_SYM1745=Lme_df - _System_Threading_Tasks_TaskFactory_StartNew_bool_System_Func_1_bool_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskScheduler
-	.long LDIFF_SYM1745
-	.byte 12,13,0,72,14,8,135,2,68,14,20,134,5,136,4,139,3,142,1,68,14,48,68,13,11
+LDIFF_SYM1778=Lme_df - _System_Threading_Tasks_TaskActionInvoker_ActionTaskInvoke_1_bool__ctor_System_Action_1_System_Threading_Tasks_Task_1_bool
+	.long LDIFF_SYM1778
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde214_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Threading.Tasks.TaskConstants`1<bool>:.cctor"
-	.long _System_Threading_Tasks_TaskConstants_1_bool__cctor
+	.asciz "System.Threading.Tasks.TaskActionInvoker/ActionTaskInvoke`1<bool>:Invoke"
+	.long _System_Threading_Tasks_TaskActionInvoker_ActionTaskInvoke_1_bool_Invoke_System_Threading_Tasks_Task_object_System_Threading_Tasks_Task
 	.long Lme_e0
 
-	.byte 2,118,16,11
-	.asciz "tcs"
+	.byte 2,118,16,3
+	.asciz "this"
 
-LDIFF_SYM1746=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1746
+LDIFF_SYM1779=LTDIE_142_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1779
+	.byte 1,86,3
+	.asciz "owner"
+
+LDIFF_SYM1780=LTDIE_40_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1780
+	.byte 2,125,0,3
+	.asciz "state"
+
+LDIFF_SYM1781=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1781
+	.byte 0,3
+	.asciz "context"
+
+LDIFF_SYM1782=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1782
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1747=Lfde215_end - Lfde215_start
-	.long LDIFF_SYM1747
+LDIFF_SYM1783=Lfde215_end - Lfde215_start
+	.long LDIFF_SYM1783
 Lfde215_start:
+
+	.long 0
+	.align 2
+	.long _System_Threading_Tasks_TaskActionInvoker_ActionTaskInvoke_1_bool_Invoke_System_Threading_Tasks_Task_object_System_Threading_Tasks_Task
+
+LDIFF_SYM1784=Lme_e0 - _System_Threading_Tasks_TaskActionInvoker_ActionTaskInvoke_1_bool_Invoke_System_Threading_Tasks_Task_object_System_Threading_Tasks_Task
+	.long LDIFF_SYM1784
+	.byte 12,13,0,72,14,8,135,2,68,14,20,133,5,134,4,136,3,142,1,68,14,40
+	.align 2
+Lfde215_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_143:
+
+	.byte 5
+	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable`1"
+
+	.byte 16,16
+LDIFF_SYM1785=LTDIE_11 - Ldebug_info_start
+	.long LDIFF_SYM1785
+	.byte 2,35,0,6
+	.asciz "awaiter"
+
+LDIFF_SYM1786=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1786
+	.byte 2,35,8,0,7
+	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable`1"
+
+LDIFF_SYM1787=LTDIE_143 - Ldebug_info_start
+	.long LDIFF_SYM1787
+LTDIE_143_POINTER:
+
+	.byte 13
+LDIFF_SYM1788=LTDIE_143 - Ldebug_info_start
+	.long LDIFF_SYM1788
+LTDIE_143_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1789=LTDIE_143 - Ldebug_info_start
+	.long LDIFF_SYM1789
+	.byte 2
+	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1<bool>:.ctor"
+	.long _System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_bool__ctor_System_Threading_Tasks_Task_1_bool_bool
+	.long Lme_e1
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1790=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1790
+	.byte 2,125,16,3
+	.asciz "task"
+
+LDIFF_SYM1791=LTDIE_124_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1791
+	.byte 2,125,20,3
+	.asciz "continueOnSourceContext"
+
+LDIFF_SYM1792=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1792
+	.byte 2,125,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1793=Lfde216_end - Lfde216_start
+	.long LDIFF_SYM1793
+Lfde216_start:
+
+	.long 0
+	.align 2
+	.long _System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_bool__ctor_System_Threading_Tasks_Task_1_bool_bool
+
+LDIFF_SYM1794=Lme_e1 - _System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_bool__ctor_System_Threading_Tasks_Task_1_bool_bool
+	.long LDIFF_SYM1794
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,48
+	.align 2
+Lfde216_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1<bool>:GetAwaiter"
+	.long _System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_bool_GetAwaiter
+	.long Lme_e2
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1795=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1795
+	.byte 2,125,12,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1796=Lfde217_end - Lfde217_start
+	.long LDIFF_SYM1796
+Lfde217_start:
+
+	.long 0
+	.align 2
+	.long _System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_bool_GetAwaiter
+
+LDIFF_SYM1797=Lme_e2 - _System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_bool_GetAwaiter
+	.long LDIFF_SYM1797
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
+	.align 2
+Lfde217_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_144:
+
+	.byte 5
+	.asciz "_ConfiguredTaskAwaiter"
+
+	.byte 16,16
+LDIFF_SYM1798=LTDIE_11 - Ldebug_info_start
+	.long LDIFF_SYM1798
+	.byte 2,35,0,6
+	.asciz "task"
+
+LDIFF_SYM1799=LTDIE_124_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1799
+	.byte 2,35,8,6
+	.asciz "continueOnSourceContext"
+
+LDIFF_SYM1800=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1800
+	.byte 2,35,12,0,7
+	.asciz "_ConfiguredTaskAwaiter"
+
+LDIFF_SYM1801=LTDIE_144 - Ldebug_info_start
+	.long LDIFF_SYM1801
+LTDIE_144_POINTER:
+
+	.byte 13
+LDIFF_SYM1802=LTDIE_144 - Ldebug_info_start
+	.long LDIFF_SYM1802
+LTDIE_144_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1803=LTDIE_144 - Ldebug_info_start
+	.long LDIFF_SYM1803
+	.byte 2
+	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<bool>:.ctor"
+	.long _System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_bool__ctor_System_Threading_Tasks_Task_1_bool_bool
+	.long Lme_e3
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1804=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1804
+	.byte 2,125,0,3
+	.asciz "task"
+
+LDIFF_SYM1805=LTDIE_124_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1805
+	.byte 2,125,4,3
+	.asciz "continueOnSourceContext"
+
+LDIFF_SYM1806=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1806
+	.byte 2,125,8,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1807=Lfde218_end - Lfde218_start
+	.long LDIFF_SYM1807
+Lfde218_start:
+
+	.long 0
+	.align 2
+	.long _System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_bool__ctor_System_Threading_Tasks_Task_1_bool_bool
+
+LDIFF_SYM1808=Lme_e3 - _System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_bool__ctor_System_Threading_Tasks_Task_1_bool_bool
+	.long LDIFF_SYM1808
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
+	.align 2
+Lfde218_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<bool>:get_IsCompleted"
+	.long _System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_bool_get_IsCompleted
+	.long Lme_e4
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1809=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1809
+	.byte 2,125,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1810=Lfde219_end - Lfde219_start
+	.long LDIFF_SYM1810
+Lfde219_start:
+
+	.long 0
+	.align 2
+	.long _System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_bool_get_IsCompleted
+
+LDIFF_SYM1811=Lme_e4 - _System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_bool_get_IsCompleted
+	.long LDIFF_SYM1811
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+	.align 2
+Lfde219_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<bool>:GetResult"
+	.long _System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_bool_GetResult
+	.long Lme_e5
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1812=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1812
+	.byte 1,90,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1813=Lfde220_end - Lfde220_start
+	.long LDIFF_SYM1813
+Lfde220_start:
+
+	.long 0
+	.align 2
+	.long _System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_bool_GetResult
+
+LDIFF_SYM1814=Lme_e5 - _System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_bool_GetResult
+	.long LDIFF_SYM1814
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,24
+	.align 2
+Lfde220_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<bool>:UnsafeOnCompleted"
+	.long _System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_bool_UnsafeOnCompleted_System_Action
+	.long Lme_e6
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1815=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1815
+	.byte 2,125,0,3
+	.asciz "continuation"
+
+LDIFF_SYM1816=LTDIE_134_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1816
+	.byte 2,125,4,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1817=Lfde221_end - Lfde221_start
+	.long LDIFF_SYM1817
+Lfde221_start:
+
+	.long 0
+	.align 2
+	.long _System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_bool_UnsafeOnCompleted_System_Action
+
+LDIFF_SYM1818=Lme_e6 - _System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_bool_UnsafeOnCompleted_System_Action
+	.long LDIFF_SYM1818
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+	.align 2
+Lfde221_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Array:InternalArray__Insert<T>"
+	.long _System_Array_InternalArray__Insert_T_int_T
+	.long Lme_e7
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1819=LTDIE_98_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1819
+	.byte 2,123,12,3
+	.asciz "index"
+
+LDIFF_SYM1820=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1820
+	.byte 0,3
+	.asciz "item"
+
+LDIFF_SYM1821=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1821
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1822=Lfde222_end - Lfde222_start
+	.long LDIFF_SYM1822
+Lfde222_start:
+
+	.long 0
+	.align 2
+	.long _System_Array_InternalArray__Insert_T_int_T
+
+LDIFF_SYM1823=Lme_e7 - _System_Array_InternalArray__Insert_T_int_T
+	.long LDIFF_SYM1823
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,40,68,13,11
+	.align 2
+Lfde222_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Array:InternalArray__RemoveAt"
+	.long _System_Array_InternalArray__RemoveAt_int
+	.long Lme_e8
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1824=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1824
+	.byte 0,3
+	.asciz "index"
+
+LDIFF_SYM1825=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1825
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1826=Lfde223_end - Lfde223_start
+	.long LDIFF_SYM1826
+Lfde223_start:
+
+	.long 0
+	.align 2
+	.long _System_Array_InternalArray__RemoveAt_int
+
+LDIFF_SYM1827=Lme_e8 - _System_Array_InternalArray__RemoveAt_int
+	.long LDIFF_SYM1827
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+	.align 2
+Lfde223_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Array:InternalArray__IndexOf<T>"
+	.long _System_Array_InternalArray__IndexOf_T_T
+	.long Lme_e9
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1828=LTDIE_98_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1828
+	.byte 1,86,3
+	.asciz "item"
+
+LDIFF_SYM1829=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1829
+	.byte 1,90,11
+	.asciz "length"
+
+LDIFF_SYM1830=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1830
+	.byte 1,85,11
+	.asciz "i"
+
+LDIFF_SYM1831=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1831
+	.byte 1,84,11
+	.asciz "value"
+
+LDIFF_SYM1832=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1832
+	.byte 2,123,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1833=Lfde224_end - Lfde224_start
+	.long LDIFF_SYM1833
+Lfde224_start:
+
+	.long 0
+	.align 2
+	.long _System_Array_InternalArray__IndexOf_T_T
+
+LDIFF_SYM1834=Lme_e9 - _System_Array_InternalArray__IndexOf_T_T
+	.long LDIFF_SYM1834
+	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,64,68,13,11
+	.align 2
+Lfde224_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Array:InternalArray__get_Item<T>"
+	.long _System_Array_InternalArray__get_Item_T_int
+	.long Lme_ea
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1835=LTDIE_98_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1835
+	.byte 2,123,16,3
+	.asciz "index"
+
+LDIFF_SYM1836=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1836
+	.byte 2,123,20,11
+	.asciz "value"
+
+LDIFF_SYM1837=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1837
+	.byte 2,123,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1838=Lfde225_end - Lfde225_start
+	.long LDIFF_SYM1838
+Lfde225_start:
+
+	.long 0
+	.align 2
+	.long _System_Array_InternalArray__get_Item_T_int
+
+LDIFF_SYM1839=Lme_ea - _System_Array_InternalArray__get_Item_T_int
+	.long LDIFF_SYM1839
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,48,68,13,11
+	.align 2
+Lfde225_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Array:InternalArray__set_Item<T>"
+	.long _System_Array_InternalArray__set_Item_T_int_T
+	.long Lme_eb
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1840=LTDIE_98_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1840
+	.byte 1,86,3
+	.asciz "index"
+
+LDIFF_SYM1841=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1841
+	.byte 2,123,20,3
+	.asciz "item"
+
+LDIFF_SYM1842=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1842
+	.byte 2,123,24,11
+	.asciz "oarray"
+
+LDIFF_SYM1843=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1843
+	.byte 1,85,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1844=Lfde226_end - Lfde226_start
+	.long LDIFF_SYM1844
+Lfde226_start:
+
+	.long 0
+	.align 2
+	.long _System_Array_InternalArray__set_Item_T_int_T
+
+LDIFF_SYM1845=Lme_eb - _System_Array_InternalArray__set_Item_T_int_T
+	.long LDIFF_SYM1845
+	.byte 12,13,0,72,14,8,135,2,68,14,28,133,7,134,6,136,5,138,4,139,3,142,1,68,14,72,68,13,11
+	.align 2
+Lfde226_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Threading.Tasks.Task:Run<bool>"
+	.long _System_Threading_Tasks_Task_Run_bool_System_Func_1_bool_System_Threading_CancellationToken
+	.long Lme_ec
+
+	.byte 2,118,16,3
+	.asciz "function"
+
+LDIFF_SYM1846=LTDIE_123_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1846
+	.byte 2,123,12,3
+	.asciz "cancellationToken"
+
+LDIFF_SYM1847=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1847
+	.byte 2,123,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1848=Lfde227_end - Lfde227_start
+	.long LDIFF_SYM1848
+Lfde227_start:
+
+	.long 0
+	.align 2
+	.long _System_Threading_Tasks_Task_Run_bool_System_Func_1_bool_System_Threading_CancellationToken
+
+LDIFF_SYM1849=Lme_ec - _System_Threading_Tasks_Task_Run_bool_System_Func_1_bool_System_Threading_CancellationToken
+	.long LDIFF_SYM1849
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,48,68,13,11
+	.align 2
+Lfde227_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Threading.Tasks.TaskFactory:StartNew<bool>"
+	.long _System_Threading_Tasks_TaskFactory_StartNew_bool_System_Func_1_bool_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskScheduler
+	.long Lme_ed
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1850=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1850
+	.byte 0,3
+	.asciz "function"
+
+LDIFF_SYM1851=LTDIE_123_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1851
+	.byte 2,123,4,3
+	.asciz "cancellationToken"
+
+LDIFF_SYM1852=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1852
+	.byte 2,123,8,3
+	.asciz "creationOptions"
+
+LDIFF_SYM1853=LTDIE_51 - Ldebug_info_start
+	.long LDIFF_SYM1853
+	.byte 1,86,3
+	.asciz "scheduler"
+
+LDIFF_SYM1854=LTDIE_52_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1854
+	.byte 2,123,12,11
+	.asciz "t"
+
+LDIFF_SYM1855=LTDIE_124_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1855
+	.byte 1,86,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1856=Lfde228_end - Lfde228_start
+	.long LDIFF_SYM1856
+Lfde228_start:
+
+	.long 0
+	.align 2
+	.long _System_Threading_Tasks_TaskFactory_StartNew_bool_System_Func_1_bool_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskScheduler
+
+LDIFF_SYM1857=Lme_ed - _System_Threading_Tasks_TaskFactory_StartNew_bool_System_Func_1_bool_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskScheduler
+	.long LDIFF_SYM1857
+	.byte 12,13,0,72,14,8,135,2,68,14,20,134,5,136,4,139,3,142,1,68,14,48,68,13,11
+	.align 2
+Lfde228_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Threading.Tasks.TaskConstants`1<bool>:.cctor"
+	.long _System_Threading_Tasks_TaskConstants_1_bool__cctor
+	.long Lme_ee
+
+	.byte 2,118,16,11
+	.asciz "tcs"
+
+LDIFF_SYM1858=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1858
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1859=Lfde229_end - Lfde229_start
+	.long LDIFF_SYM1859
+Lfde229_start:
 
 	.long 0
 	.align 2
 	.long _System_Threading_Tasks_TaskConstants_1_bool__cctor
 
-LDIFF_SYM1748=Lme_e0 - _System_Threading_Tasks_TaskConstants_1_bool__cctor
-	.long LDIFF_SYM1748
+LDIFF_SYM1860=Lme_ee - _System_Threading_Tasks_TaskConstants_1_bool__cctor
+	.long LDIFF_SYM1860
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
-Lfde215_end:
+Lfde229_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -19633,6 +20793,31 @@ Ldebug_line_header_end:
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
+	.long _System_Threading_Tasks_Task_1_bool_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_bool
+
+	.byte 3,131,1,4,3,1,3,131,1,2,40,1,2,12,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _System_Threading_Tasks_Task_1_bool_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_bool_System_Threading_Tasks_TaskContinuationOptions
+
+	.byte 3,136,1,4,3,1,3,136,1,2,40,1,2,44,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _System_Threading_Tasks_Task_1_bool_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_bool_System_Threading_Tasks_TaskScheduler
+
+	.byte 3,146,1,4,3,1,3,146,1,2,52,1,2,28,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _System_Threading_Tasks_Task_1_bool_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_bool_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
+
+	.byte 3,152,1,4,3,1,3,152,1,2,48,1,188,133,3,6,2,144,1,1,244,3,118,2,16,1,8,226,2,24,1,0
+	.byte 1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
 	.long _System_Threading_Tasks_Task_1_bool_TrySetResult_bool
 
 	.byte 3,211,1,4,3,1,3,211,1,2,60,1,131,132,3,2,2,36,1,75,3,127,2,36,1,133,8,177,75,132,132,2
@@ -19679,6 +20864,25 @@ Ldebug_line_header_end:
 	.long _System_Threading_Tasks_TaskFactory_1_bool__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
 
 	.byte 3,192,0,4,4,1,3,192,0,2,60,1,131,75,76,132,2,196,0,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _System_Threading_Tasks_TaskFactory_1_bool_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_bool_object
+
+	.byte 3,191,2,4,4,1,3,191,2,2,40,1,2,36,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _System_Threading_Tasks_TaskFactory_1_bool_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_bool_object_System_Threading_Tasks_TaskCreationOptions
+
+	.byte 3,197,2,4,4,1,3,197,2,2,44,1,2,48,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _System_Threading_Tasks_TaskFactory_1_bool_FromAsyncBeginEnd_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_bool_object_System_Threading_Tasks_TaskCreationOptions
+
+	.byte 3,203,2,4,4,1,3,203,2,2,192,0,1,133,245,189,3,1,2,44,1,8,117,3,4,2,128,1,1,3,1,2
+	.byte 216,0,1,8,230,3,114,2,28,1,8,175,3,122,2,32,1,2,40,1,0,1,1
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
@@ -19785,6 +20989,12 @@ Ldebug_line_header_end:
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
+	.long _System_Threading_Tasks_TaskFactory_1__FromAsyncBeginEndc__AnonStorey2_bool__m__0_System_IAsyncResult
+
+	.byte 3,215,2,4,4,1,3,215,2,2,24,1,8,173,2,44,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
 	.long _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_Robotics_Mobile_Core_iOS_BluetoothLEManager__BeginScanningForDevicesc__async0_Robotics_Mobile_Core_iOS_BluetoothLEManager__BeginScanningForDevicesc__async0_
 
 	.byte 3,231,0,4,7,1,3,231,0,2,196,0,1,75,8,230,2,16,1,0,1,1
@@ -19836,6 +21046,18 @@ Ldebug_line_header_end:
 	.long _System_Threading_Tasks_TaskActionInvoker_FuncInvoke_1_bool_Invoke_System_Threading_Tasks_Task_object_System_Threading_Tasks_Task
 
 	.byte 3,241,1,4,10,1,3,241,1,2,40,1,2,240,0,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _System_Threading_Tasks_TaskActionInvoker_ActionTaskInvoke_1_bool__ctor_System_Action_1_System_Threading_Tasks_Task_1_bool
+
+	.byte 3,188,1,4,10,1,3,188,1,2,32,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _System_Threading_Tasks_TaskActionInvoker_ActionTaskInvoke_1_bool_Invoke_System_Threading_Tasks_Task_object_System_Threading_Tasks_Task
+
+	.byte 3,199,1,4,10,1,3,199,1,2,32,1,2,232,0,1,0,1,1
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2

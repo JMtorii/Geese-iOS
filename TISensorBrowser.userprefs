@@ -1,13 +1,11 @@
 ﻿<Properties StartupItem="TISensorBrowser.iOS/TISensorBrowser.iOS.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhone" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.Jun's iPhone" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../../Library/Frameworks/Mono.framework/External/xbuild/Xamarin/Android/Xamarin.Android.Common.targets">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone4s.8.1" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TISensorBrowser.Core/Pages/ServiceList.xaml.cs">
     <Files>
-      <File FileName="TISensorBrowser.Core/App.cs" Line="18" Column="18" />
-      <File FileName="TISensorBrowser.iOS/Main.cs" Line="1" Column="1" />
-      <File FileName="TISensorBrowser.Core/Pages/DeviceList.xaml" Line="1" Column="1" />
-      <File FileName="../../../../../Library/Frameworks/Mono.framework/External/xbuild/Xamarin/Android/Xamarin.Android.Common.targets" Line="1" Column="1" />
-      <File FileName="TISensorBrowser.Droid/Properties/AndroidManifest.xml" Line="12" Column="12" />
-      <File FileName="TISensorBrowser.Droid/MainActivity.cs" Line="1" Column="1" />
+      <File FileName="TISensorBrowser.Core/Pages/CharacteristicList.xaml.cs" Line="54" Column="54" />
+      <File FileName="TISensorBrowser.Core/Pages/CharacteristicDetail_TISensor.xaml.cs" Line="10" Column="10" />
+      <File FileName="TISensorBrowser.Core/Pages/DeviceList.xaml.cs" Line="32" Column="32" />
+      <File FileName="TISensorBrowser.Core/Pages/ServiceList.xaml.cs" Line="58" Column="58" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

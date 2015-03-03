@@ -35,7 +35,7 @@ namespace TISensorBrowser
 				});
 			};
 
-			ScanAllButton.Activated += (sender, e) => {
+			ScanAllButton.Clicked += (sender, e) => {
 				InfoFrame.IsVisible = false;
 				StartScanning();
 			};

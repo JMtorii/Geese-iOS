@@ -47,7 +47,7 @@ namespace TISensorBrowser
 			// TODO: add to IAdapter first
 			//adapter.DeviceFailedToConnect += (sender, else) => {};
 
-			DisconnectButton.Activated += (sender, e) => {
+			DisconnectButton.Clicked += (sender, e) => {
 				adapter.DisconnectDevice (device);
 				Navigation.PopToRootAsync(); // disconnect means start over
 			};

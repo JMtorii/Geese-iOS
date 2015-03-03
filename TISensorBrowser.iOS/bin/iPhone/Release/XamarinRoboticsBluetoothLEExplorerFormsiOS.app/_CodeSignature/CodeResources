@@ -50,15 +50,15 @@
 		</data>
 		<key>Microsoft.CSharp.dll</key>
 		<data>
-		xq61BjqQyUSMTpSAot/i3Hj9rl4=
+		7MqAzoe6UUbSP/cZO2iPeyMYeo4=
 		</data>
 		<key>Mono.CSharp.dll</key>
 		<data>
-		+2Ker9q9r3lnuTmNoirLXcZ7J+w=
+		Kgccz6oUvjtGoO/s/IKfszRxNV4=
 		</data>
 		<key>Mono.Dynamic.Interpreter.dll</key>
 		<data>
-		yBvSCGGAkVtjOLnG7GaqO5aXV3U=
+		394aTtdjO7ZbQW0+tXXbWlC8pLo=
 		</data>
 		<key>NOTICE</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Newtonsoft.Json.dll</key>
 		<data>
-		v2Oc0e3LaCnbeYyekmiNygtcxuk=
+		9pmyoAUBET5vmKmIvjtCSuDAuM4=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -74,43 +74,47 @@
 		</data>
 		<key>Robotics.Mobile.Core.dll</key>
 		<data>
-		NhdqHD03Jm4ekLssqNqfnJejJ7M=
+		bJJe8OJMQQXqs2Sxf50qzteWv/E=
 		</data>
 		<key>Robotics.Mobile.Core.iOS.dll</key>
 		<data>
-		8hwO0RwmedSpYyVzPO6YlBu6JD0=
+		MqkUXkePKD7IwxXlzgZctHEybD4=
 		</data>
 		<key>System.Core.dll</key>
 		<data>
-		VWp3SzkDGKrTmOzUpEXzgRQHZ6o=
+		5oA2/u3dluucJ5Am1iZu1Sb1uMc=
 		</data>
 		<key>System.Net.Http.dll</key>
 		<data>
-		IMECS3DN66V5/WFehit6OsUCNaY=
+		S2I91DOQYKSldfvqqqnYXQbLI4M=
 		</data>
 		<key>System.Runtime.Serialization.dll</key>
 		<data>
-		AjMdOMERDC5SkRjMnd4H6JqBMCA=
+		23DcGVBLqYaKZPhbUPiNkmBf1IQ=
 		</data>
 		<key>System.Xml.Linq.dll</key>
 		<data>
-		qvxUK/QAvavCVaDatxQK3FptrtI=
+		k3j8KTkQaEOnUo/OUiYJ3tvjKSA=
 		</data>
 		<key>System.Xml.dll</key>
 		<data>
-		n5oYx8rvtttVgZJom0nGqfFA4GU=
+		xWDB11dZjxVqP4UM+kYBI9v29Ng=
 		</data>
 		<key>System.dll</key>
 		<data>
-		BechyhdFlYYfo2URuVraGa31Vbk=
+		jNKTk67ZevR7147D6fsmNnWYjI0=
 		</data>
 		<key>TISensorBrowser.dll</key>
 		<data>
-		2WuT7pbcXfGGJOZvmRBK2n/QlRM=
+		7JNovpozXgbg/aRFgKIgw9Ci4AY=
 		</data>
 		<key>Xamarin.Forms.Core.dll</key>
 		<data>
-		TvfikfGPjde39xLK2+ao1PzkjNs=
+		RydLEd5ogulPKTS3kCRGnu/kscM=
+		</data>
+		<key>Xamarin.Forms.Platform.iOS.Classic.dll</key>
+		<data>
+		ownKbr+U2i1wg/v0HPriiM4X5no=
 		</data>
 		<key>Xamarin.Forms.Platform.iOS.dll</key>
 		<data>
@@ -118,11 +122,11 @@
 		</data>
 		<key>Xamarin.Forms.Xaml.dll</key>
 		<data>
-		x4lE+BPIUuRQoe04zqlkui0H/wI=
+		QEwmLDHJAhVef2PJwWbNwGPpc+0=
 		</data>
 		<key>XamarinRoboticsBluetoothLEExplorerFormsiOS.exe</key>
 		<data>
-		pI+a4AJbGcoc8d/bW9NudK+pGcU=
+		6H0WJnbP7ejbzyN1u5SdNtbNtmU=
 		</data>
 		<key>bluetooth.png</key>
 		<data>
@@ -150,11 +154,11 @@
 		</data>
 		<key>monotouch.dll</key>
 		<data>
-		m6o693LdzfFZnSaRXaDOaoUQ92M=
+		wcLDHzauxNiTnSrp8BjzIkU8H1Y=
 		</data>
 		<key>mscorlib.dll</key>
 		<data>
-		++MMPOa6GHeE7TAKQvlYMJLjv5I=
+		oEQy4e5Vyg5Lv2lF7sTONQPTzQg=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -205,15 +209,15 @@
 		</data>
 		<key>Microsoft.CSharp.dll</key>
 		<data>
-		xq61BjqQyUSMTpSAot/i3Hj9rl4=
+		7MqAzoe6UUbSP/cZO2iPeyMYeo4=
 		</data>
 		<key>Mono.CSharp.dll</key>
 		<data>
-		+2Ker9q9r3lnuTmNoirLXcZ7J+w=
+		Kgccz6oUvjtGoO/s/IKfszRxNV4=
 		</data>
 		<key>Mono.Dynamic.Interpreter.dll</key>
 		<data>
-		yBvSCGGAkVtjOLnG7GaqO5aXV3U=
+		394aTtdjO7ZbQW0+tXXbWlC8pLo=
 		</data>
 		<key>NOTICE</key>
 		<data>
@@ -221,7 +225,7 @@
 		</data>
 		<key>Newtonsoft.Json.dll</key>
 		<data>
-		v2Oc0e3LaCnbeYyekmiNygtcxuk=
+		9pmyoAUBET5vmKmIvjtCSuDAuM4=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -229,43 +233,47 @@
 		</data>
 		<key>Robotics.Mobile.Core.dll</key>
 		<data>
-		NhdqHD03Jm4ekLssqNqfnJejJ7M=
+		bJJe8OJMQQXqs2Sxf50qzteWv/E=
 		</data>
 		<key>Robotics.Mobile.Core.iOS.dll</key>
 		<data>
-		8hwO0RwmedSpYyVzPO6YlBu6JD0=
+		MqkUXkePKD7IwxXlzgZctHEybD4=
 		</data>
 		<key>System.Core.dll</key>
 		<data>
-		VWp3SzkDGKrTmOzUpEXzgRQHZ6o=
+		5oA2/u3dluucJ5Am1iZu1Sb1uMc=
 		</data>
 		<key>System.Net.Http.dll</key>
 		<data>
-		IMECS3DN66V5/WFehit6OsUCNaY=
+		S2I91DOQYKSldfvqqqnYXQbLI4M=
 		</data>
 		<key>System.Runtime.Serialization.dll</key>
 		<data>
-		AjMdOMERDC5SkRjMnd4H6JqBMCA=
+		23DcGVBLqYaKZPhbUPiNkmBf1IQ=
 		</data>
 		<key>System.Xml.Linq.dll</key>
 		<data>
-		qvxUK/QAvavCVaDatxQK3FptrtI=
+		k3j8KTkQaEOnUo/OUiYJ3tvjKSA=
 		</data>
 		<key>System.Xml.dll</key>
 		<data>
-		n5oYx8rvtttVgZJom0nGqfFA4GU=
+		xWDB11dZjxVqP4UM+kYBI9v29Ng=
 		</data>
 		<key>System.dll</key>
 		<data>
-		BechyhdFlYYfo2URuVraGa31Vbk=
+		jNKTk67ZevR7147D6fsmNnWYjI0=
 		</data>
 		<key>TISensorBrowser.dll</key>
 		<data>
-		2WuT7pbcXfGGJOZvmRBK2n/QlRM=
+		7JNovpozXgbg/aRFgKIgw9Ci4AY=
 		</data>
 		<key>Xamarin.Forms.Core.dll</key>
 		<data>
-		TvfikfGPjde39xLK2+ao1PzkjNs=
+		RydLEd5ogulPKTS3kCRGnu/kscM=
+		</data>
+		<key>Xamarin.Forms.Platform.iOS.Classic.dll</key>
+		<data>
+		ownKbr+U2i1wg/v0HPriiM4X5no=
 		</data>
 		<key>Xamarin.Forms.Platform.iOS.dll</key>
 		<data>
@@ -273,11 +281,11 @@
 		</data>
 		<key>Xamarin.Forms.Xaml.dll</key>
 		<data>
-		x4lE+BPIUuRQoe04zqlkui0H/wI=
+		QEwmLDHJAhVef2PJwWbNwGPpc+0=
 		</data>
 		<key>XamarinRoboticsBluetoothLEExplorerFormsiOS.exe</key>
 		<data>
-		pI+a4AJbGcoc8d/bW9NudK+pGcU=
+		6H0WJnbP7ejbzyN1u5SdNtbNtmU=
 		</data>
 		<key>bluetooth.png</key>
 		<data>
@@ -305,11 +313,11 @@
 		</data>
 		<key>monotouch.dll</key>
 		<data>
-		m6o693LdzfFZnSaRXaDOaoUQ92M=
+		wcLDHzauxNiTnSrp8BjzIkU8H1Y=
 		</data>
 		<key>mscorlib.dll</key>
 		<data>
-		++MMPOa6GHeE7TAKQvlYMJLjv5I=
+		oEQy4e5Vyg5Lv2lF7sTONQPTzQg=
 		</data>
 	</dict>
 	<key>rules</key>
