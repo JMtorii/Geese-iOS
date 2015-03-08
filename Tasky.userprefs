@@ -1,14 +1,17 @@
 ﻿<Properties StartupItem="TaskyiOS\TaskyiOS.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TaskyAndroid\Screens\TaskDetailsScreen.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TaskyAndroid\Screens\HomeScreen.cs">
     <Files>
-      <File FileName="TaskyAndroid\Adapters\TaskListAdapter.cs" Line="1" Column="1" />
-      <File FileName="TaskyAndroid\Screens\HomeScreen.cs" Line="1" Column="1" />
-      <File FileName="TaskyAndroid\Screens\TaskDetailsScreen.cs" Line="2" Column="2" />
+      <File FileName="TaskyAndroid\Screens\HomeScreen.cs" Line="22" Column="22" />
+      <File FileName="TaskyAndroid\Screens\TaskDetailsScreen.cs" Line="1" Column="1" />
+      <File FileName="TaskyAndroid\Screens\NFC.cs" Line="25" Column="25" />
+      <File FileName="TaskyAndroid\Properties\AndroidManifest.xml" Line="1" Column="1" />
+      <File FileName="..\..\..\..\..\Program Files (x86)\MSBuild\Xamarin\Android\Xamarin.Android.Common.targets" Line="19" Column="19" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TaskyAndroid />
 </Properties>

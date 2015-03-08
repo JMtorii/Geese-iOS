@@ -14,7 +14,7 @@ public class TaskListAdapter
 			"n_getCount:()I:GetGetCountHandler\n" +
 			"n_getView:(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;:GetGetView_ILandroid_view_View_Landroid_view_ViewGroup_Handler\n" +
 			"";
-		mono.android.Runtime.register ("TaskyAndroid.Adapters.TaskListAdapter, TaskyAndroid, Version=1.0.5525.33830, Culture=neutral, PublicKeyToken=null", TaskListAdapter.class, __md_methods);
+		mono.android.Runtime.register ("TaskyAndroid.Adapters.TaskListAdapter, TaskyAndroid, Version=1.0.5541.34454, Culture=neutral, PublicKeyToken=null", TaskListAdapter.class, __md_methods);
 	}
 
 
@@ -22,7 +22,7 @@ public class TaskListAdapter
 	{
 		super ();
 		if (getClass () == TaskListAdapter.class)
-			mono.android.TypeManager.Activate ("TaskyAndroid.Adapters.TaskListAdapter, TaskyAndroid, Version=1.0.5525.33830, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("TaskyAndroid.Adapters.TaskListAdapter, TaskyAndroid, Version=1.0.5541.34454, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
 	}
 
 

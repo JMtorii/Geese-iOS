@@ -44,3 +44,4 @@ C:\Users\Ni\Documents\GitHub\Swap\TaskyAndroid\obj\Debug\res\drawable-xhdpi\ic_l
 C:\Users\Ni\Documents\GitHub\Swap\TaskyAndroid\obj\Debug\res\drawable-xhdpi\icon.png
 C:\Users\Ni\Documents\GitHub\Swap\TaskyAndroid\obj\Debug\R.cs.flag
 C:\Users\Ni\Documents\GitHub\Swap\TaskyAndroid\obj\Debug\uploadflags.txt
+C:\Users\Ni\Documents\GitHub\Swap\TaskyAndroid\obj\Debug\TaskyAndroid.csprojResolveAssemblyReference.cache
