@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>Swap Web API Test</title>
@@ -24,24 +25,24 @@
       // Send an AJAX request
       $.getJSON(uri)
           .done(function (data) {
+            //  $('<li>', { text: "test" }).appendTo($('#cards'));
             // On success, 'data' contains a list of cards.
             $.each(data, function (key, item) {
               // Add a list item for the card.
-              $('<li>', { text: formatItem(item) }).appendTo($('#cards'));
+              $('<li>', { text: formatCard(item) }).appendTo($('#cards'));
             });
           });
     });
 
     function formatCard(card) {
-      return card.SenderId + ':' + card.Content;
+      return card.SenderId + ' : ' + card.Content;
     }
 
     function find() {
-        //var id = $('#senderId').val();
-        var id = 1;
+        var id = $('#senderId').val();
       $.getJSON(uri + '/' + id)
           .done(function (data) {
-            $('#cards').text(formatItem(data));
+            $('#cards').text(formatCard(data));
           })
           .fail(function (jqXHR, textStatus, err) {
             $('#cards').text('Error: ' + err);
