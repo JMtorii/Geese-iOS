@@ -77,7 +77,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="185" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="185" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" editable="NO" selectable="NO">
                                 <rect key="frame" x="20" y="97" width="280" height="394"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
@@ -87,6 +87,9 @@
                         </subviews>
                     </view>
                     <navigationItem title="Central Manager" id="69" translatesAutoresizingMaskIntoConstraints="NO" key="navigationItem"/>
+                    <connections>
+                        <outlet property="textView" destination="185" id="name-outlet-185"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="37" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -104,16 +107,18 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="188" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="TopLeft" id="188" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" textAlignment="left" text="Type some stuff">
                                 <rect key="frame" x="20" y="130" width="280" height="240"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                     </view>
                     <navigationItem title="Peripheral" id="131" translatesAutoresizingMaskIntoConstraints="NO" key="navigationItem"/>
+                    <connections>
+                        <outlet property="textView" destination="188" id="name-outlet-188"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="100" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

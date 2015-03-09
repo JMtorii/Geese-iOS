@@ -1,0 +1,4 @@
+/Users/juntorii/Documents/Project/Swap/Swap.iOS/obj/iPhone/Release/mtouch-cache/Link/monotouch.dll
+/Users/juntorii/Documents/Project/Swap/Swap.iOS/obj/iPhone/Release/mtouch-cache/Link/System.dll
+/Users/juntorii/Documents/Project/Swap/Swap.iOS/obj/iPhone/Release/mtouch-cache/Link/Swap.iOS.exe
+/Users/juntorii/Documents/Project/Swap/Swap.iOS/obj/iPhone/Release/mtouch-cache/Link/mscorlib.dll

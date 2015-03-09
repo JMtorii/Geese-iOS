@@ -112,10 +112,13 @@
     <Compile Include="Pages\CBPeripheralViewController.designer.cs">
       <DependentUpon>CBPeripheralViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\CBCentralManagerInterface.cs" />
   </ItemGroup>
+  <Import Project="..\Swap.Shared\Swap.Shared.projitems" Label="Shared" Condition="Exists('..\Swap.Shared\Swap.Shared.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.MonoTouch.CSharp.targets" />
   <ItemGroup>
     <Folder Include="Pages\" />
+    <Folder Include="Helpers\" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Pages\MainStoryboard.storyboard" />

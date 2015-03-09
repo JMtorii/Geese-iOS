@@ -14,8 +14,16 @@ namespace Swap.iOS
 	[Register ("CBCentralManagerViewController")]
 	partial class CBCentralManagerViewController
 	{
+		[Outlet]
+		[GeneratedCode ("iOS Designer", "1.0")]
+		UITextView textView { get; set; }
+
 		void ReleaseDesignerOutlets ()
 		{
+			if (textView != null) {
+				textView.Dispose ();
+				textView = null;
+			}
 		}
 	}
 }

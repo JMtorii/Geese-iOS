@@ -24,7 +24,6 @@
     [super viewWillDisappear:animated];
 }
 
-
 - (void)centralManagerDidUpdateState:(CBCentralManager *)central {
     // You should test all scenarios
     if (central.state != CBCentralManagerStatePoweredOn) {
@@ -37,7 +36,6 @@
         NSLog(@"Scanning started");
     }
 }
-
 
 - (void)centralManager:(CBCentralManager *)central didDiscoverPeripheral:(CBPeripheral *)peripheral advertisementData:(NSDictionary *)advertisementData RSSI:(NSNumber *)RSSI {
     
