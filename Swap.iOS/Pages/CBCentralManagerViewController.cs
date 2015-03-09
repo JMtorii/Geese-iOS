@@ -76,32 +76,9 @@ namespace Swap.iOS
 
 			if ( central.State == CBCentralManagerState.PoweredOn ) {
 				// Scan for devices
-				centralManager.ScanForPeripherals( CBUUID.FromString(SERVICES.TRANSFER_SERVICE_UUID), CB )
+				centralManager.ScanForPeripherals( CBUUID.FromString( SERVICES.TRANSFER_SERVICE_UUID ) );
+				Console.WriteLine( "Scanning started" );
 			}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//			if (central.state != CBCentralManagerStatePoweredOn) {
-//				return;
-//			}
-//
-//			if (central.state == CBCentralManagerStatePoweredOn) {
-//				// Scan for devices
-//				[_centralManager scanForPeripheralsWithServices:@[[CBUUID UUIDWithString:TRANSFER_SERVICE_UUID]] options:@{ CBCentralManagerScanOptionAllowDuplicatesKey : @YES }];
-//				NSLog(@"Scanning started");
-//			}
 		}
 
 //		private class CBCentralManagerHelper : CBCentralManagerDelegate
