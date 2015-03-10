@@ -113,11 +113,47 @@ namespace Swap.iOS
 				data.Length = 0;
 
 				// TODO: Implement the delegate
-//				peripheral.Delegate = 
+				peripheral.WeakDelegate = this;
 
 				CBUUID[] CBUUIDArray = { CBUUID.FromString( SERVICES.TRANSFER_CHARACTERISTIC_UUID ) };
 				peripheral.DiscoverServices( CBUUIDArray );
 			}
+		}
+
+		[ Export( "peripheral:didDiscoverCharacteristicsForService:error:" ) ]
+		public void DiscoverCharacteristic( CBPeripheral peripheral, CBService service, NSError error )
+		{
+			if ( error ) {
+				cleanup();
+				return;
+			}
+
+			foreach ( CBCharacteristic characteristic in service.Characteristics ) {
+				if ( characteristic.UUID.IsEqual( CBUUID.FromString( SERVICES.TRANSFER_CHARACTERISTIC_UUID ) ) ) {
+					peripheral.SetNotifyValue( true, characteristic );
+				}
+			}
+		}
+
+		[ Export ( "peripheral:didUpdateValueForCharacteristic:error:" ) ]
+		public void UpdatedCharacterteristicValue( CBPeripheral peripheral, CBCharacteristic characteristic, NSError error )
+		{
+			if ( error ) {
+				Console.WriteLine( "Error" );
+				return;
+			}
+
+			NSString stringFromData = new NSString( characteristic.Value, NSStringEncoding.UTF8 );
+
+			// Have we got everything we need?
+			if ( stringFromData == "EOM" ) {
+				// TODO: set text
+				textView.Text = new NSString( data, NSStringEncoding.UTF8 );
+				peripheral.SetNotifyValue( false, characteristic );
+				centralManager.CancelPeripheralConnection( peripheral );
+			}
+
+			data.AppendData( characteristic.Value );
 		}
 	}
 }
