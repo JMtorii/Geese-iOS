@@ -1,16 +1,16 @@
 # Version: 8.6.3.3 (90e32d0)
-# [first argument, ignore] # /Users/juntorii/Documents/Project/Swap/Swap.iOS/bin/iPhoneSimulator/Release/mtouch.exe
+# [first argument, ignore] # /Users/mtorii/Documents/Swap/Swap.iOS/bin/iPhoneSimulator/Release/mtouch.exe
 /Library/Frameworks/Xamarin.iOS.framework/Versions/8.6.3.3/bin/mtouch-64 \
 	-sdkroot \
 	/Applications/Xcode.app/Contents/Developer \
 	--cache \
-	/Users/juntorii/Documents/Project/Swap/Swap.iOS/obj/iPhoneSimulator/Release/mtouch-cache \
+	/Users/mtorii/Documents/Swap/Swap.iOS/obj/iPhoneSimulator/Release/mtouch-cache \
 	--executable \
 	Swap.iOS \
 	--nomanifest \
 	--nosign \
 	-sim \
-	/Users/juntorii/Documents/Project/Swap/Swap.iOS/bin/iPhoneSimulator/Release/Swap.iOS.app \
+	/Users/mtorii/Documents/Swap/Swap.iOS/bin/iPhoneSimulator/Release/Swap.iOS.app \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/System.dll \
 	-r \
@@ -21,8 +21,8 @@
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/monotouch.dll \
 	-nolink \
 	-sdk \
-	8.1 \
+	7.1 \
 	-targetver \
 	7.0 \
 	--abi=i386 \
-	/Users/juntorii/Documents/Project/Swap/Swap.iOS/bin/iPhoneSimulator/Release/Swap.iOS.exe \
+	/Users/mtorii/Documents/Swap/Swap.iOS/bin/iPhoneSimulator/Release/Swap.iOS.exe \

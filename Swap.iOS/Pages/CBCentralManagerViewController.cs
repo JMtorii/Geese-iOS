@@ -8,20 +8,19 @@ using MonoTouch.CoreBluetooth;
 
 namespace Swap.iOS
 {
-//	[BaseType (typeof (NSObject))]
-//	public interface OSWristBand2 : ICBCentralManagerDelegate, ICBPeripheralDelegate
-//	{
-//	}
-	public partial class CBCentralManagerViewController : UIViewController, ICBCentralManagerDelegate, ICBPeripheralDelegate
+	public partial class CBCentralManagerViewController : UIViewController
 	{
-		private CBCentralManager centralManager;
-		private CBPeripheral discoveredPeripheral;
-		private NSMutableData data;
+		private static CBCentralManager centralManager;
+		private static CBPeripheral discoveredPeripheral;
+		private static NSMutableData data;
+		public SampleCBCentralManagerDelegate cmDelegate;
 
 		public CBCentralManagerViewController() : base( "CBCentralManagerViewController", null )
 		{
+			cmDelegate = new SampleCBCentralManagerDelegate();
+
 			// TODO: delegate must be passed through CBCentralManager constructor
-			centralManager = new CBCentralManager();
+			centralManager = new CBCentralManager( cmDelegate, null );
 			data = new NSMutableData();
 		}
 
@@ -47,7 +46,7 @@ namespace Swap.iOS
 			base.ViewWillDisappear( animated );	
 		}
 
-		public void cleanup()
+		public static void cleanup()
 		{
 			// See if we are subscribed to a characteristic on the peripheral
 			if ( discoveredPeripheral.Services != null ) {
@@ -68,26 +67,58 @@ namespace Swap.iOS
 			centralManager.CancelPeripheralConnection( discoveredPeripheral );
 		}
 
-		public void UpdatedState (CBCentralManager central) 
+		class SampleCBCentralManagerDelegate : CBCentralManagerDelegate
 		{
-			if ( central.State != CBCentralManagerState.PoweredOn ) {
-				return;
+			public override void UpdatedState (CBCentralManager central)
+			{
+				if ( central.State != CBCentralManagerState.PoweredOn ) {
+					return;
+				}
+
+				if ( central.State == CBCentralManagerState.PoweredOn ) {
+					// Scan for devices
+					centralManager.ScanForPeripherals( CBUUID.FromString( SERVICES.TRANSFER_SERVICE_UUID ) );
+					Console.WriteLine( "Scanning started" );
+				}
 			}
 
-			if ( central.State == CBCentralManagerState.PoweredOn ) {
-				// Scan for devices
-				centralManager.ScanForPeripherals( CBUUID.FromString( SERVICES.TRANSFER_SERVICE_UUID ) );
-				Console.WriteLine( "Scanning started" );
+			public override void DiscoveredPeripheral( CBCentralManager central, CBPeripheral peripheral, NSDictionary advertisementData, NSNumber RSSI )
+			{
+				Console.WriteLine( "Discovered {0} at {1}", peripheral.Name, RSSI );
+
+				if ( discoveredPeripheral != peripheral ) {
+					// Save a local copy of the peripheral, so CoreBluetooth doesn't get rid of it
+					discoveredPeripheral = peripheral;
+
+					// And connect
+					Console.WriteLine( "Connecting to peripheral {0}", peripheral );
+					NSDictionary options = null;	// stupid but required due to ambiguity 
+					centralManager.ConnectPeripheral( peripheral, options );
+				}
+			}
+
+			public override void FailedToConnectPeripheral( CBCentralManager central, CBPeripheral peripheral, NSError error )
+			{
+				Console.WriteLine( "Failed to connect" );
+				cleanup();
+			}
+
+			public override void ConnectedPeripheral( CBCentralManager central, CBPeripheral peripheral )
+			{
+				Console.WriteLine( "Connected" );
+
+				centralManager.StopScan();
+				Console.WriteLine( "Scanning stopped" );
+
+				data.Length = 0;
+
+				// TODO: Implement the delegate
+//				peripheral.Delegate = 
+
+				CBUUID[] CBUUIDArray = { CBUUID.FromString( SERVICES.TRANSFER_CHARACTERISTIC_UUID ) };
+				peripheral.DiscoverServices( CBUUIDArray );
 			}
 		}
-
-//		private class CBCentralManagerHelper : CBCentralManagerDelegate
-//		{
-//
-//		}
-
-
-//		CBCentralManagerDelegate, CBPeripheralDelegate
 	}
 }
 
