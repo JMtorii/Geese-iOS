@@ -17,11 +17,6 @@ namespace Swap.iOS
 
 		public CBCentralManagerViewController() : base( "CBCentralManagerViewController", null )
 		{
-			cmDelegate = new SampleCBCentralManagerDelegate();
-
-			// TODO: delegate must be passed through CBCentralManager constructor
-			centralManager = new CBCentralManager( cmDelegate, null );
-			data = new NSMutableData();
 		}
 
 		public override void DidReceiveMemoryWarning()
@@ -37,6 +32,12 @@ namespace Swap.iOS
 			base.ViewDidLoad();
 			
 			// Perform any additional setup after loading the view, typically from a nib.
+
+			cmDelegate = new SampleCBCentralManagerDelegate();
+
+			// TODO: delegate must be passed through CBCentralManager constructor
+			centralManager = new CBCentralManager( cmDelegate, null );
+			data = new NSMutableData();
 		}
 
 		public override void ViewWillDisappear( bool animated )
