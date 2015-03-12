@@ -42,6 +42,77 @@ namespace Swap.iOS
 			peripheralManager.StopAdvertising();
 			base.ViewWillDisappear();
 		}
+
+		public static void sendData ()
+		{
+			bool sendingEOM = false;
+
+			// end of message?
+			if (sendingEOM) {
+				bool didSend = peripheralManager.UpdateValue ("EOM", transferCharacteristic, null);
+
+				if (didSend) {
+					// it did, so mark it as sent
+					sendingEOM = false;
+				}
+				// didn't send, so we'll exit and wiat for peripheralManagerIsReadyToUpdateSubscribers to call sendData again
+				return; 
+			}
+
+			// We're sending data
+			// Is there any left to send?
+			if (sendDataIndex >= dataToSend.Length) {
+				// No data left. Do nothing
+				return;
+			}
+
+			// There's data left, so send until the callback fails, or we're done
+			bool isSent = true;
+
+			while (isSent) {
+				// Word out how big it should be
+				int amountToSend = (int)dataToSend.Length - sendDataIndex;
+
+				// Can't be longer than 20 bytes
+				if (amountToSend > SERVICES.NOTIFY_MTU)
+					amountToSend = SERVICES.NOTIFY_MTU; 
+
+				// Copy out the data we want
+				NSData chunk = new NSData (dataToSend.Bytes + sendDataIndex, amountToSend);
+
+				isSent = peripheralManager.UpdateValue (chunk, transferCharacteristic, null);
+
+				// If it didn't work, drop out and wait for the callback
+				if (!isSent)
+					return;
+
+				NSString stringFromData = new NSString (chunk, NSStringEncoding.UTF8);
+				Console.WriteLine ("Sent: {0}", stringFromData);
+
+				// It did send, so update out index
+				sendDataIndex += amountToSend;
+
+				// Was it the last one?
+				if (sendDataIndex >= dataToSend.Length) {
+					// Set this so if the send fails, we'll send it next time
+					sendingEOM = true;
+
+					bool eomSent = peripheralManager.UpdateValue( "EOM", transferCharacteristic, null );
+
+					if ( eomSent ) {
+						// It sent, we're all done
+						sendingEOM = false;
+						Console.WriteLine ("Sent: EOM");
+					}
+
+					return;
+				}
+			}
+		}
+
+		public static void peripheralManagerIsReadyToUpdateSubscribers( CBPeripheralManager peripheral ) {
+			sendData();
+		}
 	
 		class SampleCBPeripheralManagerDelegate : CBPeripheralManagerDelegate
 		{
@@ -52,37 +123,26 @@ namespace Swap.iOS
 				}
 
 				if ( peripheral.State == CBPeripheralManagerState.PoweredOn ) {
-					
+					transferCharacteristic = new CBMutableCharacteristic( CBUUID.FromString( SERVICES.TRANSFER_CHARACTERISTIC_UUID ), CBCharacteristicProperties.Notify, null, CBAttributePermissions.Readable );
+
+					CBMutableService transferService = new CBMutableService( CBUUID.FromString( SERVICES.TRANSFER_SERVICE_UUID ), true );
+
+					CBMutableCharacteristic[] tmpArr = { transferCharacteristic };
+					transferService.Characteristics = tmpArr;
+					peripheralManager.AddService( transferService );
 				}
 
+				NSMutableDictionary dict = new NSMutableDictionary();
+				dict.Add( CBAdvertisement.DataServiceUUIDsKey, CBUUID.FromString( SERVICES.TRANSFER_SERVICE_UUID ) );
+				peripheralManager.StartAdvertising( dict );
+			}
 
-
-
-
-
-
-
-
-
-
-
-//				if (peripheral.state != CBPeripheralManagerStatePoweredOn) {
-//			        return;
-//			    }
-//			    
-//			    if (peripheral.state == CBPeripheralManagerStatePoweredOn) {
-//
-//			        _transferCharacteristic = [[CBMutableCharacteristic alloc] initWithType:[CBUUID UUIDWithString:TRANSFER_CHARACTERISTIC_UUID] properties:CBCharacteristicPropertyNotify value:nil
-//			permissions:CBAttributePermissionsReadable];
-//			        
-//			        CBMutableService *transferService = [[CBMutableService alloc] initWithType:[CBUUID UUIDWithString:TRANSFER_SERVICE_UUID]primary:YES];
-//			        
-//			        transferService.characteristics = @[_transferCharacteristic];
-//			        
-//			        [_peripheralManager addService:transferService];
-//			    }
-//			    
-//			    [_peripheralManager startAdvertising:@{ CBAdvertisementDataServiceUUIDsKey : @[[CBUUID UUIDWithString:TRANSFER_SERVICE_UUID]] }];
+			public void CharacteristicSubscribed( CBPeripheralManager peripheral, CBCentral central, CBCharacteristic characteristic )
+			{
+				// TODO: dataToSend may need to be encoded appropriately
+				dataToSend = textView.Text;
+				sendDataIndex = 0;
+				sendData();
 			}
 		}
 	}
