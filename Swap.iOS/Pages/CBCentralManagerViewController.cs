@@ -13,7 +13,7 @@ namespace Swap.iOS
 		private static CBCentralManager centralManager;
 		private static CBPeripheral discoveredPeripheral;
 		private static NSMutableData data;
-		public SampleCBCentralManagerDelegate cmDelegate;
+		SampleCBCentralManagerDelegate cmDelegate;
 
 		public CBCentralManagerViewController() : base( "CBCentralManagerViewController", null )
 		{
@@ -124,7 +124,7 @@ namespace Swap.iOS
 		[ Export( "peripheral:didDiscoverCharacteristicsForService:error:" ) ]
 		public void DiscoverCharacteristic( CBPeripheral peripheral, CBService service, NSError error )
 		{
-			if ( error ) {
+			if ( error != null ) {
 				cleanup();
 				return;
 			}
@@ -139,7 +139,7 @@ namespace Swap.iOS
 		[ Export ( "peripheral:didUpdateValueForCharacteristic:error:" ) ]
 		public void UpdatedCharacterteristicValue( CBPeripheral peripheral, CBCharacteristic characteristic, NSError error )
 		{
-			if ( error ) {
+			if ( error != null ) {
 				Console.WriteLine( "Error" );
 				return;
 			}

@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 using System.Drawing;
 
 using MonoTouch.Foundation;
@@ -10,11 +9,12 @@ namespace Swap.iOS
 {
 	public partial class CBPeripheralViewController : UIViewController
 	{
-		public SampleCBPeripheralManagerDelegate pDelegate;
+		SampleCBPeripheralManagerDelegate pDelegate;
 		public static CBPeripheralManager peripheralManager;
 		public static CBMutableCharacteristic transferCharacteristic;
 		public static NSData dataToSend;
 		public static int sendDataIndex;
+		public static UITextView mTextView;
 
 		public CBPeripheralViewController() : base ( "CBPeripheralViewController", null )
 		{
@@ -35,12 +35,13 @@ namespace Swap.iOS
 			// Perform any additional setup after loading the view, typically from a nib.
 			pDelegate = new SampleCBPeripheralManagerDelegate();
 			peripheralManager = new CBPeripheralManager( pDelegate, null );
+			mTextView = textView;
 		}
 
-		public override void ViewWillDisappear()
+		public override void ViewWillDisappear( bool animated )
 		{
 			peripheralManager.StopAdvertising();
-			base.ViewWillDisappear();
+			base.ViewWillDisappear( animated );
 		}
 
 		public static void sendData ()
@@ -61,7 +62,7 @@ namespace Swap.iOS
 
 			// We're sending data
 			// Is there any left to send?
-			if (sendDataIndex >= dataToSend.Length) {
+			if (sendDataIndex >= (int)dataToSend.Length) {
 				// No data left. Do nothing
 				return;
 			}
@@ -78,8 +79,8 @@ namespace Swap.iOS
 					amountToSend = SERVICES.NOTIFY_MTU; 
 
 				// Copy out the data we want
-				NSData chunk = new NSData (dataToSend.Bytes + sendDataIndex, amountToSend);
-
+				NSMutableData chunk = new NSMutableData( dataToSend.Bytes );
+//				chunk.AppendBytes( dataToSend.Bytes + sendDataIndex/*, amountToSend*/ );
 				isSent = peripheralManager.UpdateValue (chunk, transferCharacteristic, null);
 
 				// If it didn't work, drop out and wait for the callback
@@ -116,7 +117,7 @@ namespace Swap.iOS
 	
 		class SampleCBPeripheralManagerDelegate : CBPeripheralManagerDelegate
 		{
-			public void StateUpdated( CBPeripheralManager peripheral )
+			public override void StateUpdated( CBPeripheralManager peripheral )
 			{
 				if ( peripheral.State != CBPeripheralManagerState.PoweredOn ) {
 					return;
@@ -137,10 +138,10 @@ namespace Swap.iOS
 				peripheralManager.StartAdvertising( dict );
 			}
 
-			public void CharacteristicSubscribed( CBPeripheralManager peripheral, CBCentral central, CBCharacteristic characteristic )
+			public override void CharacteristicSubscribed( CBPeripheralManager peripheral, CBCentral central, CBCharacteristic characteristic )
 			{
 				// TODO: dataToSend may need to be encoded appropriately
-				dataToSend = textView.Text;
+				dataToSend = NSData.FromString(mTextView.Text);
 				sendDataIndex = 0;
 				sendData();
 			}

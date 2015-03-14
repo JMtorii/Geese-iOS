@@ -91,7 +91,6 @@ permissions:CBAttributePermissionsReadable];
         
         // Copy out the data we want
         NSData *chunk = [NSData dataWithBytes:self.dataToSend.bytes+self.sendDataIndex length:amountToSend];
-        
         didSend = [self.peripheralManager updateValue:chunk forCharacteristic:self.transferCharacteristic onSubscribedCentrals:nil];
         
         // If it didn't work, drop out and wait for the callback

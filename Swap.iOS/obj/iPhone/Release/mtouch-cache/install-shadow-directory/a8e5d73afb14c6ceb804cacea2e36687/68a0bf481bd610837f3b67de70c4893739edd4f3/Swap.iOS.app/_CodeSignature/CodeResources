@@ -10,31 +10,35 @@
 		</data>
 		<key>MainStoryboard.storyboardc/35-view-36.nib</key>
 		<data>
-		0r6UXMocxbzTqD0kDq/aVTf3bwg=
+		HF2wg3DgW67dq6MimT5rsInQcm0=
 		</data>
 		<key>MainStoryboard.storyboardc/7-view-12.nib</key>
 		<data>
-		vAONjaErYUrjxspcx1lg+zqjWCs=
+		MnsNLDlPcvdyzX8eIS5GBPK7Gi0=
 		</data>
 		<key>MainStoryboard.storyboardc/98-view-99.nib</key>
 		<data>
-		3yGB5PoXMDM5FLTWLvPde6iwEDs=
+		a3i0DBYyMGMXa3wfdgZrGQ855FQ=
 		</data>
 		<key>MainStoryboard.storyboardc/CBCentralManagerViewController.nib</key>
 		<data>
-		pTK5iZTdfQD61q7XsDLiTNPqOOI=
+		JUocW4IUsT0v75M6vBcYTaDqH90=
 		</data>
 		<key>MainStoryboard.storyboardc/CBPeripheralViewController.nib</key>
 		<data>
-		IQQ7FwRfMAT+ctHdfNPbjHEjbEg=
+		ERcXddDotx4bGTeoGAVEuheqfLA=
+		</data>
+		<key>MainStoryboard.storyboardc/Info.plist</key>
+		<data>
+		9WwdylREMe7YQcLIVeNiDwO1nvg=
 		</data>
 		<key>MainStoryboard.storyboardc/MainViewController.nib</key>
 		<data>
-		yxLx8cES8ng0KE7AXm0F7lv38mI=
+		OnFcWZYzyQHX6uCXO0s24psX80Y=
 		</data>
 		<key>MainStoryboard.storyboardc/UIViewController-5.nib</key>
 		<data>
-		XagircdfYNt84TCihtpNPGpYa5M=
+		b7kiCTKXMjx2Dtv6BSDMAKt5JSQ=
 		</data>
 		<key>NOTICE</key>
 		<data>
@@ -46,11 +50,11 @@
 		</data>
 		<key>Swap.iOS.exe</key>
 		<data>
-		/ezmrJWn4fCqdjfnBNjiebFxWaU=
+		NUIG5QbYEaszemJJUQ2FxJuYiBM=
 		</data>
 		<key>System.dll</key>
 		<data>
-		IYFU3clOMTk6orAo+rHs80YPZ0M=
+		ZkXk8qYG/854Hufd67CmB2Z5yFI=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
@@ -58,11 +62,11 @@
 		</data>
 		<key>monotouch.dll</key>
 		<data>
-		fSt0JKU7lLsHY0ZfVCmKd+zaCVo=
+		hdM3LDmQd60cPiSKP8NNIExYbAo=
 		</data>
 		<key>mscorlib.dll</key>
 		<data>
-		dULDzhtfEDHkp9lSP52YzoJkZLw=
+		tal2oVi4cpuwOl5Qq0zoLwKnyuA=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -73,31 +77,35 @@
 		</data>
 		<key>MainStoryboard.storyboardc/35-view-36.nib</key>
 		<data>
-		0r6UXMocxbzTqD0kDq/aVTf3bwg=
+		HF2wg3DgW67dq6MimT5rsInQcm0=
 		</data>
 		<key>MainStoryboard.storyboardc/7-view-12.nib</key>
 		<data>
-		vAONjaErYUrjxspcx1lg+zqjWCs=
+		MnsNLDlPcvdyzX8eIS5GBPK7Gi0=
 		</data>
 		<key>MainStoryboard.storyboardc/98-view-99.nib</key>
 		<data>
-		3yGB5PoXMDM5FLTWLvPde6iwEDs=
+		a3i0DBYyMGMXa3wfdgZrGQ855FQ=
 		</data>
 		<key>MainStoryboard.storyboardc/CBCentralManagerViewController.nib</key>
 		<data>
-		pTK5iZTdfQD61q7XsDLiTNPqOOI=
+		JUocW4IUsT0v75M6vBcYTaDqH90=
 		</data>
 		<key>MainStoryboard.storyboardc/CBPeripheralViewController.nib</key>
 		<data>
-		IQQ7FwRfMAT+ctHdfNPbjHEjbEg=
+		ERcXddDotx4bGTeoGAVEuheqfLA=
+		</data>
+		<key>MainStoryboard.storyboardc/Info.plist</key>
+		<data>
+		9WwdylREMe7YQcLIVeNiDwO1nvg=
 		</data>
 		<key>MainStoryboard.storyboardc/MainViewController.nib</key>
 		<data>
-		yxLx8cES8ng0KE7AXm0F7lv38mI=
+		OnFcWZYzyQHX6uCXO0s24psX80Y=
 		</data>
 		<key>MainStoryboard.storyboardc/UIViewController-5.nib</key>
 		<data>
-		XagircdfYNt84TCihtpNPGpYa5M=
+		b7kiCTKXMjx2Dtv6BSDMAKt5JSQ=
 		</data>
 		<key>NOTICE</key>
 		<data>
@@ -109,11 +117,11 @@
 		</data>
 		<key>Swap.iOS.exe</key>
 		<data>
-		/ezmrJWn4fCqdjfnBNjiebFxWaU=
+		NUIG5QbYEaszemJJUQ2FxJuYiBM=
 		</data>
 		<key>System.dll</key>
 		<data>
-		IYFU3clOMTk6orAo+rHs80YPZ0M=
+		ZkXk8qYG/854Hufd67CmB2Z5yFI=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
@@ -121,25 +129,25 @@
 		</data>
 		<key>monotouch.dll</key>
 		<data>
-		fSt0JKU7lLsHY0ZfVCmKd+zaCVo=
+		hdM3LDmQd60cPiSKP8NNIExYbAo=
 		</data>
 		<key>mscorlib.dll</key>
 		<data>
-		dULDzhtfEDHkp9lSP52YzoJkZLw=
+		tal2oVi4cpuwOl5Qq0zoLwKnyuA=
 		</data>
 	</dict>
 	<key>rules</key>
 	<dict>
 		<key>.*</key>
 		<true/>
-		<key>Info.plist</key>
+		<key>^Info.plist$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
 			<real>10</real>
 		</dict>
-		<key>ResourceRules.plist</key>
+		<key>^ResourceRules.plist$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
@@ -151,26 +159,26 @@
 	<dict>
 		<key>.*</key>
 		<true/>
-		<key>Info.plist</key>
-		<dict>
-			<key>omit</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
-		</dict>
-		<key>ResourceRules.plist</key>
-		<dict>
-			<key>omit</key>
-			<true/>
-			<key>weight</key>
-			<real>100</real>
-		</dict>
 		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
 		<dict>
 			<key>nested</key>
 			<true/>
 			<key>weight</key>
 			<real>0.0</real>
+		</dict>
+		<key>^Info.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>^ResourceRules.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>100</real>
 		</dict>
 	</dict>
 </dict>
