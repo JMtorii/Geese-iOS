@@ -17,10 +17,12 @@ namespace Swap.iOS
 
 		public CBCentralManagerViewController() : base( "CBCentralManagerViewController", null )
 		{
+			Console.WriteLine( "CBCentralManagerViewController constructor" );
 		}
 
 		public override void DidReceiveMemoryWarning()
 		{
+			Console.WriteLine( "CBCentralManagerViewController:DidReceiveMemoryWarning" );
 			// Releases the view if it doesn't have a superview.
 			base.DidReceiveMemoryWarning();
 			
@@ -29,6 +31,7 @@ namespace Swap.iOS
 
 		public override void ViewDidLoad()
 		{
+			Console.WriteLine( "CBCentralManagerViewController:ViewDidLoad" );
 			base.ViewDidLoad();
 			
 			// Perform any additional setup after loading the view, typically from a nib.
@@ -42,6 +45,7 @@ namespace Swap.iOS
 
 		public override void ViewWillDisappear( bool animated )
 		{
+			Console.WriteLine( "CBCentralManagerViewController:ViewWillDisappear" );
 			centralManager.StopScan();
 			Console.WriteLine( "Scanning stopped" );
 			base.ViewWillDisappear( animated );	
@@ -49,6 +53,7 @@ namespace Swap.iOS
 
 		public static void cleanup()
 		{
+			Console.WriteLine( "CBCentralManagerViewController:cleanup" );
 			// See if we are subscribed to a characteristic on the peripheral
 			if ( discoveredPeripheral.Services != null ) {
 				foreach ( CBService service in discoveredPeripheral.Services ) {
@@ -72,6 +77,7 @@ namespace Swap.iOS
 		{
 			public override void UpdatedState (CBCentralManager central)
 			{
+				Console.WriteLine( "CBCentralManagerViewController:SampleCBCentralManagerDelegate:UpdatedState" );
 				if ( central.State != CBCentralManagerState.PoweredOn ) {
 					return;
 				}
@@ -85,6 +91,7 @@ namespace Swap.iOS
 
 			public override void DiscoveredPeripheral( CBCentralManager central, CBPeripheral peripheral, NSDictionary advertisementData, NSNumber RSSI )
 			{
+				Console.WriteLine( "CBCentralManagerViewController:SampleCBCentralManagerDelegate:DiscoveredPeripheral" );
 				Console.WriteLine( "Discovered {0} at {1}", peripheral.Name, RSSI );
 
 				if ( discoveredPeripheral != peripheral ) {
@@ -100,12 +107,14 @@ namespace Swap.iOS
 
 			public override void FailedToConnectPeripheral( CBCentralManager central, CBPeripheral peripheral, NSError error )
 			{
+				Console.WriteLine( "CBCentralManagerViewController:SampleCBCentralManagerDelegate:FailedToConnectPeripheral" );
 				Console.WriteLine( "Failed to connect" );
 				cleanup();
 			}
 
 			public override void ConnectedPeripheral( CBCentralManager central, CBPeripheral peripheral )
 			{
+				Console.WriteLine( "CBCentralManagerViewController:SampleCBCentralManagerDelegate:ConnectedPeripheral" );
 				Console.WriteLine( "Connected" );
 
 				centralManager.StopScan();
@@ -124,6 +133,7 @@ namespace Swap.iOS
 		[ Export( "peripheral:didDiscoverCharacteristicsForService:error:" ) ]
 		public void DiscoverCharacteristic( CBPeripheral peripheral, CBService service, NSError error )
 		{
+			Console.WriteLine( "CBCentralManagerViewController:DiscoverCharacteristic" );
 			if ( error != null ) {
 				cleanup();
 				return;
@@ -139,6 +149,7 @@ namespace Swap.iOS
 		[ Export ( "peripheral:didUpdateValueForCharacteristic:error:" ) ]
 		public void UpdatedCharacterteristicValue( CBPeripheral peripheral, CBCharacteristic characteristic, NSError error )
 		{
+			Console.WriteLine( "CBCentralManagerViewController:UpdatedCharacteristicValue" );
 			if ( error != null ) {
 				Console.WriteLine( "Error" );
 				return;

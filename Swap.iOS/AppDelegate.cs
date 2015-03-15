@@ -14,17 +14,35 @@ namespace Swap.iOS
 	public partial class AppDelegate : UIApplicationDelegate
 	{
 		UIWindow window;
-		public static UIStoryboard Storyboard = UIStoryboard.FromName ("MainStoryboard", null);
-		public static UIViewController initialViewController;
+//		public static UIStoryboard Storyboard = UIStoryboard.FromName ("MainStoryboard", null);
+//		public static UIViewController initialViewController;
+	
 
 		public override bool FinishedLaunching (UIApplication app, NSDictionary options)
 		{
-			window = new UIWindow (UIScreen.MainScreen.Bounds);
+			Console.WriteLine( "AppDelegate:FinishedLaunching" );
+//			window = new UIWindow (UIScreen.MainScreen.Bounds);
+//
+//			initialViewController = Storyboard.InstantiateInitialViewController () as UIViewController;
+//
+//			window.RootViewController = initialViewController;
+//			window.MakeKeyAndVisible ();
+//			return true;
 
-			initialViewController = Storyboard.InstantiateInitialViewController () as UIViewController;
+			this.window = new UIWindow (UIScreen.MainScreen.Bounds);
 
-			window.RootViewController = initialViewController;
-			window.MakeKeyAndVisible ();
+			//---- instantiate a new navigation controller
+			var rootNavigationController = new UINavigationController();
+			//---- instantiate a new home screen
+			MainViewController mainViewController = new MainViewController();
+			//---- add the home screen to the navigation controller (it'll be the top most screen)
+			rootNavigationController.PushViewController(mainViewController, false);
+
+			//---- set the root view controller on the window. the nav controller will handle the rest
+			this.window.RootViewController = rootNavigationController;
+
+			this.window.MakeKeyAndVisible ();
+
 			return true;
 		}
 

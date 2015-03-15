@@ -1,0 +1,258 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0F74E800000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0818600000000000000000 /* UIKit.framework */; };
+		2CA5181B0000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 303624B90000000000000000 /* MapKit.framework */; };
+		1D880B300000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5698D5100000000000000000 /* Foundation.framework */; };
+		354362FC0000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38D46F9A0000000000000000 /* CoreGraphics.framework */; };
+		20BE55500000000000000000 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 244F61EE0000000000000000 /* Default-568h@2x.png */; };
+		35F1BDE80000000000000000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3982CA860000000000000000 /* Info.plist */; };
+		241C7ED20000000000000000 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27AD8B700000000000000000 /* Entitlements.plist */; };
+		AF2436400000000000000000 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E83500200000000000000000 /* MainViewController.xib */; };
+		3C7B2DD00000000000000000 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3A6E0000000000000000000 /* MainStoryboard.storyboard */; };
+		2532EA3F0000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 28C3F6DD0000000000000000 /* AppDelegate.h */; };
+		33780D400000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C88D7200000000000000000 /* AppDelegate.m */; };
+		3DC47C590000000000000000 /* MainViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 15588F700000000000000000 /* MainViewController.h */; };
+		34C06B400000000000000000 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 385177DE0000000000000000 /* MainViewController.m */; };
+		1115ED140000000000000000 /* CBCentralManagerViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 14A6F9B20000000000000000 /* CBCentralManagerViewController.h */; };
+		180523340000000000000000 /* CBCentralManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B962FD20000000000000000 /* CBCentralManagerViewController.m */; };
+		16232B570000000000000000 /* CBPeripheralViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 19B437F50000000000000000 /* CBPeripheralViewController.h */; };
+		179F5CFC0000000000000000 /* CBPeripheralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B30699A0000000000000000 /* CBPeripheralViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		30510BF40000000000000000 /* Swap.iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Swap.iOS.app"; path = "Swap.iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA0818600000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		303624B90000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MapKit.framework"; path = "System/Library/Frameworks/MapKit.framework"; sourceTree = SDKROOT; };
+		5698D5100000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		38D46F9A0000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		244F61EE0000000000000000 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3982CA860000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info.plist"; path = "Info.plist"; sourceTree = "<group>"; };
+		27AD8B700000000000000000 /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Entitlements.plist"; path = "Entitlements.plist"; sourceTree = "<group>"; };
+		E83500200000000000000000 /* MainViewController.xib */ = {isa = PBXFileReference; name = "MainViewController.xib"; path = "Pages/MainViewController.xib"; sourceTree = "<group>"; };
+		C3A6E0000000000000000000 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "MainStoryboard.storyboard"; path = "Pages/MainStoryboard.storyboard"; sourceTree = "<group>"; };
+		28C3F6DD0000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		6C88D7200000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+		15588F700000000000000000 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MainViewController.h"; path = "MainViewController.h"; sourceTree = "<group>"; };
+		385177DE0000000000000000 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "MainViewController.m"; path = "MainViewController.m"; sourceTree = "<group>"; };
+		14A6F9B20000000000000000 /* CBCentralManagerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CBCentralManagerViewController.h"; path = "CBCentralManagerViewController.h"; sourceTree = "<group>"; };
+		1B962FD20000000000000000 /* CBCentralManagerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CBCentralManagerViewController.m"; path = "CBCentralManagerViewController.m"; sourceTree = "<group>"; };
+		19B437F50000000000000000 /* CBPeripheralViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CBPeripheralViewController.h"; path = "CBPeripheralViewController.h"; sourceTree = "<group>"; };
+		1B30699A0000000000000000 /* CBPeripheralViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CBPeripheralViewController.m"; path = "CBPeripheralViewController.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EC821880000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0F74E800000000000000000 /* UIKit.framework in Frameworks */,
+				2CA5181B0000000000000000 /* MapKit.framework in Frameworks */,
+				1D880B300000000000000000 /* Foundation.framework in Frameworks */,
+				354362FC0000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EE193160000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				97B476200000000000000000 /* Swap.iOS */,
+				2994B8F00000000000000000 /* Frameworks */,
+				142E6D3C0000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		142E6D3C0000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30510BF40000000000000000 /* Swap.iOS.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		2994B8F00000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA0818600000000000000000 /* UIKit.framework */,
+				303624B90000000000000000 /* MapKit.framework */,
+				5698D5100000000000000000 /* Foundation.framework */,
+				38D46F9A0000000000000000 /* CoreGraphics.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		97B476200000000000000000 /* Swap.iOS */ = {
+			isa = PBXGroup;
+			children = (
+				28C3F6DD0000000000000000 /* AppDelegate.h */,
+				14A6F9B20000000000000000 /* CBCentralManagerViewController.h */,
+				19B437F50000000000000000 /* CBPeripheralViewController.h */,
+				244F61EE0000000000000000 /* Default-568h@2x.png */,
+				27AD8B700000000000000000 /* Entitlements.plist */,
+				3982CA860000000000000000 /* Info.plist */,
+				15588F700000000000000000 /* MainViewController.h */,
+				23E99BB60000000000000000 /* Pages */,
+				3A6652D70000000000000000 /* Supporting Files */,
+			);
+			name = "Swap.iOS";
+			sourceTree = "<group>";
+		};
+		23E99BB60000000000000000 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				C3A6E0000000000000000000 /* MainStoryboard.storyboard */,
+				E83500200000000000000000 /* MainViewController.xib */,
+			);
+			name = "Pages";
+			sourceTree = "<group>";
+		};
+		3A6652D70000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C88D7200000000000000000 /* AppDelegate.m */,
+				1B962FD20000000000000000 /* CBCentralManagerViewController.m */,
+				1B30699A0000000000000000 /* CBPeripheralViewController.m */,
+				385177DE0000000000000000 /* MainViewController.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FEB45BC0000000000000000 /* Swap.iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 259DE61A0000000000000000 /* Build configuration list for PBXNativeTarget "Swap.iOS" */;
+			buildPhases = (
+				2CF2E2720000000000000000 /* Sources */,
+				3EC821880000000000000000 /* Frameworks */,
+				15DD81FD0000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swap.iOS";
+			productName = "Swap.iOS";
+			productReference = 30510BF40000000000000000 /* Swap.iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25381FE20000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1AEAC0400000000000000000 /* Build configuration list for PBXProject "Swap.iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1EE193160000000000000000;
+			productRefGroup = 142E6D3C0000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FEB45BC0000000000000000 /* Swap.iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15DD81FD0000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20BE55500000000000000000 /* Default-568h@2x.png in Resources */,
+				35F1BDE80000000000000000 /* Info.plist in Resources */,
+				241C7ED20000000000000000 /* Entitlements.plist in Resources */,
+				AF2436400000000000000000 /* MainViewController.xib in Resources */,
+				3C7B2DD00000000000000000 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CF2E2720000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2532EA3F0000000000000000 /* AppDelegate.h in Sources */,
+				33780D400000000000000000 /* AppDelegate.m in Sources */,
+				3DC47C590000000000000000 /* MainViewController.h in Sources */,
+				34C06B400000000000000000 /* MainViewController.m in Sources */,
+				1115ED140000000000000000 /* CBCentralManagerViewController.h in Sources */,
+				180523340000000000000000 /* CBCentralManagerViewController.m in Sources */,
+				16232B570000000000000000 /* CBPeripheralViewController.h in Sources */,
+				179F5CFC0000000000000000 /* CBPeripheralViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		117011000000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = MonoTouch;
+		};
+		10379A660000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "Swap.iOS";
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AEAC0400000000000000000 /* Build configuration list for PBXProject "Swap.iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				117011000000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+		259DE61A0000000000000000 /* Build configuration list for PBXNativeTarget "Swap.iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10379A660000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25381FE20000000000000000 /* Project object */;
+}

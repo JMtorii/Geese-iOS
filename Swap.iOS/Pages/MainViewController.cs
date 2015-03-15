@@ -9,8 +9,12 @@ namespace Swap.iOS
 {
 	public partial class MainViewController : UIViewController
 	{
+		CBCentralManagerViewController centralManagerVC;
+		CBPeripheralViewController peripheralVC;
+
 		public MainViewController () : base ("MainViewController", null)
 		{
+			Console.WriteLine( "MainViewController constructor" );
 		}
 
 		public override void DidReceiveMemoryWarning ()
@@ -23,9 +27,16 @@ namespace Swap.iOS
 
 		public override void ViewDidLoad ()
 		{
+			Console.WriteLine( "MainViewController: ViewDidLoad" );
 			base.ViewDidLoad ();
-			
-			// Perform any additional setup after loading the view, typically from a nib.
+
+			this.centralManagerButton.TouchUpInside += (sender, e) => {
+				//---- instantiate a new hello world screen, if it's null (it may not be null if they've navigated
+				// backwards from it
+				if(this.centralManagerVC == null) { this.centralManagerVC = new CBCentralManagerViewController(); }
+				//---- push our hello world screen onto the navigation controller and pass a true so it navigates
+				this.NavigationController.PushViewController(this.centralManagerVC, true);
+			};
 		}
 	}
 }

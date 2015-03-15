@@ -121,6 +121,7 @@
     <Folder Include="Helpers\" />
   </ItemGroup>
   <ItemGroup>
-    <InterfaceDefinition Include="Pages\MainStoryboard.storyboard" />
+    <InterfaceDefinition Include="Pages\MainViewController.xib" />
+    <InterfaceDefinition Include="Resources\Pages\MainStoryboard.storyboard" />
   </ItemGroup>
 </Project>

@@ -241,6 +241,11 @@ _Swap_iOS_CBCentralManagerViewController__ctor:
 	.byte 1,16,159,231,0,0,157,229,0,32,160,227
 bl _p_7
 
+	.byte 0,0,159,229,0,0,0,234
+	.long _mono_aot_Swap_iOS_got - . + 36
+	.byte 0,0,159,231
+bl _p_10
+
 	.byte 12,208,141,226,0,1,189,232,128,128,189,232
 
 Lme_9:
@@ -249,7 +254,12 @@ Lme_9:
 	.no_dead_strip _Swap_iOS_CBCentralManagerViewController_DidReceiveMemoryWarning
 _Swap_iOS_CBCentralManagerViewController_DidReceiveMemoryWarning:
 
-	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229
+	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,159,229,0,0,0,234
+	.long _mono_aot_Swap_iOS_got - . + 40
+	.byte 0,0,159,231
+bl _p_10
+
+	.byte 0,0,157,229
 bl _p_8
 
 	.byte 12,208,141,226,0,1,189,232,128,128,189,232
@@ -260,11 +270,16 @@ Lme_a:
 	.no_dead_strip _Swap_iOS_CBCentralManagerViewController_ViewDidLoad
 _Swap_iOS_CBCentralManagerViewController_ViewDidLoad:
 
-	.byte 128,64,45,233,13,112,160,225,0,5,45,233,16,208,77,226,0,160,160,225,10,0,160,225
+	.byte 128,64,45,233,13,112,160,225,0,5,45,233,16,208,77,226,0,160,160,225,0,0,159,229,0,0,0,234
+	.long _mono_aot_Swap_iOS_got - . + 44
+	.byte 0,0,159,231
+bl _p_10
+
+	.byte 10,0,160,225
 bl _p_9
 
 	.byte 0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 36
+	.long _mono_aot_Swap_iOS_got - . + 48
 	.byte 0,0,159,231
 bl _p_4
 
@@ -272,25 +287,25 @@ bl _p_4
 bl _Swap_iOS_CBCentralManagerViewController_SampleCBCentralManagerDelegate__ctor
 
 	.byte 12,0,157,229,24,0,138,229,8,0,141,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 40
+	.long _mono_aot_Swap_iOS_got - . + 52
 	.byte 0,0,159,231
 bl _p_4
 
 	.byte 8,16,157,229,4,0,141,229,0,32,160,227
-bl _p_10
+bl _p_11
 
 	.byte 4,16,157,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 44
+	.long _mono_aot_Swap_iOS_got - . + 56
 	.byte 0,0,159,231,0,16,128,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 48
+	.long _mono_aot_Swap_iOS_got - . + 60
 	.byte 0,0,159,231
 bl _p_4
 
 	.byte 0,0,141,229
-bl _p_11
+bl _p_12
 
 	.byte 0,16,157,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 52
+	.long _mono_aot_Swap_iOS_got - . + 64
 	.byte 0,0,159,231,0,16,128,229,16,208,141,226,0,5,189,232,128,128,189,232
 
 Lme_b:
@@ -300,11 +315,16 @@ Lme_b:
 _Swap_iOS_CBCentralManagerViewController_ViewWillDisappear_bool:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,16,205,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 44
-	.byte 0,0,159,231,0,16,144,229,1,0,160,225,0,16,145,229,15,224,160,225,212,240,145,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 56
+	.long _mono_aot_Swap_iOS_got - . + 68
 	.byte 0,0,159,231
-bl _p_12
+bl _p_10
+
+	.byte 0,0,159,229,0,0,0,234
+	.long _mono_aot_Swap_iOS_got - . + 56
+	.byte 0,0,159,231,0,16,144,229,1,0,160,225,0,16,145,229,15,224,160,225,212,240,145,229,0,0,159,229,0,0,0,234
+	.long _mono_aot_Swap_iOS_got - . + 72
+	.byte 0,0,159,231
+bl _p_10
 
 	.byte 0,0,157,229,4,16,221,229
 bl _p_13
@@ -318,30 +338,35 @@ Lme_c:
 _Swap_iOS_CBCentralManagerViewController_cleanup:
 
 	.byte 128,64,45,233,13,112,160,225,112,13,45,233,16,208,77,226,0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 60
+	.long _mono_aot_Swap_iOS_got - . + 76
+	.byte 0,0,159,231
+bl _p_10
+
+	.byte 0,0,159,229,0,0,0,234
+	.long _mono_aot_Swap_iOS_got - . + 80
 	.byte 0,0,159,231,0,16,144,229,1,0,160,225,0,16,145,229,15,224,160,225,208,240,145,229,0,0,80,227,87,0,0,10
 	.byte 0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 60
+	.long _mono_aot_Swap_iOS_got - . + 80
 	.byte 0,0,159,231,0,16,144,229,1,0,160,225,0,16,145,229,15,224,160,225,208,240,145,229,0,96,160,225,0,80,160,227
 	.byte 72,0,0,234,12,0,150,229,5,0,80,225,89,0,0,155,5,1,160,225,0,0,134,224,16,0,128,226,0,160,144,229
 	.byte 10,16,160,225,1,0,160,225,0,16,145,229,15,224,160,225,212,240,145,229,0,0,80,227,57,0,0,10,10,0,160,225
 	.byte 0,16,154,229,15,224,160,225,212,240,145,229,0,176,160,225,0,64,160,227,47,0,0,234,12,0,155,229,4,0,80,225
 	.byte 68,0,0,155,4,1,160,225,0,0,139,224,16,0,128,226,0,16,144,229,0,16,141,229,1,0,160,225,0,16,145,229
 	.byte 15,224,160,225,204,240,145,229,8,0,141,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 64
+	.long _mono_aot_Swap_iOS_got - . + 84
 	.byte 0,0,159,231
 bl _p_14
 
 	.byte 0,16,160,225,8,32,157,229,2,0,160,225,0,32,146,229,15,224,160,225,184,240,146,229,255,0,0,226,0,0,80,227
 	.byte 19,0,0,10,0,0,157,229,0,16,160,225,0,16,145,229,15,224,160,225,212,240,145,229,255,0,0,226,0,0,80,227
 	.byte 11,0,0,10,0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 60
+	.long _mono_aot_Swap_iOS_got - . + 80
 	.byte 0,0,159,231,0,48,144,229,3,0,160,225,0,16,160,227,0,32,157,229,0,48,147,229,15,224,160,225,216,240,147,229
 	.byte 21,0,0,234,1,64,132,226,12,0,155,229,0,0,84,225,204,255,255,186,1,80,133,226,12,0,150,229,0,0,85,225
 	.byte 179,255,255,186,0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 44
+	.long _mono_aot_Swap_iOS_got - . + 56
 	.byte 0,0,159,231,0,32,144,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 60
+	.long _mono_aot_Swap_iOS_got - . + 80
 	.byte 0,0,159,231,0,16,144,229,2,0,160,225,0,32,146,229,15,224,160,225,224,240,146,229,16,208,141,226,112,13,189,232
 	.byte 128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_15
@@ -355,13 +380,18 @@ Lme_d:
 _Swap_iOS_CBCentralManagerViewController_DiscoverCharacteristic_MonoTouch_CoreBluetooth_CBPeripheral_MonoTouch_CoreBluetooth_CBService_MonoTouch_Foundation_NSError:
 
 	.byte 128,64,45,233,13,112,160,225,48,9,45,233,24,208,77,226,0,0,141,229,4,16,141,229,8,32,141,229,12,48,141,229
+	.byte 0,0,159,229,0,0,0,234
+	.long _mono_aot_Swap_iOS_got - . + 88
+	.byte 0,0,159,231
+bl _p_10
+
 	.byte 12,0,157,229,0,0,80,227,1,0,0,10
 bl _p_16
 
 	.byte 45,0,0,234,8,0,157,229,0,16,160,225,0,16,145,229,15,224,160,225,212,240,145,229,0,176,160,225,0,80,160,227
 	.byte 34,0,0,234,12,0,155,229,5,0,80,225,37,0,0,155,5,1,160,225,0,0,139,224,16,0,128,226,0,64,144,229
 	.byte 4,16,160,225,1,0,160,225,0,16,145,229,15,224,160,225,204,240,145,229,16,0,141,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 64
+	.long _mono_aot_Swap_iOS_got - . + 84
 	.byte 0,0,159,231
 bl _p_14
 
@@ -380,13 +410,18 @@ Lme_e:
 _Swap_iOS_CBCentralManagerViewController_UpdatedCharacterteristicValue_MonoTouch_CoreBluetooth_CBPeripheral_MonoTouch_CoreBluetooth_CBCharacteristic_MonoTouch_Foundation_NSError:
 
 	.byte 128,64,45,233,13,112,160,225,96,1,45,233,36,208,77,226,4,0,141,229,1,80,160,225,2,96,160,225,8,48,141,229
-	.byte 8,0,157,229,0,0,80,227,5,0,0,10,0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 68
+	.byte 0,0,159,229,0,0,0,234
+	.long _mono_aot_Swap_iOS_got - . + 92
 	.byte 0,0,159,231
-bl _p_12
+bl _p_10
+
+	.byte 8,0,157,229,0,0,80,227,5,0,0,10,0,0,159,229,0,0,0,234
+	.long _mono_aot_Swap_iOS_got - . + 96
+	.byte 0,0,159,231
+bl _p_10
 
 	.byte 82,0,0,234,6,0,160,225,0,16,150,229,15,224,160,225,208,240,145,229,20,0,141,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 72
+	.long _mono_aot_Swap_iOS_got - . + 100
 	.byte 0,0,159,231
 bl _p_4
 
@@ -397,14 +432,14 @@ bl _p_17
 bl _p_18
 
 	.byte 0,16,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 76
+	.long _mono_aot_Swap_iOS_got - . + 104
 	.byte 1,16,159,231
 bl _p_19
 
 	.byte 255,0,0,226,0,0,80,227,41,0,0,10,4,0,157,229,28,0,144,229,16,0,141,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 52
+	.long _mono_aot_Swap_iOS_got - . + 64
 	.byte 0,0,159,231,0,0,144,229,24,0,141,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 72
+	.long _mono_aot_Swap_iOS_got - . + 100
 	.byte 0,0,159,231
 bl _p_4
 
@@ -416,10 +451,10 @@ bl _p_18
 
 	.byte 0,16,160,225,16,32,157,229,2,0,160,225,0,32,146,229,15,224,160,225,244,241,146,229,5,0,160,225,0,16,160,227
 	.byte 6,32,160,225,0,48,149,229,15,224,160,225,216,240,147,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 44
+	.long _mono_aot_Swap_iOS_got - . + 56
 	.byte 0,0,159,231,0,32,144,229,2,0,160,225,5,16,160,225,0,32,146,229,15,224,160,225,224,240,146,229,0,0,159,229
 	.byte 0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 52
+	.long _mono_aot_Swap_iOS_got - . + 64
 	.byte 0,0,159,231,0,0,144,229,16,0,141,229,6,0,160,225,0,16,150,229,15,224,160,225,208,240,145,229,0,16,160,225
 	.byte 16,32,157,229,2,0,160,225,0,32,146,229,15,224,160,225,220,240,146,229,36,208,141,226,96,1,189,232,128,128,189,232
 
@@ -470,12 +505,16 @@ Lme_13:
 	.no_dead_strip _Swap_iOS_CBCentralManagerViewController_SampleCBCentralManagerDelegate_UpdatedState_MonoTouch_CoreBluetooth_CBCentralManager
 _Swap_iOS_CBCentralManagerViewController_SampleCBCentralManagerDelegate_UpdatedState_MonoTouch_CoreBluetooth_CBCentralManager:
 
-	.byte 128,64,45,233,13,112,160,225,0,5,45,233,16,208,77,226,0,0,141,229,1,160,160,225,10,0,160,225,0,16,154,229
-	.byte 15,224,160,225,208,240,145,229,5,0,80,227,26,0,0,26,10,0,160,225,0,16,154,229,15,224,160,225,208,240,145,229
-	.byte 5,0,80,227,20,0,0,26,0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 44
+	.byte 128,64,45,233,13,112,160,225,0,5,45,233,16,208,77,226,0,0,141,229,1,160,160,225,0,0,159,229,0,0,0,234
+	.long _mono_aot_Swap_iOS_got - . + 108
+	.byte 0,0,159,231
+bl _p_10
+
+	.byte 10,0,160,225,0,16,154,229,15,224,160,225,208,240,145,229,5,0,80,227,26,0,0,26,10,0,160,225,0,16,154,229
+	.byte 15,224,160,225,208,240,145,229,5,0,80,227,20,0,0,26,0,0,159,229,0,0,0,234
+	.long _mono_aot_Swap_iOS_got - . + 56
 	.byte 0,0,159,231,0,0,144,229,8,0,141,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 80
+	.long _mono_aot_Swap_iOS_got - . + 112
 	.byte 0,0,159,231
 bl _p_14
 
@@ -483,9 +522,9 @@ bl _p_14
 bl _p_22
 
 	.byte 0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 84
+	.long _mono_aot_Swap_iOS_got - . + 116
 	.byte 0,0,159,231
-bl _p_12
+bl _p_10
 
 	.byte 16,208,141,226,0,5,189,232,128,128,189,232
 
@@ -497,22 +536,27 @@ _Swap_iOS_CBCentralManagerViewController_SampleCBCentralManagerDelegate_Discover
 
 	.byte 128,64,45,233,13,112,160,225,64,9,45,233,36,208,77,226,13,176,160,225,4,0,139,229,8,16,139,229,2,96,160,225
 	.byte 12,48,139,229,56,224,157,229,16,224,139,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 88
+	.long _mono_aot_Swap_iOS_got - . + 120
+	.byte 0,0,159,231
+bl _p_10
+
+	.byte 0,0,159,229,0,0,0,234
+	.long _mono_aot_Swap_iOS_got - . + 124
 	.byte 0,0,159,231,24,0,139,229,6,0,160,225,0,16,150,229,15,224,160,225,212,240,145,229,0,16,160,225,24,0,155,229
 	.byte 16,32,155,229
 bl _p_23
 
 	.byte 0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 60
+	.long _mono_aot_Swap_iOS_got - . + 80
 	.byte 0,0,159,231,0,0,144,229,6,0,80,225,23,0,0,10,0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 60
+	.long _mono_aot_Swap_iOS_got - . + 80
 	.byte 0,0,159,231,0,96,128,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 92
+	.long _mono_aot_Swap_iOS_got - . + 128
 	.byte 0,0,159,231,6,16,160,225
 bl _p_24
 
 	.byte 0,0,160,227,0,0,139,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 44
+	.long _mono_aot_Swap_iOS_got - . + 56
 	.byte 0,0,159,231,0,48,144,229,3,0,160,225,6,16,160,225,0,32,160,227,0,48,147,229,15,224,160,225,220,240,147,229
 	.byte 36,208,139,226,64,9,189,232,128,128,189,232
 
@@ -524,9 +568,14 @@ _Swap_iOS_CBCentralManagerViewController_SampleCBCentralManagerDelegate_FailedTo
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,20,208,77,226,0,0,141,229,4,16,141,229,8,32,141,229,12,48,141,229
 	.byte 0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 96
+	.long _mono_aot_Swap_iOS_got - . + 132
 	.byte 0,0,159,231
-bl _p_12
+bl _p_10
+
+	.byte 0,0,159,229,0,0,0,234
+	.long _mono_aot_Swap_iOS_got - . + 136
+	.byte 0,0,159,231
+bl _p_10
 bl _p_16
 
 	.byte 20,208,141,226,0,1,189,232,128,128,189,232
@@ -539,27 +588,32 @@ _Swap_iOS_CBCentralManagerViewController_SampleCBCentralManagerDelegate_Connecte
 
 	.byte 128,64,45,233,13,112,160,225,0,5,45,233,16,208,77,226,0,0,141,229,4,16,141,229,2,160,160,225,0,0,159,229
 	.byte 0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 100
+	.long _mono_aot_Swap_iOS_got - . + 140
 	.byte 0,0,159,231
-bl _p_12
+bl _p_10
 
 	.byte 0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 44
-	.byte 0,0,159,231,0,16,144,229,1,0,160,225,0,16,145,229,15,224,160,225,212,240,145,229,0,0,159,229,0,0,0,234
+	.long _mono_aot_Swap_iOS_got - . + 144
+	.byte 0,0,159,231
+bl _p_10
+
+	.byte 0,0,159,229,0,0,0,234
 	.long _mono_aot_Swap_iOS_got - . + 56
+	.byte 0,0,159,231,0,16,144,229,1,0,160,225,0,16,145,229,15,224,160,225,212,240,145,229,0,0,159,229,0,0,0,234
+	.long _mono_aot_Swap_iOS_got - . + 72
 	.byte 0,0,159,231
-bl _p_12
+bl _p_10
 
 	.byte 0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 52
+	.long _mono_aot_Swap_iOS_got - . + 64
 	.byte 0,0,159,231,0,32,144,229,2,0,160,225,0,16,160,227,0,32,146,229,15,224,160,225,208,240,146,229,10,0,160,225
 	.byte 0,16,157,229,0,32,154,229,15,224,160,225,204,240,146,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 104
+	.long _mono_aot_Swap_iOS_got - . + 148
 	.byte 0,0,159,231,1,16,160,227
 bl _p_25
 
 	.byte 12,0,141,229,8,0,141,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 64
+	.long _mono_aot_Swap_iOS_got - . + 84
 	.byte 0,0,159,231
 bl _p_14
 
@@ -576,7 +630,7 @@ Lme_17:
 _Swap_iOS_CBPeripheralViewController__ctor:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,16,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 108
+	.long _mono_aot_Swap_iOS_got - . + 152
 	.byte 1,16,159,231,0,0,157,229,0,32,160,227
 bl _p_7
 
@@ -603,7 +657,7 @@ _Swap_iOS_CBPeripheralViewController_ViewDidLoad:
 bl _p_9
 
 	.byte 0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 112
+	.long _mono_aot_Swap_iOS_got - . + 156
 	.byte 0,0,159,231
 bl _p_4
 
@@ -611,7 +665,7 @@ bl _p_4
 bl _Swap_iOS_CBPeripheralViewController_SampleCBPeripheralManagerDelegate__ctor
 
 	.byte 8,0,157,229,24,0,138,229,4,0,141,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 116
+	.long _mono_aot_Swap_iOS_got - . + 160
 	.byte 0,0,159,231
 bl _p_4
 
@@ -619,9 +673,9 @@ bl _p_4
 bl _p_27
 
 	.byte 0,16,157,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 120
+	.long _mono_aot_Swap_iOS_got - . + 164
 	.byte 0,0,159,231,0,16,128,229,28,16,154,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 124
+	.long _mono_aot_Swap_iOS_got - . + 168
 	.byte 0,0,159,231,0,16,128,229,16,208,141,226,0,5,189,232,128,128,189,232
 
 Lme_1a:
@@ -631,7 +685,7 @@ Lme_1a:
 _Swap_iOS_CBPeripheralViewController_ViewWillDisappear_bool:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,16,205,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 120
+	.long _mono_aot_Swap_iOS_got - . + 164
 	.byte 0,0,159,231,0,16,144,229,1,0,160,225,0,16,145,229,15,224,160,225,216,240,145,229,0,0,157,229,4,16,221,229
 bl _p_13
 
@@ -644,20 +698,20 @@ Lme_1b:
 _Swap_iOS_CBPeripheralViewController_sendData:
 
 	.byte 128,64,45,233,13,112,160,225,112,13,45,233,16,208,77,226,0,0,160,227,0,0,80,227,0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 128
+	.long _mono_aot_Swap_iOS_got - . + 172
 	.byte 0,0,159,231,0,0,144,229,8,0,141,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 132
+	.long _mono_aot_Swap_iOS_got - . + 176
 	.byte 0,0,159,231,0,16,144,229,1,0,160,225,0,16,145,229,15,224,160,225,212,240,145,229,0,16,160,225,8,0,157,229
 	.byte 1,0,80,225,158,0,0,170,1,0,160,227,1,0,205,229,152,0,0,234,0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 132
+	.long _mono_aot_Swap_iOS_got - . + 176
 	.byte 0,0,159,231,0,16,144,229,1,0,160,225,0,16,145,229,15,224,160,225,212,240,145,229,0,16,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 128
+	.long _mono_aot_Swap_iOS_got - . + 172
 	.byte 1,16,159,231,0,16,145,229,1,160,64,224,10,0,160,225,20,0,80,227,0,0,0,218,20,160,160,227,0,0,159,229
 	.byte 0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 132
+	.long _mono_aot_Swap_iOS_got - . + 176
 	.byte 0,0,159,231,0,16,144,229,1,0,160,225,0,16,145,229,15,224,160,225,216,240,145,229,12,0,141,229,0,0,159,229
 	.byte 0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 48
+	.long _mono_aot_Swap_iOS_got - . + 60
 	.byte 0,0,159,231
 bl _p_4
 
@@ -665,12 +719,12 @@ bl _p_4
 bl _p_28
 
 	.byte 8,0,157,229,0,96,160,225,0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 120
+	.long _mono_aot_Swap_iOS_got - . + 164
 	.byte 0,0,159,231,0,192,144,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 136
+	.long _mono_aot_Swap_iOS_got - . + 180
 	.byte 0,0,159,231,0,32,144,229,12,0,160,225,6,16,160,225,0,48,160,227,0,192,156,229,15,224,160,225,212,240,156,229
 	.byte 0,16,160,225,255,0,1,226,1,16,205,229,0,0,80,227,95,0,0,10,0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 72
+	.long _mono_aot_Swap_iOS_got - . + 100
 	.byte 0,0,159,231
 bl _p_4
 
@@ -678,35 +732,35 @@ bl _p_4
 bl _p_17
 
 	.byte 8,0,157,229,0,80,160,225,0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 140
+	.long _mono_aot_Swap_iOS_got - . + 184
 	.byte 0,0,159,231,5,16,160,225
 bl _p_24
 
 	.byte 0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 128
+	.long _mono_aot_Swap_iOS_got - . + 172
 	.byte 0,0,159,231,0,0,144,229,10,16,128,224,0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 128
+	.long _mono_aot_Swap_iOS_got - . + 172
 	.byte 0,0,159,231,0,16,128,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 128
+	.long _mono_aot_Swap_iOS_got - . + 172
 	.byte 0,0,159,231,0,80,144,229,0,0,224,227,0,0,85,225,0,0,160,227,1,0,160,195,1,96,64,226,0,0,159,229
 	.byte 0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 132
+	.long _mono_aot_Swap_iOS_got - . + 176
 	.byte 0,0,159,231,0,16,144,229,1,0,160,225,0,16,145,229,15,224,160,225,212,240,145,229,0,64,160,225,0,176,160,227
 	.byte 0,0,86,227,41,0,0,186,11,0,86,225,1,0,0,26,4,0,85,225,37,0,0,58,1,0,160,227,0,0,205,229
 	.byte 0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 120
+	.long _mono_aot_Swap_iOS_got - . + 164
 	.byte 0,0,159,231,0,0,144,229,8,0,141,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 76
+	.long _mono_aot_Swap_iOS_got - . + 104
 	.byte 0,0,159,231
 bl _p_29
 
 	.byte 0,16,160,225,8,192,157,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 136
+	.long _mono_aot_Swap_iOS_got - . + 180
 	.byte 0,0,159,231,0,32,144,229,12,0,160,225,0,48,160,227,0,192,156,229,15,224,160,225,212,240,156,229,0,16,160,225
 	.byte 255,0,1,226,2,16,205,229,0,0,80,227,10,0,0,10,0,0,160,227,0,0,205,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 144
+	.long _mono_aot_Swap_iOS_got - . + 188
 	.byte 0,0,159,231
-bl _p_12
+bl _p_10
 
 	.byte 2,0,0,234,1,0,221,229,0,0,80,227,99,255,255,26,16,208,141,226,112,13,189,232,128,128,189,232
 
@@ -771,12 +825,12 @@ _Swap_iOS_CBPeripheralViewController_SampleCBPeripheralManagerDelegate_StateUpda
 	.byte 128,64,45,233,13,112,160,225,80,13,45,233,44,208,77,226,13,176,160,225,12,0,139,229,1,160,160,225,10,0,160,225
 	.byte 0,16,154,229,15,224,160,225,208,240,145,229,5,0,80,227,114,0,0,26,10,0,160,225,0,16,154,229,15,224,160,225
 	.byte 208,240,145,229,5,0,80,227,75,0,0,26,0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 64
+	.long _mono_aot_Swap_iOS_got - . + 84
 	.byte 0,0,159,231
 bl _p_14
 
 	.byte 32,0,139,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 148
+	.long _mono_aot_Swap_iOS_got - . + 192
 	.byte 0,0,159,231
 bl _p_4
 
@@ -784,14 +838,14 @@ bl _p_4
 bl _p_32
 
 	.byte 28,16,155,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 136
+	.long _mono_aot_Swap_iOS_got - . + 180
 	.byte 0,0,159,231,0,16,128,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 80
+	.long _mono_aot_Swap_iOS_got - . + 112
 	.byte 0,0,159,231
 bl _p_14
 
 	.byte 24,0,139,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 152
+	.long _mono_aot_Swap_iOS_got - . + 196
 	.byte 0,0,159,231
 bl _p_4
 
@@ -799,18 +853,18 @@ bl _p_4
 bl _p_33
 
 	.byte 20,0,155,229,0,96,160,225,0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 156
+	.long _mono_aot_Swap_iOS_got - . + 200
 	.byte 0,0,159,231,1,16,160,227
 bl _p_25
 
 	.byte 0,48,160,225,16,0,139,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 136
+	.long _mono_aot_Swap_iOS_got - . + 180
 	.byte 0,0,159,231,0,32,144,229,3,0,160,225,0,16,160,227,0,48,147,229,15,224,160,225,68,240,147,229,16,0,155,229
 	.byte 8,0,139,229,6,0,160,225,8,16,155,229,0,32,150,229,15,224,160,225,208,240,146,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 120
+	.long _mono_aot_Swap_iOS_got - . + 164
 	.byte 0,0,159,231,0,32,144,229,2,0,160,225,6,16,160,225,0,32,146,229,15,224,160,225,224,240,146,229,0,0,159,229
 	.byte 0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 160
+	.long _mono_aot_Swap_iOS_got - . + 204
 	.byte 0,0,159,231
 bl _p_4
 
@@ -821,7 +875,7 @@ bl _p_34
 bl _p_35
 
 	.byte 16,0,139,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 80
+	.long _mono_aot_Swap_iOS_got - . + 112
 	.byte 0,0,159,231
 bl _p_14
 
@@ -829,7 +883,7 @@ bl _p_14
 bl _p_36
 
 	.byte 0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 120
+	.long _mono_aot_Swap_iOS_got - . + 164
 	.byte 0,0,159,231,0,32,144,229,2,0,160,225,4,16,160,225,0,32,146,229,15,224,160,225,220,240,146,229,44,208,139,226
 	.byte 80,13,189,232,128,128,189,232
 
@@ -841,14 +895,14 @@ _Swap_iOS_CBPeripheralViewController_SampleCBPeripheralManagerDelegate_Character
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,20,208,77,226,0,0,141,229,4,16,141,229,8,32,141,229,12,48,141,229
 	.byte 0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 124
+	.long _mono_aot_Swap_iOS_got - . + 168
 	.byte 0,0,159,231,0,16,144,229,1,0,160,225,0,16,145,229,15,224,160,225,248,241,145,229
 bl _p_37
 
 	.byte 0,16,160,225,0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 132
+	.long _mono_aot_Swap_iOS_got - . + 176
 	.byte 0,0,159,231,0,16,128,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_Swap_iOS_got - . + 128
+	.long _mono_aot_Swap_iOS_got - . + 172
 	.byte 0,0,159,231,0,16,160,227,0,16,128,229
 bl _p_30
 
@@ -920,8 +974,8 @@ method_info_offsets:
 
 	.long 37,10,4,2
 	.short 0, 10, 20, 30
-	.byte 1,2,3,3,8,5,3,2,2,2,34,2,7,4,8,3,9,2,2,2,75,5,7,3,8,3,2,6,3,20,128,134
-	.byte 2,2,2,2,13,255,255,255,255,101
+	.byte 1,2,3,3,8,5,3,2,2,2,35,3,8,5,9,4,10,2,2,2,82,6,8,4,9,3,2,6,3,20,128,145
+	.byte 2,2,2,2,13,255,255,255,255,90
 .section __TEXT, __const
 	.align 3
 extra_method_table:
@@ -950,18 +1004,18 @@ class_name_table:
 	.align 3
 got_info_offsets:
 
-	.long 44,10,5,2
-	.short 0, 11, 22, 33, 44
-	.byte 128,160,2,1,1,1,3,5,4,5,4,128,189,3,3,3,4,4,4,4,4,4,128,226,4,4,4,4,4,4,4,4
-	.byte 4,129,12,4,3,5,4,4,4,4,4,4,129,52,4,4,6
+	.long 55,10,6,2
+	.short 0, 11, 22, 33, 44, 55
+	.byte 128,171,2,1,1,1,3,5,4,5,4,128,200,3,3,4,4,4,3,4,4,4,128,237,4,4,4,4,4,4,4,4
+	.byte 4,129,21,4,4,4,4,4,4,4,4,4,129,61,6,4,3,5,4,4,4,4,4,129,103,4,4,4,6
 .section __TEXT, __const
 	.align 3
 ex_info_offsets:
 
 	.long 37,10,4,2
 	.short 0, 11, 22, 33
-	.byte 130,66,3,3,3,3,3,3,3,3,3,130,96,3,3,3,3,3,4,3,3,4,130,128,3,4,4,3,3,3,3,3
-	.byte 3,130,160,3,3,4,3,4,255,255,255,253,79
+	.byte 130,121,3,3,3,3,3,3,3,3,3,130,151,3,3,3,3,3,4,3,3,4,130,183,3,4,4,3,3,3,3,3
+	.byte 3,130,215,3,3,4,3,4,255,255,255,253,24
 .section __TEXT, __const
 	.align 3
 unwind_info:
@@ -981,7 +1035,7 @@ class_info_offsets:
 
 	.long 9,10,1,2
 	.short 0
-	.byte 130,181,7,23,128,185,128,241,128,238,128,188,128,238,128,186
+	.byte 130,236,7,23,128,185,128,241,128,238,128,188,128,238,128,186
 
 .text
 	.align 4
@@ -992,223 +1046,223 @@ plt_MonoTouch_UIKit_UIApplication_Main_string___string_string:
 _p_1:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Swap_iOS_got - . + 176,326
+	.long _mono_aot_Swap_iOS_got - . + 220,381
 	.no_dead_strip plt_MonoTouch_UIKit_UIApplicationDelegate__ctor
 plt_MonoTouch_UIKit_UIApplicationDelegate__ctor:
 _p_2:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Swap_iOS_got - . + 180,331
+	.long _mono_aot_Swap_iOS_got - . + 224,386
 	.no_dead_strip plt_MonoTouch_UIKit_UIScreen_get_MainScreen
 plt_MonoTouch_UIKit_UIScreen_get_MainScreen:
 _p_3:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Swap_iOS_got - . + 184,336
+	.long _mono_aot_Swap_iOS_got - . + 228,391
 	.no_dead_strip plt__jit_icall_mono_object_new_specific
 plt__jit_icall_mono_object_new_specific:
 _p_4:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Swap_iOS_got - . + 188,341
+	.long _mono_aot_Swap_iOS_got - . + 232,396
 	.no_dead_strip plt_MonoTouch_UIKit_UIWindow__ctor_System_Drawing_RectangleF
 plt_MonoTouch_UIKit_UIWindow__ctor_System_Drawing_RectangleF:
 _p_5:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Swap_iOS_got - . + 192,368
+	.long _mono_aot_Swap_iOS_got - . + 236,423
 	.no_dead_strip plt_MonoTouch_UIKit_UIStoryboard_FromName_string_MonoTouch_Foundation_NSBundle
 plt_MonoTouch_UIKit_UIStoryboard_FromName_string_MonoTouch_Foundation_NSBundle:
 _p_6:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Swap_iOS_got - . + 196,373
+	.long _mono_aot_Swap_iOS_got - . + 240,428
 	.no_dead_strip plt_MonoTouch_UIKit_UIViewController__ctor_string_MonoTouch_Foundation_NSBundle
 plt_MonoTouch_UIKit_UIViewController__ctor_string_MonoTouch_Foundation_NSBundle:
 _p_7:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Swap_iOS_got - . + 200,378
+	.long _mono_aot_Swap_iOS_got - . + 244,433
 	.no_dead_strip plt_MonoTouch_UIKit_UIViewController_DidReceiveMemoryWarning
 plt_MonoTouch_UIKit_UIViewController_DidReceiveMemoryWarning:
 _p_8:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Swap_iOS_got - . + 204,383
+	.long _mono_aot_Swap_iOS_got - . + 248,438
 	.no_dead_strip plt_MonoTouch_UIKit_UIViewController_ViewDidLoad
 plt_MonoTouch_UIKit_UIViewController_ViewDidLoad:
 _p_9:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Swap_iOS_got - . + 208,388
-	.no_dead_strip plt_MonoTouch_CoreBluetooth_CBCentralManager__ctor_MonoTouch_CoreBluetooth_CBCentralManagerDelegate_MonoTouch_CoreFoundation_DispatchQueue
-plt_MonoTouch_CoreBluetooth_CBCentralManager__ctor_MonoTouch_CoreBluetooth_CBCentralManagerDelegate_MonoTouch_CoreFoundation_DispatchQueue:
+	.long _mono_aot_Swap_iOS_got - . + 252,443
+	.no_dead_strip plt_System_Console_WriteLine_string
+plt_System_Console_WriteLine_string:
 _p_10:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Swap_iOS_got - . + 212,393
-	.no_dead_strip plt_MonoTouch_Foundation_NSMutableData__ctor
-plt_MonoTouch_Foundation_NSMutableData__ctor:
+	.long _mono_aot_Swap_iOS_got - . + 256,448
+	.no_dead_strip plt_MonoTouch_CoreBluetooth_CBCentralManager__ctor_MonoTouch_CoreBluetooth_CBCentralManagerDelegate_MonoTouch_CoreFoundation_DispatchQueue
+plt_MonoTouch_CoreBluetooth_CBCentralManager__ctor_MonoTouch_CoreBluetooth_CBCentralManagerDelegate_MonoTouch_CoreFoundation_DispatchQueue:
 _p_11:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Swap_iOS_got - . + 216,398
-	.no_dead_strip plt_System_Console_WriteLine_string
-plt_System_Console_WriteLine_string:
+	.long _mono_aot_Swap_iOS_got - . + 260,453
+	.no_dead_strip plt_MonoTouch_Foundation_NSMutableData__ctor
+plt_MonoTouch_Foundation_NSMutableData__ctor:
 _p_12:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Swap_iOS_got - . + 220,403
+	.long _mono_aot_Swap_iOS_got - . + 264,458
 	.no_dead_strip plt_MonoTouch_UIKit_UIViewController_ViewWillDisappear_bool
 plt_MonoTouch_UIKit_UIViewController_ViewWillDisappear_bool:
 _p_13:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Swap_iOS_got - . + 224,408
+	.long _mono_aot_Swap_iOS_got - . + 268,463
 	.no_dead_strip plt_MonoTouch_CoreBluetooth_CBUUID_FromString_string
 plt_MonoTouch_CoreBluetooth_CBUUID_FromString_string:
 _p_14:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Swap_iOS_got - . + 228,413
+	.long _mono_aot_Swap_iOS_got - . + 272,468
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_15:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Swap_iOS_got - . + 232,418
+	.long _mono_aot_Swap_iOS_got - . + 276,473
 	.no_dead_strip plt_Swap_iOS_CBCentralManagerViewController_cleanup
 plt_Swap_iOS_CBCentralManagerViewController_cleanup:
 _p_16:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Swap_iOS_got - . + 236,453
+	.long _mono_aot_Swap_iOS_got - . + 280,508
 	.no_dead_strip plt_MonoTouch_Foundation_NSString__ctor_MonoTouch_Foundation_NSData_MonoTouch_Foundation_NSStringEncoding
 plt_MonoTouch_Foundation_NSString__ctor_MonoTouch_Foundation_NSData_MonoTouch_Foundation_NSStringEncoding:
 _p_17:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Swap_iOS_got - . + 240,455
+	.long _mono_aot_Swap_iOS_got - . + 284,510
 	.no_dead_strip plt_MonoTouch_Foundation_NSString_op_Implicit_MonoTouch_Foundation_NSString
 plt_MonoTouch_Foundation_NSString_op_Implicit_MonoTouch_Foundation_NSString:
 _p_18:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Swap_iOS_got - . + 244,460
+	.long _mono_aot_Swap_iOS_got - . + 288,515
 	.no_dead_strip plt_string_op_Equality_string_string
 plt_string_op_Equality_string_string:
 _p_19:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Swap_iOS_got - . + 248,465
+	.long _mono_aot_Swap_iOS_got - . + 292,520
 	.no_dead_strip plt_MonoTouch_Foundation_NSObject_Dispose
 plt_MonoTouch_Foundation_NSObject_Dispose:
 _p_20:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Swap_iOS_got - . + 252,470
+	.long _mono_aot_Swap_iOS_got - . + 296,525
 	.no_dead_strip plt_MonoTouch_CoreBluetooth_CBCentralManagerDelegate__ctor
 plt_MonoTouch_CoreBluetooth_CBCentralManagerDelegate__ctor:
 _p_21:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Swap_iOS_got - . + 256,475
+	.long _mono_aot_Swap_iOS_got - . + 300,530
 	.no_dead_strip plt_MonoTouch_CoreBluetooth_CBCentralManager_ScanForPeripherals_MonoTouch_CoreBluetooth_CBUUID
 plt_MonoTouch_CoreBluetooth_CBCentralManager_ScanForPeripherals_MonoTouch_CoreBluetooth_CBUUID:
 _p_22:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Swap_iOS_got - . + 260,480
+	.long _mono_aot_Swap_iOS_got - . + 304,535
 	.no_dead_strip plt_System_Console_WriteLine_string_object_object
 plt_System_Console_WriteLine_string_object_object:
 _p_23:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Swap_iOS_got - . + 264,485
+	.long _mono_aot_Swap_iOS_got - . + 308,540
 	.no_dead_strip plt_System_Console_WriteLine_string_object
 plt_System_Console_WriteLine_string_object:
 _p_24:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Swap_iOS_got - . + 268,490
+	.long _mono_aot_Swap_iOS_got - . + 312,545
 	.no_dead_strip plt__jit_icall_mono_array_new_specific
 plt__jit_icall_mono_array_new_specific:
 _p_25:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Swap_iOS_got - . + 272,495
+	.long _mono_aot_Swap_iOS_got - . + 316,550
 	.no_dead_strip plt_MonoTouch_CoreBluetooth_CBPeripheral_DiscoverServices_MonoTouch_CoreBluetooth_CBUUID__
 plt_MonoTouch_CoreBluetooth_CBPeripheral_DiscoverServices_MonoTouch_CoreBluetooth_CBUUID__:
 _p_26:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Swap_iOS_got - . + 276,521
+	.long _mono_aot_Swap_iOS_got - . + 320,576
 	.no_dead_strip plt_MonoTouch_CoreBluetooth_CBPeripheralManager__ctor_MonoTouch_CoreBluetooth_CBPeripheralManagerDelegate_MonoTouch_CoreFoundation_DispatchQueue
 plt_MonoTouch_CoreBluetooth_CBPeripheralManager__ctor_MonoTouch_CoreBluetooth_CBPeripheralManagerDelegate_MonoTouch_CoreFoundation_DispatchQueue:
 _p_27:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Swap_iOS_got - . + 280,526
+	.long _mono_aot_Swap_iOS_got - . + 324,581
 	.no_dead_strip plt_MonoTouch_Foundation_NSMutableData__ctor_intptr
 plt_MonoTouch_Foundation_NSMutableData__ctor_intptr:
 _p_28:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Swap_iOS_got - . + 284,531
+	.long _mono_aot_Swap_iOS_got - . + 328,586
 	.no_dead_strip plt_MonoTouch_Foundation_NSData_op_Implicit_string
 plt_MonoTouch_Foundation_NSData_op_Implicit_string:
 _p_29:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Swap_iOS_got - . + 288,536
+	.long _mono_aot_Swap_iOS_got - . + 332,591
 	.no_dead_strip plt_Swap_iOS_CBPeripheralViewController_sendData
 plt_Swap_iOS_CBPeripheralViewController_sendData:
 _p_30:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Swap_iOS_got - . + 292,541
+	.long _mono_aot_Swap_iOS_got - . + 336,596
 	.no_dead_strip plt_MonoTouch_CoreBluetooth_CBPeripheralManagerDelegate__ctor
 plt_MonoTouch_CoreBluetooth_CBPeripheralManagerDelegate__ctor:
 _p_31:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Swap_iOS_got - . + 296,543
+	.long _mono_aot_Swap_iOS_got - . + 340,598
 	.no_dead_strip plt_MonoTouch_CoreBluetooth_CBMutableCharacteristic__ctor_MonoTouch_CoreBluetooth_CBUUID_MonoTouch_CoreBluetooth_CBCharacteristicProperties_MonoTouch_Foundation_NSData_MonoTouch_CoreBluetooth_CBAttributePermissions
 plt_MonoTouch_CoreBluetooth_CBMutableCharacteristic__ctor_MonoTouch_CoreBluetooth_CBUUID_MonoTouch_CoreBluetooth_CBCharacteristicProperties_MonoTouch_Foundation_NSData_MonoTouch_CoreBluetooth_CBAttributePermissions:
 _p_32:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Swap_iOS_got - . + 300,548
+	.long _mono_aot_Swap_iOS_got - . + 344,603
 	.no_dead_strip plt_MonoTouch_CoreBluetooth_CBMutableService__ctor_MonoTouch_CoreBluetooth_CBUUID_bool
 plt_MonoTouch_CoreBluetooth_CBMutableService__ctor_MonoTouch_CoreBluetooth_CBUUID_bool:
 _p_33:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Swap_iOS_got - . + 304,553
+	.long _mono_aot_Swap_iOS_got - . + 348,608
 	.no_dead_strip plt_MonoTouch_Foundation_NSMutableDictionary__ctor
 plt_MonoTouch_Foundation_NSMutableDictionary__ctor:
 _p_34:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Swap_iOS_got - . + 308,558
+	.long _mono_aot_Swap_iOS_got - . + 352,613
 	.no_dead_strip plt_MonoTouch_CoreBluetooth_CBAdvertisement_get_DataServiceUUIDsKey
 plt_MonoTouch_CoreBluetooth_CBAdvertisement_get_DataServiceUUIDsKey:
 _p_35:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Swap_iOS_got - . + 312,563
+	.long _mono_aot_Swap_iOS_got - . + 356,618
 	.no_dead_strip plt_MonoTouch_Foundation_NSMutableDictionary_Add_MonoTouch_Foundation_NSObject_MonoTouch_Foundation_NSObject
 plt_MonoTouch_Foundation_NSMutableDictionary_Add_MonoTouch_Foundation_NSObject_MonoTouch_Foundation_NSObject:
 _p_36:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Swap_iOS_got - . + 316,568
+	.long _mono_aot_Swap_iOS_got - . + 360,623
 	.no_dead_strip plt_MonoTouch_Foundation_NSData_FromString_string
 plt_MonoTouch_Foundation_NSData_FromString_string:
 _p_37:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Swap_iOS_got - . + 320,573
+	.long _mono_aot_Swap_iOS_got - . + 364,628
 plt_end:
 .section __TEXT, __const
 	.align 3
@@ -1216,7 +1270,7 @@ image_table:
 
 	.long 3
 	.asciz "Swap.iOS"
-	.asciz "0E5982D6-2FC8-443C-9369-9591E643D0EC"
+	.asciz "8FC1C846-AB85-4341-99DC-99E57095C76A"
 	.asciz ""
 	.asciz ""
 	.align 3
@@ -1239,12 +1293,12 @@ image_table:
 .data
 	.align 3
 _mono_aot_Swap_iOS_got:
-	.space 328
+	.space 372
 got_end:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "0E5982D6-2FC8-443C-9369-9591E643D0EC"
+	.asciz "8FC1C846-AB85-4341-99DC-99E57095C76A"
 .section __TEXT, __const
 	.align 2
 runtime_version:
@@ -1319,7 +1373,7 @@ _mono_aot_file_info:
 	.align 2
 	.long unbox_trampolines_end
 
-	.long 44,328,38,37,10,387000831,0,2022
+	.long 55,372,38,37,10,387000831,0,2077
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,128,4,4,14
 	.long 0,0,0,0,0
@@ -1333,69 +1387,71 @@ _mono_aot_module_Swap_iOS_info:
 blob:
 
 	.byte 0,0,0,0,1,4,1,3,0,1,3,5,5,6,7,8,8,1,3,2,9,6,0,1,10,0,0,0,0,0,0,0
-	.byte 1,11,0,0,0,5,12,13,14,15,16,0,2,14,17,0,6,18,18,19,18,14,18,0,1,19,0,7,20,21,22,16
-	.byte 21,14,16,0,0,0,0,0,0,0,0,0,3,14,23,24,0,5,25,18,18,26,14,0,1,27,0,6,28,14,17,16
-	.byte 29,19,0,1,30,0,0,0,4,31,32,33,34,0,1,33,0,18,35,36,36,35,36,15,33,37,21,38,35,35,35,36
-	.byte 33,22,37,39,0,0,0,0,0,0,0,0,0,0,0,11,19,40,37,23,41,42,37,33,43,23,33,0,3,34,36,35
-	.byte 12,0,39,42,47,17,0,1,14,2,128,155,1,16,1,3,2,11,2,128,154,1,16,1,3,3,17,0,25,17,0,55
-	.byte 17,0,93,14,1,6,14,2,4,1,16,1,5,4,14,2,17,1,16,1,5,6,17,0,128,155,16,1,5,5,17,0
-	.byte 128,189,17,0,130,17,14,2,22,1,17,0,130,29,17,0,129,7,17,0,129,81,17,0,129,115,17,0,129,159,17,0
-	.byte 129,217,17,0,129,253,14,6,1,2,3,1,17,0,130,37,14,1,8,14,2,128,161,1,16,1,7,10,16,1,7,14
-	.byte 16,1,7,13,16,1,7,12,16,1,7,11,17,0,130,91,17,0,130,111,14,2,7,1,14,2,10,1,14,6,1,2
-	.byte 7,1,14,2,19,1,3,193,0,3,199,3,193,0,3,205,3,193,0,3,231,7,24,109,111,110,111,95,111,98,106,101
-	.byte 99,116,95,110,101,119,95,115,112,101,99,105,102,105,99,0,3,193,0,4,64,3,193,0,5,158,3,193,0,4,49,3
-	.byte 193,0,4,51,3,193,0,4,55,3,193,0,0,19,3,193,0,0,131,3,194,0,6,10,3,193,0,4,56,3,193,0
-	.byte 0,14,7,32,109,111,110,111,95,97,114,99,104,95,116,104,114,111,119,95,99,111,114,108,105,98,95,101,120,99,101,112
-	.byte 116,105,111,110,0,3,14,3,193,0,0,190,3,193,0,0,198,3,194,0,8,28,3,193,0,1,219,3,193,0,4,80
-	.byte 3,193,0,0,21,3,194,0,6,13,3,194,0,6,11,7,23,109,111,110,111,95,97,114,114,97,121,95,110,101,119,95
-	.byte 115,112,101,99,105,102,105,99,0,3,193,0,0,49,3,193,0,4,88,3,193,0,0,132,3,193,0,0,96,3,29,3
-	.byte 193,0,4,102,3,193,0,0,42,3,193,0,0,66,3,193,0,0,143,3,193,0,4,86,3,193,0,0,152,3,193,0
-	.byte 0,95,2,0,0,2,0,0,2,0,0,2,19,0,2,49,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0
-	.byte 2,0,0,2,68,0,2,0,0,2,89,0,2,118,0,2,128,143,0,2,0,0,2,0,0,2,128,166,0,2,0,0
-	.byte 2,68,0,2,128,184,0,2,128,210,0,2,68,0,2,0,0,2,0,0,2,68,0,2,0,0,2,89,0,2,0,0
-	.byte 2,0,0,2,0,0,2,128,166,0,2,0,0,2,128,229,0,2,128,210,0,0,128,144,8,0,0,1,4,128,144,8
-	.byte 0,0,1,194,0,7,228,194,0,7,225,194,0,7,224,194,0,7,222,44,128,230,5,193,0,1,218,24,8,0,4,193
-	.byte 0,1,238,194,0,7,225,193,0,1,218,194,0,7,222,193,0,1,233,193,0,1,219,193,0,1,244,193,0,1,245,193
-	.byte 0,1,248,193,0,1,249,193,0,1,250,193,0,1,246,193,0,1,247,193,0,1,226,193,0,1,251,193,0,1,230,193
-	.byte 0,1,227,193,0,1,231,193,0,1,253,193,0,2,1,193,0,1,252,193,0,2,0,193,0,1,254,193,0,1,255,193
-	.byte 0,2,2,193,0,2,2,193,0,2,1,193,0,2,0,193,0,1,255,193,0,1,254,193,0,1,253,193,0,1,252,193
-	.byte 0,1,251,193,0,1,250,193,0,1,249,193,0,1,248,193,0,1,247,193,0,1,246,193,0,1,245,193,0,1,244,193
-	.byte 0,1,243,193,0,1,240,193,0,1,226,4,59,128,162,193,0,1,218,24,0,0,4,193,0,1,238,194,0,7,225,193
-	.byte 0,1,218,194,0,7,222,193,0,1,233,193,0,1,219,193,0,1,244,193,0,1,245,193,0,1,248,193,0,1,249,193
-	.byte 0,1,250,193,0,1,246,193,0,1,247,193,0,1,226,193,0,1,251,193,0,1,230,193,0,1,227,193,0,1,231,193
-	.byte 0,1,253,193,0,2,1,193,0,1,252,193,0,2,0,193,0,1,254,193,0,1,255,193,0,2,2,193,0,2,2,193
-	.byte 0,2,1,193,0,2,0,193,0,1,255,193,0,1,254,193,0,1,253,193,0,1,252,193,0,1,251,193,0,1,250,193
-	.byte 0,1,249,193,0,1,248,193,0,1,247,193,0,1,246,193,0,1,245,193,0,1,244,193,0,4,50,193,0,4,61,193
-	.byte 0,1,226,193,0,4,53,193,0,4,54,193,0,4,52,193,0,4,57,193,0,4,58,193,0,4,60,193,0,4,60,193
-	.byte 0,4,59,193,0,4,58,193,0,4,57,193,0,4,56,8,193,0,4,54,193,0,4,53,193,0,4,52,7,59,128,234
-	.byte 193,0,1,218,32,12,0,4,193,0,1,238,194,0,7,225,193,0,1,218,194,0,7,222,193,0,1,233,193,0,1,219
-	.byte 193,0,1,244,193,0,1,245,193,0,1,248,193,0,1,249,193,0,1,250,193,0,1,246,193,0,1,247,193,0,1,226
-	.byte 193,0,1,251,193,0,1,230,193,0,1,227,193,0,1,231,193,0,1,253,193,0,2,1,193,0,1,252,193,0,2,0
-	.byte 193,0,1,254,193,0,1,255,193,0,2,2,193,0,2,2,193,0,2,1,193,0,2,0,193,0,1,255,193,0,1,254
-	.byte 193,0,1,253,193,0,1,252,193,0,1,251,193,0,1,250,193,0,1,249,193,0,1,248,193,0,1,247,193,0,1,246
-	.byte 193,0,1,245,193,0,1,244,193,0,4,50,193,0,4,61,193,0,1,226,193,0,4,53,193,0,4,54,193,0,4,52
-	.byte 193,0,4,57,193,0,4,58,193,0,4,60,193,0,4,60,193,0,4,59,193,0,4,58,193,0,4,57,13,12,193,0
-	.byte 4,54,193,0,4,53,193,0,4,52,11,48,128,130,193,0,1,218,20,0,0,4,193,0,1,238,194,0,7,225,193,0
+	.byte 2,11,12,0,1,13,0,6,14,15,16,17,18,19,0,3,20,17,21,0,7,22,23,23,24,23,17,23,0,2,25,24
+	.byte 0,8,26,27,28,29,19,28,17,19,0,0,0,0,0,0,0,0,0,4,30,17,31,32,0,6,33,34,23,23,35,17
+	.byte 0,2,36,37,0,7,38,39,17,21,19,40,24,0,1,41,0,0,0,4,42,43,44,45,0,1,44,0,18,46,47,47
+	.byte 46,47,18,44,48,28,49,46,46,46,47,44,29,48,50,0,0,0,0,0,0,0,0,0,0,0,11,24,51,48,31,52
+	.byte 53,48,44,54,31,44,0,3,45,47,46,12,0,39,42,47,17,0,1,14,2,128,155,1,16,1,3,2,11,2,128,154
+	.byte 1,16,1,3,3,17,0,25,17,0,55,17,0,93,17,0,128,155,17,0,128,241,17,0,129,95,14,1,6,14,2,4
+	.byte 1,16,1,5,4,14,2,17,1,16,1,5,6,17,0,129,181,17,0,130,23,17,0,130,57,16,1,5,5,17,0,130
+	.byte 135,17,0,134,111,17,0,134,219,17,0,135,79,14,2,22,1,17,0,135,91,17,0,130,209,17,0,131,104,17,0,131
+	.byte 178,17,0,131,212,17,0,132,123,17,0,132,167,17,0,132,225,17,0,133,146,17,0,133,182,17,0,134,91,14,6,1
+	.byte 2,3,1,17,0,135,99,14,1,8,14,2,128,161,1,16,1,7,10,16,1,7,14,16,1,7,13,16,1,7,12,16
+	.byte 1,7,11,17,0,135,153,17,0,135,173,14,2,7,1,14,2,10,1,14,6,1,2,7,1,14,2,19,1,3,193,0
+	.byte 3,199,3,193,0,3,205,3,193,0,3,231,7,24,109,111,110,111,95,111,98,106,101,99,116,95,110,101,119,95,115,112
+	.byte 101,99,105,102,105,99,0,3,193,0,4,64,3,193,0,5,158,3,193,0,4,49,3,193,0,4,51,3,193,0,4,55
+	.byte 3,194,0,6,10,3,193,0,0,19,3,193,0,0,131,3,193,0,4,56,3,193,0,0,14,7,32,109,111,110,111,95
+	.byte 97,114,99,104,95,116,104,114,111,119,95,99,111,114,108,105,98,95,101,120,99,101,112,116,105,111,110,0,3,14,3,193
+	.byte 0,0,190,3,193,0,0,198,3,194,0,8,28,3,193,0,1,219,3,193,0,4,80,3,193,0,0,21,3,194,0,6
+	.byte 13,3,194,0,6,11,7,23,109,111,110,111,95,97,114,114,97,121,95,110,101,119,95,115,112,101,99,105,102,105,99,0
+	.byte 3,193,0,0,49,3,193,0,4,88,3,193,0,0,132,3,193,0,0,96,3,29,3,193,0,4,102,3,193,0,0,42
+	.byte 3,193,0,0,66,3,193,0,0,143,3,193,0,4,86,3,193,0,0,152,3,193,0,0,95,2,0,0,2,0,0,2
+	.byte 0,0,2,19,0,2,49,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,68,0,2,0,0
+	.byte 2,89,0,2,118,0,2,128,143,0,2,0,0,2,0,0,2,128,166,0,2,0,0,2,68,0,2,128,184,0,2,128
+	.byte 210,0,2,68,0,2,0,0,2,0,0,2,68,0,2,0,0,2,89,0,2,0,0,2,0,0,2,0,0,2,128,166
+	.byte 0,2,0,0,2,128,229,0,2,128,210,0,0,128,144,8,0,0,1,4,128,144,8,0,0,1,194,0,7,228,194,0
+	.byte 7,225,194,0,7,224,194,0,7,222,44,128,230,5,193,0,1,218,24,8,0,4,193,0,1,238,194,0,7,225,193,0
 	.byte 1,218,194,0,7,222,193,0,1,233,193,0,1,219,193,0,1,244,193,0,1,245,193,0,1,248,193,0,1,249,193,0
 	.byte 1,250,193,0,1,246,193,0,1,247,193,0,1,226,193,0,1,251,193,0,1,230,193,0,1,227,193,0,1,231,193,0
 	.byte 1,253,193,0,2,1,193,0,1,252,193,0,2,0,193,0,1,254,193,0,1,255,193,0,2,2,193,0,2,2,193,0
 	.byte 2,1,193,0,2,0,193,0,1,255,193,0,1,254,193,0,1,253,193,0,1,252,193,0,1,251,193,0,1,250,193,0
 	.byte 1,249,193,0,1,248,193,0,1,247,193,0,1,246,193,0,1,245,193,0,1,244,193,0,1,243,193,0,1,240,193,0
-	.byte 1,226,21,21,23,22,24,59,128,234,193,0,1,218,32,20,0,4,193,0,1,238,194,0,7,225,193,0,1,218,194,0
-	.byte 7,222,193,0,1,233,193,0,1,219,193,0,1,244,193,0,1,245,193,0,1,248,193,0,1,249,193,0,1,250,193,0
-	.byte 1,246,193,0,1,247,193,0,1,226,193,0,1,251,193,0,1,230,193,0,1,227,193,0,1,231,193,0,1,253,193,0
-	.byte 2,1,193,0,1,252,193,0,2,0,193,0,1,254,193,0,1,255,193,0,2,2,193,0,2,2,193,0,2,1,193,0
-	.byte 2,0,193,0,1,255,193,0,1,254,193,0,1,253,193,0,1,252,193,0,1,251,193,0,1,250,193,0,1,249,193,0
-	.byte 1,248,193,0,1,247,193,0,1,246,193,0,1,245,193,0,1,244,193,0,4,50,193,0,4,61,193,0,1,226,193,0
-	.byte 4,53,193,0,4,54,193,0,4,52,193,0,4,57,193,0,4,58,193,0,4,60,193,0,4,60,193,0,4,59,193,0
-	.byte 4,58,193,0,4,57,28,27,193,0,4,54,193,0,4,53,193,0,4,52,26,46,128,130,193,0,1,218,20,0,0,4
-	.byte 193,0,1,238,194,0,7,225,193,0,1,218,194,0,7,222,193,0,1,233,193,0,1,219,193,0,1,244,193,0,1,245
-	.byte 193,0,1,248,193,0,1,249,193,0,1,250,193,0,1,246,193,0,1,247,193,0,1,226,193,0,1,251,193,0,1,230
-	.byte 193,0,1,227,193,0,1,231,193,0,1,253,193,0,2,1,193,0,1,252,193,0,2,0,193,0,1,254,193,0,1,255
-	.byte 193,0,2,2,193,0,2,2,193,0,2,1,193,0,2,0,193,0,1,255,193,0,1,254,193,0,1,253,193,0,1,252
-	.byte 193,0,1,251,193,0,1,250,193,0,1,249,193,0,1,248,193,0,1,247,193,0,1,246,193,0,1,245,193,0,1,244
-	.byte 193,0,1,243,193,0,1,240,193,0,1,226,35,35,36,4,128,192,8,0,0,1,194,0,7,228,194,0,7,225,194,0
-	.byte 7,224,194,0,7,222,98,111,101,104,109,0
+	.byte 1,226,4,59,128,162,193,0,1,218,24,0,0,4,193,0,1,238,194,0,7,225,193,0,1,218,194,0,7,222,193,0
+	.byte 1,233,193,0,1,219,193,0,1,244,193,0,1,245,193,0,1,248,193,0,1,249,193,0,1,250,193,0,1,246,193,0
+	.byte 1,247,193,0,1,226,193,0,1,251,193,0,1,230,193,0,1,227,193,0,1,231,193,0,1,253,193,0,2,1,193,0
+	.byte 1,252,193,0,2,0,193,0,1,254,193,0,1,255,193,0,2,2,193,0,2,2,193,0,2,1,193,0,2,0,193,0
+	.byte 1,255,193,0,1,254,193,0,1,253,193,0,1,252,193,0,1,251,193,0,1,250,193,0,1,249,193,0,1,248,193,0
+	.byte 1,247,193,0,1,246,193,0,1,245,193,0,1,244,193,0,4,50,193,0,4,61,193,0,1,226,193,0,4,53,193,0
+	.byte 4,54,193,0,4,52,193,0,4,57,193,0,4,58,193,0,4,60,193,0,4,60,193,0,4,59,193,0,4,58,193,0
+	.byte 4,57,193,0,4,56,8,193,0,4,54,193,0,4,53,193,0,4,52,7,59,128,234,193,0,1,218,32,12,0,4,193
+	.byte 0,1,238,194,0,7,225,193,0,1,218,194,0,7,222,193,0,1,233,193,0,1,219,193,0,1,244,193,0,1,245,193
+	.byte 0,1,248,193,0,1,249,193,0,1,250,193,0,1,246,193,0,1,247,193,0,1,226,193,0,1,251,193,0,1,230,193
+	.byte 0,1,227,193,0,1,231,193,0,1,253,193,0,2,1,193,0,1,252,193,0,2,0,193,0,1,254,193,0,1,255,193
+	.byte 0,2,2,193,0,2,2,193,0,2,1,193,0,2,0,193,0,1,255,193,0,1,254,193,0,1,253,193,0,1,252,193
+	.byte 0,1,251,193,0,1,250,193,0,1,249,193,0,1,248,193,0,1,247,193,0,1,246,193,0,1,245,193,0,1,244,193
+	.byte 0,4,50,193,0,4,61,193,0,1,226,193,0,4,53,193,0,4,54,193,0,4,52,193,0,4,57,193,0,4,58,193
+	.byte 0,4,60,193,0,4,60,193,0,4,59,193,0,4,58,193,0,4,57,13,12,193,0,4,54,193,0,4,53,193,0,4
+	.byte 52,11,48,128,130,193,0,1,218,20,0,0,4,193,0,1,238,194,0,7,225,193,0,1,218,194,0,7,222,193,0,1
+	.byte 233,193,0,1,219,193,0,1,244,193,0,1,245,193,0,1,248,193,0,1,249,193,0,1,250,193,0,1,246,193,0,1
+	.byte 247,193,0,1,226,193,0,1,251,193,0,1,230,193,0,1,227,193,0,1,231,193,0,1,253,193,0,2,1,193,0,1
+	.byte 252,193,0,2,0,193,0,1,254,193,0,1,255,193,0,2,2,193,0,2,2,193,0,2,1,193,0,2,0,193,0,1
+	.byte 255,193,0,1,254,193,0,1,253,193,0,1,252,193,0,1,251,193,0,1,250,193,0,1,249,193,0,1,248,193,0,1
+	.byte 247,193,0,1,246,193,0,1,245,193,0,1,244,193,0,1,243,193,0,1,240,193,0,1,226,21,21,23,22,24,59,128
+	.byte 234,193,0,1,218,32,20,0,4,193,0,1,238,194,0,7,225,193,0,1,218,194,0,7,222,193,0,1,233,193,0,1
+	.byte 219,193,0,1,244,193,0,1,245,193,0,1,248,193,0,1,249,193,0,1,250,193,0,1,246,193,0,1,247,193,0,1
+	.byte 226,193,0,1,251,193,0,1,230,193,0,1,227,193,0,1,231,193,0,1,253,193,0,2,1,193,0,1,252,193,0,2
+	.byte 0,193,0,1,254,193,0,1,255,193,0,2,2,193,0,2,2,193,0,2,1,193,0,2,0,193,0,1,255,193,0,1
+	.byte 254,193,0,1,253,193,0,1,252,193,0,1,251,193,0,1,250,193,0,1,249,193,0,1,248,193,0,1,247,193,0,1
+	.byte 246,193,0,1,245,193,0,1,244,193,0,4,50,193,0,4,61,193,0,1,226,193,0,4,53,193,0,4,54,193,0,4
+	.byte 52,193,0,4,57,193,0,4,58,193,0,4,60,193,0,4,60,193,0,4,59,193,0,4,58,193,0,4,57,28,27,193
+	.byte 0,4,54,193,0,4,53,193,0,4,52,26,46,128,130,193,0,1,218,20,0,0,4,193,0,1,238,194,0,7,225,193
+	.byte 0,1,218,194,0,7,222,193,0,1,233,193,0,1,219,193,0,1,244,193,0,1,245,193,0,1,248,193,0,1,249,193
+	.byte 0,1,250,193,0,1,246,193,0,1,247,193,0,1,226,193,0,1,251,193,0,1,230,193,0,1,227,193,0,1,231,193
+	.byte 0,1,253,193,0,2,1,193,0,1,252,193,0,2,0,193,0,1,254,193,0,1,255,193,0,2,2,193,0,2,2,193
+	.byte 0,2,1,193,0,2,0,193,0,1,255,193,0,1,254,193,0,1,253,193,0,1,252,193,0,1,251,193,0,1,250,193
+	.byte 0,1,249,193,0,1,248,193,0,1,247,193,0,1,246,193,0,1,245,193,0,1,244,193,0,1,243,193,0,1,240,193
+	.byte 0,1,226,35,35,36,4,128,192,8,0,0,1,194,0,7,228,194,0,7,225,194,0,7,224,194,0,7,222,98,111,101
+	.byte 104,109,0
 .section __TEXT, __const
 	.align 3
 Lglobals_hash:
@@ -3866,46 +3922,46 @@ Ldebug_line_header_end:
 	.byte 0,5,2
 	.long _Swap_iOS_CBCentralManagerViewController__ctor
 
-	.byte 3,17,4,5,1,3,17,2,20,1,2,40,1,0,1,1
+	.byte 3,17,4,5,1,3,17,2,20,1,8,174,2,32,1,0,1,1
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _Swap_iOS_CBCentralManagerViewController_DidReceiveMemoryWarning
 
-	.byte 3,24,4,5,1,3,24,2,24,1,2,16,1,0,1,1
+	.byte 3,24,4,5,1,3,24,2,20,1,8,118,2,16,1,0,1,1
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _Swap_iOS_CBCentralManagerViewController_ViewDidLoad
 
-	.byte 3,31,4,5,1,3,31,2,20,1,134,3,3,2,40,1,3,1,2,60,1,2,192,0,1,0,1,1
+	.byte 3,33,4,5,1,3,33,2,20,1,8,61,134,3,3,2,40,1,3,1,2,60,1,2,192,0,1,0,1,1
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _Swap_iOS_CBCentralManagerViewController_ViewWillDisappear_bool
 
-	.byte 3,44,4,5,1,3,44,2,24,1,3,1,2,36,1,8,173,2,16,1,0,1,1
+	.byte 3,47,4,5,1,3,47,2,24,1,8,61,3,1,2,36,1,8,173,2,16,1,0,1,1
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _Swap_iOS_CBCentralManagerViewController_cleanup
 
-	.byte 3,52,4,5,1,3,52,2,16,1,3,1,2,44,1,3,1,2,204,0,1,8,173,3,1,2,60,1,3,1,2,212
-	.byte 0,1,8,117,3,1,2,44,1,70,240,3,14,2,16,1,2,212,0,1,0,1,1
+	.byte 3,55,4,5,1,3,55,2,16,1,8,62,3,1,2,44,1,3,1,2,204,0,1,8,173,3,1,2,60,1,3,1
+	.byte 2,212,0,1,8,117,3,1,2,44,1,70,240,3,14,2,16,1,2,212,0,1,0,1,1
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _Swap_iOS_CBCentralManagerViewController_DiscoverCharacteristic_MonoTouch_CoreBluetooth_CBPeripheral_MonoTouch_CoreBluetooth_CBService_MonoTouch_Foundation_NSError
 
-	.byte 3,254,0,4,5,1,3,254,0,2,36,1,131,75,189,3,1,2,52,1,3,1,2,212,0,1,8,114,2,44,1,0
-	.byte 1,1
+	.byte 3,135,1,4,5,1,3,135,1,2,32,1,8,117,131,75,189,3,1,2,52,1,3,1,2,212,0,1,8,114,2,44
+	.byte 1,0,1,1
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _Swap_iOS_CBCentralManagerViewController_UpdatedCharacterteristicValue_MonoTouch_CoreBluetooth_CBPeripheral_MonoTouch_CoreBluetooth_CBCharacteristic_MonoTouch_Foundation_NSError
 
-	.byte 3,141,1,4,5,1,3,141,1,2,36,1,131,8,61,77,3,3,2,196,0,1,3,2,2,44,1,3,1,2,220,0
-	.byte 1,8,117,3,3,2,40,1,2,204,0,1,0,1,1
+	.byte 3,151,1,4,5,1,3,151,1,2,32,1,8,117,131,8,61,77,3,3,2,196,0,1,3,2,2,44,1,3,1,2
+	.byte 220,0,1,8,117,3,3,2,40,1,2,204,0,1,0,1,1
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
@@ -3929,26 +3985,26 @@ Ldebug_line_header_end:
 	.byte 0,5,2
 	.long _Swap_iOS_CBCentralManagerViewController_SampleCBCentralManagerDelegate_UpdatedState_MonoTouch_CoreBluetooth_CBCentralManager
 
-	.byte 3,202,0,4,5,1,3,202,0,2,24,1,8,120,8,118,3,1,2,192,0,1,2,32,1,0,1,1
+	.byte 3,207,0,4,5,1,3,207,0,2,24,1,8,61,8,120,8,118,3,1,2,192,0,1,2,32,1,0,1,1
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _Swap_iOS_CBCentralManagerViewController_SampleCBCentralManagerDelegate_DiscoveredPeripheral_MonoTouch_CoreBluetooth_CBCentralManager_MonoTouch_CoreBluetooth_CBPeripheral_MonoTouch_Foundation_NSDictionary_MonoTouch_Foundation_NSNumber
 
-	.byte 3,215,0,4,5,1,3,215,0,2,44,1,3,2,2,52,1,8,174,8,63,8,173,75,2,56,1,0,1,1
+	.byte 3,221,0,4,5,1,3,221,0,2,44,1,8,61,3,2,2,52,1,8,174,8,63,8,173,75,2,56,1,0,1,1
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _Swap_iOS_CBCentralManagerViewController_SampleCBCentralManagerDelegate_FailedToConnectPeripheral_MonoTouch_CoreBluetooth_CBCentralManager_MonoTouch_CoreBluetooth_CBPeripheral_MonoTouch_Foundation_NSError
 
-	.byte 3,230,0,4,5,1,3,230,0,2,32,1,8,61,2,16,1,0,1,1
+	.byte 3,237,0,4,5,1,3,237,0,2,32,1,8,61,8,61,2,16,1,0,1,1
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _Swap_iOS_CBCentralManagerViewController_SampleCBCentralManagerDelegate_ConnectedPeripheral_MonoTouch_CoreBluetooth_CBCentralManager_MonoTouch_CoreBluetooth_CBPeripheral
 
-	.byte 3,236,0,4,5,1,3,236,0,2,28,1,8,62,3,1,2,36,1,8,62,3,3,2,40,1,3,2,2,52,1,3
-	.byte 1,2,52,1,2,24,1,0,1,1
+	.byte 3,244,0,4,5,1,3,244,0,2,28,1,8,61,8,62,3,1,2,36,1,8,62,3,3,2,40,1,3,2,2,52
+	.byte 1,3,1,2,52,1,2,24,1,0,1,1
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2

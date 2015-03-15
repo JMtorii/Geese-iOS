@@ -1,6 +1,6 @@
-# Version: 8.6.2.26 (9905782)
+# Version: 8.8.0.2 (ccfcd59)
 # [first argument, ignore] # /Users/juntorii/Documents/Project/Swap/Swap.iOS/bin/iPhoneSimulator/Debug/mtouch.exe
-/Library/Frameworks/Xamarin.iOS.framework/Versions/8.6.2.26/bin/mtouch-64 \
+/Library/Frameworks/Xamarin.iOS.framework/Versions/8.8.0.2/bin/mtouch-64 \
 	-sdkroot \
 	/Applications/Xcode.app/Contents/Developer \
 	--cache \
@@ -22,7 +22,7 @@
 	-debug \
 	-nolink \
 	-sdk \
-	8.1 \
+	8.2 \
 	-targetver \
 	7.0 \
 	--abi=i386 \

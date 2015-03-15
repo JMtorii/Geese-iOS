@@ -1,9 +1,11 @@
 ﻿<Properties StartupItem="Swap.iOS/Swap.iOS.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhone" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.Jun's iPhone" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Swap.iOS/Pages/CBPeripheralViewController.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone4s.8.2" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Swap.iOS/AppDelegate.cs">
     <Files>
-      <File FileName="Swap.iOS/Pages/CBCentralManagerViewController.cs" Line="134" Column="10" />
-      <File FileName="Swap.iOS/Pages/CBPeripheralViewController.cs" Line="74" Column="30" />
+      <File FileName="Swap.iOS/AppDelegate.cs" Line="27" Column="20" />
+      <File FileName="Swap.iOS/Pages/MainViewController.cs" Line="12" Column="38" />
+      <File FileName="Swap.iOS/Pages/CBCentralManagerViewController.cs" Line="26" Column="4" />
+      <File FileName="Swap.iOS/Pages/CBPeripheralViewController.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
