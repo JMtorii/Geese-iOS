@@ -16,6 +16,12 @@
         <input type="button" value="Search" onclick="find();" />
         <p id="card" />
     </div>
+    <div>
+        <h2>Post Card</h2>
+        <input type="text" id="senderId" size="5" />
+        <input type="button" value="Search" onclick="swap();" />
+        <p id="swap_result" />
+    </div>
 
     <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.3.min.js"></script>
     <script>
@@ -48,6 +54,12 @@
             $('#cards').text('Error: ' + err);
           });
     }
+
+    function swap() {
+        $.post(uri, "test");
+        $('#swap_result').text('Woop woop');
+    }
+
     </script>
 </body>
 </html>

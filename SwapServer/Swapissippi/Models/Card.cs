@@ -9,5 +9,11 @@ namespace Swapissippi.Models
     {
         public long SenderId { get; set; }
         public string Content { get; set; }
+
+        public Card(long Id, string Content)
+        {
+            this.SenderId = Id;
+            this.Content = Content;
+        }
     }
 }

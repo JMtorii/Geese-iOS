@@ -26,3 +26,17 @@ C:\Users\Evan\Documents\Uni\Swap\Swap\SwapServer\Swapissippi\bin\System.Web.Http
 C:\Users\Evan\Documents\Uni\Swap\Swap\SwapServer\Swapissippi\obj\Debug\Swapissippi.csprojResolveAssemblyReference.cache
 C:\Users\Evan\Documents\Uni\Swap\Swap\SwapServer\Swapissippi\obj\Debug\Swapissippi.dll
 C:\Users\Evan\Documents\Uni\Swap\Swap\SwapServer\Swapissippi\obj\Debug\Swapissippi.pdb
+C:\Users\Evan\Documents\Uni\Swap\SwapServer\Swapissippi\bin\Swapissippi.dll.config
+C:\Users\Evan\Documents\Uni\Swap\SwapServer\Swapissippi\bin\Swapissippi.dll
+C:\Users\Evan\Documents\Uni\Swap\SwapServer\Swapissippi\bin\Swapissippi.pdb
+C:\Users\Evan\Documents\Uni\Swap\SwapServer\Swapissippi\bin\Newtonsoft.Json.dll
+C:\Users\Evan\Documents\Uni\Swap\SwapServer\Swapissippi\bin\System.Net.Http.Formatting.dll
+C:\Users\Evan\Documents\Uni\Swap\SwapServer\Swapissippi\bin\System.Web.Http.dll
+C:\Users\Evan\Documents\Uni\Swap\SwapServer\Swapissippi\bin\System.Web.Http.WebHost.dll
+C:\Users\Evan\Documents\Uni\Swap\SwapServer\Swapissippi\bin\Newtonsoft.Json.xml
+C:\Users\Evan\Documents\Uni\Swap\SwapServer\Swapissippi\bin\System.Net.Http.Formatting.xml
+C:\Users\Evan\Documents\Uni\Swap\SwapServer\Swapissippi\bin\System.Web.Http.xml
+C:\Users\Evan\Documents\Uni\Swap\SwapServer\Swapissippi\bin\System.Web.Http.WebHost.xml
+C:\Users\Evan\Documents\Uni\Swap\SwapServer\Swapissippi\obj\Debug\Swapissippi.csprojResolveAssemblyReference.cache
+C:\Users\Evan\Documents\Uni\Swap\SwapServer\Swapissippi\obj\Debug\Swapissippi.dll
+C:\Users\Evan\Documents\Uni\Swap\SwapServer\Swapissippi\obj\Debug\Swapissippi.pdb
