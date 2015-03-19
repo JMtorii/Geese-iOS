@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DDAF782A-5B47-43D7-B3A5-7EB2CDE85551</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Swap</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0B53DF019BFB98C49E7D2A56A27224005D8E1C8F</key>
+		<string>https://github.com/JMtorii/Swap.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Swap/Swap.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0B53DF019BFB98C49E7D2A56A27224005D8E1C8F</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/JMtorii/Swap.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0B53DF019BFB98C49E7D2A56A27224005D8E1C8F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0B53DF019BFB98C49E7D2A56A27224005D8E1C8F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Swap</string>
+		</dict>
+	</array>
+</dict>
+</plist>
