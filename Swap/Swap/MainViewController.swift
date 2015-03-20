@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MainViewController.swift
 //  Swap
 //
 //  Created by Jun Torii on 2015-03-19.
@@ -8,7 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MainViewController: UIViewController {
+    @IBAction func didTapModal() {
+        var modalController = ModalController(nibName: "ModalController", bundle: nil)
+        
+        presentViewController(modalController, animated: true, completion: nil)
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
