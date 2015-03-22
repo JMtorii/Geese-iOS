@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PeripheralViewController" customModule="Swap" customModuleProvider="target">
+            <connections>
+                <outlet property="textView" destination="eM9-0i-iV5" id="JOa-TB-OUc"/>
+                <outlet property="view" destination="095-iP-qgw" id="oei-Y1-SrY"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="095-iP-qgw">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Peripheral" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ry-mo-bz4">
+                    <rect key="frame" x="168" y="94" width="78" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Write your text here" translatesAutoresizingMaskIntoConstraints="NO" id="eM9-0i-iV5">
+                    <rect key="frame" x="38" y="155" width="339" height="128"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="128" id="q94-X7-ASZ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="eM9-0i-iV5" secondAttribute="centerX" id="Ikg-jg-xGc"/>
+                <constraint firstAttribute="centerX" secondItem="8ry-mo-bz4" secondAttribute="centerX" id="Tbw-oO-4i4"/>
+                <constraint firstItem="eM9-0i-iV5" firstAttribute="leading" secondItem="095-iP-qgw" secondAttribute="leading" constant="38" id="Zl3-gr-KBc"/>
+                <constraint firstItem="eM9-0i-iV5" firstAttribute="top" secondItem="095-iP-qgw" secondAttribute="top" constant="155" id="lhD-TL-71B"/>
+                <constraint firstItem="eM9-0i-iV5" firstAttribute="top" secondItem="8ry-mo-bz4" secondAttribute="bottom" constant="40" id="m1O-WE-164"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+            <point key="canvasLocation" x="317" y="303"/>
+        </view>
+    </objects>
+</document>

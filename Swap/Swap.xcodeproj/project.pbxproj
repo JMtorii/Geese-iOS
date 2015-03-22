@@ -10,6 +10,11 @@
 		B60488011ABBDEAC005DC96E /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B60488001ABBDEAC005DC96E /* MainViewController.xib */; };
 		B60488041ABBE1B4005DC96E /* ModalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60488021ABBE1B4005DC96E /* ModalController.swift */; };
 		B60488051ABBE1B4005DC96E /* ModalController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B60488031ABBE1B4005DC96E /* ModalController.xib */; };
+		B680CB841ABD749300729111 /* CentralManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B680CB831ABD749300729111 /* CentralManagerViewController.swift */; };
+		B680CB861ABD74AA00729111 /* PeripheralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B680CB851ABD74AA00729111 /* PeripheralViewController.swift */; };
+		B680CB881ABD74E300729111 /* CentralManagerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B680CB871ABD74E300729111 /* CentralManagerViewController.xib */; };
+		B680CB8A1ABD74F100729111 /* PeripheralViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B680CB891ABD74F100729111 /* PeripheralViewController.xib */; };
+		B680CB8C1ABE96B300729111 /* SERVICES.swift in Sources */ = {isa = PBXBuildFile; fileRef = B680CB8B1ABE96B300729111 /* SERVICES.swift */; };
 		B6CFC9A41ABAB9B000AD952D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CFC9A31ABAB9B000AD952D /* AppDelegate.swift */; };
 		B6CFC9A61ABAB9B000AD952D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CFC9A51ABAB9B000AD952D /* MainViewController.swift */; };
 		B6CFC9AB1ABAB9B000AD952D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6CFC9AA1ABAB9B000AD952D /* Images.xcassets */; };
@@ -31,6 +36,11 @@
 		B60488001ABBDEAC005DC96E /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		B60488021ABBE1B4005DC96E /* ModalController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalController.swift; sourceTree = "<group>"; };
 		B60488031ABBE1B4005DC96E /* ModalController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModalController.xib; sourceTree = "<group>"; };
+		B680CB831ABD749300729111 /* CentralManagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CentralManagerViewController.swift; sourceTree = "<group>"; };
+		B680CB851ABD74AA00729111 /* PeripheralViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralViewController.swift; sourceTree = "<group>"; };
+		B680CB871ABD74E300729111 /* CentralManagerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CentralManagerViewController.xib; sourceTree = "<group>"; };
+		B680CB891ABD74F100729111 /* PeripheralViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PeripheralViewController.xib; sourceTree = "<group>"; };
+		B680CB8B1ABE96B300729111 /* SERVICES.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SERVICES.swift; sourceTree = "<group>"; };
 		B6CFC99E1ABAB9B000AD952D /* Swap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6CFC9A21ABAB9B000AD952D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6CFC9A31ABAB9B000AD952D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -84,11 +94,16 @@
 				B6CFC9AA1ABAB9B000AD952D /* Images.xcassets */,
 				B6CFC9A11ABAB9B000AD952D /* Supporting Files */,
 				B6CFC9A31ABAB9B000AD952D /* AppDelegate.swift */,
-				B6CFC9A51ABAB9B000AD952D /* MainViewController.swift */,
-				B60488001ABBDEAC005DC96E /* MainViewController.xib */,
-				B6CFC9AC1ABAB9B000AD952D /* LaunchScreen.xib */,
+				B680CB8B1ABE96B300729111 /* SERVICES.swift */,
 				B60488021ABBE1B4005DC96E /* ModalController.swift */,
+				B6CFC9A51ABAB9B000AD952D /* MainViewController.swift */,
+				B680CB831ABD749300729111 /* CentralManagerViewController.swift */,
+				B680CB851ABD74AA00729111 /* PeripheralViewController.swift */,
+				B6CFC9AC1ABAB9B000AD952D /* LaunchScreen.xib */,
 				B60488031ABBE1B4005DC96E /* ModalController.xib */,
+				B60488001ABBDEAC005DC96E /* MainViewController.xib */,
+				B680CB871ABD74E300729111 /* CentralManagerViewController.xib */,
+				B680CB891ABD74F100729111 /* PeripheralViewController.xib */,
 			);
 			path = Swap;
 			sourceTree = "<group>";
@@ -200,8 +215,10 @@
 			files = (
 				B6CFC9AE1ABAB9B000AD952D /* LaunchScreen.xib in Resources */,
 				B60488011ABBDEAC005DC96E /* MainViewController.xib in Resources */,
+				B680CB8A1ABD74F100729111 /* PeripheralViewController.xib in Resources */,
 				B60488051ABBE1B4005DC96E /* ModalController.xib in Resources */,
 				B6CFC9AB1ABAB9B000AD952D /* Images.xcassets in Resources */,
+				B680CB881ABD74E300729111 /* CentralManagerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +236,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B680CB861ABD74AA00729111 /* PeripheralViewController.swift in Sources */,
+				B680CB8C1ABE96B300729111 /* SERVICES.swift in Sources */,
+				B680CB841ABD749300729111 /* CentralManagerViewController.swift in Sources */,
 				B60488041ABBE1B4005DC96E /* ModalController.swift in Sources */,
 				B6CFC9A61ABAB9B000AD952D /* MainViewController.swift in Sources */,
 				B6CFC9A41ABAB9B000AD952D /* AppDelegate.swift in Sources */,

@@ -9,15 +9,15 @@
 import UIKit
 
 class MainViewController: UIViewController {
-    @IBAction func didTapModal() {
-        var modalController = ModalController(nibName: "ModalController", bundle: nil)
-        
-        presentViewController(modalController, animated: true, completion: nil)
+    @IBAction func onCentralManagerButtonPressed() {
+        var secondaryViewController = CentralManagerViewController(nibName: "CentralManagerViewController", bundle: nil)
+        navigationController?.pushViewController(secondaryViewController, animated: true)
     }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        self.title = "Main View Controller"
     }
 
     override func didReceiveMemoryWarning() {
