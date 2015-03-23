@@ -18,6 +18,7 @@ class PeripheralViewController: UIViewController, CBPeripheralManagerDelegate, U
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        println("PeripheralViewController: viewDidLoad")
         
         peripheralManager = CBPeripheralManager(delegate: self, queue: nil)
     }
@@ -33,6 +34,7 @@ class PeripheralViewController: UIViewController, CBPeripheralManagerDelegate, U
     }
     
     func sendData() {
+        println("PeripheralViewController: sendData")
         var sendingEOM:Bool = false // has to be static?
         var eomStr:NSString = NSString(string: "EOM")
         
@@ -99,11 +101,14 @@ class PeripheralViewController: UIViewController, CBPeripheralManagerDelegate, U
     }
     
     func peripheralManagerDidUpdateState(peripheral: CBPeripheralManager!) {
+        println("PeripheralViewController: peripheralManagerDidUpdateState")
         if peripheral.state != CBPeripheralManagerState.PoweredOn {
+            println("Powered off")
             return
         }
         
         if peripheral.state == CBPeripheralManagerState.PoweredOn {
+            println("Powered on")
             transferCharacteristic = CBMutableCharacteristic(type: CBUUID(string: SERVICES.TRANSFER_CHARACTERISTIC_UUID), properties: CBCharacteristicProperties.Notify, value: nil, permissions: CBAttributePermissions.Readable)
             var transferService:CBMutableService = CBMutableService(type: CBUUID(string: SERVICES.TRANSFER_SERIVCE_UUID), primary: true)
             transferService.characteristics = [transferCharacteristic]
@@ -114,12 +119,14 @@ class PeripheralViewController: UIViewController, CBPeripheralManagerDelegate, U
     }
     
     func peripheralManager(peripheral: CBPeripheralManager!, central: CBCentral!, didSubscribeToCharacteristic characteristic: CBCharacteristic!) {
+        println("PeripheralViewController: didSubscribeToCharacteristic")
         dataToSend = textView.text.dataUsingEncoding(NSUTF8StringEncoding, allowLossyConversion: true)
         sendDataIndex = 0
         sendData()
     }
     
     func peripheralManagerIsReadyToUpdateSubscribers(peripheral: CBPeripheralManager!) {
+        println("PeripheralViewController: peripheralManagerIsReadyToUpdateSubscribers")
         sendData()
     }
     

@@ -13,6 +13,11 @@ class MainViewController: UIViewController {
         var secondaryViewController = CentralManagerViewController(nibName: "CentralManagerViewController", bundle: nil)
         navigationController?.pushViewController(secondaryViewController, animated: true)
     }
+    
+    @IBAction func onPeripheralButtonPressed() {
+        var secondaryViewController = PeripheralViewController(nibName: "PeripheralViewController", bundle: nil)
+        navigationController?.pushViewController(secondaryViewController, animated: true)
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
