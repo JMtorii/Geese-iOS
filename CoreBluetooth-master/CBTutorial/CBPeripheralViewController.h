@@ -18,5 +18,7 @@
 @property (strong, nonatomic) CBMutableCharacteristic *transferCharacteristic;
 @property (strong, nonatomic) NSData *dataToSend;
 @property (nonatomic, readwrite) NSInteger sendDataIndex;
+@property (nonatomic, readwrite) BOOL sendingEOM;
+-(IBAction)sendButtonPressed:(UIButton *)sender;
 
 @end

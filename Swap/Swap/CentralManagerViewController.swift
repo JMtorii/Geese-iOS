@@ -1,5 +1,5 @@
 //
-//  MainViewController.swift
+//  CentralManagerViewController.swift
 //  Swap
 //
 //  Created by Jun Torii on 2015-03-19.
@@ -28,32 +28,8 @@ class CentralManagerViewController: UIViewController, CBCentralManagerDelegate, 
         super.viewWillDisappear(animated)
     }
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-    func cleanup() {
-        // See if we are subscribed to a characteristic on the peripheral
-        if discoveredPeripheral.services != nil {
-            for service in discoveredPeripheral.services {
-                if service.characteristics != nil {
-                    if let characteristics = service.characteristics {
-                        for characteristic in characteristics {
-                            if characteristic.UUIDString == CBUUID(string: SERVICES.TRANSFER_SERIVCE_UUID) {
-                                if characteristic.isNotifying != nil {
-                                    discoveredPeripheral.setNotifyValue(false, forCharacteristic: characteristic as CBCharacteristic)
-                                    return
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-    
     func centralManagerDidUpdateState(central: CBCentralManager!) {
+        println("CentralManagerViewController: centralManagerDidUpdateState")
         // You should test all scenarios
         if central.state != CBCentralManagerState.PoweredOn {
             return
@@ -67,6 +43,7 @@ class CentralManagerViewController: UIViewController, CBCentralManagerDelegate, 
     }
     
     func centralManager(central: CBCentralManager!, didDiscoverPeripheral peripheral: CBPeripheral!, advertisementData: [NSObject : AnyObject]!, RSSI: NSNumber!) {
+        println("CentralManagerViewController: didDiscoverPeripheral")
         println("Discovered \(peripheral.name) at \(RSSI)")
         
         if discoveredPeripheral != peripheral {
@@ -80,11 +57,13 @@ class CentralManagerViewController: UIViewController, CBCentralManagerDelegate, 
     }
     
     func centralManager(central: CBCentralManager!, didFailToConnectPeripheral peripheral: CBPeripheral!, error: NSError!) {
+        println("CentralManagerViewController: didFailToConnectPeripheral")
         println("Failed to connect")
         self.cleanup()
     }
     
     func centralManager(central: CBCentralManager!, didConnectPeripheral peripheral: CBPeripheral!) {
+        println("CentralManagerViewController: didConnectPeripheral")
         println("Connected")
         
         centralManager.stopScan()
@@ -97,12 +76,8 @@ class CentralManagerViewController: UIViewController, CBCentralManagerDelegate, 
         peripheral.discoverServices([CBUUID(string: SERVICES.TRANSFER_SERIVCE_UUID)])
     }
     
-    func centralManager(central: CBCentralManager!, didDisconnectPeripheral peripheral: CBPeripheral!, error: NSError!) {
-        discoveredPeripheral = nil
-        centralManager.scanForPeripheralsWithServices([CBUUID(string: SERVICES.TRANSFER_SERIVCE_UUID)], options: [CBCentralManagerScanOptionAllowDuplicatesKey : true])
-    }
-        
     func peripheral(peripheral: CBPeripheral!, didDiscoverServices error: NSError!) {
+        println("CentralManagerViewController: didDiscoverServices")
         if error != nil {
             self.cleanup()
             return
@@ -115,6 +90,7 @@ class CentralManagerViewController: UIViewController, CBCentralManagerDelegate, 
     }
     
     func peripheral(peripheral: CBPeripheral!, didDiscoverCharacteristicsForService service: CBService!, error: NSError!) {
+        println("CentralManagerViewController: didDiscoverCharacteristicsForService")
         if error != nil {
             self.cleanup()
             return
@@ -128,6 +104,7 @@ class CentralManagerViewController: UIViewController, CBCentralManagerDelegate, 
     }
     
     func peripheral(peripheral: CBPeripheral!, didUpdateValueForCharacteristic characteristic: CBCharacteristic!, error: NSError!) {
+        println("CentralManagerViewController: didUpdateValueForCharacteristic")
         if error != nil {
             println("Error");
             return
@@ -145,6 +122,7 @@ class CentralManagerViewController: UIViewController, CBCentralManagerDelegate, 
     }
     
     func peripheral(peripheral: CBPeripheral!, didUpdateNotificationStateForCharacteristic characteristic: CBCharacteristic!, error: NSError!) {
+        println("CentralManagerViewController: didUpdateNotificationStateForCharacteristic")
         if characteristic.UUID != CBUUID(string: SERVICES.TRANSFER_CHARACTERISTIC_UUID) {
             return
         }
@@ -155,6 +133,40 @@ class CentralManagerViewController: UIViewController, CBCentralManagerDelegate, 
             // Notification has stopped
             centralManager.cancelPeripheralConnection(peripheral)
         }
+    }
+    
+    func centralManager(central: CBCentralManager!, didDisconnectPeripheral peripheral: CBPeripheral!, error: NSError!) {
+        println("CentralManagerViewController: didDisconnectPeripheral")
+        discoveredPeripheral = nil
+        centralManager.scanForPeripheralsWithServices([CBUUID(string: SERVICES.TRANSFER_SERIVCE_UUID)], options: [CBCentralManagerScanOptionAllowDuplicatesKey : true])
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
+    func cleanup() {
+        println("CentralManagerViewController: cleanup")
+        // See if we are subscribed to a characteristic on the peripheral
+        if discoveredPeripheral.services != nil {
+            for service in discoveredPeripheral.services {
+                if service.characteristics != nil {
+                    if let characteristics = service.characteristics {
+                        for characteristic in characteristics {
+                            if characteristic.UUIDString == CBUUID(string: SERVICES.TRANSFER_SERIVCE_UUID) {
+                                if characteristic.isNotifying != nil {
+                                    discoveredPeripheral.setNotifyValue(false, forCharacteristic: characteristic as CBCharacteristic)
+                                    return
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+        centralManager.cancelPeripheralConnection(discoveredPeripheral)
     }
     
 }

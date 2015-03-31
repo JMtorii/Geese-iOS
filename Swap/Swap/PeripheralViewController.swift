@@ -15,6 +15,7 @@ class PeripheralViewController: UIViewController, CBPeripheralManagerDelegate, U
     var transferCharacteristic : CBMutableCharacteristic!
     var dataToSend : NSData!
     var sendDataIndex : NSInteger = 0
+    var sendingEOM : Bool = true
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,9 +34,16 @@ class PeripheralViewController: UIViewController, CBPeripheralManagerDelegate, U
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func sendButtonTapped(sender:UIButton) {
+        println("Tapped: \(sender)")
+        dataToSend = textView.text.dataUsingEncoding(NSUTF8StringEncoding, allowLossyConversion: true)
+        sendDataIndex = 0
+        sendData()
+    }
+    
     func sendData() {
         println("PeripheralViewController: sendData")
-        var sendingEOM:Bool = false // has to be static?
+//        var sendingEOM:Bool = false // has to be static?
         var eomStr:NSString = NSString(string: "EOM")
         
         // end of message?
@@ -120,9 +128,9 @@ class PeripheralViewController: UIViewController, CBPeripheralManagerDelegate, U
     
     func peripheralManager(peripheral: CBPeripheralManager!, central: CBCentral!, didSubscribeToCharacteristic characteristic: CBCharacteristic!) {
         println("PeripheralViewController: didSubscribeToCharacteristic")
-        dataToSend = textView.text.dataUsingEncoding(NSUTF8StringEncoding, allowLossyConversion: true)
-        sendDataIndex = 0
-        sendData()
+//        dataToSend = textView.text.dataUsingEncoding(NSUTF8StringEncoding, allowLossyConversion: true)
+//        sendDataIndex = 0
+//        sendData()
     }
     
     func peripheralManagerIsReadyToUpdateSubscribers(peripheral: CBPeripheralManager!) {

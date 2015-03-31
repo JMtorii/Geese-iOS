@@ -26,6 +26,7 @@
 
 
 - (void)centralManagerDidUpdateState:(CBCentralManager *)central {
+    NSLog(@"CentralManagerViewController: centralManagerDidUpdateState");
     // You should test all scenarios
     if (central.state != CBCentralManagerStatePoweredOn) {
         return;
@@ -40,7 +41,7 @@
 
 
 - (void)centralManager:(CBCentralManager *)central didDiscoverPeripheral:(CBPeripheral *)peripheral advertisementData:(NSDictionary *)advertisementData RSSI:(NSNumber *)RSSI {
-    
+    NSLog(@"CentralManagerViewController: didDiscoverPeripheral");
     NSLog(@"Discovered %@ at %@", peripheral.name, RSSI);
     
     if (_discoveredPeripheral != peripheral) {
@@ -54,12 +55,14 @@
 }
 
 - (void)centralManager:(CBCentralManager *)central didFailToConnectPeripheral:(CBPeripheral *)peripheral error:(NSError *)error {
+    NSLog(@"CentralManagerViewController: didFailToConnectPeripheral");
     NSLog(@"Failed to connect");
     [self cleanup];
 }
 
 
 - (void)centralManager:(CBCentralManager *)central didConnectPeripheral:(CBPeripheral *)peripheral {
+    NSLog(@"CentralManagerViewController: didConnectPeripheral");
     NSLog(@"Connected");
     
     [_centralManager stopScan];
@@ -73,6 +76,7 @@
 }
 
 - (void)peripheral:(CBPeripheral *)peripheral didDiscoverServices:(NSError *)error {
+    NSLog(@"CentralManagerViewController: didDiscoverServices");
     if (error) {
         [self cleanup];
         return;
@@ -85,6 +89,7 @@
 }
 
 - (void)peripheral:(CBPeripheral *)peripheral didDiscoverCharacteristicsForService:(CBService *)service error:(NSError *)error {
+    NSLog(@"CentralManagerViewController: didDiscoverCharacteristicsForService");
     if (error) {
         [self cleanup];
         return;
@@ -99,6 +104,7 @@
 
 
 - (void)peripheral:(CBPeripheral *)peripheral didUpdateValueForCharacteristic:(CBCharacteristic *)characteristic error:(NSError *)error {
+    NSLog(@"CentralManagerViewController: didUpdateValueForCharacteristic");
     if (error) {
         NSLog(@"Error");
         return;
@@ -121,7 +127,7 @@
 
 
 - (void)peripheral:(CBPeripheral *)peripheral didUpdateNotificationStateForCharacteristic:(CBCharacteristic *)characteristic error:(NSError *)error {
-    
+    NSLog(@"CentralManagerViewController: didUpdateNotificationStateForCharacteristic");
     if (![characteristic.UUID isEqual:[CBUUID UUIDWithString:TRANSFER_CHARACTERISTIC_UUID]]) {
         return;
     }
@@ -135,13 +141,14 @@
 }
 
 - (void)centralManager:(CBCentralManager *)central didDisconnectPeripheral:(CBPeripheral *)peripheral error:(NSError *)error {
+    NSLog(@"CentralManagerViewController: didDisconnectPeripheral");
     _discoveredPeripheral = nil;
 
     [_centralManager scanForPeripheralsWithServices:@[[CBUUID UUIDWithString:TRANSFER_SERVICE_UUID]] options:@{ CBCentralManagerScanOptionAllowDuplicatesKey : @YES }];
 }
 
 - (void)cleanup {
-    
+    NSLog(@"CentralManagerViewController: cleanup");
     // See if we are subscribed to a characteristic on the peripheral
     if (_discoveredPeripheral.services != nil) {
         for (CBService *service in _discoveredPeripheral.services) {

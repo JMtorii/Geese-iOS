@@ -15,8 +15,8 @@
     [super viewDidLoad];
 
     _peripheralManager = [[CBPeripheralManager alloc] initWithDelegate:self queue:nil];
+    _sendingEOM = NO;
 }
-
 
 - (void)viewWillDisappear:(BOOL)animated {
     [_peripheralManager stopAdvertising];
@@ -24,8 +24,19 @@
     [super viewWillDisappear:animated];
 }
 
+- (IBAction)sendButtonPressed:(UIButton *)sender
+{
+    NSLog(@"Button Tapped!");
+    
+    _dataToSend = [_textView.text dataUsingEncoding:NSUTF8StringEncoding];
+    
+    _sendDataIndex = 0;
+    
+    [self sendData];
+}
 
 - (void)peripheralManagerDidUpdateState:(CBPeripheralManager *)peripheral {
+    NSLog(@"PeripheralViewController: peripheralManagerDidUpdateState");
     if (peripheral.state != CBPeripheralManagerStatePoweredOn) {
         return;
     }
@@ -48,25 +59,26 @@ permissions:CBAttributePermissionsReadable];
 
 
 - (void)peripheralManager:(CBPeripheralManager *)peripheral central:(CBCentral *)central didSubscribeToCharacteristic:(CBCharacteristic *)characteristic {
-    
-    _dataToSend = [_textView.text dataUsingEncoding:NSUTF8StringEncoding];
-
-    _sendDataIndex = 0;
-
-    [self sendData];
+    NSLog(@"PeripheralViewController: didSubscribeToCharacteristic");
+//    _dataToSend = [_textView.text dataUsingEncoding:NSUTF8StringEncoding];
+//
+//    _sendDataIndex = 0;
+//
+//    [self sendData];
 }
 
 - (void)sendData {
-
-    static BOOL sendingEOM = NO;
+    NSLog(@"PeripheralViewController: sendData");
+//    static BOOL sendingEOM = NO;
     
     // end of message?
-    if (sendingEOM) {
+    if (_sendingEOM) {
         BOOL didSend = [self.peripheralManager updateValue:[@"EOM" dataUsingEncoding:NSUTF8StringEncoding] forCharacteristic:self.transferCharacteristic onSubscribedCentrals:nil];
         
         if (didSend) {
             // It did, so mark it as sent
-            sendingEOM = NO;
+            _sendingEOM = NO;
+            
         }
         // didn't send, so we'll exit and wait for peripheralManagerIsReadyToUpdateSubscribers to call sendData again
         return;
@@ -91,6 +103,7 @@ permissions:CBAttributePermissionsReadable];
         
         // Copy out the data we want
         NSData *chunk = [NSData dataWithBytes:self.dataToSend.bytes+self.sendDataIndex length:amountToSend];
+        
         didSend = [self.peripheralManager updateValue:chunk forCharacteristic:self.transferCharacteristic onSubscribedCentrals:nil];
         
         // If it didn't work, drop out and wait for the callback
@@ -108,13 +121,13 @@ permissions:CBAttributePermissionsReadable];
         if (self.sendDataIndex >= self.dataToSend.length) {
             
             // Set this so if the send fails, we'll send it next time
-            sendingEOM = YES;
+            _sendingEOM = YES;
 
             BOOL eomSent = [self.peripheralManager updateValue:[@"EOM" dataUsingEncoding:NSUTF8StringEncoding] forCharacteristic:self.transferCharacteristic onSubscribedCentrals:nil];
             
             if (eomSent) {
                 // It sent, we're all done
-                sendingEOM = NO;
+                _sendingEOM = NO;
                 NSLog(@"Sent: EOM");
             }
             
@@ -125,6 +138,7 @@ permissions:CBAttributePermissionsReadable];
 
 
 - (void)peripheralManagerIsReadyToUpdateSubscribers:(CBPeripheralManager *)peripheral {
+    NSLog(@"PeripheralViewController: peripheralManagerIsReadyToUpdateSubscribers");
     [self sendData];
 }
 
