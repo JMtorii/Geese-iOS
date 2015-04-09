@@ -43,8 +43,7 @@
     
     if (peripheral.state == CBPeripheralManagerStatePoweredOn) {
 
-        _transferCharacteristic = [[CBMutableCharacteristic alloc] initWithType:[CBUUID UUIDWithString:TRANSFER_CHARACTERISTIC_UUID] properties:CBCharacteristicPropertyNotify value:nil
-permissions:CBAttributePermissionsReadable];
+        _transferCharacteristic = [[CBMutableCharacteristic alloc] initWithType:[CBUUID UUIDWithString:TRANSFER_CHARACTERISTIC_UUID] properties:CBCharacteristicPropertyNotify value:nil permissions:CBAttributePermissionsReadable];
         
         CBMutableService *transferService = [[CBMutableService alloc] initWithType:[CBUUID UUIDWithString:TRANSFER_SERVICE_UUID]primary:YES];
         
@@ -73,14 +72,17 @@ permissions:CBAttributePermissionsReadable];
     
     // end of message?
     if (_sendingEOM) {
+        NSLog(@"sendingEOM");
         BOOL didSend = [self.peripheralManager updateValue:[@"EOM" dataUsingEncoding:NSUTF8StringEncoding] forCharacteristic:self.transferCharacteristic onSubscribedCentrals:nil];
         
         if (didSend) {
+            NSLog(@"did send");
             // It did, so mark it as sent
             _sendingEOM = NO;
             
         }
         // didn't send, so we'll exit and wait for peripheralManagerIsReadyToUpdateSubscribers to call sendData again
+        NSLog(@"sendingEOM: return");
         return;
     }
     
@@ -88,6 +90,7 @@ permissions:CBAttributePermissionsReadable];
     // Is there any left to send?
     if (self.sendDataIndex >= self.dataToSend.length) {
         // No data left.  Do nothing
+        NSLog(@"no data left");
         return;
     }
     
@@ -95,6 +98,7 @@ permissions:CBAttributePermissionsReadable];
     BOOL didSend = YES;
     
     while (didSend) {
+        NSLog(@"didSend");
         // Work out how big it should be
         NSInteger amountToSend = self.dataToSend.length - self.sendDataIndex;
         
@@ -108,6 +112,7 @@ permissions:CBAttributePermissionsReadable];
         
         // If it didn't work, drop out and wait for the callback
         if (!didSend) {
+            NSLog(@"didn't send: return");
             return;
         }
         
@@ -119,7 +124,7 @@ permissions:CBAttributePermissionsReadable];
         
         // Was it the last one?
         if (self.sendDataIndex >= self.dataToSend.length) {
-            
+            NSLog(@"sendDataIndex >= dataToSend.length");
             // Set this so if the send fails, we'll send it next time
             _sendingEOM = YES;
 

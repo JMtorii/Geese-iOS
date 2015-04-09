@@ -37,7 +37,7 @@ class CentralManagerViewController: UIViewController, CBCentralManagerDelegate, 
         
         if central.state == CBCentralManagerState.PoweredOn {
             // Scan for devices
-            centralManager.scanForPeripheralsWithServices([CBUUID(string: SERVICES.TRANSFER_SERIVCE_UUID)], options: [CBCentralManagerScanOptionAllowDuplicatesKey : true])
+            centralManager.scanForPeripheralsWithServices([CBUUID(string: SERVICES.TRANSFER_SERVICE_UUID)], options: [CBCentralManagerScanOptionAllowDuplicatesKey : true])
             println("Scanning started")
         }
     }
@@ -73,7 +73,7 @@ class CentralManagerViewController: UIViewController, CBCentralManagerDelegate, 
         
         peripheral.delegate = self
         
-        peripheral.discoverServices([CBUUID(string: SERVICES.TRANSFER_SERIVCE_UUID)])
+        peripheral.discoverServices([CBUUID(string: SERVICES.TRANSFER_SERVICE_UUID)])
     }
     
     func peripheral(peripheral: CBPeripheral!, didDiscoverServices error: NSError!) {
@@ -138,12 +138,7 @@ class CentralManagerViewController: UIViewController, CBCentralManagerDelegate, 
     func centralManager(central: CBCentralManager!, didDisconnectPeripheral peripheral: CBPeripheral!, error: NSError!) {
         println("CentralManagerViewController: didDisconnectPeripheral")
         discoveredPeripheral = nil
-        centralManager.scanForPeripheralsWithServices([CBUUID(string: SERVICES.TRANSFER_SERIVCE_UUID)], options: [CBCentralManagerScanOptionAllowDuplicatesKey : true])
-    }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        centralManager.scanForPeripheralsWithServices([CBUUID(string: SERVICES.TRANSFER_SERVICE_UUID)], options: [CBCentralManagerScanOptionAllowDuplicatesKey : true])
     }
     
     func cleanup() {
@@ -154,7 +149,7 @@ class CentralManagerViewController: UIViewController, CBCentralManagerDelegate, 
                 if service.characteristics != nil {
                     if let characteristics = service.characteristics {
                         for characteristic in characteristics {
-                            if characteristic.UUIDString == CBUUID(string: SERVICES.TRANSFER_SERIVCE_UUID) {
+                            if characteristic.UUIDString == CBUUID(string: SERVICES.TRANSFER_CHARACTERISTIC_UUID) {
                                 if characteristic.isNotifying != nil {
                                     discoveredPeripheral.setNotifyValue(false, forCharacteristic: characteristic as CBCharacteristic)
                                     return
@@ -167,6 +162,11 @@ class CentralManagerViewController: UIViewController, CBCentralManagerDelegate, 
         }
         
         centralManager.cancelPeripheralConnection(discoveredPeripheral)
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
     }
     
 }

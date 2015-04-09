@@ -15,7 +15,7 @@ class PeripheralViewController: UIViewController, CBPeripheralManagerDelegate, U
     var transferCharacteristic : CBMutableCharacteristic!
     var dataToSend : NSData!
     var sendDataIndex : NSInteger = 0
-    var sendingEOM : Bool = true
+    var sendingEOM : Bool = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,12 +26,8 @@ class PeripheralViewController: UIViewController, CBPeripheralManagerDelegate, U
     
     override func viewWillDisappear(animated: Bool) {
         peripheralManager.stopAdvertising()
+        
         super.viewWillDisappear(animated)
-    }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     @IBAction func sendButtonTapped(sender:UIButton) {
@@ -41,6 +37,31 @@ class PeripheralViewController: UIViewController, CBPeripheralManagerDelegate, U
         sendData()
     }
     
+    func peripheralManagerDidUpdateState(peripheral: CBPeripheralManager!) {
+        println("PeripheralViewController: peripheralManagerDidUpdateState")
+        if peripheral.state != CBPeripheralManagerState.PoweredOn {
+            println("Powered off")
+            return
+        }
+        
+        if peripheral.state == CBPeripheralManagerState.PoweredOn {
+            println("Powered on")
+            transferCharacteristic = CBMutableCharacteristic(type: CBUUID(string: SERVICES.TRANSFER_CHARACTERISTIC_UUID), properties: CBCharacteristicProperties.Notify, value: nil, permissions: CBAttributePermissions.Readable)
+            var transferService:CBMutableService = CBMutableService(type: CBUUID(string: SERVICES.TRANSFER_SERVICE_UUID), primary: true)
+            transferService.characteristics = [transferCharacteristic]
+            peripheralManager.addService(transferService)
+        }
+        
+        peripheralManager.startAdvertising([CBAdvertisementDataServiceUUIDsKey: [CBUUID(string: SERVICES.TRANSFER_SERVICE_UUID)]])
+    }
+    
+    func peripheralManager(peripheral: CBPeripheralManager!, central: CBCentral!, didSubscribeToCharacteristic characteristic: CBCharacteristic!) {
+        println("PeripheralViewController: didSubscribeToCharacteristic")
+//        dataToSend = textView.text.dataUsingEncoding(NSUTF8StringEncoding, allowLossyConversion: true)
+//        sendDataIndex = 0
+//        sendData()
+    }
+
     func sendData() {
         println("PeripheralViewController: sendData")
 //        var sendingEOM:Bool = false // has to be static?
@@ -48,13 +69,16 @@ class PeripheralViewController: UIViewController, CBPeripheralManagerDelegate, U
         
         // end of message?
         if sendingEOM {
+            println("sendingEOM");
             var didSend:Bool = peripheralManager.updateValue(eomStr.dataUsingEncoding(NSUTF8StringEncoding), forCharacteristic: transferCharacteristic, onSubscribedCentrals: nil)
         
             if didSend {
+                println("did send");
                 // It did, so mark it as sent
                 sendingEOM = false
             }
             //didn't send, so we'll exit and wait for peripheralManagerIsReadyToUpdateSubscribers to call sendData again
+            println("sendingEOM: return");
             return
         }
         
@@ -62,12 +86,14 @@ class PeripheralViewController: UIViewController, CBPeripheralManagerDelegate, U
         // Is there any left to send?
         if sendDataIndex >= dataToSend.length {
             // No data left. Do nothing
+            println("no data left");
             return
         }
         
         var didSend:Bool = true
         
         while didSend {
+            println("didSend");
             // Word out how big it should be
             var amountToSend:Int = dataToSend.length - sendDataIndex
             
@@ -82,17 +108,19 @@ class PeripheralViewController: UIViewController, CBPeripheralManagerDelegate, U
             
             // If it didn't work, drop out and wait for the callback
             if !didSend {
+                println("didn't send: return");
                 return
             }
             
             var stringFromData:NSString = NSString(data: chunk, encoding: NSUTF8StringEncoding)!
-            println("Send: \(stringFromData)")
+            println("Sent: \(stringFromData)")
             
             // It did send, so update our index
             sendDataIndex += amountToSend
             
             // Was it the last one?
             if sendDataIndex >= dataToSend.length {
+                println("sendDataIndex >= dataToSend.length");
                 // Set this so if the send fails, we'll send it next time
                 sendingEOM = true
                 var eomSent:Bool = peripheralManager.updateValue(eomStr.dataUsingEncoding(NSUTF8StringEncoding), forCharacteristic: transferCharacteristic, onSubscribedCentrals: nil)
@@ -107,35 +135,15 @@ class PeripheralViewController: UIViewController, CBPeripheralManagerDelegate, U
             }
         }
     }
-    
-    func peripheralManagerDidUpdateState(peripheral: CBPeripheralManager!) {
-        println("PeripheralViewController: peripheralManagerDidUpdateState")
-        if peripheral.state != CBPeripheralManagerState.PoweredOn {
-            println("Powered off")
-            return
-        }
-        
-        if peripheral.state == CBPeripheralManagerState.PoweredOn {
-            println("Powered on")
-            transferCharacteristic = CBMutableCharacteristic(type: CBUUID(string: SERVICES.TRANSFER_CHARACTERISTIC_UUID), properties: CBCharacteristicProperties.Notify, value: nil, permissions: CBAttributePermissions.Readable)
-            var transferService:CBMutableService = CBMutableService(type: CBUUID(string: SERVICES.TRANSFER_SERIVCE_UUID), primary: true)
-            transferService.characteristics = [transferCharacteristic]
-            peripheralManager.addService(transferService)
-        }
-        
-        peripheralManager.startAdvertising([CBAdvertisementDataServiceUUIDsKey: [CBUUID(string: SERVICES.TRANSFER_SERIVCE_UUID)]])
-    }
-    
-    func peripheralManager(peripheral: CBPeripheralManager!, central: CBCentral!, didSubscribeToCharacteristic characteristic: CBCharacteristic!) {
-        println("PeripheralViewController: didSubscribeToCharacteristic")
-//        dataToSend = textView.text.dataUsingEncoding(NSUTF8StringEncoding, allowLossyConversion: true)
-//        sendDataIndex = 0
-//        sendData()
-    }
-    
+
     func peripheralManagerIsReadyToUpdateSubscribers(peripheral: CBPeripheralManager!) {
         println("PeripheralViewController: peripheralManagerIsReadyToUpdateSubscribers")
         sendData()
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
     }
     
 }
