@@ -21,6 +21,13 @@ class DebugViewController: UIViewController, UITableViewDelegate, UITableViewDat
         self.tableView.registerClass( UITableViewCell.self, forCellReuseIdentifier: "cell" )
         self.tableView.tableFooterView = UIView( frame: CGRectZero )
     }
+    
+    override func viewWillAppear(animated: Bool) {
+        if ( tableView.indexPathForSelectedRow() != nil ) {
+            tableView.deselectRowAtIndexPath( tableView.indexPathForSelectedRow()!, animated: animated )
+        }
+        super.viewWillAppear( animated )
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
