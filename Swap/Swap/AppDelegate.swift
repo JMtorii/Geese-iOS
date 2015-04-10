@@ -16,6 +16,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        window = UIWindow( frame: UIScreen.mainScreen().bounds )
+        
+        // For now, we'll set the root to DebugViewController
+        var rootViewController = DebugViewController( nibName: "DebugViewController", bundle: nil )
+        var navigationController = UINavigationController( rootViewController: rootViewController )
+        window?.rootViewController = navigationController
+        window?.makeKeyAndVisible()
+        
         return true
     }
 

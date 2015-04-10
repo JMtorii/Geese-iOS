@@ -7,9 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E6394611AD7507E008F949E /* DebugViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E6394601AD7507E008F949E /* DebugViewController.xib */; };
+		4E6394661AD764B6008F949E /* ServerMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6394651AD764B6008F949E /* ServerMainViewController.swift */; };
+		4E6394691AD76593008F949E /* BluetoothMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6394681AD76593008F949E /* BluetoothMainViewController.swift */; };
+		4E63946C1AD76605008F949E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E63946B1AD76605008F949E /* MainViewController.swift */; };
+		4E6394731AD76791008F949E /* CentralManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E63946D1AD76791008F949E /* CentralManagerViewController.swift */; };
+		4E6394741AD76791008F949E /* CentralManagerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E63946E1AD76791008F949E /* CentralManagerViewController.xib */; };
+		4E6394751AD76791008F949E /* BluetoothMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E63946F1AD76791008F949E /* BluetoothMainViewController.xib */; };
+		4E6394761AD76791008F949E /* PeripheralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6394701AD76791008F949E /* PeripheralViewController.swift */; };
+		4E6394771AD76791008F949E /* PeripheralViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E6394711AD76791008F949E /* PeripheralViewController.xib */; };
+		4E6394781AD76791008F949E /* SERVICES.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6394721AD76791008F949E /* SERVICES.swift */; };
+		4E63947A1AD76B6A008F949E /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E6394791AD76B6A008F949E /* MainViewController.xib */; };
+		4E63947C1AD76BDE008F949E /* ServerMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E63947B1AD76BDE008F949E /* ServerMainViewController.xib */; };
 		B6CFC9A41ABAB9B000AD952D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CFC9A31ABAB9B000AD952D /* AppDelegate.swift */; };
-		B6CFC9A61ABAB9B000AD952D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CFC9A51ABAB9B000AD952D /* ViewController.swift */; };
-		B6CFC9A91ABAB9B000AD952D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6CFC9A71ABAB9B000AD952D /* Main.storyboard */; };
+		B6CFC9A61ABAB9B000AD952D /* DebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CFC9A51ABAB9B000AD952D /* DebugViewController.swift */; };
 		B6CFC9AB1ABAB9B000AD952D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6CFC9AA1ABAB9B000AD952D /* Images.xcassets */; };
 		B6CFC9AE1ABAB9B000AD952D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6CFC9AC1ABAB9B000AD952D /* LaunchScreen.xib */; };
 		B6CFC9BA1ABAB9B000AD952D /* SwapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CFC9B91ABAB9B000AD952D /* SwapTests.swift */; };
@@ -26,11 +37,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E6394601AD7507E008F949E /* DebugViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DebugViewController.xib; sourceTree = "<group>"; };
+		4E6394651AD764B6008F949E /* ServerMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerMainViewController.swift; sourceTree = "<group>"; };
+		4E6394681AD76593008F949E /* BluetoothMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothMainViewController.swift; sourceTree = "<group>"; };
+		4E63946B1AD76605008F949E /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4E63946D1AD76791008F949E /* CentralManagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CentralManagerViewController.swift; sourceTree = "<group>"; };
+		4E63946E1AD76791008F949E /* CentralManagerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CentralManagerViewController.xib; sourceTree = "<group>"; };
+		4E63946F1AD76791008F949E /* BluetoothMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BluetoothMainViewController.xib; sourceTree = "<group>"; };
+		4E6394701AD76791008F949E /* PeripheralViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralViewController.swift; sourceTree = "<group>"; };
+		4E6394711AD76791008F949E /* PeripheralViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PeripheralViewController.xib; sourceTree = "<group>"; };
+		4E6394721AD76791008F949E /* SERVICES.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SERVICES.swift; sourceTree = "<group>"; };
+		4E6394791AD76B6A008F949E /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		4E63947B1AD76BDE008F949E /* ServerMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ServerMainViewController.xib; sourceTree = "<group>"; };
 		B6CFC99E1ABAB9B000AD952D /* Swap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6CFC9A21ABAB9B000AD952D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6CFC9A31ABAB9B000AD952D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B6CFC9A51ABAB9B000AD952D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B6CFC9A81ABAB9B000AD952D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6CFC9A51ABAB9B000AD952D /* DebugViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugViewController.swift; sourceTree = "<group>"; };
 		B6CFC9AA1ABAB9B000AD952D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B6CFC9AD1ABAB9B000AD952D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B6CFC9B31ABAB9B000AD952D /* SwapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,6 +78,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E6394621AD763ED008F949E /* ServerController */ = {
+			isa = PBXGroup;
+			children = (
+				4E6394651AD764B6008F949E /* ServerMainViewController.swift */,
+				4E63947B1AD76BDE008F949E /* ServerMainViewController.xib */,
+			);
+			path = ServerController;
+			sourceTree = "<group>";
+		};
+		4E6394671AD7650E008F949E /* BluetoothController */ = {
+			isa = PBXGroup;
+			children = (
+				4E6394681AD76593008F949E /* BluetoothMainViewController.swift */,
+				4E63946F1AD76791008F949E /* BluetoothMainViewController.xib */,
+				4E63946D1AD76791008F949E /* CentralManagerViewController.swift */,
+				4E63946E1AD76791008F949E /* CentralManagerViewController.xib */,
+				4E6394701AD76791008F949E /* PeripheralViewController.swift */,
+				4E6394711AD76791008F949E /* PeripheralViewController.xib */,
+				4E6394721AD76791008F949E /* SERVICES.swift */,
+			);
+			path = BluetoothController;
+			sourceTree = "<group>";
+		};
+		4E63946A1AD765D2008F949E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				4E63946B1AD76605008F949E /* MainViewController.swift */,
+				4E6394791AD76B6A008F949E /* MainViewController.xib */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
 		B6CFC9951ABAB9B000AD952D = {
 			isa = PBXGroup;
 			children = (
@@ -78,8 +132,11 @@
 			isa = PBXGroup;
 			children = (
 				B6CFC9A31ABAB9B000AD952D /* AppDelegate.swift */,
-				B6CFC9A51ABAB9B000AD952D /* ViewController.swift */,
-				B6CFC9A71ABAB9B000AD952D /* Main.storyboard */,
+				B6CFC9A51ABAB9B000AD952D /* DebugViewController.swift */,
+				4E6394601AD7507E008F949E /* DebugViewController.xib */,
+				4E63946A1AD765D2008F949E /* UI */,
+				4E6394621AD763ED008F949E /* ServerController */,
+				4E6394671AD7650E008F949E /* BluetoothController */,
 				B6CFC9AA1ABAB9B000AD952D /* Images.xcassets */,
 				B6CFC9AC1ABAB9B000AD952D /* LaunchScreen.xib */,
 				B6CFC9A11ABAB9B000AD952D /* Supporting Files */,
@@ -192,8 +249,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6CFC9A91ABAB9B000AD952D /* Main.storyboard in Resources */,
+				4E63947C1AD76BDE008F949E /* ServerMainViewController.xib in Resources */,
+				4E6394741AD76791008F949E /* CentralManagerViewController.xib in Resources */,
 				B6CFC9AE1ABAB9B000AD952D /* LaunchScreen.xib in Resources */,
+				4E6394771AD76791008F949E /* PeripheralViewController.xib in Resources */,
+				4E6394751AD76791008F949E /* BluetoothMainViewController.xib in Resources */,
+				4E6394611AD7507E008F949E /* DebugViewController.xib in Resources */,
+				4E63947A1AD76B6A008F949E /* MainViewController.xib in Resources */,
 				B6CFC9AB1ABAB9B000AD952D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,8 +274,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6CFC9A61ABAB9B000AD952D /* ViewController.swift in Sources */,
+				4E6394661AD764B6008F949E /* ServerMainViewController.swift in Sources */,
+				B6CFC9A61ABAB9B000AD952D /* DebugViewController.swift in Sources */,
+				4E6394691AD76593008F949E /* BluetoothMainViewController.swift in Sources */,
+				4E6394761AD76791008F949E /* PeripheralViewController.swift in Sources */,
 				B6CFC9A41ABAB9B000AD952D /* AppDelegate.swift in Sources */,
+				4E6394781AD76791008F949E /* SERVICES.swift in Sources */,
+				4E6394731AD76791008F949E /* CentralManagerViewController.swift in Sources */,
+				4E63946C1AD76605008F949E /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,14 +304,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B6CFC9A71ABAB9B000AD952D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B6CFC9A81ABAB9B000AD952D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B6CFC9AC1ABAB9B000AD952D /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -407,6 +467,7 @@
 				B6CFC9BF1ABAB9B000AD952D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6CFC9C01ABAB9B000AD952D /* Build configuration list for PBXNativeTarget "SwapTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +476,7 @@
 				B6CFC9C21ABAB9B000AD952D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
