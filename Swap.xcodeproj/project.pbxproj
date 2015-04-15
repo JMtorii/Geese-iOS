@@ -25,6 +25,7 @@
 		4E63947C1AD76BDE008F949E /* ServerMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E63947B1AD76BDE008F949E /* ServerMainViewController.xib */; };
 		4EDB6EDF1ADDFC940088DD96 /* NewCardEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB6EDE1ADDFC940088DD96 /* NewCardEditViewController.swift */; };
 		4EDB6EE11ADDFD620088DD96 /* NewCardEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EDB6EE01ADDFD620088DD96 /* NewCardEditViewController.xib */; };
+		4EDB6EE41ADE2BC50088DD96 /* SwapUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB6EE31ADE2BC50088DD96 /* SwapUtils.swift */; };
 		B6CFC9A41ABAB9B000AD952D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CFC9A31ABAB9B000AD952D /* AppDelegate.swift */; };
 		B6CFC9A61ABAB9B000AD952D /* DebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CFC9A51ABAB9B000AD952D /* DebugViewController.swift */; };
 		B6CFC9AB1ABAB9B000AD952D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6CFC9AA1ABAB9B000AD952D /* Images.xcassets */; };
@@ -61,6 +62,7 @@
 		4E63947B1AD76BDE008F949E /* ServerMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ServerMainViewController.xib; sourceTree = "<group>"; };
 		4EDB6EDE1ADDFC940088DD96 /* NewCardEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewCardEditViewController.swift; sourceTree = "<group>"; };
 		4EDB6EE01ADDFD620088DD96 /* NewCardEditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewCardEditViewController.xib; sourceTree = "<group>"; };
+		4EDB6EE31ADE2BC50088DD96 /* SwapUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwapUtils.swift; sourceTree = "<group>"; };
 		B6CFC99E1ABAB9B000AD952D /* Swap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6CFC9A21ABAB9B000AD952D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6CFC9A31ABAB9B000AD952D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -128,6 +130,14 @@
 			path = UI;
 			sourceTree = "<group>";
 		};
+		4EDB6EE21ADE2B740088DD96 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				4EDB6EE31ADE2BC50088DD96 /* SwapUtils.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		B6CFC9951ABAB9B000AD952D = {
 			isa = PBXGroup;
 			children = (
@@ -155,6 +165,7 @@
 				4E63946A1AD765D2008F949E /* UI */,
 				4E6394621AD763ED008F949E /* ServerController */,
 				4E6394671AD7650E008F949E /* BluetoothController */,
+				4EDB6EE21ADE2B740088DD96 /* Utilities */,
 				B6CFC9AA1ABAB9B000AD952D /* Images.xcassets */,
 				B6CFC9AC1ABAB9B000AD952D /* LaunchScreen.xib */,
 				B6CFC9A11ABAB9B000AD952D /* Supporting Files */,
@@ -301,6 +312,7 @@
 				B6CFC9A61ABAB9B000AD952D /* DebugViewController.swift in Sources */,
 				4E6394691AD76593008F949E /* BluetoothMainViewController.swift in Sources */,
 				4E01C62E1ADA273600AC7775 /* CardCellViewController.swift in Sources */,
+				4EDB6EE41ADE2BC50088DD96 /* SwapUtils.swift in Sources */,
 				4E6394761AD76791008F949E /* PeripheralViewController.swift in Sources */,
 				B6CFC9A41ABAB9B000AD952D /* AppDelegate.swift in Sources */,
 				4E6394781AD76791008F949E /* SERVICES.swift in Sources */,

@@ -8,6 +8,7 @@
             <connections>
                 <outlet property="companyNameTextField" destination="A7b-sQ-dKC" id="8cL-28-sWN"/>
                 <outlet property="companyPositionTextField" destination="MUL-qN-CvN" id="UZE-Be-aX1"/>
+                <outlet property="doneButton" destination="aOi-bZ-WIf" id="7Ui-Pk-tKb"/>
                 <outlet property="emailTextField" destination="O5I-cT-EPh" id="rng-Xp-2kN"/>
                 <outlet property="nameTextField" destination="tQ8-Us-B67" id="NdV-n6-Zxs"/>
                 <outlet property="phoneTextField" destination="PLJ-Oz-C8o" id="DnH-FI-UmK"/>
