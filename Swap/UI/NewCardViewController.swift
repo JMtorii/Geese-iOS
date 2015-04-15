@@ -1,19 +1,17 @@
 //
-//  MainViewController.swift
+//  NewCardViewController.swift
 //  Swap
 //
-//  Created by Mark Torii on 4/9/15.
+//  Created by Jun Torii on 4/9/15.
 //  Copyright (c) 2015 Swap. All rights reserved.
-//
-//
-//  This will be the root view controller in the future
 
 import UIKit
 
 class NewCardViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet var tableView: UITableView!
-    var items:[ String ] = [ "Card1", "Card2", "Card3" ];
+    // TODO: this will need to be stored elsewhere. maybe plist?
+    var items:[ String ] = [ "Simple" ];
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,7 +38,7 @@ class NewCardViewController: UIViewController, UITableViewDelegate, UITableViewD
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        var cell:UITableViewCell = self.tableView.dequeueReusableCellWithIdentifier( "cell" ) as UITableViewCell
+        var cell:UITableViewCell = UITableViewCell()
         cell.textLabel?.text = self.items[ indexPath.row ]
         
         return cell
@@ -49,6 +47,8 @@ class NewCardViewController: UIViewController, UITableViewDelegate, UITableViewD
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         println( "You selected cell #\( indexPath.row )!" );
         
+        var nextViewController:UIViewController = NewCardEditViewController( nibName: "NewCardEditViewController", bundle: nil )
+        navigationController?.pushViewController( nextViewController, animated: true )
     }
     
     

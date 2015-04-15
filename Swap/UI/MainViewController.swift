@@ -2,7 +2,7 @@
 //  MainViewController.swift
 //  Swap
 //
-//  Created by Mark Torii on 4/9/15.
+//  Created by Jun Torii on 4/9/15.
 //  Copyright (c) 2015 Swap. All rights reserved.
 //
 //
@@ -13,29 +13,37 @@ import UIKit
 class MainViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet var tableView: UITableView!
-    var items:[ String ] = [ "Card1", "Card2", "Card3" ];
+    
+    var appDelegate: AppDelegate!
+    var items:[ String ] = [ "Card1", "Card2", "Card3" ]
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Main View Controller"
         
-        var nib = UINib(nibName: "CardCellView", bundle: nil)
-        tableView.registerNib(nib, forCellReuseIdentifier: "CardCell")
+        var nib = UINib( nibName: "CardCellView", bundle: nil )
+        tableView.registerNib( nib, forCellReuseIdentifier: "CardCell" )
         
-        var addButton = UIBarButtonItem(barButtonSystemItem: .Add, target: self, action: "addNewCardButtonPressed") //Use a selector
+        var addButton = UIBarButtonItem( barButtonSystemItem: .Add, target: self, action: "addNewCardButtonPressed" ) //Use a selector
         navigationItem.leftBarButtonItem = addButton
         
         self.tableView.tableFooterView = UIView( frame: CGRectZero )
+        
+        appDelegate = UIApplication.sharedApplication().delegate as AppDelegate
+        appDelegate.rootViewController = self
     }
     
     func addNewCardButtonPressed() {
-        var nextViewController:UIViewController?;
+        var nextViewController:UIViewController = NewCardViewController( nibName: "NewCardViewController", bundle: nil )
+        navigationController?.pushViewController( nextViewController, animated: true )
     }
     
     override func viewWillAppear(animated: Bool) {
         if ( tableView.indexPathForSelectedRow() != nil ) {
             tableView.deselectRowAtIndexPath( tableView.indexPathForSelectedRow()!, animated: animated )
         }
+        
         super.viewWillAppear( animated )
     }
     
@@ -50,6 +58,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        // TODO: change this shit
         return 150
     }
     
@@ -61,22 +70,6 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         println( "You selected cell #\( indexPath.row )!" );
-        
-        // very mediocre way of doing this but whatever.
-//        var nextViewController:UIViewController?;
-//        
-//        if ( indexPath.row == 0 ) {
-//            nextViewController = MainViewController( nibName: "MainViewController", bundle: nil )
-//            
-//        } else if ( indexPath.row == 1 ) {
-//            nextViewController = ServerMainViewController( nibName: "ServerMainViewController", bundle: nil )
-//            
-//        } else if ( indexPath.row == 2 ) {
-//            nextViewController = BluetoothMainViewController( nibName: "BluetoothMainViewController", bundle: nil )
-//            
-//        }
-//        
-//        navigationController?.pushViewController( nextViewController!, animated: true )
     }
     
     

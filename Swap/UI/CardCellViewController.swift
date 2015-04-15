@@ -2,7 +2,7 @@
 //  CardCellViewController.swift
 //  Swap
 //
-//  Created by Mark Torii on 4/11/15.
+//  Created by Jun Torii on 4/11/15.
 //  Copyright (c) 2015 Swap. All rights reserved.
 //
 
