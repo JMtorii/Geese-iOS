@@ -6,26 +6,7 @@
 //  Copyright (c) 2015 Swap. All rights reserved.
 
 
-import UIKit
-
-class NewCardEditViewController: UIViewController {
-    
-    @IBOutlet var nameTextField: UITextField!
-    @IBOutlet var emailTextField: UITextField!
-    @IBOutlet var phoneTextField: UITextField!
-    @IBOutlet var companyNameTextField: UITextField!
-    @IBOutlet var companyPositionTextField: UITextField!
-    
-    @IBOutlet var doneButton: UIButton!
-    
-    var appDelegate: AppDelegate!
-    var cardJSON: String!
-    
-    @IBAction func onDoneButtonPressed() {
-        navigationController?.popToViewController( appDelegate.rootViewController, animated: true )
-    }
-    
-    // JSON format
+// JSON format
 //    {
 //        "card": {
 //            "templateId": 1,
@@ -44,20 +25,54 @@ class NewCardEditViewController: UIViewController {
 //            }
 //        }
 //    }
+
+
+import UIKit
+
+class NewCardEditViewController: UIViewController {
     
+    @IBOutlet var nameTextField: UITextField!
+    @IBOutlet var emailTextField: UITextField!
+    @IBOutlet var phoneTextField: UITextField!
+    @IBOutlet var companyNameTextField: UITextField!
+    @IBOutlet var companyPositionTextField: UITextField!
+    
+    @IBOutlet var doneButton: UIButton!
+    
+    var appDelegate: AppDelegate!
+    var cardJSON: String = "{\"card\": { \"templateId\": {0}, \"user\": {\"fullName\": \"{1}\", " +
+                            "\"email\": \"{2}\", \"phoneNumber\": {3} }, \"imageLogo\": { \"src\": " +
+                            "\"{4}\", \"name\": \"{5}\" }, \"company\": { \"name\": \"{6}\", " +
+                            "\"position\": \"{7}\" } } }"
+    
+    @IBAction func onDoneButtonPressed() {
+        let defaults = NSUserDefaults.standardUserDefaults()
+        
+        var valArr: [ String ] = [ "1", nameTextField.text, emailTextField.text, phoneTextField.text,
+                                    "/bullshit/dir/hi.jpg", "hi.jpg", companyNameTextField.text,
+                                    companyPositionTextField.text ]
+        
+        SwapUtils.replaceString( &cardJSON, vals: valArr )
+        
+        if defaults.arrayForKey( "storedCards" ) == nil {
+            var tmpArr: [ String ] = [ cardJSON ];
+            defaults.setObject( tmpArr, forKey: "storedCards" )
+            
+        } else {
+            var tmpArray = defaults.arrayForKey( "storedCards" ) as [ String ]
+            tmpArray.append( cardJSON )
+            defaults.setObject( tmpArray, forKey: "storedCards" )
+            
+        }
+        
+        navigationController?.popToViewController( appDelegate.rootViewController, animated: true )
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Edit your card"
         
         appDelegate = UIApplication.sharedApplication().delegate as AppDelegate
-        
-        cardJSON = "{\"card\": { \"templateId\": {0}, \"user\": {\"fullName\": \"{1}\", \"email\": \"{2}\", \"phoneNumber\": {3} }, \"imageLogo\": { \"src\": \"{4}\", \"name\": \"{5}\" }, \"company\": { \"name\": \"{6}\", \"position\": \"{7}\" } } }"
-    
-        println( cardJSON )
-        var tmpArr: [String] = [ "***", "%%%" ]
-//        SwapUtils.replaceString( &cardJSON!, vals: tmpArr )
-        println( cardJSON );
     }
     
     override func didReceiveMemoryWarning() {

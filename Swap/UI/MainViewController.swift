@@ -32,6 +32,14 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         appDelegate = UIApplication.sharedApplication().delegate as AppDelegate
         appDelegate.rootViewController = self
+        
+        
+        let defaults = NSUserDefaults.standardUserDefaults()
+        
+        // Receive
+        if let json = defaults.arrayForKey( "storedCards" ) {
+            println( json )
+        }
     }
     
     func addNewCardButtonPressed() {
