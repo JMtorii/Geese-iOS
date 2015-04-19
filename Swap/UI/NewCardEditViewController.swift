@@ -59,7 +59,7 @@ class NewCardEditViewController: UIViewController {
             defaults.setObject( tmpArr, forKey: "storedCards" )
             
         } else {
-            var tmpArray = defaults.arrayForKey( "storedCards" ) as [ String ]
+            var tmpArray = defaults.arrayForKey( "storedCards" ) as! [ String ]
             tmpArray.append( cardJSON )
             defaults.setObject( tmpArray, forKey: "storedCards" )
             
@@ -72,7 +72,7 @@ class NewCardEditViewController: UIViewController {
         super.viewDidLoad()
         self.title = "Edit your card"
         
-        appDelegate = UIApplication.sharedApplication().delegate as AppDelegate
+        appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
     }
     
     override func didReceiveMemoryWarning() {

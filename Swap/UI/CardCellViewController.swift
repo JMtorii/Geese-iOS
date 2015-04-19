@@ -12,7 +12,11 @@ import UIKit
 // This will most likely need to be alterned
 class CardCellViewController: UITableViewCell {
     
-    @IBOutlet var titleLabel: UILabel!
+    @IBOutlet var companyPositionLabel: UILabel!
+    @IBOutlet var companyNameLabel: UILabel!
+    @IBOutlet var fullNameLabel: UILabel!
+    @IBOutlet var emailLabel: UILabel!
+    @IBOutlet var phoneLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

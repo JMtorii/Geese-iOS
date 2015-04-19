@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CardCellViewController" customModule="Swap" customModuleProvider="target"/>
@@ -12,17 +13,64 @@
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bH2-Io-rAb" id="Re8-kR-whi">
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Julia Eastern" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eMp-Nx-k52">
-                        <rect key="frame" x="22" y="19" width="213" height="21"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Middle Last Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eMp-Nx-k52">
+                        <rect key="frame" x="0.0" y="55" width="320" height="21"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Company Position" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P9h-xL-8vF">
+                        <rect key="frame" x="0.0" y="19" width="320" height="36"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="36" id="gcK-fG-nUR"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Company Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P1G-pj-ZEP">
+                        <rect key="frame" x="0.0" y="84" width="320" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="emailaddress@company.com" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eUG-L6-Bu3">
+                        <rect key="frame" x="0.0" y="99" width="320" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="Uev-lf-pMf"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="phone number" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g6D-zS-RYV">
+                        <rect key="frame" x="0.0" y="113" width="320" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="6io-Jw-fD4"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
+                <constraints>
+                    <constraint firstItem="P9h-xL-8vF" firstAttribute="trailing" secondItem="g6D-zS-RYV" secondAttribute="trailing" id="1dg-3U-b1b"/>
+                    <constraint firstItem="P9h-xL-8vF" firstAttribute="trailing" secondItem="P1G-pj-ZEP" secondAttribute="trailing" id="2J3-sv-fyr"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="P9h-xL-8vF" secondAttribute="trailing" constant="-8" id="4Ch-kR-JUp"/>
+                    <constraint firstItem="eUG-L6-Bu3" firstAttribute="top" secondItem="eMp-Nx-k52" secondAttribute="bottom" constant="23" id="5xA-Af-9zP"/>
+                    <constraint firstItem="P9h-xL-8vF" firstAttribute="leading" secondItem="eUG-L6-Bu3" secondAttribute="leading" id="BfE-dO-l9L"/>
+                    <constraint firstItem="P9h-xL-8vF" firstAttribute="leading" secondItem="eMp-Nx-k52" secondAttribute="leading" id="K4J-pC-M6k"/>
+                    <constraint firstItem="P9h-xL-8vF" firstAttribute="trailing" secondItem="eMp-Nx-k52" secondAttribute="trailing" id="KxZ-CH-Oev"/>
+                    <constraint firstItem="P9h-xL-8vF" firstAttribute="trailing" secondItem="eUG-L6-Bu3" secondAttribute="trailing" id="MuF-jY-X2S"/>
+                    <constraint firstItem="eMp-Nx-k52" firstAttribute="top" secondItem="P9h-xL-8vF" secondAttribute="bottom" id="Ogx-jF-9Lg"/>
+                    <constraint firstItem="g6D-zS-RYV" firstAttribute="top" secondItem="P1G-pj-ZEP" secondAttribute="bottom" constant="8" symbolic="YES" id="Rui-iK-uyQ"/>
+                    <constraint firstItem="P9h-xL-8vF" firstAttribute="top" secondItem="Re8-kR-whi" secondAttribute="topMargin" constant="11" id="WZQ-fJ-k06"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="g6D-zS-RYV" secondAttribute="bottom" constant="7.5" id="Wpu-8H-XZx"/>
+                    <constraint firstItem="P9h-xL-8vF" firstAttribute="leading" secondItem="Re8-kR-whi" secondAttribute="leadingMargin" constant="-8" id="dM2-UW-dKV"/>
+                    <constraint firstItem="P9h-xL-8vF" firstAttribute="leading" secondItem="g6D-zS-RYV" secondAttribute="leading" id="myw-FU-g0Z"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="eUG-L6-Bu3" secondAttribute="bottom" constant="21.5" id="qsV-5U-xF8"/>
+                    <constraint firstItem="P9h-xL-8vF" firstAttribute="leading" secondItem="P1G-pj-ZEP" secondAttribute="leading" id="wiu-lM-iiD"/>
+                </constraints>
             </tableViewCellContentView>
-            <connections>
-                <outlet property="titleLabel" destination="eMp-Nx-k52" id="IV2-1G-gQk"/>
-            </connections>
             <point key="canvasLocation" x="200" y="253"/>
         </tableViewCell>
     </objects>

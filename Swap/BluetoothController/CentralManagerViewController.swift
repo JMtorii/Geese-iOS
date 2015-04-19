@@ -84,7 +84,7 @@ class CentralManagerViewController: UIViewController, CBCentralManagerDelegate, 
         }
         
         for service in peripheral.services {
-            peripheral.discoverCharacteristics([CBUUID(string: SERVICES.TRANSFER_CHARACTERISTIC_UUID)], forService: service as CBService)
+            peripheral.discoverCharacteristics([CBUUID(string: SERVICES.TRANSFER_CHARACTERISTIC_UUID)], forService: service as! CBService)
         }
         // Discover other characteristics
     }
@@ -98,7 +98,7 @@ class CentralManagerViewController: UIViewController, CBCentralManagerDelegate, 
         
         for characteristic in service.characteristics {
             if characteristic.UUIDString == CBUUID(string: SERVICES.TRANSFER_CHARACTERISTIC_UUID) {
-                peripheral.setNotifyValue(true, forCharacteristic: characteristic as CBCharacteristic)
+                peripheral.setNotifyValue(true, forCharacteristic: characteristic as! CBCharacteristic)
             }
         }
     }
@@ -113,7 +113,7 @@ class CentralManagerViewController: UIViewController, CBCentralManagerDelegate, 
         var stringFromData:NSString = NSString(data: characteristic.value, encoding: NSUTF8StringEncoding)!
         
         if stringFromData == "EOM" {
-            textView.text = NSString(data: self.data, encoding: NSUTF8StringEncoding)
+            textView.text = NSString( data: self.data, encoding: NSUTF8StringEncoding ) as! String
             peripheral.setNotifyValue(false, forCharacteristic: characteristic)
             centralManager.cancelPeripheralConnection(peripheral)
         }
@@ -151,7 +151,7 @@ class CentralManagerViewController: UIViewController, CBCentralManagerDelegate, 
                         for characteristic in characteristics {
                             if characteristic.UUIDString == CBUUID(string: SERVICES.TRANSFER_CHARACTERISTIC_UUID) {
                                 if characteristic.isNotifying != nil {
-                                    discoveredPeripheral.setNotifyValue(false, forCharacteristic: characteristic as CBCharacteristic)
+                                    discoveredPeripheral.setNotifyValue(false, forCharacteristic: characteristic as! CBCharacteristic)
                                     return
                                 }
                             }

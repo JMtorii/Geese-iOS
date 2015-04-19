@@ -30,7 +30,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         self.tableView.tableFooterView = UIView( frame: CGRectZero )
         
-        appDelegate = UIApplication.sharedApplication().delegate as AppDelegate
+        appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
         appDelegate.rootViewController = self
         
         
@@ -40,11 +40,6 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         if let json = defaults.arrayForKey( "storedCards" ) {
             println( json )
         }
-    }
-    
-    func addNewCardButtonPressed() {
-        var nextViewController:UIViewController = NewCardViewController( nibName: "NewCardViewController", bundle: nil )
-        navigationController?.pushViewController( nextViewController, animated: true )
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -71,13 +66,18 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        var cell:CardCellViewController = self.tableView.dequeueReusableCellWithIdentifier( "CardCell", forIndexPath: indexPath ) as CardCellViewController
-        cell.titleLabel.text = items[ indexPath.row ]
+        var cell:CardCellViewController = self.tableView.dequeueReusableCellWithIdentifier( "CardCell", forIndexPath: indexPath ) as! CardCellViewController
+//        cell.companyNameLabel.text = items[ indexPath.row ]
         return cell
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         println( "You selected cell #\( indexPath.row )!" );
+    }
+    
+    func addNewCardButtonPressed() {
+        var nextViewController:UIViewController = NewCardViewController( nibName: "NewCardViewController", bundle: nil )
+        navigationController?.pushViewController( nextViewController, animated: true )
     }
     
     
