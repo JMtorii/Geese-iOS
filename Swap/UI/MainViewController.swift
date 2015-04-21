@@ -28,6 +28,8 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         var addButton = UIBarButtonItem( barButtonSystemItem: .Add, target: self, action: "addNewCardButtonPressed" ) //Use a selector
         navigationItem.leftBarButtonItem = addButton
+        var settingsButton = UIBarButtonItem( title: "Settings", style:UIBarButtonItemStyle.Plain, target: self, action: "settingsButtonPressed" ) //Use a selector
+        navigationItem.rightBarButtonItem = settingsButton
         
         self.tableView.tableFooterView = UIView( frame: CGRectZero )
         
@@ -40,6 +42,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
             tableView.deselectRowAtIndexPath( tableView.indexPathForSelectedRow()!, animated: animated )
         }
         
+        println( "viewWillAppear" )
         self.refreshCards()
         
         super.viewWillAppear( animated )
@@ -64,7 +67,12 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         println( "cellForRowAtIndexPath" )
         
         var cell:CardCellViewController = self.tableView.dequeueReusableCellWithIdentifier( "CardCell", forIndexPath: indexPath ) as! CardCellViewController
-//        cell.companyNameLabel.text = items[ indexPath.row ]
+        cell.companyPositionLabel.text = cardList[ indexPath.row ].companyPosition
+        cell.fullNameLabel.text = cardList[ indexPath.row ].fullName
+        cell.companyNameLabel.text = cardList[ indexPath.row ].companyName
+        cell.emailLabel.text = cardList[ indexPath.row ].email
+        cell.phoneLabel.text = "\( cardList[ indexPath.row ].phoneNumber! )"
+        
         return cell
     }
     
@@ -74,6 +82,11 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     func addNewCardButtonPressed() {
         var nextViewController:UIViewController = NewCardViewController( nibName: "NewCardViewController", bundle: nil )
+        navigationController?.pushViewController( nextViewController, animated: true )
+    }
+    
+    func settingsButtonPressed() {
+        var nextViewController:UIViewController = SettingsViewController( nibName: "SettingsViewController", bundle: nil )
         navigationController?.pushViewController( nextViewController, animated: true )
     }
     
@@ -109,7 +122,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
                 card.email = email
             }
             
-            if let phoneNumber = cardJson[ "card" ][ "user" ][ "phoneNumber" ].string {
+            if let phoneNumber = cardJson[ "card" ][ "user" ][ "phoneNumber" ].int {
                 card.phoneNumber = phoneNumber
             }
             
@@ -149,7 +162,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     //            "user": {
     //                "fullName": "Billy Bee",
     //                "email": "not_today_mofo@gmail.com",
-    //                "phoneNumber": "4151112222"
+    //                "phoneNumber": 4151112222
     //            },
     //            "imageLogo": {
     //                "src": "Images/HappyBee.png",

@@ -28,6 +28,8 @@
 		4EDB6EDF1ADDFC940088DD96 /* NewCardEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB6EDE1ADDFC940088DD96 /* NewCardEditViewController.swift */; };
 		4EDB6EE11ADDFD620088DD96 /* NewCardEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EDB6EE01ADDFD620088DD96 /* NewCardEditViewController.xib */; };
 		4EDB6EE41ADE2BC50088DD96 /* SwapUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB6EE31ADE2BC50088DD96 /* SwapUtils.swift */; };
+		4EEDFBBD1AE61F670090830A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEDFBBC1AE61F670090830A /* SettingsViewController.swift */; };
+		4EEDFBBF1AE61F850090830A /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EEDFBBE1AE61F850090830A /* SettingsViewController.xib */; };
 		B6CFC9A41ABAB9B000AD952D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CFC9A31ABAB9B000AD952D /* AppDelegate.swift */; };
 		B6CFC9A61ABAB9B000AD952D /* DebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CFC9A51ABAB9B000AD952D /* DebugViewController.swift */; };
 		B6CFC9AB1ABAB9B000AD952D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6CFC9AA1ABAB9B000AD952D /* Images.xcassets */; };
@@ -67,6 +69,8 @@
 		4EDB6EDE1ADDFC940088DD96 /* NewCardEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewCardEditViewController.swift; sourceTree = "<group>"; };
 		4EDB6EE01ADDFD620088DD96 /* NewCardEditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewCardEditViewController.xib; sourceTree = "<group>"; };
 		4EDB6EE31ADE2BC50088DD96 /* SwapUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwapUtils.swift; sourceTree = "<group>"; };
+		4EEDFBBC1AE61F670090830A /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		4EEDFBBE1AE61F850090830A /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
 		B6CFC99E1ABAB9B000AD952D /* Swap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6CFC9A21ABAB9B000AD952D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6CFC9A31ABAB9B000AD952D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -130,6 +134,8 @@
 				4E01C6311ADA3F3E00AC7775 /* NewCardViewController.xib */,
 				4EDB6EDE1ADDFC940088DD96 /* NewCardEditViewController.swift */,
 				4EDB6EE01ADDFD620088DD96 /* NewCardEditViewController.xib */,
+				4EEDFBBC1AE61F670090830A /* SettingsViewController.swift */,
+				4EEDFBBE1AE61F850090830A /* SettingsViewController.xib */,
 				4EAEBBEF1AE5E65A0009BEAE /* Card.swift */,
 			);
 			path = UI;
@@ -300,6 +306,7 @@
 				4E6394771AD76791008F949E /* PeripheralViewController.xib in Resources */,
 				4E6394751AD76791008F949E /* BluetoothMainViewController.xib in Resources */,
 				4E6394611AD7507E008F949E /* DebugViewController.xib in Resources */,
+				4EEDFBBF1AE61F850090830A /* SettingsViewController.xib in Resources */,
 				4E63947A1AD76B6A008F949E /* MainViewController.xib in Resources */,
 				B6CFC9AB1ABAB9B000AD952D /* Images.xcassets in Resources */,
 				4E01C62C1ADA25F100AC7775 /* CardCellView.xib in Resources */,
@@ -329,6 +336,7 @@
 				4E01C62E1ADA273600AC7775 /* CardCellViewController.swift in Sources */,
 				4EDB6EE41ADE2BC50088DD96 /* SwapUtils.swift in Sources */,
 				4E6394761AD76791008F949E /* PeripheralViewController.swift in Sources */,
+				4EEDFBBD1AE61F670090830A /* SettingsViewController.swift in Sources */,
 				B6CFC9A41ABAB9B000AD952D /* AppDelegate.swift in Sources */,
 				4EAEBBF01AE5E65A0009BEAE /* Card.swift in Sources */,
 				4E6394781AD76791008F949E /* SERVICES.swift in Sources */,

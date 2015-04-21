@@ -35,7 +35,7 @@ struct Card {
     
     var fullName: String?
     var email: String?
-    var phoneNumber: String?
+    var phoneNumber: Int?
     
     var imageLogoSrc: String?
     var imageLogoName: String?

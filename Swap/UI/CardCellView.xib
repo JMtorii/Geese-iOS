@@ -5,7 +5,7 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CardCellViewController" customModule="Swap" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CardCell" rowHeight="150" id="bH2-Io-rAb" customClass="CardCellViewController" customModule="Swap" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
@@ -27,8 +27,8 @@
                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Company Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P1G-pj-ZEP">
-                        <rect key="frame" x="0.0" y="84" width="320" height="21"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Company Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P1G-pj-ZEP">
+                        <rect key="frame" x="0.0" y="90" width="320" height="15"/>
                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
@@ -71,6 +71,13 @@
                     <constraint firstItem="P9h-xL-8vF" firstAttribute="leading" secondItem="P1G-pj-ZEP" secondAttribute="leading" id="wiu-lM-iiD"/>
                 </constraints>
             </tableViewCellContentView>
+            <connections>
+                <outlet property="companyNameLabel" destination="P1G-pj-ZEP" id="nI2-eA-Ug9"/>
+                <outlet property="companyPositionLabel" destination="P9h-xL-8vF" id="NRw-cW-fy0"/>
+                <outlet property="emailLabel" destination="eUG-L6-Bu3" id="feQ-pi-ufN"/>
+                <outlet property="fullNameLabel" destination="eMp-Nx-k52" id="N7m-YF-7W0"/>
+                <outlet property="phoneLabel" destination="g6D-zS-RYV" id="gUw-o8-1FN"/>
+            </connections>
             <point key="canvasLocation" x="200" y="253"/>
         </tableViewCell>
     </objects>
