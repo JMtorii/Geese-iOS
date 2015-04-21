@@ -24,6 +24,7 @@
 		4E63947A1AD76B6A008F949E /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E6394791AD76B6A008F949E /* MainViewController.xib */; };
 		4E63947C1AD76BDE008F949E /* ServerMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E63947B1AD76BDE008F949E /* ServerMainViewController.xib */; };
 		4E74D2ED1AE3448200C727BC /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E74D2EC1AE3448200C727BC /* SwiftyJSON.swift */; };
+		4EAEBBF01AE5E65A0009BEAE /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAEBBEF1AE5E65A0009BEAE /* Card.swift */; };
 		4EDB6EDF1ADDFC940088DD96 /* NewCardEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB6EDE1ADDFC940088DD96 /* NewCardEditViewController.swift */; };
 		4EDB6EE11ADDFD620088DD96 /* NewCardEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EDB6EE01ADDFD620088DD96 /* NewCardEditViewController.xib */; };
 		4EDB6EE41ADE2BC50088DD96 /* SwapUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB6EE31ADE2BC50088DD96 /* SwapUtils.swift */; };
@@ -62,6 +63,7 @@
 		4E6394791AD76B6A008F949E /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		4E63947B1AD76BDE008F949E /* ServerMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ServerMainViewController.xib; sourceTree = "<group>"; };
 		4E74D2EC1AE3448200C727BC /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		4EAEBBEF1AE5E65A0009BEAE /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		4EDB6EDE1ADDFC940088DD96 /* NewCardEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewCardEditViewController.swift; sourceTree = "<group>"; };
 		4EDB6EE01ADDFD620088DD96 /* NewCardEditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewCardEditViewController.xib; sourceTree = "<group>"; };
 		4EDB6EE31ADE2BC50088DD96 /* SwapUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwapUtils.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				4E01C6311ADA3F3E00AC7775 /* NewCardViewController.xib */,
 				4EDB6EDE1ADDFC940088DD96 /* NewCardEditViewController.swift */,
 				4EDB6EE01ADDFD620088DD96 /* NewCardEditViewController.xib */,
+				4EAEBBEF1AE5E65A0009BEAE /* Card.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -327,6 +330,7 @@
 				4EDB6EE41ADE2BC50088DD96 /* SwapUtils.swift in Sources */,
 				4E6394761AD76791008F949E /* PeripheralViewController.swift in Sources */,
 				B6CFC9A41ABAB9B000AD952D /* AppDelegate.swift in Sources */,
+				4EAEBBF01AE5E65A0009BEAE /* Card.swift in Sources */,
 				4E6394781AD76791008F949E /* SERVICES.swift in Sources */,
 				4E6394731AD76791008F949E /* CentralManagerViewController.swift in Sources */,
 				4E74D2ED1AE3448200C727BC /* SwiftyJSON.swift in Sources */,

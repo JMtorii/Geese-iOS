@@ -9,13 +9,14 @@
 //  This will be the root view controller in the future 
 
 import UIKit
+import Foundation
 
 class MainViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet var tableView: UITableView!
     
     var appDelegate: AppDelegate!
-    var items:[ String ] = [ "Card1", "Card2", "Card3" ]
+    var cardList:[ Card ] = []
     
     
     override func viewDidLoad() {
@@ -32,20 +33,14 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
         appDelegate.rootViewController = self
-        
-        
-        let defaults = NSUserDefaults.standardUserDefaults()
-        
-        // Receive
-        if let json = defaults.arrayForKey( "storedCards" ) {
-            println( json )
-        }
     }
     
     override func viewWillAppear(animated: Bool) {
         if ( tableView.indexPathForSelectedRow() != nil ) {
             tableView.deselectRowAtIndexPath( tableView.indexPathForSelectedRow()!, animated: animated )
         }
+        
+        self.refreshCards()
         
         super.viewWillAppear( animated )
     }
@@ -57,7 +52,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // fetch number of saved cards
-        return self.items.count
+        return self.cardList.count
     }
     
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
@@ -66,6 +61,8 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        println( "cellForRowAtIndexPath" )
+        
         var cell:CardCellViewController = self.tableView.dequeueReusableCellWithIdentifier( "CardCell", forIndexPath: indexPath ) as! CardCellViewController
 //        cell.companyNameLabel.text = items[ indexPath.row ]
         return cell
@@ -80,5 +77,89 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         navigationController?.pushViewController( nextViewController, animated: true )
     }
     
+    func refreshCards() {
+        let defaults = NSUserDefaults.standardUserDefaults()
+        
+        // Receive
+        if let json = defaults.arrayForKey( "storedCards" ) {
+            println( json )
+        }
+        
+        // this is currently being hardcoded
+        // TODO: move this into Card object
+        if let jsonStr = defaults.arrayForKey( "storedCards" ) {
+            var jsonData = ( ( jsonStr as! [ String ] )[ 0 ] as NSString ).dataUsingEncoding( NSUTF8StringEncoding )
+            let cardJson = JSON( data: jsonData! )
+            var card: Card = Card()
+            
+            if let cardId = cardJson[ "card" ][ "cardId" ].string {
+                card.cardId = cardId
+            }
+            
+            if let templateId = cardJson[ "card" ][ "templateId" ].int {
+                println( "templateId is: " + String( templateId ) )
+                card.templateId = templateId
+            }
+            
+            if let fullName = cardJson[ "card" ][ "user" ][ "fullName" ].string {
+                card.fullName = fullName
+            }
+            
+            if let email = cardJson[ "card" ][ "user" ][ "email" ].string {
+                card.email = email
+            }
+            
+            if let phoneNumber = cardJson[ "card" ][ "user" ][ "phoneNumber" ].string {
+                card.phoneNumber = phoneNumber
+            }
+            
+            if let imageLogoSrc = cardJson[ "card" ][ "imageLogo" ][ "src" ].string {
+                card.imageLogoSrc = imageLogoSrc
+            }
+            
+            if let imageLogoName = cardJson[ "card" ][ "imageLogo" ][ "name" ].string {
+                card.imageLogoName = imageLogoName
+            }
+            
+            if let companyName = cardJson[ "card" ][ "company" ][ "name" ].string {
+                card.companyName = companyName
+            }
+            
+            if let companyPosition = cardJson[ "card" ][ "company" ][ "position" ].string {
+                card.companyPosition = companyPosition
+            }
+            
+            for cardIter in cardList {
+                if cardIter.cardId == card.cardId {
+                    return
+                }
+            }
+            
+            cardList.append( card )
+            
+        }
+        
+    }
+    
+    // JSON format
+    //    {
+    //        "card": {
+    //            "cardId": 1,
+    //            "templateId": 1,
+    //            "user": {
+    //                "fullName": "Billy Bee",
+    //                "email": "not_today_mofo@gmail.com",
+    //                "phoneNumber": "4151112222"
+    //            },
+    //            "imageLogo": {
+    //                "src": "Images/HappyBee.png",
+    //                "name": "Haps Bee"
+    //            },
+    //            "company": {
+    //                "name": "Lumosity",
+    //                "position": "Useless"
+    //            }
+    //        }
+    //    }
     
 }

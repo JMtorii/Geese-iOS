@@ -9,6 +9,7 @@
 // JSON format
 //    {
 //        "card": {
+//            "cardId": "1",
 //            "templateId": 1,
 //            "user": {
 //                "fullName": "Billy Bee",
@@ -40,15 +41,15 @@ class NewCardEditViewController: UIViewController {
     @IBOutlet var doneButton: UIButton!
     
     var appDelegate: AppDelegate!
-    var cardJSON: String = "{\"card\": { \"templateId\": {0}, \"user\": {\"fullName\": \"{1}\", " +
-                            "\"email\": \"{2}\", \"phoneNumber\": {3} }, \"imageLogo\": { \"src\": " +
-                            "\"{4}\", \"name\": \"{5}\" }, \"company\": { \"name\": \"{6}\", " +
-                            "\"position\": \"{7}\" } } }"
+    var cardJSON: String = "{\"card\": { \"cardId\": {0}, \"templateId\": {1}, \"user\": {\"fullName\": \"{2}\", " +
+                            "\"email\": \"{3}\", \"phoneNumber\": {4} }, \"imageLogo\": { \"src\": " +
+                            "\"{5}\", \"name\": \"{6}\" }, \"company\": { \"name\": \"{7}\", " +
+                            "\"position\": \"{8}\" } } }"
     
     @IBAction func onDoneButtonPressed() {
         let defaults = NSUserDefaults.standardUserDefaults()
         
-        var valArr: [ String ] = [ "1", nameTextField.text, emailTextField.text, phoneTextField.text,
+        var valArr: [ String ] = [ "1", "1", nameTextField.text, emailTextField.text, phoneTextField.text,
                                     "/bullshit/dir/hi.jpg", "hi.jpg", companyNameTextField.text,
                                     companyPositionTextField.text ]
         
