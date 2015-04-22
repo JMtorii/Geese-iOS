@@ -44,6 +44,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         println( "viewWillAppear" )
         self.refreshCards()
+        self.tableView.reloadData()
         
         super.viewWillAppear( animated )
     }
@@ -76,6 +77,8 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         return cell
     }
     
+    
+    
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         println( "You selected cell #\( indexPath.row )!" );
     }
@@ -91,6 +94,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     
     func refreshCards() {
+        cardList = []
         let defaults = NSUserDefaults.standardUserDefaults()
         
         // Receive

@@ -49,9 +49,13 @@ class NewCardEditViewController: UIViewController {
     @IBAction func onDoneButtonPressed() {
         let defaults = NSUserDefaults.standardUserDefaults()
         
-        var valArr: [ String ] = [ "1", "1", nameTextField.text, emailTextField.text, phoneTextField.text,
-                                    "/bullshit/dir/hi.jpg", "hi.jpg", companyNameTextField.text,
-                                    companyPositionTextField.text ]
+
+        let lastUsedCardId = defaults.integerForKey( "lastUsedCardId" )
+        defaults.setInteger( lastUsedCardId + 1, forKey: "lastUsedCardId" )
+        
+        var valArr: [ String ] = [ String( defaults.integerForKey( "lastUsedCardId" ) ), "1", nameTextField.text,
+                                emailTextField.text, phoneTextField.text, "/bullshit/dir/hi.jpg", "hi.jpg",
+                                companyNameTextField.text, companyPositionTextField.text ]
         
         SwapUtils.replaceString( &cardJSON, vals: valArr )
         
