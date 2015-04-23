@@ -11,6 +11,8 @@
 		4E01C62E1ADA273600AC7775 /* CardCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E01C62D1ADA273600AC7775 /* CardCellViewController.swift */; };
 		4E01C6301ADA3E9500AC7775 /* NewCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E01C62F1ADA3E9500AC7775 /* NewCardViewController.swift */; };
 		4E01C6321ADA3F3E00AC7775 /* NewCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E01C6311ADA3F3E00AC7775 /* NewCardViewController.xib */; };
+		4E33802C1AE8AFFE0086382B /* CardEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E33802B1AE8AFFE0086382B /* CardEditViewController.swift */; };
+		4E33802E1AE8B0150086382B /* CardEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E33802D1AE8B0150086382B /* CardEditViewController.xib */; };
 		4E6394611AD7507E008F949E /* DebugViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E6394601AD7507E008F949E /* DebugViewController.xib */; };
 		4E6394661AD764B6008F949E /* ServerMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6394651AD764B6008F949E /* ServerMainViewController.swift */; };
 		4E6394691AD76593008F949E /* BluetoothMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6394681AD76593008F949E /* BluetoothMainViewController.swift */; };
@@ -52,6 +54,8 @@
 		4E01C62D1ADA273600AC7775 /* CardCellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCellViewController.swift; sourceTree = "<group>"; };
 		4E01C62F1ADA3E9500AC7775 /* NewCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewCardViewController.swift; sourceTree = "<group>"; };
 		4E01C6311ADA3F3E00AC7775 /* NewCardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewCardViewController.xib; sourceTree = "<group>"; };
+		4E33802B1AE8AFFE0086382B /* CardEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardEditViewController.swift; sourceTree = "<group>"; };
+		4E33802D1AE8B0150086382B /* CardEditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardEditViewController.xib; sourceTree = "<group>"; };
 		4E6394601AD7507E008F949E /* DebugViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DebugViewController.xib; sourceTree = "<group>"; };
 		4E6394651AD764B6008F949E /* ServerMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerMainViewController.swift; sourceTree = "<group>"; };
 		4E6394681AD76593008F949E /* BluetoothMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothMainViewController.swift; sourceTree = "<group>"; };
@@ -128,6 +132,8 @@
 			children = (
 				4E63946B1AD76605008F949E /* MainViewController.swift */,
 				4E6394791AD76B6A008F949E /* MainViewController.xib */,
+				4E33802B1AE8AFFE0086382B /* CardEditViewController.swift */,
+				4E33802D1AE8B0150086382B /* CardEditViewController.xib */,
 				4E01C62D1ADA273600AC7775 /* CardCellViewController.swift */,
 				4E01C62B1ADA25F100AC7775 /* CardCellView.xib */,
 				4E01C62F1ADA3E9500AC7775 /* NewCardViewController.swift */,
@@ -303,6 +309,7 @@
 				4E6394741AD76791008F949E /* CentralManagerViewController.xib in Resources */,
 				B6CFC9AE1ABAB9B000AD952D /* LaunchScreen.xib in Resources */,
 				4E01C6321ADA3F3E00AC7775 /* NewCardViewController.xib in Resources */,
+				4E33802E1AE8B0150086382B /* CardEditViewController.xib in Resources */,
 				4E6394771AD76791008F949E /* PeripheralViewController.xib in Resources */,
 				4E6394751AD76791008F949E /* BluetoothMainViewController.xib in Resources */,
 				4E6394611AD7507E008F949E /* DebugViewController.xib in Resources */,
@@ -334,6 +341,7 @@
 				B6CFC9A61ABAB9B000AD952D /* DebugViewController.swift in Sources */,
 				4E6394691AD76593008F949E /* BluetoothMainViewController.swift in Sources */,
 				4E01C62E1ADA273600AC7775 /* CardCellViewController.swift in Sources */,
+				4E33802C1AE8AFFE0086382B /* CardEditViewController.swift in Sources */,
 				4EDB6EE41ADE2BC50088DD96 /* SwapUtils.swift in Sources */,
 				4E6394761AD76791008F949E /* PeripheralViewController.swift in Sources */,
 				4EEDFBBD1AE61F670090830A /* SettingsViewController.swift in Sources */,

@@ -81,6 +81,8 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         println( "You selected cell #\( indexPath.row )!" );
+        var nextViewController:UIViewController = CardEditViewController( nibName: "CardEditViewController", bundle: nil )
+        navigationController?.pushViewController( nextViewController, animated: true )
     }
     
     func addNewCardButtonPressed() {
