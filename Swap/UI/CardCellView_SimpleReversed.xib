@@ -71,6 +71,7 @@
                     <constraint firstItem="hyo-Uh-FCZ" firstAttribute="leading" secondItem="XgT-pX-dmF" secondAttribute="leading" id="w6y-Ac-yaf"/>
                 </constraints>
             </tableViewCellContentView>
+            <color key="backgroundColor" red="1" green="0.92909241845894852" blue="0.99250160171167767" alpha="1" colorSpace="calibratedRGB"/>
             <connections>
                 <outlet property="companyNameLabel" destination="vxl-sb-GpZ" id="NxY-py-A64"/>
                 <outlet property="companyPositionLabel" destination="hyo-Uh-FCZ" id="u5g-tY-fBg"/>
