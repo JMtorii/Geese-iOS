@@ -30,7 +30,7 @@
 import Foundation
 
 struct Card {
-    var cardId: Int?
+    var cardId: String?
     var templateId: Int?
     
     var fullName: String?

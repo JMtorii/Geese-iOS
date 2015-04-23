@@ -41,7 +41,7 @@ class NewCardEditViewController: UIViewController {
     @IBOutlet var doneButton: UIButton!
     
     var appDelegate: AppDelegate!
-    var cardJSON: String = "{\"card\": { \"cardId\": {0}, \"templateId\": {1}, \"user\": {\"fullName\": \"{2}\", " +
+    var cardJSON: String = "{\"card\": { \"cardId\": \"{0}\", \"templateId\": {1}, \"user\": {\"fullName\": \"{2}\", " +
                             "\"email\": \"{3}\", \"phoneNumber\": {4} }, \"imageLogo\": { \"src\": " +
                             "\"{5}\", \"name\": \"{6}\" }, \"company\": { \"name\": \"{7}\", " +
                             "\"position\": \"{8}\" } } }"

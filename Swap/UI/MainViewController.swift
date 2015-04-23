@@ -113,7 +113,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
                 let cardJson = JSON( data: jsonData! )
                 var card: Card = Card()
                 
-                if let cardId = cardJson[ "card" ][ "cardId" ].int {
+                if let cardId = cardJson[ "card" ][ "cardId" ].string {
                     card.cardId = cardId
                 }
                 
