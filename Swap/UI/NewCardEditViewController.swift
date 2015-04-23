@@ -52,6 +52,7 @@ class NewCardEditViewController: UIViewController {
 
         let lastUsedCardId = defaults.integerForKey( "lastUsedCardId" )
         defaults.setInteger( lastUsedCardId + 1, forKey: "lastUsedCardId" )
+        println( "cardId: " + String( defaults.integerForKey( "lastUsedCardId" ) ) )
         
         var valArr: [ String ] = [ String( defaults.integerForKey( "lastUsedCardId" ) ), "1", nameTextField.text,
                                 emailTextField.text, phoneTextField.text, "/bullshit/dir/hi.jpg", "hi.jpg",

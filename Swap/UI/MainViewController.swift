@@ -104,58 +104,59 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         // this is currently being hardcoded
         // TODO: move this into Card object
-        if let jsonStr = defaults.arrayForKey( "storedCards" ) {
-            var jsonData = ( ( jsonStr as! [ String ] )[ 0 ] as NSString ).dataUsingEncoding( NSUTF8StringEncoding )
-            let cardJson = JSON( data: jsonData! )
-            var card: Card = Card()
-            
-            if let cardId = cardJson[ "card" ][ "cardId" ].string {
-                card.cardId = cardId
-            }
-            
-            if let templateId = cardJson[ "card" ][ "templateId" ].int {
-                println( "templateId is: " + String( templateId ) )
-                card.templateId = templateId
-            }
-            
-            if let fullName = cardJson[ "card" ][ "user" ][ "fullName" ].string {
-                card.fullName = fullName
-            }
-            
-            if let email = cardJson[ "card" ][ "user" ][ "email" ].string {
-                card.email = email
-            }
-            
-            if let phoneNumber = cardJson[ "card" ][ "user" ][ "phoneNumber" ].int {
-                card.phoneNumber = phoneNumber
-            }
-            
-            if let imageLogoSrc = cardJson[ "card" ][ "imageLogo" ][ "src" ].string {
-                card.imageLogoSrc = imageLogoSrc
-            }
-            
-            if let imageLogoName = cardJson[ "card" ][ "imageLogo" ][ "name" ].string {
-                card.imageLogoName = imageLogoName
-            }
-            
-            if let companyName = cardJson[ "card" ][ "company" ][ "name" ].string {
-                card.companyName = companyName
-            }
-            
-            if let companyPosition = cardJson[ "card" ][ "company" ][ "position" ].string {
-                card.companyPosition = companyPosition
-            }
-            
-            for cardIter in cardList {
-                if cardIter.cardId == card.cardId {
-                    return
+        if let jsonArr = defaults.arrayForKey( "storedCards" ) {
+            for var jsonIndex = 0; jsonIndex < jsonArr.count; jsonIndex++ {
+                
+                var jsonData = ( ( jsonArr as! [ String ] )[ jsonIndex ] as NSString ).dataUsingEncoding( NSUTF8StringEncoding )
+                let cardJson = JSON( data: jsonData! )
+                var card: Card = Card()
+                
+                if let cardId = cardJson[ "card" ][ "cardId" ].int {
+                    card.cardId = cardId
                 }
+                
+                if let templateId = cardJson[ "card" ][ "templateId" ].int {
+                    println( "templateId is: " + String( templateId ) )
+                    card.templateId = templateId
+                }
+                
+                if let fullName = cardJson[ "card" ][ "user" ][ "fullName" ].string {
+                    card.fullName = fullName
+                }
+                
+                if let email = cardJson[ "card" ][ "user" ][ "email" ].string {
+                    card.email = email
+                }
+                
+                if let phoneNumber = cardJson[ "card" ][ "user" ][ "phoneNumber" ].int {
+                    card.phoneNumber = phoneNumber
+                }
+                
+                if let imageLogoSrc = cardJson[ "card" ][ "imageLogo" ][ "src" ].string {
+                    card.imageLogoSrc = imageLogoSrc
+                }
+                
+                if let imageLogoName = cardJson[ "card" ][ "imageLogo" ][ "name" ].string {
+                    card.imageLogoName = imageLogoName
+                }
+                
+                if let companyName = cardJson[ "card" ][ "company" ][ "name" ].string {
+                    card.companyName = companyName
+                }
+                
+                if let companyPosition = cardJson[ "card" ][ "company" ][ "position" ].string {
+                    card.companyPosition = companyPosition
+                }
+                
+                for cardIter in cardList {
+                    if cardIter.cardId == card.cardId {
+                        return
+                    }
+                }
+                
+                cardList.append( card )
             }
-            
-            cardList.append( card )
-            
         }
-        
     }
     
     // JSON format
