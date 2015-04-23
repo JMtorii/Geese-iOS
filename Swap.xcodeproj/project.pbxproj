@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4E01C62C1ADA25F100AC7775 /* CardCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E01C62B1ADA25F100AC7775 /* CardCellView.xib */; };
+		4E01C62C1ADA25F100AC7775 /* CardCellView_Simple.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E01C62B1ADA25F100AC7775 /* CardCellView_Simple.xib */; };
 		4E01C62E1ADA273600AC7775 /* CardCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E01C62D1ADA273600AC7775 /* CardCellViewController.swift */; };
 		4E01C6301ADA3E9500AC7775 /* NewCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E01C62F1ADA3E9500AC7775 /* NewCardViewController.swift */; };
 		4E01C6321ADA3F3E00AC7775 /* NewCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E01C6311ADA3F3E00AC7775 /* NewCardViewController.xib */; };
 		4E33802C1AE8AFFE0086382B /* CardEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E33802B1AE8AFFE0086382B /* CardEditViewController.swift */; };
 		4E33802E1AE8B0150086382B /* CardEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E33802D1AE8B0150086382B /* CardEditViewController.xib */; };
+		4E3380371AE975DE0086382B /* CardCellView_SimpleReversed.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E3380361AE975DE0086382B /* CardCellView_SimpleReversed.xib */; };
 		4E6394611AD7507E008F949E /* DebugViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E6394601AD7507E008F949E /* DebugViewController.xib */; };
 		4E6394661AD764B6008F949E /* ServerMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6394651AD764B6008F949E /* ServerMainViewController.swift */; };
 		4E6394691AD76593008F949E /* BluetoothMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6394681AD76593008F949E /* BluetoothMainViewController.swift */; };
@@ -50,12 +51,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4E01C62B1ADA25F100AC7775 /* CardCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardCellView.xib; sourceTree = "<group>"; };
+		4E01C62B1ADA25F100AC7775 /* CardCellView_Simple.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardCellView_Simple.xib; sourceTree = "<group>"; };
 		4E01C62D1ADA273600AC7775 /* CardCellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCellViewController.swift; sourceTree = "<group>"; };
 		4E01C62F1ADA3E9500AC7775 /* NewCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewCardViewController.swift; sourceTree = "<group>"; };
 		4E01C6311ADA3F3E00AC7775 /* NewCardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewCardViewController.xib; sourceTree = "<group>"; };
 		4E33802B1AE8AFFE0086382B /* CardEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardEditViewController.swift; sourceTree = "<group>"; };
 		4E33802D1AE8B0150086382B /* CardEditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardEditViewController.xib; sourceTree = "<group>"; };
+		4E3380361AE975DE0086382B /* CardCellView_SimpleReversed.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardCellView_SimpleReversed.xib; sourceTree = "<group>"; };
 		4E6394601AD7507E008F949E /* DebugViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DebugViewController.xib; sourceTree = "<group>"; };
 		4E6394651AD764B6008F949E /* ServerMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerMainViewController.swift; sourceTree = "<group>"; };
 		4E6394681AD76593008F949E /* BluetoothMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothMainViewController.swift; sourceTree = "<group>"; };
@@ -135,7 +137,8 @@
 				4E33802B1AE8AFFE0086382B /* CardEditViewController.swift */,
 				4E33802D1AE8B0150086382B /* CardEditViewController.xib */,
 				4E01C62D1ADA273600AC7775 /* CardCellViewController.swift */,
-				4E01C62B1ADA25F100AC7775 /* CardCellView.xib */,
+				4E01C62B1ADA25F100AC7775 /* CardCellView_Simple.xib */,
+				4E3380361AE975DE0086382B /* CardCellView_SimpleReversed.xib */,
 				4E01C62F1ADA3E9500AC7775 /* NewCardViewController.swift */,
 				4E01C6311ADA3F3E00AC7775 /* NewCardViewController.xib */,
 				4EDB6EDE1ADDFC940088DD96 /* NewCardEditViewController.swift */,
@@ -316,7 +319,8 @@
 				4EEDFBBF1AE61F850090830A /* SettingsViewController.xib in Resources */,
 				4E63947A1AD76B6A008F949E /* MainViewController.xib in Resources */,
 				B6CFC9AB1ABAB9B000AD952D /* Images.xcassets in Resources */,
-				4E01C62C1ADA25F100AC7775 /* CardCellView.xib in Resources */,
+				4E01C62C1ADA25F100AC7775 /* CardCellView_Simple.xib in Resources */,
+				4E3380371AE975DE0086382B /* CardCellView_SimpleReversed.xib in Resources */,
 				4EDB6EE11ADDFD620088DD96 /* NewCardEditViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

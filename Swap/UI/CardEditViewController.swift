@@ -15,8 +15,8 @@ class CardEditViewController: UIViewController, UITableViewDelegate, UITableView
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        var nib = UINib( nibName: "CardCellView", bundle: nil )
-        tableView.registerNib( nib, forCellReuseIdentifier: "CardCell" )
+        var nib = UINib( nibName: "CardCellView_Simple", bundle: nil )
+        tableView.registerNib( nib, forCellReuseIdentifier: "CardCell_Simple" )
     }
     
     override func didReceiveMemoryWarning() {
@@ -37,7 +37,7 @@ class CardEditViewController: UIViewController, UITableViewDelegate, UITableView
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         println( "cellForRowAtIndexPath" )
         
-        var cell:CardCellViewController = self.tableView.dequeueReusableCellWithIdentifier( "CardCell", forIndexPath: indexPath ) as! CardCellViewController
+        var cell:CardCellViewController = self.tableView.dequeueReusableCellWithIdentifier( "CardCell_Simple", forIndexPath: indexPath ) as! CardCellViewController
 //        cell.companyPositionLabel.text = cardList[ indexPath.row ].companyPosition
 //        cell.fullNameLabel.text = cardList[ indexPath.row ].fullName
 //        cell.companyNameLabel.text = cardList[ indexPath.row ].companyName

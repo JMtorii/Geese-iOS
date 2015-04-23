@@ -23,8 +23,15 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         super.viewDidLoad()
         self.title = "Main View Controller"
         
-        var nib = UINib( nibName: "CardCellView", bundle: nil )
-        tableView.registerNib( nib, forCellReuseIdentifier: "CardCell" )
+        tableView.registerNib(
+            UINib( nibName: "CardCellView_Simple", bundle: nil ),
+            forCellReuseIdentifier: "CardCell_Simple"
+        )
+        
+        tableView.registerNib(
+            UINib( nibName: "CardCellView_SimpleReversed", bundle: nil ),
+            forCellReuseIdentifier: "CardCell_SimpleReversed"
+        )
         
         var addButton = UIBarButtonItem( barButtonSystemItem: .Add, target: self, action: "addNewCardButtonPressed" ) //Use a selector
         navigationItem.leftBarButtonItem = addButton
@@ -67,7 +74,9 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         println( "cellForRowAtIndexPath" )
         
-        var cell:CardCellViewController = self.tableView.dequeueReusableCellWithIdentifier( "CardCell", forIndexPath: indexPath ) as! CardCellViewController
+        var cellIdentifier: String = "CardCell_" + appDelegate.cardTemplateDict[ cardList[ indexPath.row ].templateId! ]!
+        
+        var cell:CardCellViewController = self.tableView.dequeueReusableCellWithIdentifier( cellIdentifier, forIndexPath: indexPath ) as! CardCellViewController
         cell.companyPositionLabel.text = cardList[ indexPath.row ].companyPosition
         cell.fullNameLabel.text = cardList[ indexPath.row ].fullName
         cell.companyNameLabel.text = cardList[ indexPath.row ].companyName
@@ -118,7 +127,6 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
                 }
                 
                 if let templateId = cardJson[ "card" ][ "templateId" ].int {
-                    println( "templateId is: " + String( templateId ) )
                     card.templateId = templateId
                 }
                 
@@ -164,7 +172,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     // JSON format
     //    {
     //        "card": {
-    //            "cardId": 1,
+    //            "cardId": "1",
     //            "templateId": 1,
     //            "user": {
     //                "fullName": "Billy Bee",

@@ -11,11 +11,15 @@ class NewCardViewController: UIViewController, UITableViewDelegate, UITableViewD
     
     @IBOutlet var tableView: UITableView!
     // TODO: this will need to be stored elsewhere. maybe plist?
-    var items:[ String ] = [ "Simple" ];
+    var items:[ String ] = [];
+    var appDelegate: AppDelegate!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Pick a template"
+        
+        appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+        items = appDelegate.getOrderedCardTemplateValues()
         
         self.tableView.tableFooterView = UIView( frame: CGRectZero )
     }
@@ -24,6 +28,7 @@ class NewCardViewController: UIViewController, UITableViewDelegate, UITableViewD
         if ( tableView.indexPathForSelectedRow() != nil ) {
             tableView.deselectRowAtIndexPath( tableView.indexPathForSelectedRow()!, animated: animated )
         }
+        
         super.viewWillAppear( animated )
     }
     
@@ -47,7 +52,8 @@ class NewCardViewController: UIViewController, UITableViewDelegate, UITableViewD
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         println( "You selected cell #\( indexPath.row )!" );
         
-        var nextViewController:UIViewController = NewCardEditViewController( nibName: "NewCardEditViewController", bundle: nil )
+        var nextViewController:NewCardEditViewController = NewCardEditViewController( nibName: "NewCardEditViewController", bundle: nil )
+        nextViewController.templateId = indexPath.row + 1
         navigationController?.pushViewController( nextViewController, animated: true )
     }
     
