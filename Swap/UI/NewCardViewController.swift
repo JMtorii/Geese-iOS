@@ -52,7 +52,7 @@ class NewCardViewController: UIViewController, UITableViewDelegate, UITableViewD
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         println( "You selected cell #\( indexPath.row )!" );
         
-        var nextViewController:NewCardEditViewController = NewCardEditViewController( nibName: "NewCardEditViewController", bundle: nil )
+        var nextViewController:EditCardViewController = EditCardViewController( nibName: "EditCardViewController", bundle: nil )
         nextViewController.templateId = indexPath.row + 1
         navigationController?.pushViewController( nextViewController, animated: true )
     }

@@ -28,8 +28,8 @@
 		4E63947C1AD76BDE008F949E /* ServerMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E63947B1AD76BDE008F949E /* ServerMainViewController.xib */; };
 		4E74D2ED1AE3448200C727BC /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E74D2EC1AE3448200C727BC /* SwiftyJSON.swift */; };
 		4EAEBBF01AE5E65A0009BEAE /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAEBBEF1AE5E65A0009BEAE /* Card.swift */; };
-		4EDB6EDF1ADDFC940088DD96 /* NewCardEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB6EDE1ADDFC940088DD96 /* NewCardEditViewController.swift */; };
-		4EDB6EE11ADDFD620088DD96 /* NewCardEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EDB6EE01ADDFD620088DD96 /* NewCardEditViewController.xib */; };
+		4EDB6EDF1ADDFC940088DD96 /* EditCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB6EDE1ADDFC940088DD96 /* EditCardViewController.swift */; };
+		4EDB6EE11ADDFD620088DD96 /* EditCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EDB6EE01ADDFD620088DD96 /* EditCardViewController.xib */; };
 		4EDB6EE41ADE2BC50088DD96 /* SwapUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB6EE31ADE2BC50088DD96 /* SwapUtils.swift */; };
 		4EEDFBBD1AE61F670090830A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEDFBBC1AE61F670090830A /* SettingsViewController.swift */; };
 		4EEDFBBF1AE61F850090830A /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EEDFBBE1AE61F850090830A /* SettingsViewController.xib */; };
@@ -72,8 +72,8 @@
 		4E63947B1AD76BDE008F949E /* ServerMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ServerMainViewController.xib; sourceTree = "<group>"; };
 		4E74D2EC1AE3448200C727BC /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		4EAEBBEF1AE5E65A0009BEAE /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
-		4EDB6EDE1ADDFC940088DD96 /* NewCardEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewCardEditViewController.swift; sourceTree = "<group>"; };
-		4EDB6EE01ADDFD620088DD96 /* NewCardEditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewCardEditViewController.xib; sourceTree = "<group>"; };
+		4EDB6EDE1ADDFC940088DD96 /* EditCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditCardViewController.swift; sourceTree = "<group>"; };
+		4EDB6EE01ADDFD620088DD96 /* EditCardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditCardViewController.xib; sourceTree = "<group>"; };
 		4EDB6EE31ADE2BC50088DD96 /* SwapUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwapUtils.swift; sourceTree = "<group>"; };
 		4EEDFBBC1AE61F670090830A /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		4EEDFBBE1AE61F850090830A /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
@@ -141,8 +141,8 @@
 				4E3380361AE975DE0086382B /* CardCellView_SimpleReversed.xib */,
 				4E01C62F1ADA3E9500AC7775 /* NewCardViewController.swift */,
 				4E01C6311ADA3F3E00AC7775 /* NewCardViewController.xib */,
-				4EDB6EDE1ADDFC940088DD96 /* NewCardEditViewController.swift */,
-				4EDB6EE01ADDFD620088DD96 /* NewCardEditViewController.xib */,
+				4EDB6EDE1ADDFC940088DD96 /* EditCardViewController.swift */,
+				4EDB6EE01ADDFD620088DD96 /* EditCardViewController.xib */,
 				4EEDFBBC1AE61F670090830A /* SettingsViewController.swift */,
 				4EEDFBBE1AE61F850090830A /* SettingsViewController.xib */,
 				4EAEBBEF1AE5E65A0009BEAE /* Card.swift */,
@@ -321,7 +321,7 @@
 				B6CFC9AB1ABAB9B000AD952D /* Images.xcassets in Resources */,
 				4E01C62C1ADA25F100AC7775 /* CardCellView_Simple.xib in Resources */,
 				4E3380371AE975DE0086382B /* CardCellView_SimpleReversed.xib in Resources */,
-				4EDB6EE11ADDFD620088DD96 /* NewCardEditViewController.xib in Resources */,
+				4EDB6EE11ADDFD620088DD96 /* EditCardViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +340,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E6394661AD764B6008F949E /* ServerMainViewController.swift in Sources */,
-				4EDB6EDF1ADDFC940088DD96 /* NewCardEditViewController.swift in Sources */,
+				4EDB6EDF1ADDFC940088DD96 /* EditCardViewController.swift in Sources */,
 				4E01C6301ADA3E9500AC7775 /* NewCardViewController.swift in Sources */,
 				B6CFC9A61ABAB9B000AD952D /* DebugViewController.swift in Sources */,
 				4E6394691AD76593008F949E /* BluetoothMainViewController.swift in Sources */,

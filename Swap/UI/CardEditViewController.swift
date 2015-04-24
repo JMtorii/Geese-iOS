@@ -37,6 +37,14 @@ class CardEditViewController: UIViewController, UITableViewDelegate, UITableView
         self.tableView.tableFooterView = UIView( frame: CGRectZero )
     }
     
+    override func viewDidAppear(animated: Bool) {
+        if ( tableView.indexPathForSelectedRow() != nil ) {
+            tableView.deselectRowAtIndexPath( tableView.indexPathForSelectedRow()!, animated: animated )
+        }
+        
+        super.viewDidAppear( animated )
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -85,6 +93,9 @@ class CardEditViewController: UIViewController, UITableViewDelegate, UITableView
         
         if indexPath.row == 1 {
             // Edit
+            var nextViewController:EditCardViewController = EditCardViewController( nibName: "EditCardViewController", bundle: nil )
+            nextViewController.oldCard = card
+            navigationController?.pushViewController( nextViewController, animated: true )
         } else if indexPath.row == 2 {
             // Send
         } else if indexPath.row == 3 {
