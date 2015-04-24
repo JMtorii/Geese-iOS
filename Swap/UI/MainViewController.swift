@@ -86,11 +86,10 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         return cell
     }
     
-    
-    
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         println( "You selected cell #\( indexPath.row )!" );
-        var nextViewController:UIViewController = CardEditViewController( nibName: "CardEditViewController", bundle: nil )
+        var nextViewController:CardEditViewController = CardEditViewController( nibName: "CardEditViewController", bundle: nil )
+        nextViewController.card = cardList[ indexPath.row ]
         navigationController?.pushViewController( nextViewController, animated: true )
     }
     
