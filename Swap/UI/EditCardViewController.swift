@@ -76,6 +76,20 @@ class EditCardViewController: UIViewController {
                 }
             }
             
+            var newCard: Card = Card()
+            newCard.cardId = oldCard!.cardId!
+            newCard.templateId = templateId
+            newCard.fullName = nameTextField.text
+            newCard.email = emailTextField.text
+            newCard.phoneNumber = phoneTextField.text!.toInt()
+            newCard.imageLogoSrc = oldCard!.imageLogoSrc
+            newCard.imageLogoName = oldCard!.imageLogoName
+            newCard.companyName = companyNameTextField.text
+            newCard.companyPosition = companyPositionTextField.text
+            
+            let numViewControllers: Int = navigationController!.viewControllers.count
+            var prevViewController: CardDetailViewController = navigationController!.viewControllers[ numViewControllers - 2 ] as! CardDetailViewController
+            prevViewController.card = newCard
             navigationController?.popViewControllerAnimated( true )
             
         } else {

@@ -74,6 +74,9 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         println( "cellForRowAtIndexPath" )
         
+        if ( cardList.count > 0 ) {
+            
+        }
         var cellIdentifier: String = "CardCell_" + appDelegate.cardTemplateDict[ cardList[ indexPath.row ].templateId! ]!
         
         var cell:CardCellViewController = self.tableView.dequeueReusableCellWithIdentifier( cellIdentifier, forIndexPath: indexPath ) as! CardCellViewController
@@ -88,7 +91,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         println( "You selected cell #\( indexPath.row )!" );
-        var nextViewController:CardEditViewController = CardEditViewController( nibName: "CardEditViewController", bundle: nil )
+        var nextViewController:CardDetailViewController = CardDetailViewController( nibName: "CardDetailViewController", bundle: nil )
         nextViewController.card = cardList[ indexPath.row ]
         navigationController?.pushViewController( nextViewController, animated: true )
     }

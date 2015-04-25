@@ -1,5 +1,5 @@
 //
-//  CardEditViewController.swift
+//  CardDetailViewController.swift
 //  Swap
 //
 //  Created by Jun Torii on 4/22/15.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CardEditViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class CardDetailViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet var tableView: UITableView!
     var appDelegate: AppDelegate!
@@ -37,12 +37,14 @@ class CardEditViewController: UIViewController, UITableViewDelegate, UITableView
         self.tableView.tableFooterView = UIView( frame: CGRectZero )
     }
     
-    override func viewDidAppear(animated: Bool) {
-        if ( tableView.indexPathForSelectedRow() != nil ) {
+    override func viewWillAppear(animated: Bool) {
+        if tableView.indexPathForSelectedRow() != nil {
             tableView.deselectRowAtIndexPath( tableView.indexPathForSelectedRow()!, animated: animated )
         }
         
-        super.viewDidAppear( animated )
+        self.tableView.reloadData()
+        
+        super.viewWillAppear( animated )
     }
     
     override func didReceiveMemoryWarning() {

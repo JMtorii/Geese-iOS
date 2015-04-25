@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CardEditViewController" customModule="Swap" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CardDetailViewController" customModule="Swap" customModuleProvider="target">
             <connections>
                 <outlet property="tableView" destination="U6X-98-kpg" id="HXp-Ou-6bc"/>
                 <outlet property="view" destination="U6X-98-kpg" id="1fk-lH-QSD"/>
