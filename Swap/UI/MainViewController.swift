@@ -45,7 +45,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     
     override func viewWillAppear(animated: Bool) {
-        if ( tableView.indexPathForSelectedRow() != nil ) {
+        if tableView.indexPathForSelectedRow() != nil {
             tableView.deselectRowAtIndexPath( tableView.indexPathForSelectedRow()!, animated: animated )
         }
         

@@ -93,6 +93,8 @@ class CardDetailViewController: UIViewController, UITableViewDelegate, UITableVi
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         println( "You selected cell #\( indexPath.row )!" );
         
+        let defaults = NSUserDefaults.standardUserDefaults()
+        
         if indexPath.row == 1 {
             // Edit
             var nextViewController:EditCardViewController = EditCardViewController( nibName: "EditCardViewController", bundle: nil )
@@ -102,6 +104,28 @@ class CardDetailViewController: UIViewController, UITableViewDelegate, UITableVi
             // Send
         } else if indexPath.row == 3 {
             // Delete
+            
+            // TODO: move to utils?
+            var tmpArray = defaults.arrayForKey( "storedCards" ) as! [ String ]
+            
+            for var jsonIndex = 0; jsonIndex < tmpArray.count; jsonIndex++ {
+                var jsonData = ( ( tmpArray as [ String ] )[ jsonIndex ] as NSString ).dataUsingEncoding( NSUTF8StringEncoding )
+                let cardJson = JSON( data: jsonData! )
+                
+                if let cardIdVal = cardJson[ "card" ][ "cardId" ].string {
+                    if cardIdVal == card.cardId! {
+                        tmpArray.removeAtIndex( jsonIndex )
+                        defaults.setObject( tmpArray, forKey: "storedCards" )
+                        break
+                    }
+                }
+            }
+            
+            // TODO: move to utils?
+            let numViewControllers: Int = navigationController!.viewControllers.count
+            var prevViewController: MainViewController = navigationController!.viewControllers[ numViewControllers - 2 ] as! MainViewController
+            navigationController?.popViewControllerAnimated( true )
+            
         }
     }
     
