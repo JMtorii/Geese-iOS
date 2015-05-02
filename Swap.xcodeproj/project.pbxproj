@@ -33,6 +33,8 @@
 		4EDB6EE41ADE2BC50088DD96 /* SwapUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB6EE31ADE2BC50088DD96 /* SwapUtils.swift */; };
 		4EEDFBBD1AE61F670090830A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEDFBBC1AE61F670090830A /* SettingsViewController.swift */; };
 		4EEDFBBF1AE61F850090830A /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EEDFBBE1AE61F850090830A /* SettingsViewController.xib */; };
+		B62ABFAF1AF1DC96005490DA /* SwiftHTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B62ABFA81AF1DC52005490DA /* SwiftHTTP.framework */; };
+		B62ABFB41AF1DD45005490DA /* SwiftHTTP.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = B62ABFA81AF1DC52005490DA /* SwiftHTTP.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B6CFC9A41ABAB9B000AD952D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CFC9A31ABAB9B000AD952D /* AppDelegate.swift */; };
 		B6CFC9A61ABAB9B000AD952D /* DebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CFC9A51ABAB9B000AD952D /* DebugViewController.swift */; };
 		B6CFC9AB1ABAB9B000AD952D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6CFC9AA1ABAB9B000AD952D /* Images.xcassets */; };
@@ -41,6 +43,34 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		B62ABFA71AF1DC52005490DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B62ABFA01AF1DC52005490DA /* SwiftHTTP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6BFD901619C8D8B500DD99B6;
+			remoteInfo = SwiftHTTP;
+		};
+		B62ABFA91AF1DC52005490DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B62ABFA01AF1DC52005490DA /* SwiftHTTP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6BFD902119C8D8B500DD99B6;
+			remoteInfo = SwiftHTTPTests;
+		};
+		B62ABFAB1AF1DC52005490DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B62ABFA01AF1DC52005490DA /* SwiftHTTP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D958025919E6EEEB003C8218;
+			remoteInfo = SwiftHTTPOSX;
+		};
+		B62ABFAD1AF1DC52005490DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B62ABFA01AF1DC52005490DA /* SwiftHTTP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D958026319E6EEEB003C8218;
+			remoteInfo = SwiftHTTPOSXTests;
+		};
 		B6CFC9B41ABAB9B000AD952D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B6CFC9961ABAB9B000AD952D /* Project object */;
@@ -49,6 +79,20 @@
 			remoteInfo = Swap;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B62ABFB11AF1DCCA005490DA /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B62ABFB41AF1DD45005490DA /* SwiftHTTP.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4E01C62B1ADA25F100AC7775 /* CardCellView_Simple.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardCellView_Simple.xib; sourceTree = "<group>"; };
@@ -77,6 +121,7 @@
 		4EDB6EE31ADE2BC50088DD96 /* SwapUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwapUtils.swift; sourceTree = "<group>"; };
 		4EEDFBBC1AE61F670090830A /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		4EEDFBBE1AE61F850090830A /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		B62ABFA01AF1DC52005490DA /* SwiftHTTP.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftHTTP.xcodeproj; path = "../../../../../Downloads/SwiftHTTP-master/SwiftHTTP.xcodeproj"; sourceTree = "<group>"; };
 		B6CFC99E1ABAB9B000AD952D /* Swap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6CFC9A21ABAB9B000AD952D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6CFC9A31ABAB9B000AD952D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B62ABFAF1AF1DC96005490DA /* SwiftHTTP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +200,7 @@
 			isa = PBXGroup;
 			children = (
 				4E74D2EC1AE3448200C727BC /* SwiftyJSON.swift */,
+				B62ABFA01AF1DC52005490DA /* SwiftHTTP.xcodeproj */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -164,6 +211,17 @@
 				4EDB6EE31ADE2BC50088DD96 /* SwapUtils.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		B62ABFA11AF1DC52005490DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B62ABFA81AF1DC52005490DA /* SwiftHTTP.framework */,
+				B62ABFAA1AF1DC52005490DA /* SwiftHTTPTests.xctest */,
+				B62ABFAC1AF1DC52005490DA /* SwiftHTTP.framework */,
+				B62ABFAE1AF1DC52005490DA /* SwiftHTTPOSXTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		B6CFC9951ABAB9B000AD952D = {
@@ -237,6 +295,8 @@
 				B6CFC99A1ABAB9B000AD952D /* Sources */,
 				B6CFC99B1ABAB9B000AD952D /* Frameworks */,
 				B6CFC99C1ABAB9B000AD952D /* Resources */,
+				B62ABFB11AF1DCCA005490DA /* Copy Frameworks */,
+				B62ABFB21AF1DCDA005490DA /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -295,6 +355,12 @@
 			mainGroup = B6CFC9951ABAB9B000AD952D;
 			productRefGroup = B6CFC99F1ABAB9B000AD952D /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B62ABFA11AF1DC52005490DA /* Products */;
+					ProjectRef = B62ABFA01AF1DC52005490DA /* SwiftHTTP.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				B6CFC99D1ABAB9B000AD952D /* Swap */,
@@ -302,6 +368,37 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B62ABFA81AF1DC52005490DA /* SwiftHTTP.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftHTTP.framework;
+			remoteRef = B62ABFA71AF1DC52005490DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B62ABFAA1AF1DC52005490DA /* SwiftHTTPTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwiftHTTPTests.xctest;
+			remoteRef = B62ABFA91AF1DC52005490DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B62ABFAC1AF1DC52005490DA /* SwiftHTTP.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftHTTP.framework;
+			remoteRef = B62ABFAB1AF1DC52005490DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B62ABFAE1AF1DC52005490DA /* SwiftHTTPOSXTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwiftHTTPOSXTests.xctest;
+			remoteRef = B62ABFAD1AF1DC52005490DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		B6CFC99C1ABAB9B000AD952D /* Resources */ = {
@@ -333,6 +430,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B62ABFB21AF1DCDA005490DA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B6CFC99A1ABAB9B000AD952D /* Sources */ = {
